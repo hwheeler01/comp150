@@ -4,63 +4,124 @@ title: Resources
 permalink: /resources/
 ---
 
-<a href="https://scholar.google.com/citations?user=UwY8GxwAAAAJ&hl=en">Google Scholar</a>
+There
+is no specific text for this course. &nbsp;Rather, we will be using
+resource materials available online.
+<ul>
 
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=Wheeler+HE%5BAuthor%5D">PubMed</a>
+  <li>For the Python
+component of the course, we will be using&nbsp;The <a target="_blank" href="http://anh.cs.luc.edu/python/hands-on/3.1/index.html">Hands-on
+Python Tutorials</a>
+designed specifically for this course by Professor Andrew Harrington.
+&nbsp;They are available on the web, both in <a href="http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/index.html" target="_blank">browsable</a>
+format and in <a href="http://anh.cs.luc.edu/python/hands-on/3.1/Hands-onPythonTutorial.pdf" target="_blank">printable pdf&nbsp;</a> format. &nbsp;&nbsp;
+This is the closest thing that we have to a text for this course.&nbsp;
+Other Python resources are at the home site for Python: <a href="http://python.org">http://python.org.</a></li>
+</ul>
 
-###2015
+<ul style="font-family: Calibri;">
 
-Gamazon ER\*, <b>Wheeler HE</b>\*, Shah KP\*, Mozaffari SV, Aquino-Michaels K, Carroll RJ, Eyler AE, Denny JC, GTEx Consortium, Nicolae DL, Cox NJ, Im HK. (2015) A gene-based association method for mapping traits using reference transcriptome data. Nature Genetics, advance online publication. <a href="http://www.ncbi.nlm.nih.gov/pubmed/26258848">PMID26258848</a>, <a href="http://biorxiv.org/content/early/2015/06/17/020164"><i>Open Access Preprint</i></a>
-\*Contributed equally.
+  <li>Videos, where most all of the course content are discussed, have
+download links on <a href="https://luc.box.com/comp150video">box.com</a>
+as well as <a href="https://drive.google.com/a/cs.luc.edu/#folders/0B5WvvnDHeaIYMGE2MzU4OWEtYzQ4Zi00YzhiLTliMTItNjRjYzMyYzgyMTk2" target="_blank">google</a>.&nbsp; These were also prepared by
+Professor Harrington.&nbsp; You can find links and instructions in <a href="http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/context.html#using-the-tutorial-text-and-video" target="_blank">http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/context.html#using-the-tutorial-text-and-video</a>.
+There is a folder for<span style="font-style: italic;">
+handsonPython</span> and one for <span style="font-style: italic;">beyondPython</span>.&nbsp;&nbsp;
+  </li>
+</ul>
 
-Komatsu M, <b>Wheeler HE</b>, Chung S, Low SK, Wing C, Delaney SM, Gorsic LK, Takahashi A, Kubo M, Kroetz D, Zhang W, Nakamura Y, Dolan ME. (2015) Pharmacoethnicity in paclitaxel-induced sensory peripheral neuropathy. Clinical Cancer Research, advance online publication. <a href="http://www.ncbi.nlm.nih.gov/pubmed/26015512">PMID26015512</a>
+<ul>
 
-Diouf B, Crews KR, Lew G, Pei D, Cheng C, Bao J, Zheng JJ, Yang W, Fan Y, <b>Wheeler HE</b>, Wing C, Delaney SM, Komatsu M, Paugh SW, McCorkle JR, Lu X, Winick NJ, Carroll WL, Loh ML, Hunger SP, Devidas M, Pui CH, Dolan ME, Relling MV, Evans WE. (2015) Association of an inherited genetic variant with vincristine-related peripheral neuropathy in children with acute lymphoblastic leukemia. JAMA 313(8):815-823. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=PMC4377066">PMC4377066</a>
+  <li><a href="ClassNotes.html" target="_blank">Class notes </a>for
+other course
+components are linked to from the Course Schedule.</li>
+  <li>Department Drop-in Tutoring Schedule: <a href="http://www.luc.edu/cs/people/tutors/">http://cs.luc.edu/academics/services/tutoring.</a>&nbsp;&nbsp;
+There is a link on that page<br>
+  </li>
+</ul>
 
-<b>Wheeler HE</b>, Wing C, Delaney SM, Komatsu M, Dolan ME. (2015) Modeling chemotherapeutic neurotoxicity with human induced pluripotent stem cell-derived neuronal cells. PLoS One 10(2):e0118020. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=PMC4331516">PMC4331516</a>
+<br>
 
-###2014
+<span style="font-weight: bold;"><a name="References"></a>Other Free
+Online References for Python: &nbsp;</span>All except the official
+Python
+Tutorial are intended for people with no programming background.
+&nbsp;The others, however, tend to be for Python 2.X, which has
+slightly different syntax for reading from the keyboard (raw_input),
+printing (a statement, not a function), and they use an old form of
+&nbsp;division where / can mean either the // or / of Python 3.2,
+depending on the types involved.
+<ul>
 
-Thompson P, <b>Wheeler HE</b>, Delaney SM, Lorier R, Broeckel U, Devidas M, Reaman GH, Scorsone K, Sung L, Dolan ME, Berg SL. (2014) Pharmacokinetics and pharmacogenomics of daunorubicin in children: a report from the Children's Oncology Group. Cancer Chemotherapy and Pharmacology, 74(4):831-8. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=PMC4282931">PMC4282931</a>
+  <li>
+    <p style="margin-bottom: 0in;"><a href="http://thinkcspy.appspot.com/build/index.html">How to Think Like
+a
+Computer Scientist</a> &nbsp;Covers the same basics as the <a href="http://anh.cs.luc.edu/python/hands-on/3.1/index.html">Hands-on
+Python Tutorial</a>,
+but in online book form, to greater depth in a somewhat different order
+with a different
+simple graphics library.&nbsp; The latest version is for Python
+3.X.&nbsp; Extra neat in that you can run programs online and edit code
+in the text.<br>
+    </p>
+  </li>
+  <li>
+    <p style="margin-bottom: 0in;"><a href="http://software-carpentry.org/4_0/python/">Software Carpentry</a>
+is a
+Python-centered introduction to many subjects, many beyond this course
+but not far off.&nbsp; The sections that do largely correspond to the
+Python tutorials are the ones through Functions.&nbsp; They list more
+methods than
+the <a href="http://anh.cs.luc.edu/handsonPythonTutorial/">Hands-on
+Python Tutorial</a><big><big>, </big></big>but with rather limited
+examples.&nbsp; </p>
+  </li>
+  <li>
+    <p style="margin-bottom: 0in;">Official Python Tutorial for <a href="http://docs.python.org/3.2/tutorial/index.html">version 3.2 </a>covers
+a lot. &nbsp;It moves fast for someone with no programming background.
+&nbsp;Idle links to this. </p>
+  </li>
+  <li>
+    <p style="margin-bottom: 0in;"><a href="http://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python">Wikibooks
+Non-programmer Tutorial for Python</a> &nbsp;Another introduction to
+Python basics in different words. &nbsp;No graphics, few major
+examples, lots of basic syntax.</p>
+  </li>
+  <li>
+    <p style="margin-bottom: 0in;">One notable resource for testing
+Python code out is&nbsp;
+for <a target="_blank" href="http://www.pythontutor.com/">http://www.pythontutor.com/</a>.
+You run code in your browser step by step
+and save and email a URL reference to any step.</p>
+  </li>
+</ul>
 
-<b>Wheeler HE</b>, Aquino-Michaels K, Gamazon ER, Trubetskoy VV, Dolan ME, Huang RS, Cox NJ, Im HK (2014) Poly-omic prediction of complex traits: OmicKriging. Genetic Epidemiology, 38(5):402-15. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=PMC4072756">PMC4072756</a>
+<br>
 
-<b>Wheeler HE</b>, González-Neira A, Pita G, de la Torre-Montero JC, Alonso R, Lopez-Fernandez LA, Alba E, Martín M, Dolan ME (2014) Identification of genetic variants associated with capecitabine-induced hand-foot syndrome through integration of patient and cell line genomic analyses. Pharmacogenetics and Genomics 24(5):231-7. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=PMC4076106">PMC4076106</a>
+<p style="font-weight: bold;"><a name="tutoring"></a>Tutoring
+Assistance
+(free!):</p>
 
-###2013
+<p>Tutoring hours by Computer Science TA's (generally
+first-come-first-serve) is posted at
+<a class="reference external" href="http://www.luc.edu/cs/academics/tutoring/">http://www.luc.edu/cs/academics/tutoring/</a>.
+It should start by the second or third week of the semester. Your best
+choices for help are the professor and TA for the course, but all TA's
+should be familiar with most of the course topics. If any tutors you
+visit are NOT familiar with Python, let me know right away!</p>
 
-Gorsic LK, Stark AL, <b>Wheeler HE</b>, Wong SS, Im HK, Dolan ME (2013) EPS8 inhibition increases cisplatin sensitivity in lung cancer cells. PLoS One 8(12):e82220. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=PMC3868552">PMC3868552</a>
+<p>The university supports an official Tutoring Center in the Sullivan
+Center. Their phone extension is 8-7708. Their web site is
+<a class="reference external" href="http://www.luc.edu/tutoring">http://www.luc.edu/tutoring</a>.
+You may
+need to make appointments in advance for university tutoring. When
+consulting the university tutoring center hours, remember that, at
+most, tutors
+for Comp 150 are only available during some of those times, due
+to the personal schedule of the tutor(s).&nbsp; In general, COMP
+students have done better with the department's tutoring service.<br>
+</p>
 
-Parsa A, Fuchsberger C…<b>Wheeler HE</b>…Böger CA (>100 authors) (2013) Common variants in Mendelian kidney disease genes and their association with renal function. Journal of the American Society of Nephrology 24(12):2105-17. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=PMC3839542">PMC3839542</a>
+<p><br>
+</p>
 
-Eadon MT, <b>Wheeler HE</b>, Stark AL, Zhang X, Moen EL, Delaney SM, Im HK, Cunningham PN, Zhang W, Dolan ME (2013) Genetic and epigenetic variants contributing to clofarabine cytotoxicity. Human Molecular Genetics 22(19):4007-20. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=PMC3766179">PMC3766179</a>
-
-Gamazon ER, Lamba JK, Pounds S, Stark AL, <b>Wheeler HE</b>, Cao X, Im HK, Mitra AK, Rubnitz JE, Ribeiro RC, Raimondi S, Campana D, Crews KR, Wong SS, Welsh M, Hulur I, Gorsic L, Hartford CM, Zhang W, Cox NJ, Dolan ME (2013) Comprehensive genetic analysis of cytarabine sensitivity in a cell-based model identifies polymorphisms associated with outcome in AML patients. Blood 121(21):4366-76. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=PMC3663430">PMC3663430</a>
-
-<b>Wheeler HE</b>, Gamazon ER, Wing C, Njiaju UO, Njoku C, Baldwin RM, Owzar K, Jiang C, Watson D, Shterev I, Kubo M, Zembutsu H, Winer E, Hudis C, Shulman LN, Nakamura Y, Ratain MJ, Kroetz DL, Cox NJ, Dolan ME (2013) Integration of cell line and clinical trial genome-wide analyses supports a polygenic architecture of paclitaxel-induced sensory peripheral neuropathy. Clinical Cancer Research 19(2):491-9. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=PMC3549006">PMC3549006</a>
-
-<b>Wheeler HE</b>, Maitland ML, Dolan ME, Cox NJ, Ratain MJ (2013) Cancer pharmacogenomics: strategies and challenges. Nature Reviews Genetics 14(1):23-34. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=PMC3668552">PMC3668552</a>
-
-<b>Wheeler HE</b>, Gamazon ER, Stark AL, O’Donnell PH, Gorsic LK, Huang RS, Cox NJ, Dolan ME (2013) Genome-wide meta-analysis identifies variants associated with platinating agent susceptibility across populations. The Pharmacogenomics Journal 13(1):35-43. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=PMC3370147">PMC3370147</a>
-
-###2012
-
-Chasman DI, Fuchsberger C…<b>Wheeler HE</b>…Kao WH, Fox CS, Kottgen A (>100 authors) (2012) Integration of genome-wide association studies with biological knowledge identifies six novel genes related to kidney function. Human Molecular Genetics 21(24):5329-43. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=PMC3607468">PMC3607468</a>
-
-Cox NJ, Gamazon ER, <b>Wheeler HE</b>, Dolan ME (2012) Clinical translation of cell-based pharmacogenomic discovery. Clinical Pharmacology & Therapeutics 92(4):425-7. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=PMC3664667">PMC3664667</a>
-
-Madian AG, <b>Wheeler HE</b>, Jones RB, Dolan ME (2012) Relating human genetic variation to variation in drug responses. Trends in Genetics 28(10):487-95. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=PMC3448823">PMC3448823</a>
-
-Stark AL, Delaney SM, <b>Wheeler HE</b>, Im HK, Dolan ME (2012) Functional consequences of PRPF39 on distant genes and cisplatin sensitivity. Human Molecular Genetics 21(19):4348-55. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=PMC3441128">PMC3441128</a>
-
-Leandro-Garcia LJ, Lekela S, Jara Sanchez C, Green H, Avall Lundqvist E, <b>Wheeler HE</b>, Dolan ME, Inglada-Perez L, Maliszewska A, de Cubas AA, Comino-Mendez I, Mancikova V, Cascon A, Robledo M, Rodriguez-Antona C (2012) Regulatory polymorphisms in β-tubulin IIa are associated with paclitaxel-induced peripheral neuropathy. Clinical Cancer Research 18(16):4441-8. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=PMC3664665">PMC3664665</a>
-
-O’Donnell PH, Stark AL, Gamazon ER, <b>Wheeler HE</b>, McIlwee BE, Gorsic LK, Im HK, Huang RS, Cox NJ, Dolan ME (2012) Identification of novel germline polymorphisms governing capecitabine sensitivity. Cancer 118(16):4063-73. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=PMC3413892">PMC3413892</a>
-
-Pattaro C, Köttgen A, Teumer A, Garnaas M, Böger CA…<b>Wheeler HE</b>…Kao WH, Fox CS (>100 authors) (2012) Genome-wide association and functional follow-up reveals new loci for kidney function. PLoS Genetics 8(3): e1002584. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=PMC3315455">PMC3315455</a>
-
-Njiaju UO, Gamazon ER, Gorsic LK, Delaney SM, <b>Wheeler HE</b>, Im HK, Dolan ME (2012) Whole-genome studies identify solute carrier transporters in cellular susceptibility to paclitaxel. Pharmacogenetics and Genomics 22(7): 498-507. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=PMC3376193">PMC3376193</a>
-
-<b>Wheeler HE</b> and Dolan ME. (2012) Lymphoblastoid cell lines in pharmacogenomic discovery and clinical translation. Pharmacogenomics 13(1):55-70. <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=PMC3292907">PMC3292907</a>
-
-<a href="{{ site.baseurl }}/oldpubs">Older Publications</a>
