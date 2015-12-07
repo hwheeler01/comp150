@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Resources
+title: Course Materials
 permalink: /resources/
 ---
 
@@ -19,7 +19,7 @@ This is the closest thing that we have to a text for this course.&nbsp;
 Other Python resources are at the home site for Python: <a href="http://python.org">http://python.org.</a></li>
 </ul>
 
-<ul style="font-family: Calibri;">
+<ul>
 
   <li>Videos, where most all of the course content are discussed, have
 download links on <a href="https://luc.box.com/comp150video">box.com</a>
@@ -66,7 +66,7 @@ in the text.<br>
     </p>
   </li>
   <li>
-    <p style="margin-bottom: 0in;"><a href="http://software-carpentry.org/4_0/python/">Software Carpentry</a>
+    <p style="margin-bottom: 0in;"><a href="http://swcarpentry.github.io/v4/python/index.html">Software Carpentry</a>
 is a
 Python-centered introduction to many subjects, many beyond this course
 but not far off.&nbsp; The sections that do largely correspond to the
@@ -82,7 +82,7 @@ a lot. &nbsp;It moves fast for someone with no programming background.
 &nbsp;Idle links to this. </p>
   </li>
   <li>
-    <p style="margin-bottom: 0in;"><a href="http://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python">Wikibooks
+    <p style="margin-bottom: 0in;"><a href="https://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_3">Wikibooks
 Non-programmer Tutorial for Python</a> &nbsp;Another introduction to
 Python basics in different words. &nbsp;No graphics, few major
 examples, lots of basic syntax.</p>
