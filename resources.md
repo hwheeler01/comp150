@@ -4,8 +4,7 @@ title: Course Materials
 permalink: /resources/
 ---
 
-There
-is no specific text for this course. &nbsp;Rather, we will be using
+There is no specific text for this course. &nbsp;Rather, we will be using
 resource materials available online.
 <ul>
 
@@ -32,29 +31,23 @@ handsonPython</span> and one for <span style="font-style: italic;">beyondPython<
 
 <ul>
 
-  <li><a href="ClassNotes.html" target="_blank">Class notes </a>for
+  <li><a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/ClassNotes.html">Class notes </a>for
 other course
 components are linked to from the Course Schedule.</li>
-  <li>Department Drop-in Tutoring Schedule: <a href="http://www.luc.edu/cs/people/tutors/">http://cs.luc.edu/academics/services/tutoring.</a>&nbsp;&nbsp;
-There is a link on that page<br>
   </li>
 </ul>
 
 <br>
 
-<span style="font-weight: bold;"><a name="References"></a>Other Free
-Online References for Python: &nbsp;</span>All except the official
+##Other Free Online Resources for Python
+All except the official
 Python
 Tutorial are intended for people with no programming background.
-&nbsp;The others, however, tend to be for Python 2.X, which has
-slightly different syntax for reading from the keyboard (raw_input),
-printing (a statement, not a function), and they use an old form of
-&nbsp;division where / can mean either the // or / of Python 3.2,
-depending on the types involved.
+
 <ul>
 
   <li>
-    <p style="margin-bottom: 0in;"><a href="http://thinkcspy.appspot.com/build/index.html">How to Think Like
+    <p style="margin-bottom: 0in;"><a href="http://interactivepython.org/courselib/static/thinkcspy/index.html">How to Think Like
 a
 Computer Scientist</a> &nbsp;Covers the same basics as the <a href="http://anh.cs.luc.edu/python/hands-on/3.1/index.html">Hands-on
 Python Tutorial</a>,
@@ -98,27 +91,29 @@ and save and email a URL reference to any step.</p>
 
 <br>
 
-<p style="font-weight: bold;"><a name="tutoring"></a>Tutoring
-Assistance
-(free!):</p>
+##Free Tutoring Assistance
 
-<p>Tutoring hours by Computer Science TA's (generally
-first-come-first-serve) is posted at
-<a class="reference external" href="http://www.luc.edu/cs/academics/tutoring/">http://www.luc.edu/cs/academics/tutoring/</a>.
-It should start by the second or third week of the semester. Your best
-choices for help are the professor and TA for the course, but all TA's
+- Computer Science Department:
+
+  - Department Drop-in Tutoring Schedule: <a href="http://www.luc.edu/cs/people/tutors/">http://cs.luc.edu/academics/services/tutoring</a>.
+  
+  - Tutoring hours by Computer Science TAs (generally
+first-come-first-serve) should start by the second or third week of the semester. 
+
+  - Your best choices for help are the professor and TA for the course, but all TAs
 should be familiar with most of the course topics. If any tutors you
 visit are NOT familiar with Python, let me know right away!</p>
 
-<p>The university supports an official Tutoring Center in the Sullivan
-Center. Their phone extension is 8-7708. Their web site is
+- The university supports an official Tutoring Center in the Sullivan
+Center. 
+  
+  - Their phone extension is 8-7708. Their web site is
 <a class="reference external" href="http://www.luc.edu/tutoring">http://www.luc.edu/tutoring</a>.
-You may
-need to make appointments in advance for university tutoring. When
+
+  - You may need to make appointments in advance for university tutoring. When
 consulting the university tutoring center hours, remember that, at
-most, tutors
-for Comp 150 are only available during some of those times, due
-to the personal schedule of the tutor(s).&nbsp; In general, COMP
+most, tutors for COMP 150 are only available during some of those times, due
+to the personal schedule of the tutors. In general, COMP
 students have done better with the department's tutoring service.<br>
 </p>
 
