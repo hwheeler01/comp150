@@ -81,71 +81,21 @@ with Disabilities</a></td>
 
 
 
-<span style="font-weight: bold;"><a name="texts"></a>Course Objectives: </span>
+<span style="font-weight: bold;"><a name="objectives"></a>Course Objectives: </span>
 
-
-
-<ul>
-
-
-
-  <li> to implement Python programs with appropriate use of
-
-selection repetition functions and data structures</li>
-
-  <li>to learn how to add graphical effects to programs</li>
-
-  <li>to
-
-introduce the concepts of algorithms and their analysis and design in
-
-the context of a simple yet powerful computer
-
-language, Python</li>
-
-  <li>To study some
-
-of the basic ideas behind computing -- how data are represented in a
-
-computer; how a computer processor is
-
-built up from simple circuits; how the processor is&nbsp;controlled
-
-through low level&nbsp;languages; and the transition from
-
-low level languages&nbsp;to high level languages like Python.</li>
-
-  <li>To be able to
-
-use HTML to construct a web page containing&nbsp;forms and write a
-
-Python CGI script to dynamically process information placed in a web
-
-form.</li>
-
-  <li> To perform
-
-simple queries against a database, time permitting.</li>
-
-  <li>To appreciate
-
-how machine learning can provide decision support to expert systems,
-
-time permitting </li>
-
-</ul>
-
+- to implement Python programs with appropriate use of selection repetition functions and data structures
+- to learn how to add graphical effects to programs
+- to introduce the concepts of algorithms and their analysis and design in the context of a simple yet powerful computer language, Python
+- To study some of the basic ideas behind computing -- how data are represented in a computer; how a computer processor is built up from simple circuits; how the processor is controlled through low level languages; and the transition from low level languages to high level languages like Python.
+- To be able to use HTML to construct a web page containing forms and write a Python CGI script to dynamically process information placed in a web form.
 
 
 <br>
 
 
-
 <span style="font-weight: bold;"><a name="texts"></a>Course Materials: </span>
 
-There is no specific text for this course. &nbsp;Rather, we will be using
-
-<a href="http://hwheeler01.github.io/comp150/resources/">resources</a> available online.
+There is no specific text for this course. Rather, we will be using free online materials. See <a href="http://hwheeler01.github.io/comp150/resources/">Resources</a>.
 
 
 
@@ -337,10 +287,7 @@ out as planned!).&nbsp;</p>
 
 
 <span style="font-style: italic;">Project:</span>
-
-&nbsp;You will form teams of two or three, to complete a project, which
-
-is a major programming assignment in Python.&nbsp; Some suggestions for the project can be found <a href="HW/Project.html">here.</a> This will be discussed further in class.<br>
+You will form teams of two or three, to complete a project, which is a major programming assignment in Python. Some suggestions for the project can be found <a href="HW/Project.html">here.</a> This will be discussed further in class.<br>
 
 
 
@@ -396,27 +343,17 @@ the Team Pariticpation form completed by each team member.<br>
 
 
 
-<span style="font-weight: bold;"><a name="env"></a>Programming
-
-Environment: </span><br>
+<span style="font-weight: bold;"><a name="env"></a>Programming Environment: </span><br>
 
 
 
-We will be programming in Python, available in the University Windows
+We will be programming in Python, available in the University Windows labs, and as a download to your own computer. There are several choices based on program version and operating system. You should get Python version 3.3.2 or greater for your operating system from the central site <a href="www.python.org/download">www.python.org/download</a>. Mac users, also see this page that is referenced on the download page - you may need a second download, Python comes with the graphical interface, Idle, which we will use. The latest version for Windows and Mac is 3.4.<br>
 
-labs, and as a download to your own computer. There are several choices
 
-based on program version and operating system. You should get Python
 
-version 3.3.2 or greater for your operating system from the central
-
-site www.python.org/download. Mac users, also see this page that is
-
-referenced on the download page - you may need a second download,
-
-Python comes with the graphical interface, Idle, which we will use. The
-
-latest version for Windows and Mac is 3.4.<br>
+- Recommended storage options for course work:
+	- Cloud-based storage like Box or Google Drive
+	- USB Flash Drive (write your email address on it)
 
 
 
@@ -424,81 +361,7 @@ latest version for Windows and Mac is 3.4.<br>
 
 
 
-<br>
-
-
-
-<br>
-
-
-
-Flash Drives or other storage<br>
-
-
-
-<br>
-
-
-
-The University computers labs provide Computer Science students with
-
-permanent storage on P: drive. If you use both computer lab machines
-
-and other machines, or just share with a partner, you will want to take
-
-all of your files with you. You have several alternatives:<br>
-
-
-
-<br>
-
-
-
-Get a USB 2.0+ flash drive** ($5-$30 depending on the capacity) and use
-
-it every time you are in the lab. It takes almost no time to insert and
-
-remove, and it will have everything in one place.<br>
-
-
-
-<br>
-
-
-
-Flash drive are very small, like a finger, and that makes them easy to
-
-forget and leave behind. I have gotten a flash drive returned to me
-
-several times because I write my email address on the outside of it. I
-
-suggest you do the same.<br>
-
-
-
-<br>
-
-
-
-Save on some Internet site like Box or Google Drive.<br>
-
-
-
-<br>
-
-
-
-In a pinch, send email to yourself with attachments.<br>
-
-
-
-<br>
-
-
-
-<span style="font-weight: bold;"><a name="honesty"></a>Academic
-
-Honesty: </span><br>
+<span style="font-weight: bold;"><a name="honesty"></a>Academic Honesty: </span><br>
 
 
 
