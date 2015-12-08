@@ -10,10 +10,10 @@ resource materials available online.
 
   <li>For the Python
 component of the course, we will be using&nbsp;The <a target="_blank" href="http://anh.cs.luc.edu/python/hands-on/3.1/index.html">Hands-on
-Python Tutorials</a>
-designed specifically for this course by Professor Andrew Harrington.
-&nbsp;They are available on the web, both in <a href="http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/index.html" target="_blank">browsable</a>
-format and in <a href="http://anh.cs.luc.edu/python/hands-on/3.1/Hands-onPythonTutorial.pdf" target="_blank">printable pdf&nbsp;</a> format. &nbsp;&nbsp;
+Python Tutorial</a>
+designed specifically for this course by Loyola Professor Andrew Harrington.
+They are available on the web, both in <a href="http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/index.html" target="_blank">browsable</a>
+format and in <a href="http://anh.cs.luc.edu/python/hands-on/3.1/Hands-onPythonTutorial.pdf" target="_blank">printable pdf</a> format. 
 This is the closest thing that we have to a text for this course.&nbsp;
 Other Python resources are at the home site for Python: <a href="http://python.org">http://python.org.</a></li>
 </ul>
@@ -23,9 +23,7 @@ Other Python resources are at the home site for Python: <a href="http://python.o
   <li>Videos, where most all of the course content are discussed, have
 download links on <a href="https://luc.box.com/comp150video">box.com</a>
 as well as <a href="https://drive.google.com/a/cs.luc.edu/#folders/0B5WvvnDHeaIYMGE2MzU4OWEtYzQ4Zi00YzhiLTliMTItNjRjYzMyYzgyMTk2" target="_blank">google</a>.&nbsp; These were also prepared by
-Professor Harrington.&nbsp; You can find links and instructions in <a href="http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/context.html#using-the-tutorial-text-and-video" target="_blank">http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/context.html#using-the-tutorial-text-and-video</a>.
-There is a folder for<span style="font-style: italic;">
-handsonPython</span> and one for <span style="font-style: italic;">beyondPython</span>.&nbsp;&nbsp;
+Professor Harrington.&nbsp; You can find links and instructions <a href="http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/context.html#using-the-tutorial-text-and-video" target="_blank">here</a>.
   </li>
 </ul>
 
@@ -61,18 +59,18 @@ in the text.<br>
   <li>
     <p style="margin-bottom: 0in;"><a href="http://swcarpentry.github.io/v4/python/index.html">Software Carpentry</a>
 is a
-Python-centered introduction to many subjects, many beyond this course
+Python-centered introduction to many subjects, many beyond this course,
 but not far off.&nbsp; The sections that do largely correspond to the
 Python tutorials are the ones through Functions.&nbsp; They list more
 methods than
 the <a href="http://anh.cs.luc.edu/handsonPythonTutorial/">Hands-on
-Python Tutorial</a><big><big>, </big></big>but with rather limited
+Python Tutorial</a>, but with rather limited
 examples.&nbsp; </p>
   </li>
   <li>
     <p style="margin-bottom: 0in;">Official Python Tutorial for <a href="http://docs.python.org/3.2/tutorial/index.html">version 3.2 </a>covers
-a lot. &nbsp;It moves fast for someone with no programming background.
-&nbsp;Idle links to this. </p>
+a lot. It moves fast for someone with no programming background.
+Idle links to this. </p>
   </li>
   <li>
     <p style="margin-bottom: 0in;"><a href="https://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_3">Wikibooks
