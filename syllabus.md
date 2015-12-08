@@ -3,11 +3,21 @@ layout: page
 title: Syllabus
 permalink: /syllabus/
 ---
+- Day/Time:	MW 12:10 - 1:25
+- Classroom:	Crown Center 105
+- Prerequisites:	none
+- Instructor:	 Dr. Heather Wheeler
+- email:	<hwheeler1@luc.edu>
+- web page:	<http://hwheeler01.github.io/comp150>
+- office hours:
+- TA:
+
+
 <table style="width: 459px; height: 182px;" class="docutils" border="1">
 
 
 
-  <caption>Syllabus Index</caption> <colgroup><col width="53%"><col width="47%"></colgroup> <tbody valign="top">
+  <caption><b>Syllabus Index</b></caption> <colgroup><col width="53%"><col width="47%"></colgroup> <tbody valign="top">
 
     <tr>
 
@@ -19,7 +29,7 @@ permalink: /syllabus/
 
     <tr>
 
-      <td><a class="reference external" href="#texts">Texts and Software</a></td>
+      <td><a class="reference external" href="#texts">Course Materials</a></td>
 
       <td><a class="reference external" href="#grades">Grades</a></td>
 
@@ -27,35 +37,19 @@ permalink: /syllabus/
 
     <tr>
 
-      <td><a class="reference external" href="COMP150syllFA14.html#tutoring">Tutoring</a></td>
+      <td><a class="reference external" href="#env">Programming Environment</a></td>
 
-      <td><a class="reference external" href="#env">Programming
-
-Environment</a></td>
-
+      <td><a class="reference external" href="#sakai">Sakai<br>
     </tr>
 
     <tr>
-
-      <td><a class="reference external" href="#sakai">Sakai<br>
 
       </a></td>
 
       <td><a class="reference external" href="#honesty">Academic Honesty</a></td>
-
-    </tr>
-
-    <tr>
-
       <td><a class="reference external" href="#format">Class Format,
 
 Attendance<br>
-
-      </a></td>
-
-      <td><a class="reference internal" href="#religious_holidays">Religious
-
-Holidays</a></td>
 
     </tr>
 
@@ -87,13 +81,7 @@ with Disabilities</a></td>
 
 
 
-<br>
-
-
-
-<span style="font-weight: bold;"><a name="Objectives"></a>Course
-
-Objectives</span>:<br>
+<span style="font-weight: bold;"><a name="texts"></a>Course Objectives: </span>
 
 
 
@@ -153,247 +141,13 @@ time permitting </li>
 
 
 
-<span style="font-weight: bold;"><a name="texts"></a>Course
+<span style="font-weight: bold;"><a name="texts"></a>Course Materials: </span>
 
-Materials: </span>&nbsp;There
+There is no specific text for this course. &nbsp;Rather, we will be using
 
-is no specific text for this course. &nbsp;Rather, we will be using
+<a href="http://hwheeler01.github.io/comp150/resources/">resources</a> available online.
 
-resource materials available online.
 
-<ul>
-
-
-
-  <li>For the Python
-
-component of the course, we will be using&nbsp;The <a target="_blank" href="http://anh.cs.luc.edu/python/hands-on/3.1/index.html">Hands-on
-
-Python Tutorials</a>
-
-designed specifically for this course by Professor Andrew Harrington.
-
-&nbsp;They are available on the web, both in <a href="http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/index.html" target="_blank">browsable</a>
-
-format and in <a href="http://anh.cs.luc.edu/python/hands-on/3.1/Hands-onPythonTutorial.pdf" target="_blank">printable pdf&nbsp;</a> format. &nbsp;&nbsp;
-
-This is the closest thing that we have to a text for this course.&nbsp;
-
-Other Python resources are at the home site for Python: <a href="http://python.org">http://python.org.</a></li>
-
-</ul>
-
-
-
-<ul style="font-family: Calibri;">
-
-
-
-  <li>Videos, where most all of the course content are discussed, have
-
-download links on <a href="https://luc.box.com/comp150video">box.com</a>
-
-as well as <a href="https://drive.google.com/a/cs.luc.edu/#folders/0B5WvvnDHeaIYMGE2MzU4OWEtYzQ4Zi00YzhiLTliMTItNjRjYzMyYzgyMTk2" target="_blank">google</a>.&nbsp; These were also prepared by
-
-Professor Harrington.&nbsp; You can find links and instructions in <a href="http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/context.html#using-the-tutorial-text-and-video" target="_blank">http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/context.html#using-the-tutorial-text-and-video</a>.
-
-There is a folder for<span style="font-style: italic;">
-
-handsonPython</span> and one for <span style="font-style: italic;">beyondPython</span>.&nbsp;&nbsp;
-
-  </li>
-
-</ul>
-
-
-
-<ul>
-
-
-
-  <li><a href="ClassNotes.html" target="_blank">Class notes </a>for
-
-other course
-
-components are linked to from the Course Schedule.</li>
-
-  <li>Department Drop-in Tutoring Schedule: <a href="http://www.luc.edu/cs/people/tutors/">http://cs.luc.edu/academics/services/tutoring.</a>&nbsp;&nbsp;
-
-There is a link on that page<br>
-
-  </li>
-
-</ul>
-
-
-
-<br>
-
-
-
-<span style="font-weight: bold;"><a name="References"></a>Other Free
-
-Online References for Python: &nbsp;</span>All except the official
-
-Python
-
-Tutorial are intended for people with no programming background.
-
-&nbsp;The others, however, tend to be for Python 2.X, which has
-
-slightly different syntax for reading from the keyboard (raw_input),
-
-printing (a statement, not a function), and they use an old form of
-
-&nbsp;division where / can mean either the // or / of Python 3.2,
-
-depending on the types involved.
-
-<ul>
-
-
-
-  <li>
-
-    <p style="margin-bottom: 0in;"><a href="http://thinkcspy.appspot.com/build/index.html">How to Think Like
-
-a
-
-Computer Scientist</a> &nbsp;Covers the same basics as the <a href="http://anh.cs.luc.edu/python/hands-on/3.1/index.html">Hands-on
-
-Python Tutorial</a>,
-
-but in online book form, to greater depth in a somewhat different order
-
-with a different
-
-simple graphics library.&nbsp; The latest version is for Python
-
-3.X.&nbsp; Extra neat in that you can run programs online and edit code
-
-in the text.<br>
-
-    </p>
-
-  </li>
-
-  <li>
-
-    <p style="margin-bottom: 0in;"><a href="http://software-carpentry.org/4_0/python/">Software Carpentry</a>
-
-is a
-
-Python-centered introduction to many subjects, many beyond this course
-
-but not far off.&nbsp; The sections that do largely correspond to the
-
-Python tutorials are the ones through Functions.&nbsp; They list more
-
-methods than
-
-the <a href="http://anh.cs.luc.edu/handsonPythonTutorial/">Hands-on
-
-Python Tutorial</a><big><big>, </big></big>but with rather limited
-
-examples.&nbsp; </p>
-
-  </li>
-
-  <li>
-
-    <p style="margin-bottom: 0in;">Official Python Tutorial for <a href="http://docs.python.org/3.2/tutorial/index.html">version 3.2 </a>covers
-
-a lot. &nbsp;It moves fast for someone with no programming background.
-
-&nbsp;Idle links to this. </p>
-
-  </li>
-
-  <li>
-
-    <p style="margin-bottom: 0in;"><a href="http://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python">Wikibooks
-
-Non-programmer Tutorial for Python</a> &nbsp;Another introduction to
-
-Python basics in different words. &nbsp;No graphics, few major
-
-examples, lots of basic syntax.</p>
-
-  </li>
-
-  <li>
-
-    <p style="margin-bottom: 0in;">One notable resource for testing
-
-Python code out is&nbsp;
-
-for <a target="_blank" href="http://www.pythontutor.com/">http://www.pythontutor.com/</a>.
-
-You run code in your browser step by step
-
-and save and email a URL reference to any step.</p>
-
-  </li>
-
-</ul>
-
-
-
-<br>
-
-
-
-<p style="font-weight: bold;"><a name="tutoring"></a>Tutoring
-
-Assistance
-
-(free!):</p>
-
-
-
-<p>Tutoring hours by Computer Science TA's (generally
-
-first-come-first-serve) is posted at
-
-<a class="reference external" href="http://www.luc.edu/cs/academics/tutoring/">http://www.luc.edu/cs/academics/tutoring/</a>.
-
-It should start by the second or third week of the semester. Your best
-
-choices for help are the professor and TA for the course, but all TA's
-
-should be familiar with most of the course topics. If any tutors you
-
-visit are NOT familiar with Python, let me know right away!</p>
-
-
-
-<p>The university supports an official Tutoring Center in the Sullivan
-
-Center. Their phone extension is 8-7708. Their web site is
-
-<a class="reference external" href="http://www.luc.edu/tutoring">http://www.luc.edu/tutoring</a>.
-
-You may
-
-need to make appointments in advance for university tutoring. When
-
-consulting the university tutoring center hours, remember that, at
-
-most, tutors
-
-for Comp 150 are only available during some of those times, due
-
-to the personal schedule of the tutor(s).&nbsp; In general, COMP
-
-students have done better with the department's tutoring service.<br>
-
-</p>
-
-
-
-<p><br>
-
-</p>
 
 
 
@@ -405,11 +159,9 @@ students have done better with the department's tutoring service.<br>
 
 homework submissions, and grade postings.&nbsp; While the raw scores
 
-posted on Sakai should be correct (although I have encountered some
+posted on Sakai should be correct, please do not rely upon Sakai's Course Total
 
-problems with that too!), please do not rely upon Sakai's Course Total
-
-calculations.&nbsp; <span style="font-style: italic;">Grades are
+calculations. <span style="font-style: italic;">Grades are
 
 calculated as specified in this
 
@@ -433,7 +185,7 @@ resources available, a hybrid approach is useful for on-campus
 
 courses.&nbsp; The approach I plan to mostly be doing with you is
 
-called </span><span style="font-style: italic; font-weight: normal;">flipping</span><span style="font-weight: normal;">:&nbsp; flip
+called </span><span style="font-style: italic; font-weight: normal;">flipping</span><span style="font-weight: normal;">:  flip
 
 when you get most of your presentations and do much of your homework,
 
@@ -445,7 +197,7 @@ questions you had on the presentations and do much of the harder
 
 creative work of synthesizing and using this information, when you have
 
-the most direct support from me, TA's, and classmates.&nbsp; Please
+the most direct support from me, the TA, and classmates. Please
 
 give me feedback on how this is going and what you think would improve
 
@@ -453,17 +205,17 @@ your experience!</span></p>
 
 
 
-<p>There will be an in-class mini-lecture to introduce&nbsp; new
+<p>There will be an in-class mini-lecture to introduce new
 
-topics.&nbsp; In addition, if three people ask the same question, I
+topics. In addition, if three people ask the same question, I
 
-will offer an explanation to the class on that topic.&nbsp; In general,
+will offer an explanation to the class on that topic. In general,
 
 if you feel that you can benefit from more explanation, sit on the same
 
-side as the instructor's desk&nbsp; If you would prefer to continue
+side as the instructor's desk. If you would prefer to continue
 
-working on your own, sit on the opposite side of the room.&nbsp; In
+working on your own, sit on the opposite side of the room. In
 
 this way, those students who want additional lecture support can have
 
@@ -483,13 +235,7 @@ class, in which you are expected to participate.<br>
 
 
 
-<p style="font-weight: bold;"><span style="font-weight: normal; font-style: italic;">You are responsible
-
-for
-
-what
-
-goes on in class, even if some of the activity&nbsp;may not be
+<p style="font-weight: bold;"><span style="font-weight: normal; font-style: italic;">You are responsible for what goes on in class, even if some of the activity may not be
 
 covered in the class notes. </span><span style="font-weight: normal;">If
 
@@ -503,21 +249,9 @@ that you find out what you missed.</span><br>
 
 <p>I am expecting you to look at assigned presentations before
 
-class,
+class, but <span style="font-style: italic;">if you want to
 
-but <span style="font-style: italic;">if you want to
-
-check on
-
-something in a video during class, remember to bring headphones!</span>&nbsp;
-
-To avoid bothering others in labs, the lab machine sound only works
-
-through separate speakers.&nbsp; (Use headphones if you listen
-
-on&nbsp;
-
-your own notebook computer in class, too.)<br>
+check on something in a video during class, remember to bring headphones!</span>
 
 </p>
 
@@ -527,49 +261,12 @@ your own notebook computer in class, too.)<br>
 
 tradeoffs in this approach.&nbsp; You cannot immediately get a
 
-question
-
-answered by me in the middle of a video presentation.&nbsp; That is
-
-offset by the fact that there are several days at least to take in the
-
-videos, so if you attend to them early, you have time to get emailed
-
-feedback before you finish viewing.&nbsp; It would be helpful if
-
-you kept a list of questions as you watch the videos. &nbsp;You may
+question answered by me in the middle of a video presentation. I suggest keeping
+a list of questions as you watch the videos. You may
 
 find that some of your questions will be answered as you continue to
 
-wathc the videos, and some you will want to bring to class.</p>
-
-
-
-<p><span style="font-style: italic;">Cell Phones: </span>Only you know
-
-the relative importance of any particular
-
-cell phone call, and whether it is important for you to answer a call
-
-imediately rather than later. I do want you to be respectful of my
-
-class and disrupt it as little as is practical. If you get cell phone
-
-calls with fair frequency, be sure to have the ring muted before coming
-
-to class. If you rarely get calls, you might not mute it ahead, and
-
-your cell phone may happen to ring. Get rid of the noise as soon as
-
-possible, and do not get flustered. I assume you will move outside the
-
-classroom for a conversation. If you get fairly frequent calls that you
-
-are likely to consider important answering, sit in a place where your
-
-exit and re-entrance are as unobtrusive as possible.<br>
-
-</p>
+watch the videos, and some you will want to bring to class.</p>
 
 
 
@@ -1610,3 +1307,722 @@ sections.<br>
 |Apr 25|
 |Apr 27|
 |May 6| **FINAL EXAM 9:00-11:00 AM**
+
+
+<table style="text-align: left; background-color: white; width: 100%;" border="1" cellpadding="2" cellspacing="2">
+
+
+
+  <tbody>
+
+    <tr>
+
+      <td>Week<br>
+
+      </td>
+
+      <td style="width: 7%; text-align: center; font-weight: bold;">Date</td>
+
+      <td style="text-align: center; font-weight: bold;">Activities</td>
+
+      <td style="text-align: center; font-weight: bold;">Assignments</td>
+
+    </tr>
+
+    <tr>
+
+      <td style="text-align: center;" colspan="1" rowspan="2">1</td>
+
+      <td colspan="1" rowspan="2" style="text-align: center;">8/24<br>
+
+8/26<br>
+
+8/28<br>
+
+      </td>
+
+      <td style="width: 70%;"><span style="font-weight: bold;">In class</span>:
+
+Syllabus, Pair Programming:
+
+&nbsp;<a href="kindergarten.html">the idea</a> and <a href="Pair_Programming_Admin.html">administration</a>, introductory <a target="_blank" href="ClassNotes.html">notes</a> <br>
+
+Form pairs, pictures, introduce <a href="http://cs.luc.edu/anh/python/hands-on/3.1">Hands-on
+
+Python Tutorial</a><span style="font-weight: bold;">, </span><a href="http://anh.cs.luc.edu/python/hands-on/3.1/examples.zip">Example
+
+Files</a><span style="font-weight: bold;"><br>
+
+Followup</span>: make sure you have completely read the administrative
+
+documents
+
+introduced above.</td>
+
+      <td style="width: 187px;"><a href="http://anh.cs.luc.edu/150/150Introsurvey.html"><br>
+
+      </a></td>
+
+    </tr>
+
+    <tr>
+
+      <td><span style="font-weight: bold;">Prep</span>: <a href="http://cs.luc.edu/anh/python/hands-on/3.1">Hands-on
+
+Python Tutorial</a> through Input/Output 1.10 (most video for one
+
+class, with all the introductory material); <span style="font-weight: bold;">bring flashdrive</span>!</td>
+
+      <td><br>
+
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td colspan="1" rowspan="2" style="text-align: center;">2<br>
+
+      </td>
+
+      <td colspan="1" rowspan="2" style="vertical-align: middle; text-align: center;">8/31<br>
+
+9/02<br>
+
+9/04<br>
+
+      </td>
+
+      <td style="vertical-align: top;">Catch up and questions: 1.1 -
+
+1.10<br>
+
+      </td>
+
+      <td style="vertical-align: top;"><br>
+
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td><span style="font-weight: bold;">Prep</span>: Python
+
+Tutorial&nbsp; functions 1.11, dictionaries 1.12</td>
+
+      <td><br>
+
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td colspan="1" rowspan="3" style="text-align: center;">3<br>
+
+      </td>
+
+      <td style="vertical-align: top; text-align: center;">9/07<br>
+
+      </td>
+
+      <td style="vertical-align: top;">Labor Day, no school<br>
+
+      </td>
+
+      <td style="vertical-align: top;"><br>
+
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td colspan="1" rowspan="2" style="text-align: center;">9/09<br>
+
+9/11<br>
+
+      </td>
+
+      <td><span style="font-weight: bold;">Prep</span>: Python
+
+Tutorial&nbsp; 1.13 Loops</td>
+
+      <td><br>
+
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td><span style="font-weight: bold;">Prep</span>:
+
+Python Tutorial
+
+1.14, hw questions ready!</td>
+
+      <td><br>
+
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td colspan="1" rowspan="2" style="text-align: center;">4<br>
+
+      </td>
+
+      <td colspan="1" rowspan="2" style="text-align: center;">9/14<br>
+
+9/16<br>
+
+9/18<br>
+
+      </td>
+
+      <td><span style="font-weight: bold;">Prep</span>: Tutorial 2.1 -
+
+2.2 (2.3)<br>
+
+      </td>
+
+      <td><a href="HW/CheckOnTutorial-1.html">Chapter 1 Exercises</a></td>
+
+    </tr>
+
+    <tr>
+
+      <td style="vertical-align: top;"><span style="font-weight: bold;">Prep</span>:
+
+Tutorial 2.4 ,
+
+2.4.1, 2.4.2, 2.4.5 (2.4.5 only in text)<br>
+
+      <span style="font-weight: bold;">In class</span>:&nbsp;&nbsp; <a target="_blank" href="Exams/samx1.pdf">Review
+
+materials for Exam #1</a></td>
+
+      <td style="vertical-align: top;"><br>
+
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td colspan="1" rowspan="2" style="text-align: center;">5<br>
+
+      </td>
+
+      <td colspan="1" rowspan="2" style="text-align: center;">9/21<br>
+
+9/23<br>
+
+9/25<br>
+
+      </td>
+
+      <td><span style="font-weight: bold;"></span><span style="font-weight: bold;">Prep</span>:&nbsp; Tutorial
+
+2.4.6-8, 2.4.10 (read/demo )</td>
+
+      <td><br>
+
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td><span style="font-weight: bold;"></span>Prep:&nbsp; Tutorial
+
+2.5</td>
+
+      <td><br>
+
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td colspan="1" rowspan="3" style="text-align: center;">6<br>
+
+      </td>
+
+      <td style="vertical-align: middle; text-align: center;">9/28<br>
+
+      </td>
+
+      <td style="vertical-align: top;">Exam 1 (<a target="_blank" href="Exams/samx1.pdf">review
+
+materials)&nbsp;</a> ("What is printed?")<a target="_blank" href="Exams/samx1.pdf"><br>
+
+      </a></td>
+
+      <td style="vertical-align: top;"><a href="HW/CheckOnTutorial-2.html" target="_blank">Chapter 2
+
+Exercises</a></td>
+
+    </tr>
+
+    <tr>
+
+      <td style="vertical-align: top; text-align: center;">9/30<br>
+
+      </td>
+
+      <td style="vertical-align: top;">Exam #1, continued&nbsp;
+
+(Programming and short answer)<br>
+
+      </td>
+
+      <td style="vertical-align: top;"><br>
+
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td style="text-align: center;">10/02<br>
+
+      </td>
+
+      <td>Discuss <a href="HW/Project.html">Python
+
+Project</a>&nbsp; (finalize teams)<span style="font-weight: bold;"><br>
+
+Prep</span>:&nbsp; Python
+
+Tutorial&nbsp; Chapter 3&nbsp;through 3.1.6<br>
+
+      </td>
+
+      <td><a href="HW/CheckOnTutorial-2.html" target="_blank"><br>
+
+      </a></td>
+
+    </tr>
+
+    <tr>
+
+      <td colspan="1" rowspan="2" style="vertical-align: middle; text-align: center;">7<br>
+
+      </td>
+
+      <td style="vertical-align: top; text-align: center;">10/05<br>
+
+      </td>
+
+      <td style="vertical-align: top;">Mid-semester break, no school<br>
+
+      </td>
+
+      <td style="vertical-align: top;"><br>
+
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td style="vertical-align: middle; text-align: center;">10/07<br>
+
+10/09<br>
+
+      </td>
+
+      <td style="vertical-align: top;"><span style="font-weight: bold;">Prep</span>:
+
+Python Tutorial
+
+3.1.6 - 3.1.7<br>
+
+      </td>
+
+      <td style="vertical-align: top;"><br>
+
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td colspan="1" rowspan="2" style="text-align: center;">8<br>
+
+      </td>
+
+      <td colspan="1" rowspan="2" style="text-align: center;">10/12<br>
+
+10/14<br>
+
+10/16<br>
+
+      </td>
+
+      <td><span style="font-weight: bold;">Prep</span>: Python Tutorial
+
+3.1.7 - 3.3.1</td>
+
+      <td><br>
+
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td><span style="font-weight: bold;">Prep</span>: Python Tutorial
+
+3.3.2. - 3.3.4 through
+
+bounceWhile.py<span style="font-weight: bold;"></span><a href="Exams/Spring12/Exams-SP12/COMP150-Exam%231-Review.pdf"><br>
+
+      </a></td>
+
+      <td><a href="HW/CheckOnTutorial-3.html" target="_blank"><br>
+
+      </a></td>
+
+    </tr>
+
+    <tr>
+
+      <td colspan="1" rowspan="2" style="text-align: center;">9<br>
+
+      </td>
+
+      <td colspan="1" rowspan="2" style="text-align: center;">10/19<br>
+
+10/21<br>
+
+10/23<br>
+
+      </td>
+
+      <td><span style="font-weight: bold;"></span><span style="font-weight: bold;"></span>Chapter 3 Review and Exam Review<span style="font-weight: bold;"><br>
+
+      </span></td>
+
+      <td><a href="HW/CheckOnTutorial-3.html" target="_blank">Chapter
+
+3.1 Exercises</a><a href="HW/CheckOnTutorial-2.html" target="_blank"> </a></td>
+
+    </tr>
+
+    <tr>
+
+      <td>Chapter 3 work and examples</td>
+
+      <td><a href="HW/CheckOnTutorial-3.html" target="_blank"><br>
+
+      </a></td>
+
+    </tr>
+
+    <tr>
+
+      <td colspan="1" rowspan="2" style="text-align: center;">10<br>
+
+      </td>
+
+      <td colspan="1" rowspan="1" style="text-align: center;">10/26<br>
+
+      </td>
+
+      <td><span style="font-weight: bold;"></span><span style="font-weight: bold;">Prep:</span> &nbsp;Python
+
+Tutorial Chapter 4 through 4.3, web programming<span style="font-weight: bold;"><br>
+
+      </span></td>
+
+      <td><a href="HW/CheckOnTutorial-3.html" target="_blank"><br>
+
+      </a></td>
+
+    </tr>
+
+    <tr>
+
+      <td style="vertical-align: top;">
+
+      <div style="text-align: center;">10/28<span style="text-decoration: underline;"><br>
+
+      </span>10/30<br>
+
+      </div>
+
+      </td>
+
+      <td style="vertical-align: middle;">Exam 2 (<a target="_blank" href="Exams/samx2.pdf">review
+
+materials)</a></td>
+
+      <td style="vertical-align: top;"><br>
+
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td colspan="1" rowspan="2" style="text-align: center;">11<br>
+
+      </td>
+
+      <td style="text-align: center;">11/02<br>
+
+      </td>
+
+      <td><span style="font-weight: bold;"></span><span style="font-weight: bold;">Prep</span>: Python Tutorial
+
+4.4.4</td>
+
+      <td>Submit
+
+any independent plan for the <a href="HW/Project.html">Python
+
+Project</a>&nbsp;&nbsp;<a href="HW/CheckOnTutorial-3.html" target="_blank"> </a></td>
+
+    </tr>
+
+    <tr>
+
+      <td style="text-align: center;">11/04<br>
+
+11/06<br>
+
+      </td>
+
+      <td><span style="font-weight: bold;"></span><span style="font-weight: bold;">Prep</span>: Bases and
+
+Binary
+
+Arithmetic in <a href="ClassNotes.html#Binary">binary web notes</a> <br>
+
+(videos N2, N3A, N3B, N3C-E)</td>
+
+      <td><a href="HW/CheckOnTutorial-3.html" target="_blank">Chapter
+
+3.2--3.3.4 Exercises</a> </td>
+
+    </tr>
+
+    <tr>
+
+      <td colspan="1" rowspan="2" style="text-align: center;">12<br>
+
+      </td>
+
+      <td colspan="1" rowspan="2" style="text-align: center;">11/09<br>
+
+11/11<br>
+
+11/13<br>
+
+      </td>
+
+      <td><span style="font-weight: bold;">Prep</span>: Pip assembler
+
+through 4E
+
+in <a href="ClassNotes.html#Pip">web
+
+notes</a><br>
+
+(videos N4, N4A, N4B, N4C, N4D, N4E)</td>
+
+      <td><br>
+
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td>Prep: Pip <a href="ClassNotes.html#Pip">If-else in assembler</a>
+
+(Videos N4F,
+
+N4G, N4H)</td>
+
+      <td><a href="HW/CheckOnTutorial-4.html" target="_blank">Chapter 4
+
+Exercises</a> </td>
+
+    </tr>
+
+    <tr>
+
+      <td colspan="1" rowspan="2" style="text-align: center;">13<br>
+
+      </td>
+
+      <td style="text-align: center;">11/16<br>
+
+      </td>
+
+      <td><span style="font-weight: bold;"></span><span style="font-weight: bold;"></span>Homework and Projects</td>
+
+      <td><br>
+
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td style="text-align: center;">11/18<br>
+
+11/20<br>
+
+      </td>
+
+      <td><span style="font-weight: bold;">Prep</span>: <a href="ClassNotes.html#Boolean">gatesand Boolean algebra (N5A-D)</a>
+
+through Gates Applet</td>
+
+      <td><a href="HW/PipPrograms.html" target="_blank">Pip Program</a></td>
+
+    </tr>
+
+    <tr>
+
+      <td colspan="1" rowspan="2" style="text-align: center;">14<br>
+
+      </td>
+
+      <td style="vertical-align: middle; text-align: center;">11/23<br>
+
+      </td>
+
+      <td style="vertical-align: middle;"><span style="font-weight: bold;">Prep</span>:&nbsp; <a href="ClassNotes.html#boolExprForTruthT">Gates and Boolean
+
+Algebra
+
+(N5E-I)</a><br>
+
+project, show project&nbsp;steps
+
+completed, in class</td>
+
+      <td style="vertical-align: top;"><a target="_blank" href="HW/Gates.html">Gates HW</a> <font color="#ff0000">due
+
+in class</font>, or&nbsp; by midnight&nbsp; in Sakai, part
+
+possibly scanned. </td>
+
+    </tr>
+
+    <tr>
+
+      <td style="vertical-align: top;">
+
+      <div style="text-align: center;">11/25<br>
+
+      </div>
+
+      <div style="text-align: center;">11/27<br>
+
+      </div>
+
+      </td>
+
+      <td style="vertical-align: middle;">Thanksgiving</td>
+
+      <td style="vertical-align: top;"><br>
+
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td colspan="1" rowspan="2" style="text-align: center;">15<br>
+
+      </td>
+
+      <td style="text-align: center;">11/30<br>
+
+      </td>
+
+      <td><span style="font-weight: bold;"></span>Proect Presentations<br>
+
+</td>
+
+      <td> <br>
+
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td style="text-align: center;">12/02<br>
+
+      </td>
+
+      <td>Project Presentations<br>
+
+      </td>
+
+      <td><br>
+
+</td>
+
+    </tr>
+
+    <tr>
+
+      <td style="vertical-align: top;"><br>
+
+      </td>
+
+      <td style="vertical-align: top; text-align: center;">12/04<br>
+
+      </td>
+
+      <td style="vertical-align: top;">Project Presentations<br>
+
+      </td>
+
+      <td style="vertical-align: top;"><a href="HW/Project.html" target="_blank">Python Project Due</a></td>
+
+    </tr>
+
+<tr>
+
+      <td style="text-align: center;">16<br>
+
+      </td>
+
+      <td style="text-align: center;"><big>12/11</big><br>
+
+      </td>
+
+      <td>Final Exam:&nbsp; Friday, 12/11, 9:00 - 11:00 a.m.(<a target="_blank" href="http://webpages.cs.luc.edu/%7Ecnaiman/COMP150/Exams/COMP150-Final-Review.pdf">review
+
+materials)&nbsp;</a>
+
+      </td>
+
+      <td><br>
+
+      </td>
+
+    </tr>
+
+  </tbody>
+
+</table>
+
+
+
+<br>
+
+
