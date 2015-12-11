@@ -146,17 +146,11 @@ Class time is valuable and in short supply, so there are some tradeoffs in this 
 
 <span style="font-weight: bold;"><a name="env"></a>Programming Environment: </span><br>
 
-
-
 We will be programming in Python, available in the University Windows labs, and as a download to your own computer. There are several choices based on program version and operating system. You should get Python version 3.3.2 or greater for your operating system from the central site <a href="www.python.org/download">www.python.org/download</a>. Mac users, also see this page that is referenced on the download page - you may need a second download, Python comes with the graphical interface, Idle, which we will use. The latest version for Windows and Mac is 3.4.<br>
-
-
 
 - Recommended storage options for course work:
 	- Cloud-based storage like Box or Google Drive
 	- USB Flash Drive (write your email address on it)
-
-
 
 <br>
 
@@ -164,357 +158,48 @@ We will be programming in Python, available in the University Windows labs, and 
 
 <span style="font-weight: bold;"><a name="honesty"></a>Academic Honesty: </span><br>
 
-
-
-<br>
-
-
-
-The penalty for cheating may be anywhere from a 0 on an assignment to a
-
-grade of "F" in this course. The appropriate dean will be informed in
-
-writing of any cheating incidents. No exceptions, for any reason.&nbsp;
-
-Students are expected to have read the university's <a href="http://www.luc.edu/academics/catalog/undergrad/reg_academicintegrity.shtml">statement
-
-on academic integrity</a>.
-
-This policy applies to the course, except that the minimum penalty is a
-
-0 (not an F) on the assignment. &nbsp; The Academic Grievance procedure
-
-is
-
-listed&nbsp; <a href="http://www.luc.edu/academics/catalog/undergrad/reg_academicgrievance.shtml">here</a>.<br>
-
-
-
-<br>
-
-
-
-Cheating consists of, but is not limited to:<br>
-
-
-
-<ul>
-
-
-
-  <li>Using or copying an outside person's work on an exam or
-
-assignment in any fashion. "Outside person" includes a person who put
-
-something on a web page. It has become depressingly familiar for me,
-
-most every semester, meting out penalties for using someone else's work
-
-on the web. Do not do it.</li>
-
-</ul>
-
-
-
-<ul>
-
-
-
-  <li>Work includes outlines, pseudocode, code, and documentation.</li>
-
-</ul>
-
-
-
-<ul>
-
-
-
-  <li>Allowing your own work to be copied or used by an outside person.</li>
-
-</ul>
-
-
-
-<ul>
-
-
-
-  <li>Submitting as your own work something that has been written by an
-
-outside person (or web site).</li>
-
-</ul>
-
-
-
-<ul>
-
-
-
-  <li>Using any unauthorized reference on an exam or assignment</li>
-
-</ul>
-
-
-
-<ul>
-
-
-
-  <li>Not acknowledging and describing in writing on an assignment any
-
-help you received or gave.</li>
-
-</ul>
-
-
-
-<ul>
-
-
-
-  <li>If you are working on a pair or group project, an "outside
-
-person" only refers to people other than your assigned partner or team.</li>
-
-</ul>
-
-
-
-<ul>
-
-
-
-  <li>Note that cheating goes both ways: both giving and receiving.</li>
-
-</ul>
-
-
-
-<ul>
-
-
-
-  <li>Consultation is allowed with the tutors and with me. If you
-
-consult with the tutors and/or with me, still make a comment at the top
-
-of your work about the substance and depth of the help.</li>
-
-</ul>
-
-
-
-<br>
-
-
-
-Help from any source is fine concerning<br>
-
-
-
-<ul>
-
-
-
-  <li>The meaning of program specifications (not the plan for the
-
-solution or the actual solution).</li>
-
-  <li>The tools used to write programs. Feel free to ask questions on
-
-the programming environment you use and the use of the debugger.</li>
-
-  <li>The restrictions of the current programming language syntax.</li>
-
-</ul>
-
-
-
-<br>
-
-
-
-<br>
-
-
-
-<br>
-
+Plagiarism and cheating will not be tolerated (see <a href="http://www.luc.edu/academics/catalog/undergrad/reg_academicintegrity.shtml">University Policy</a>) and will bereported to the college. STUDENTS FOUND TO PRESENT SOMEONE ELSE’S WORK ASTHEIR OWN WILL **RECEIVE ZERO POINTS FOR THE HOMEWORK/EXAM**. ANYSTUDENT WHO REPEATS SUCH AN ACTION WILL RECEIVE A FAILING GRADE (F) FOR THECOURSE.
+
+Cheating consists of, but is not limited to:
+
+- Using or copying an outside person's work on an exam or assignment in any fashion. "Outside person" includes a person who put something on a web page. Don't copy others' work from the web!
+- Others' work includes outlines, pseudocode, code, and documentation.
+- Allowing your own work to be copied or used by an outside person.
+- Submitting as your own work something that has been written by an outside person (or web site).
+- Using any unauthorized reference on an exam or assignment
+- Not acknowledging and describing in writing on an assignment any help you received or gave.
+- If you are working on a pair or group project, an "outside person" only refers to people other than your assigned partner or team.
+- Note that cheating goes both ways: both giving and receiving.
+- Consultation is allowed with the TA, tutors and me. If you consult with the tutors and/or with me, still make a comment at the top of your work about the substance and depth of the help.</li>
+
+Help from any source is fine concerning:
+
+- The meaning of program specifications (not the plan for the solution or the actual solution).
+- The tools used to write programs. Feel free to ask questions on the programming environment you use and the use of the debugger.
+- The restrictions of the current programming language syntax.
 
 
 <span style="font-weight: bold;"><a name="exams"></a>Exams:</span><span style="font-style: italic;"></span>&nbsp; There are three exams.&nbsp;
 
-Tentative dates are:<br>
+Tentative dates are:
 
+- Exam #1:&nbsp; 9/28 and 9/30<br>
+- Exam #2:&nbsp; 10/28 and 10/30<br>
+- Final Exam:&nbsp; as per the Loyola University Final Exam Schedule.&nbsp; 12/11, 9:00 - 11:00 a.m.<br>
 
-
-<ul>
-
-
-
-  <li>Exam #1:&nbsp; 9/28 and 9/30<br>
-
-  </li>
-
-  <li>Exam #2:&nbsp; 10/28 and 10/30<br>
-
-  </li>
-
-  <li>Final Exam:&nbsp; as per the Loyola University Final Exam
-
-Schedule.&nbsp; 12/11, 9:00 - 11:00 a.m.<br>
-
-  </li>
-
-</ul>
-
-
-
-Exams will cover material discussed in class, reading material on
-
-the
-
-web, and assignments. Exams will always be cumulative.&nbsp;
-
-You are allowed at&nbsp; two 8.5 x 11 inch sides of notes for
-
-exams, but no computer or calculator. I emphasize having you process
-
-and use
-
-information, not regurgitate facts -- put the facts you most forget and
-
-still need in your notes. This is very different than many of the
-
-requirements some students had in high school, where fact recall may
-
-have been key. What you want most to remember is general patterns about
-
-the process of breaking problems into pieces and identifying the right
-
-process for each piece. The pieces may come in all sorts of
-
-combinations, so remembering whole rote sequences is not likely to be
-
-helpful. Do not depend on it.<br>
-
-
-
-<br>
-
-
+Exams will cover material discussed in class, reading material on the web, and assignments. Exams will always be cumulative. You are allowed one 8.5 x 11 inch piece of paper (both sides) with notes for each exam, but no computer or calculator. I emphasize having you process and use information, not regurgitate facts -- put the facts you most forget and still need in your notes. This is very different than many of the requirements some students had in high school, where fact recall may have been key. What you want most to remember is general patterns about the process of breaking problems into pieces and identifying the right process for each piece. The pieces may come in all sorts of combinations, so remembering whole rote sequences is not likely to be helpful. Do not depend on it.
 
 There is a review for each exam posted on the Course Schedule.<br>
 
+**MISSING EXAMS** WILL ONLY BE PERMITTED UNDER SPECIAL CIRCUMSTANCES (e.g., medical emergencies, educational events, court dates, religious holidays, etc.). **ARRANGEMENTS MUST BE MADE IN ADVANCE** WHEN APPLICABLE AND A NEW EXAM WILL BE ADMINISTERED. DOCUMENTATION OF THE ABSENCE IS REQUIRED.
 
+<span style="font-weight: bold;"><a name="disabilities"></a>Students with Disabilities:</span>&nbsp; 
 
-<br>
+Any student with special needs or difficulties in learning and completing course assignments is strongly encouraged to contact the instructor as soon as possible. Please refer to the Student Handbook for student rights and <a href="http://www.luc.edu/sswd/">available resources</a> pertaining to assistance with special needs or disabilities.
 
+<span style="font-weight: bold;">Students with Sponsorships and Scholarships:&nbsp;</span>
 
-
-<p>If you must miss an exam, let me know well in advance. Then if you
-
-have
-
-a good reason we can possibly make other arrangements. I have little
-
-sympathy for people who inform me after the fact for no good reason.
-
-Exam absences will be veririfed.&nbsp; If they can't be verified, you
-
-will not be excused.&nbsp; <br>
-
-</p>
-
-
-
-<p><strong>*No second try*</strong>: If you have an excuse for not
-
-being prepared to
-
-take an exam, but decide to take it anyway, you don't get to change
-
-your
-
-mind after you see a poor grade. Being sick is not a way to get one
-
-more
-
-chance than everyone else. I may allow you to delay an exam due to
-
-illness, but I will not let you be reexamined due to a poor grade.</p>
-
-
-
-<span style="font-weight: bold;"><a name="religious_holidays"></a>Religious
-
-Holidays:</span>
-
-<p>Students with religious holiday conflicts:&nbsp; Please let me know
-
-within the first two weeks of class if you have a religious holiday
-
-conflict with any exam or homework due date, so that we can plan on a
-
-makeup schedule.<br>
-
-</p>
-
-
-
-<p><span style="font-weight: bold;"><a name="disabilities"></a>Students
-
-with Disabilities:&nbsp; </span>If you have a documented disability
-
-and wish to discuss academic accommodations, please contact the
-
-Services for Students with Disabilities Office (773-508-3700 and
-
-SSWD@luc.edu) as soon as possible.<span style="font-weight: bold;">&nbsp;
-
-</span>Students with documented disabilities who provide me with a
-
-letter from the SSWD office will be fully accommodated as per the terms
-
-of the letter.&nbsp; Students who are allowed to take their exams in
-
-the SSWD office are encouraged to do so.&nbsp; Should you choose to
-
-take the exam in the classroom, I cannot guarantee that the classroom
-
-environment will be quiet enough to provide you with the environment
-
-that your disability may require.&nbsp;&nbsp;</p>
-
-
-
-<span style="font-weight: bold;">Students
-
-with Sponsorships and Scholarships:&nbsp;</span>
-
-If you require a certain
-
-grade in order to satisfy a sponsor or a scholarship requirement,
-
-please be sure to monitor your grade on Sakai.&nbsp; I will consider
-
-only your performance in this course in calculating grades, using the
-
-grading rubric posted in this syllabus.&nbsp; If you cannot achieve a
-
-minimum grade that is required by a sponsor or a scholarship, I will
-
-not change your grade to help you meet that requirement.&nbsp; This
-
-would be unfair to other students, and not reflecive of your
-
-performance in this course.&nbsp; You are reponsible to monitor your
-
-grade and to keep apprised of the <a href="#dates">withdrawal dates</a>
-
-posted by the registrar.<br>
+If you require a certain grade in order to satisfy a sponsor or a scholarship requirement, please be sure to monitor your grade on Sakai. I will consider only your performance in this course in calculating grades, using the grading rubric posted in this syllabus. If you cannot achieve a minimum grade that is required by a sponsor or a scholarship, I will not change your grade to help you meet that requirement. This would be unfair to other students, and not reflecive of your performance in this course. You are reponsible to monitor your grade and to keep apprised of the <a href="http://www.luc.edu/academics/schedules/fall/academic_calendar.shtml">withdrawal dates</a> posted by the registrar.<br>
 
 
 
@@ -527,16 +212,6 @@ posted by the registrar.<br>
 
 
 <span style="font-weight: bold;"><a name="grades"></a>Grading:</span><br>
-
-
-
-<br>
-
-
-
-<br>
-
-
 
 <table style="text-align: left; width: 383px; height: 351px;" border="1" cellpadding="2" cellspacing="2">
 
@@ -656,74 +331,16 @@ posted by the registrar.<br>
 
 
 
-<br>
 
 
-
-<ul>
-
-
-
-  <li>Note
-
-that there are 1050 total possible points.&nbsp; Fifty extra points are
-
-built-in, to cover "down days", for valid late homework submissions, or
-
-to be used for extra credit.</li>
-
-  <li>No further accommodations will be provided.&nbsp; If your
-
-personal circumstances are such that you have to miss more than 50
-
-points worth of material, please consider taking the course another
-
-semester.</li>
-
-  <li>There
-
-are a few extra credit homework problems in some of the
-
-assignments.&nbsp; No further extra credit opportunities will be
-
-provided.&nbsp; It
-
-is neither practical nor fair to the other students.</li>
-
-  <li>Late
-
-assignments are worth only half credit.&nbsp; This is true
-
-even if you have a valid reason for submitting the homework late.&nbsp;
-
-That's what the extra fifty points are for.&nbsp; Late assginments must
-
-be submitted within one week of the due date for half credit.&nbsp;
-
-After one week, you will receive zero points for any unsubmitted
-
-assignments.</li>
-
-  <li>You may only have two late submissions.&nbsp; After you use up
-
-your two late submissions, anything that you submit after the due date
-
-is worth a zero (not half credit).<br>
-
-  </li>
-
-</ul>
+- Note that there are 1050 total possible points. Your grade will be calculated as the number of points you receive out of 1000. Fifty extra points are built-in, to cover "down days", for valid late homework submissions, or to be used for extra credit.
+- No further accommodations will be provided.&nbsp; If your personal circumstances are such that you have to miss more than 50 points worth of material, please consider taking the course another semester.
+- There are a few extra credit homework problems in some of the assignments. No further extra credit opportunities will be provided. It is neither practical nor fair to the other students.
+- **LATE ASSIGNMENTS WILL NOT BE ACCEPTED.** This is true even if you have a valid reason for submitting the homework late. That's what the extra fifty points are for. 
 
 
 
 <br>
-
-
-
-<br>
-
-
-
 Course grades are assigned as follows:<br>
 
 
