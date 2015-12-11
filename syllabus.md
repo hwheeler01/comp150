@@ -105,17 +105,7 @@ There is no specific text for this course. Rather, we will be using free online 
 
 
 
-<p>As of this writing, Sakai will be used for course announcements,
-
-homework submissions, and grade postings.&nbsp; While the raw scores
-
-posted on Sakai should be correct, please do not rely upon Sakai's Course Total
-
-calculations. <span style="font-style: italic;">Grades are
-
-calculated as specified in this
-
-syllabus!!</span>&nbsp; <br>
+<p>As of this writing, Sakai will be used for course announcements, homework submissions, and grade postings. While the raw scores posted on Sakai should be correct, please do not rely upon Sakai's Course Total calculations. <span style="font-style: italic;">Grades are calculated as specified in this syllabus!</span>&nbsp; <br>
 
 </p>
 
@@ -123,219 +113,30 @@ syllabus!!</span>&nbsp; <br>
 
 <p style="font-weight: bold;"><a name="format"></a>Course Format:</p>
 
+Much of this course will be *flipped* from the traditional course format. That is, the presentations are mostly at your convenience, at your speed, as videos/text on your computer outside of class. In class, we will discuss questions you have on the presentations and do much of the harder creative work of synthesizing and using this information, when you have the most direct support from me, the TA, and classmates. Please give me feedback on how this is going and what you think would improve your experience!</span></p>
 
+There will be an in-class mini-lecture to introduce new topics. In addition, if three people ask the same question, I will offer an explanation to the class on that topic. In general, if you feel that you can benefit from more explanation, sit on the same side as the instructor's desk. If you would prefer to continue working on your own, sit on the opposite side of the room. In this way, those students who want additional lecture support can have it with minimal intrusion to those students who would prefer to work on their own.
 
-<p style="font-weight: bold;"><span style="font-weight: normal;">There
+You are responsible for what goes on in class; some of the activity may not be covered in the class notes. For the non-Python topics later in the semester, there will be short demonstrations/labs in class, in which you are expected to participate. I expect you to look at assigned presentations before class, but *if you want to check on something in a video during class, remember to bring headphones!*
 
-is recent evidence that
-
-with all the online
-
-resources available, a hybrid approach is useful for on-campus
-
-courses.&nbsp; The approach I plan to mostly be doing with you is
-
-called </span><span style="font-style: italic; font-weight: normal;">flipping</span><span style="font-weight: normal;">:  flip
-
-when you get most of your presentations and do much of your homework,
-
-so the presentations are mostly at your convenience, at your speed, as
-
-videos/text on your computer or in a lab, and then in class discuss
-
-questions you had on the presentations and do much of the harder
-
-creative work of synthesizing and using this information, when you have
-
-the most direct support from me, the TA, and classmates. Please
-
-give me feedback on how this is going and what you think would improve
-
-your experience!</span></p>
-
-
-
-<p>There will be an in-class mini-lecture to introduce new
-
-topics. In addition, if three people ask the same question, I
-
-will offer an explanation to the class on that topic. In general,
-
-if you feel that you can benefit from more explanation, sit on the same
-
-side as the instructor's desk. If you would prefer to continue
-
-working on your own, sit on the opposite side of the room. In
-
-this way, those students who want additional lecture support can have
-
-it with minimal intrusion to those students who would prefer to work on
-
-their own.</p>
-
-
-
-<p style="font-weight: bold;"><span style="font-weight: normal;">For
-
-the non-Python topics, there will be short demonstrations/labs in
-
-class, in which you are expected to participate.<br>
-
-</span></p>
-
-
-
-<p style="font-weight: bold;"><span style="font-weight: normal; font-style: italic;">You are responsible for what goes on in class, even if some of the activity may not be
-
-covered in the class notes. </span><span style="font-weight: normal;">If
-
-you choose not to attend, that is your prerogative; however, make sure
-
-that you find out what you missed.</span><br>
-
-</p>
-
-
-
-<p>I am expecting you to look at assigned presentations before
-
-class, but <span style="font-style: italic;">if you want to
-
-check on something in a video during class, remember to bring headphones!</span>
-
-</p>
-
-
-
-<p>Class time is valuable and in short supply, so there are some
-
-tradeoffs in this approach.&nbsp; You cannot immediately get a
-
-question answered by me in the middle of a video presentation. I suggest keeping
-a list of questions as you watch the videos. You may
-
-find that some of your questions will be answered as you continue to
-
-watch the videos, and some you will want to bring to class.</p>
+Class time is valuable and in short supply, so there are some tradeoffs in this approach. You cannot immediately get a question answered by me in the middle of a video presentation. I suggest keeping a list of questions as you watch the videos. You may find that some of your questions will be answered as you continue to watch the videos, and some you will want to bring to class.
 
 
 
 <span style="font-weight: bold;"><a name="assignments"></a>Homeworks/Assignments:</span>
 
-<p><span style="font-style: italic;">Programming
+*Programming Assignments:* &nbsp;For each tutorial, you must submit to Sakai a `.zip` file of the required exercises for that chapter.&nbsp; The exercises are mentioned as you encounter them in the tutorials.&nbsp; In addition, a list of the exercises and the due dates for each assignment are linked to on the <a class="reference external" href="#schedule">Course Schedule</a>.<br>
 
-Assignments: &nbsp;</span>For each tutorial, you must submit to Sakai a
+*Homework Assignments:*&nbsp;There are also several non-programming homework assignments. The links to these homeworks and their due dates are on the <a class="reference external" href="#schedule">Course Schedule</a>.&nbsp; Pip Program (assembly-language programming) and Logic Gates are listed.&nbsp;
 
-zip file of the required exercises for that chapter.&nbsp; The
+*Pair Programming:*&nbsp;Pair Programming is when two people collaborate on one problem with one person coding while the other looks on. For novices and professionals alike, pair programming often leads to better, faster, and more enjoyable project completion. We will have the option to do pair programming in this course for in-class work and programming assignments. **However, your exams will NOT be in pairs!** &nbsp;Read the page on how to make pair programming work and requirements for using it in this class <a href="{{ site.baseurl }}/pairprogram">here</a>.
 
-exercises are mentioned as you encounter them in the tutorials.&nbsp;
-
-In addition, a list of the exercises and the due dates for each
-
-assignment are linked to on the <a target="_blank" href="#schedule">Course
-
-Schedule</a>.<br>
-
-</p>
+*Python Project:*&nbsp;You will form teams of two or three, to complete a project, which is a major programming assignment in Python. Some suggestions for the project can be found <a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/HW/Project.html">here.</a> This will be discussed further in class.<br>
 
 
+***Important note about pair/team submissions:***&nbsp;</span> For pair/team assignments, each team member must submit the assignment on Sakai with their own unique `log.txt` file with the requested information for that assignment. 
 
-<p><span style="font-style: italic;">Homework Assignments:</span>
-
-&nbsp;There are also several non-programming homework assignments.
-
-&nbsp;The links to these homeworks and their due dates are on the
-
-Course Schedule(below).&nbsp; Pip Program (assembly-language
-
-programming) and Logic Gates are listed.&nbsp; We may also have an
-
-additional assignment on database queries.<br>
-
-</p>
-
-
-
-<p><span style="font-style: italic;">Pair Programming:</span> &nbsp;It
-
-has been demonstrated recently that Pair Programming, two
-
-people collaborating on one problem with one person coding while the
-
-other looks on, whether beginner
-
-students or seasoned professionals, allows projects been done
-
-better&nbsp;and faster with more confidence, and also that
-
-students&nbsp;learn at least as well and have more&nbsp;enjoyment in
-
-the process. &nbsp;We will have the option to do pair programming in
-
-this course for in-class work and programing assignments. &nbsp;(Your
-
-exams
-
-will NOT be in pairs however!) &nbsp;Read the page on <a target="_blank" href="How_to_Pair_Program.html">how
-
-to make pair programming work</a> and also the page of <a target="_blank" href="Pair_Programming_Admin.html">administrative
-
-guidelines</a> for pair programming (mostly for when it does not work
-
-out as planned!).&nbsp;</p>
-
-
-
-<span style="font-style: italic;">Project:</span>
-You will form teams of two or three, to complete a project, which is a major programming assignment in Python. Some suggestions for the project can be found <a href="HW/Project.html">here.</a> This will be discussed further in class.<br>
-
-
-
-<br>
-
-
-
-<span style="font-weight: bold; font-style: italic;">--&gt;Important
-
-note about team submissions:&nbsp;</span>
-
-If I announce that an assignment may be worked on in a team (for
-
-instance, pair programming), each team member must submit something on
-
-Sakai.&nbsp; If you are the team member submitting the assignment, you
-
-must also submit a note in the Assignment comment box on Sakai, listing
-
-each team member for whom you are submitting the assignment.&nbsp; If
-
-someone else is submitting the assignment, you must submit a note in
-
-the Assignment comment box telling me who is submitting the assignment
-
-for your team.&nbsp; Do not assume that just because your team member
-
-submitted the assignment that you will automatically get credit.&nbsp;
-
-You MUST submit a comment letting me know that it was submitted on your
-
-behalf. <br>
-
-
-
-<big><span style="font-weight: bold; font-style: italic;">--&gt;Even
-
-more important note about the group project:&nbsp;</span></big>
-
-You are expected to fully participate in the group project.&nbsp; Your
-
-individual grade may be modified depending upon your contribution to
-
-the project and your cooperative and substantive participation.&nbsp;
-
-This will be assessed by instructors walk-throughs during class and by
-
-the Team Pariticpation form completed by each team member.<br>
+***Important note about the group project:***&nbsp;You are expected to fully participate in the group project. Your individual grade may be modified depending upon your contribution to the project and your cooperative and substantive participation. This will be assessed by instructor walk-throughs during class and by the *Team Pariticpation* form completed by each team member.<br>
 
 
 
