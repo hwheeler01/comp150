@@ -146,7 +146,7 @@ Class time is valuable and in short supply, so there are some tradeoffs in this 
 
 <span style="font-weight: bold;"><a name="env"></a>Programming Environment: </span><br>
 
-We will be programming in Python, available in the University Windows labs, and as a download to your own computer. There are several choices based on program version and operating system. You should get Python version 3.3.2 or greater for your operating system from the central site <a href="www.python.org/download">www.python.org/download</a>. Mac users, also see this page that is referenced on the download page - you may need a second download, Python comes with the graphical interface, Idle, which we will use. The latest version for Windows and Mac is 3.4.<br>
+We will be programming in Python, available in the University Windows labs, and as a download to your own computer. There are several choices based on program version and operating system. You should get Python version 3.3.2 or greater for your operating system from the central site <a href="www.python.org/download">www.python.org/download</a>. Python comes with the graphical interface, Idle, which we will use. The latest version for Windows and Mac is 3.5.1.<br>
 
 - Recommended storage options for course work:
 	- Cloud-based storage like Box or Google Drive
@@ -158,7 +158,11 @@ We will be programming in Python, available in the University Windows labs, and 
 
 <span style="font-weight: bold;"><a name="honesty"></a>Academic Honesty: </span><br>
 
-Plagiarism and cheating will not be tolerated (see <a href="http://www.luc.edu/academics/catalog/undergrad/reg_academicintegrity.shtml">University Policy</a>) and will bereported to the college. STUDENTS FOUND TO PRESENT SOMEONE ELSE’S WORK ASTHEIR OWN WILL **RECEIVE ZERO POINTS FOR THE HOMEWORK/EXAM**. ANYSTUDENT WHO REPEATS SUCH AN ACTION WILL RECEIVE A FAILING GRADE (F) FOR THECOURSE.
+Plagiarism and cheating will not be tolerated (see <a href="http://www.luc.edu/academics/catalog/undergrad/reg_academicintegrity.shtml">University Policy</a>) and will be
+reported to the college. STUDENTS FOUND TO PRESENT SOMEONE ELSE’S WORK AS
+THEIR OWN WILL **RECEIVE ZERO POINTS FOR THE HOMEWORK/EXAM**. ANY
+STUDENT WHO REPEATS SUCH AN ACTION WILL RECEIVE A FAILING GRADE (F) FOR THE
+COURSE.
 
 Cheating consists of, but is not limited to:
 
@@ -204,11 +208,6 @@ If you require a certain grade in order to satisfy a sponsor or a scholarship re
 
 
 <br>
-
-
-
-<br>
-
 
 
 <span style="font-weight: bold;"><a name="grades"></a>Grading:</span><br>
@@ -329,265 +328,75 @@ If you require a certain grade in order to satisfy a sponsor or a scholarship re
 
 </table>
 
-
-
-
-
 - Note that there are 1050 total possible points. Your grade will be calculated as the number of points you receive out of 1000. Fifty extra points are built-in, to cover "down days", for valid late homework submissions, or to be used for extra credit.
 - No further accommodations will be provided.&nbsp; If your personal circumstances are such that you have to miss more than 50 points worth of material, please consider taking the course another semester.
 - There are a few extra credit homework problems in some of the assignments. No further extra credit opportunities will be provided. It is neither practical nor fair to the other students.
-- **LATE ASSIGNMENTS WILL NOT BE ACCEPTED.** This is true even if you have a valid reason for submitting the homework late. That's what the extra fifty points are for. 
+- ALL ASSIGNMENTS ARE DUE VIA SAKAI BY 11:59PM ON THE DUE DATE. **LATE ASSIGNMENTS WILL NOT BE ACCEPTED.** That's what the extra fifty points are for. 
 
 
 
 <br>
-Course grades are assigned as follows:<br>
-
-
-
-<table style="text-align: left; width: 100px;" border="1" cellpadding="2" cellspacing="2">
-
-
-
-  <tbody>
-
-    <tr>
-
-      <td style="vertical-align: top;">A<br>
-
-      </td>
-
-      <td style="vertical-align: top;">93<br>
-
-      </td>
-
-    </tr>
-
-    <tr>
-
-      <td style="vertical-align: top;">A-<br>
-
-      </td>
-
-      <td style="vertical-align: top;">90<br>
-
-      </td>
-
-    </tr>
-
-    <tr>
-
-      <td style="vertical-align: top;">B+<br>
-
-      </td>
-
-      <td style="vertical-align: top;">87<br>
-
-      </td>
-
-    </tr>
-
-    <tr>
-
-      <td style="vertical-align: top;">B<br>
-
-      </td>
-
-      <td style="vertical-align: top;">83<br>
-
-      </td>
-
-    </tr>
-
-    <tr>
-
-      <td style="vertical-align: top;">B-<br>
-
-      </td>
-
-      <td style="vertical-align: top;">80<br>
-
-      </td>
-
-    </tr>
-
-    <tr>
-
-      <td style="vertical-align: top;">C+<br>
-
-      </td>
-
-      <td style="vertical-align: top;">77<br>
-
-      </td>
-
-    </tr>
-
-    <tr>
-
-      <td style="vertical-align: top;">C<br>
-
-      </td>
-
-      <td style="vertical-align: top;">73<br>
-
-      </td>
-
-    </tr>
-
-    <tr>
-
-      <td style="vertical-align: top;">C-<br>
-
-      </td>
-
-      <td style="vertical-align: top;">70<br>
-
-      </td>
-
-    </tr>
-
-    <tr>
-
-      <td style="vertical-align: top;">D+<br>
-
-      </td>
-
-      <td style="vertical-align: top;">67<br>
-
-      </td>
-
-    </tr>
-
-    <tr>
-
-      <td style="vertical-align: top;">D<br>
-
-      </td>
-
-      <td style="vertical-align: top;">63<br>
-
-      </td>
-
-    </tr>
-
-  </tbody>
-
-</table>
-
+Course grades are assigned according to the following percentage scale:<br>
+
+| **Grade** | **Minimum Percent** |
+| :--- |:---:|
+|A | 93|
+|A-| 90|
+|B+| 87|
+|B | 83|
+|B-| 80|
+|C+| 77|
+|C | 73|
+|C-| 70|
+|D+| 67|
+|D | 63|
 
 
 <br>
 
 
 
-<br>
+<span style="font-weight: bold;"><a name="schedule"></a>Course Schedule:</span><br>
 
 
 
-<p style="font-weight: bold;"><a name="Components"></a>Course
-
-Components:</p>
+The dates below give the sequence and a general idea of the time spent, though we may get ahead or behind this time schedule at different points, depending on the needs of the class. Links for assignments and exam reviews may be inaccurate (not updated) or missing until their introduction in class.
 
 
+In the Activities column **"Prep:"** means preparation done *before* class with your questions ready for discussion in class! See <a href="http://hwheeler01.github.io/comp150/resources/">Resources</a> for how to obtain the videos for the listed sections. 
 
-<p><span style="font-style: italic;">Tutorial and Videos: </span>&nbsp;An
-
-important component of this course
-
-involves programming using the Python language. &nbsp;We will be using
-
-the Hand-on Python Tutorials designed specifically for this course by
-
-Professor Andrew Harrington. &nbsp;The tutorials are availabe in PDS
-
-format (you may print them), or browsable format online. &nbsp;The
-
-accompanying videos are numbered to match the section numbers in the
-
-tutorials. &nbsp;Example files are referenced in the tutorials, and you
-
-may download them <a href="http://anh.cs.luc.edu/python/hands-on/3.1/examples.zip" target="_blank">here</a>.</p>
-
-
-
-<br>
-
-
-
-<span style="font-weight: bold;"><a name="schedule"></a>Course
-
-Schedule:</span><br>
-
-
-
-<p>The dates below give the sequence and a general idea of the time
-
-spent, though we may get ahead or behind this time schedule at
-
-different points, depending on the needs of the class. &nbsp;Links
-
-for&nbsp;assignments and exam reviews may be inaccurate (not updated)
-
-or missing until their introduction in class.&nbsp;</p>
-
-
-
-Under Activities <span style="font-weight: bold;">Prep</span>:&nbsp;
-
-means preparation done <span style="font-style: italic;">before</span>
-
-class, with your questions always noted
-
-for discussion in class!&nbsp; Sometimes extra <span style="font-weight: bold;">In class</span> activities (besides
-
-questions and active use of preparatory reading) are mentioned.&nbsp;
-
-Written assignments should be turned in to Sakai by the end of the day
-
-listed (11:59PM), unless
-
-otherwise noted.&nbsp; The section on <a href="#Materials">Course
-
-Materials</a> discusses how to obtain the videos for the listed
-
-sections.<br>
-
-
-
-
-| **Date**      | **Topics**    | **Exercises** | **DUE** |
-| ------------- |:-------------:| -----:|---|
-|Jan 20|Intro to Python|
-|Jan 25|
-|Jan 27|
-|Feb 1|
-|Feb 3|
-|Feb 8|
-|Feb 10|
-|Feb 15|
-|Feb 17|
-|Feb 22|
-|Feb 24|
-|Feb 29|
-|Mar 2|
-|Mar 7| ***No class: SPRING BREAK*** |
-|Mar 9| ***No class: SPRING BREAK*** |
-|Mar 14|
-|Mar 16|
-|Mar 21|
-|Mar 23|
-|Mar 28| ***No class: EASTER BREAK*** |
-|Mar 30|
-|Apr 4|
-|Apr 6|
-|Apr 11|
-|Apr 13|
-|Apr 18|
-|Apr 20|
-|Apr 25|
-|Apr 27|
-|May 6| **FINAL EXAM 9:00-11:00 AM**
+| **Date**      | **Activities**    | **DUE by 11:59PM via Sakai** |
+| ------------- |:-------------:| :-----|
+|Jan 20|Syllabus, <a href="{{ site.baseurl }}/pairprogram">pair programming</a>, introductory notes, form pairs, intro to <a target="_blank" href="http://anh.cs.luc.edu/python/hands-on/3.1/index.html">Hands-on Python Tutorial</a>, <a href="http://anh.cs.luc.edu/python/hands-on/3.1/examples.zip">example files</a> **Follow up:** make sure you have completely read the syllabus.|
+|Jan 25|**Prep:** Hands-on Python Tutorial Context 1.1 through Input/Output 1.10 (most video for one class, with all the introductory material)|
+|Jan 27|Catch up and questions: Python Tutorial 1.1 - 1.10 |
+|Feb 1|**Prep:** Python Tutorial Functions 1.11, Dictionaries 1.12, Loops 1.13 |
+|Feb 3|**Prep:** Python Tutorial 1.14 - 1.15, homework questions ready! |
+|Feb 8|**Prep:** Python Tutorial 2.1 - 2.3 | <a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/HW/CheckOnTutorial-1.html">Chapter 1 exercises</a>|
+|Feb 10|**Prep:** Python Tutorial 2.4 , 2.4.1, 2.4.2, 2.4.5 (2.4.5 only in text) |
+|Feb 15|**Prep:** Python Tutorial 2.4.6-8, 2.4.10 (read/demo) |
+|Feb 17|**Prep:** Python Tutorial 2.5 |
+|Feb 22|Review for Exam 1 | <a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/HW/CheckOnTutorial-2.html">Chapter 2 exercises</a>|
+|Feb 24|**EXAM 1** |
+|Feb 29|**Prep:** Python Tutorial  Chapter 3 through 3.1.6 |
+|Mar 2|**Prep:** Python Tutorial 3.1.6 - 3.1.7 | <a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/HW/CheckOnTutorial-3.html">Chapter 3.1 exercises</a> |
+|Mar 7| **No class: SPRING BREAK**|
+|Mar 9| **No class: SPRING BREAK** |
+|Mar 14|Discuss Python Project  (finalize teams) **Prep:** Python Tutorial 3.1.7 - 3.3.1 |
+|Mar 16|**Prep:** Python Tutorial 3.3.2 - 3.3.4 through bounceWhile.py
+|Mar 21|Review for Exam 2 |<a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/HW/CheckOnTutorial-3.html">Chapter 3.2 - 3.3.4 exercises</a>|
+|Mar 23|**EXAM 2** |
+|Mar 28| **No class: EASTER BREAK** |
+|Mar 30|**Prep:** Python Tutorial 4.1 - 4.3| Submit any independent plan for the Python Project |
+|Apr 4|**Prep:** Python Tutorial 4.4.4 | |
+|Apr 6|**Prep:** Bases and Binary Arithmetic in binary web notes (videos N2, N3A, N3B, N3C-E) |<a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/HW/CheckOnTutorial-4.html">Chapter 4 exercises</a>|
+|Apr 11|**Prep:** Pip assembler through 4E in web notes (videos N4, N4A, N4B, N4C, N4D, N4E)|
+|Apr 13|**Prep:** Pip If-else in assembler (Videos N4F, N4G, N4H) | Pip Program
+|Apr 18|**Prep:** Gates and Boolean algebra (N5A-D) through Gates Applet |
+|Apr 20|**Prep:**  Gates and Boolean Algebra (N5E-I) **In class:** show project steps completed | Gates Homework
+|Apr 25| **Project Presentations** |
+|Apr 27| **Project Presentations** | Python Project |
+|May 6| **FINAL EXAM Friday May 6, 9:00-11:00 AM** |
 
 
 <table style="text-align: left; background-color: white; width: 100%;" border="1" cellpadding="2" cellspacing="2">

@@ -4,36 +4,20 @@ title: Course Materials
 permalink: /resources/
 ---
 
-There is no specific text for this course. &nbsp;Rather, we will be using
-resource materials available online.
-<ul>
+There is no specific text for this course. Rather, we will be using
+resource materials available online:
 
-  <li>For the Python
-component of the course, we will be using&nbsp;The <a target="_blank" href="http://anh.cs.luc.edu/python/hands-on/3.1/index.html">Hands-on
-Python Tutorial</a>
-designed specifically for this course by Loyola Professor Andrew Harrington.
-They are available on the web, both in <a href="http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/index.html" target="_blank">browsable</a>
-format and in <a href="http://anh.cs.luc.edu/python/hands-on/3.1/Hands-onPythonTutorial.pdf" target="_blank">printable pdf</a> format. 
-This is the closest thing that we have to a text for this course.&nbsp;
-Other Python resources are at the home site for Python: <a href="http://python.org">http://python.org.</a></li>
-</ul>
-
-<ul>
-
-  <li>Videos, where most all of the course content are discussed, have
+- For the Python component of the course, we will be using the <a target="_blank" href="http://anh.cs.luc.edu/python/hands-on/3.1/index.html">Hands-on
+Python Tutorial</a> designed specifically for this course by Loyola Professor Andrew Harrington. It is available on the web, both in <a href="http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/index.html" target="_blank">browsable</a>
+format and in <a href="http://anh.cs.luc.edu/python/hands-on/3.1/Hands-onPythonTutorial.pdf" target="_blank">printable pdf</a> format. This is the closest thing that we have to a text for this course.
+- Example files are referenced in the tutorials, and you may download them <a href="http://anh.cs.luc.edu/python/hands-on/3.1/examples.zip" target="_blank">here</a>.
+- Videos, where most all of the course content are discussed, have
 download links on <a href="https://luc.box.com/comp150video">box.com</a>
-as well as <a href="https://drive.google.com/a/cs.luc.edu/#folders/0B5WvvnDHeaIYMGE2MzU4OWEtYzQ4Zi00YzhiLTliMTItNjRjYzMyYzgyMTk2" target="_blank">google</a>.&nbsp; These were also prepared by
-Professor Harrington.&nbsp; You can find links and instructions <a href="http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/context.html#using-the-tutorial-text-and-video" target="_blank">here</a>.
-  </li>
-</ul>
-
-<ul>
-
-  <li><a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/ClassNotes.html">Class notes </a>for
-other course
-components are linked to from the Course Schedule.</li>
-  </li>
-</ul>
+as well as <a href="https://drive.google.com/a/cs.luc.edu/#folders/0B5WvvnDHeaIYMGE2MzU4OWEtYzQ4Zi00YzhiLTliMTItNjRjYzMyYzgyMTk2" target="_blank">google</a>. These were also prepared by
+Professor Harrington. You can find links and instructions <a href="http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/context.html#using-the-tutorial-text-and-video" target="_blank">here</a>.
+- <a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/ClassNotes.html">Class notes</a> for
+other course components are linked to from the Course Schedule.
+- Other Python resources are at the home site for Python: <a href="http://python.org">http://python.org.</a>
 
 <br>
 
@@ -92,29 +76,21 @@ and save and email a URL reference to any step.</p>
 ##Free Tutoring Assistance
 
 - Computer Science Department:
-
-  - Department Drop-in Tutoring Schedule: <a href="http://www.luc.edu/cs/people/tutors/">http://cs.luc.edu/academics/services/tutoring</a>.
-  
+  - Department Drop-in Tutoring Schedule: <a href="http://www.luc.edu/cs/people/tutors/">http://cs.luc.edu/academics/services/tutoring</a>.  
   - Tutoring hours by Computer Science TAs (generally
 first-come-first-serve) should start by the second or third week of the semester. 
-
   - Your best choices for help are the professor and TA for the course, but all TAs
 should be familiar with most of the course topics. If any tutors you
 visit are NOT familiar with Python, let me know right away!</p>
 
 - The university supports an official Tutoring Center in the Sullivan
-Center. 
-  
+Center.  
   - Their phone extension is 8-7708. Their web site is
 <a class="reference external" href="http://www.luc.edu/tutoring">http://www.luc.edu/tutoring</a>.
-
   - You may need to make appointments in advance for university tutoring. When
 consulting the university tutoring center hours, remember that, at
 most, tutors for COMP 150 are only available during some of those times, due
 to the personal schedule of the tutors. In general, COMP
 students have done better with the department's tutoring service.<br>
-</p>
 
-<p><br>
-</p>
 
