@@ -42,7 +42,7 @@ the fine balance takes adjustment.
 <br><br>
 
 
-##Rules and Procedures for Comp 150
+##Rules and Procedures for COMP 150
 Remember, you are being allowed to complete your programming assignments and labs with a partner ONLY as long as you do it following the principles of “pair programming” as described above.  
 
 Each partner should “drive” roughly 50% of the time the pair is working together, and at most 25% of an individual’s effort for an assignment should be spent working alone. Any work done by a solitary programmer must be reviewed by the pair together. The object is to work together, learning from each other, not to divide the work into two pieces with each partner working on a different piece.
