@@ -191,7 +191,7 @@ There are three exams. Dates are:
 - Exam #2: Mar 23
 - Final Exam: *Friday* May 6, 9:00 - 11:00 a.m.<br>
 
-Exams will cover material discussed in class, reading material on the web, and assignments. Exams will always be cumulative. You are allowed one 8.5 x 11 inch piece of paper (both sides) with notes for each exam, but no computer or calculator. I emphasize having you process and use information, not regurgitate facts -- put the facts you most forget and still need in your notes. This is very different than many of the requirements some students had in high school, where fact recall may have been key. What you want most to remember is general patterns about the process of breaking problems into pieces and identifying the right process for each piece. The pieces may come in all sorts of combinations, so remembering whole rote sequences is not likely to be helpful. Do not depend on it.
+Exams will cover material discussed in class, reading material on the web, and assignments. *Exams will always be cumulative.* You are allowed one 8.5 x 11 inch piece of paper (both sides) with notes for each exam, but no computer or calculator. I emphasize having you process and use information, not regurgitate facts -- put the facts you most forget and still need in your notes. This is very different than many of the requirements some students had in high school, where fact recall may have been key. What you want most to remember is general patterns about the process of breaking problems into pieces and identifying the right process for each piece. The pieces may come in all sorts of combinations, so remembering whole rote sequences is not likely to be helpful. Do not depend on it.
 
 There will be a review for each exam posted on the <a class="reference external" href="#schedule">Course Schedule</a>.<br>
 
@@ -217,7 +217,7 @@ If you require a certain grade in order to satisfy a sponsor or a scholarship re
 | Tutorial, Chapter 1 Exercises | 45 |
 | Tutorial, Chapter 2 Exercises | 45 |
 | Tutorial, Chapter 3.1 Exercises | 30|
-| Tutorial, Chapter 3.2 Exercises | 30|
+| Tutorial, Chapter 3.2-3.3.4 Exercises | 30|
 | Tutorial, Chapter 4 Exercises | 30|
 | EXAM 1 | 150 |
 | EXAM 2 | 200 |
