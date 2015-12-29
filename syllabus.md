@@ -290,7 +290,7 @@ In the Activities column **"Prep:"** means preparation done *before* class with 
 |Apr 4|**Prep:** Python Tutorial 4.4.4 | |
 |Apr 6|**Prep:** Bases and Binary Arithmetic in binary web notes (videos N2, N3A, N3B, N3C-E) |<a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/HW/CheckOnTutorial-4.html">Chapter 4 exercises</a>|
 |Apr 11|**Prep:** Pip assembler through 4E in web notes (videos N4, N4A, N4B, N4C, N4D, N4E)|
-|Apr 13|**Prep:** Pip If-else in assembler (Videos N4F, N4G, N4H) | <a href "http://webpages.cs.luc.edu/~cnaiman/COMP150/HW/PipPrograms.html">Pip Program</a> |
+|Apr 13|**Prep:** Pip If-else in assembler (Videos N4F, N4G, N4H) | <a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/HW/PipPrograms.html">Pip Program</a> |
 |Apr 18|**Prep:** Gates and Boolean algebra (N5A-D) through Gates Applet |
 |Apr 20|**Prep:**  Gates and Boolean Algebra (N5E-I) **In class:** show project steps completed | <a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/HW/Gates.html">Gates Homework</a> |
 |Apr 25| **Project Presentations** |
