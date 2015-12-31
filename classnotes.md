@@ -553,11 +553,8 @@ decimal to binary numerals (vid)</h3>
 <h3> </h3>
 
 Now we go in the other direction:  finding the binary place values from a given integer number:<br>
-Suppose we have an unknown int, i, which can be represented as a 4 digit decimal. How could we recover the digits by doing simple arithmetic?  (On a computer, there is something to do here, since the number is actually stored in a binary form.)  A small amount of algebra can show us the general approach:  For the algebra we name the 4 digits, say p, q, r, s, then we have:
-
-
-i = p*<span class="inlinecode">$10^3$</span> + q*<span class="inlinecode">$10^2$</span> + r*<span class="inlinecode">$10^1$</span> + s
-
+Suppose we have an unknown int, i, which can be represented as a 4 digit decimal. How could we recover the digits by doing simple arithmetic?  (On a computer, there is something to do here, since the number is actually stored in a binary form.)  A small amount of algebra can show us the general approach:  For the algebra we name the 4 digits, say p, q, r, s, then we have:<br>
+i = p*<span class="inlinecode">$10^3$</span> + q*<span class="inlinecode">$10^2$</span> + r*<span class="inlinecode">$10^1$</span> + s <br>
 Note all but the last term are divisible by 10, so<br>
 s = i % 10<br>
 We have s, so we
@@ -581,6 +578,7 @@ result means we are done.<br>
 <br>
 <p>This can turn into a general
 algorithm in Python:</p>
+<br>
 
 ```python
 def decimal(i):
@@ -600,7 +598,7 @@ def decimal(i):
 
 <p>Decimal to binary conversion:  same idea as for
 digits of
-unknown number, but generate base is 2, not 10:</p>
+unknown number, but generate base is 2, not 10:</p><br>
 <pre>def toBinary(i):<br> """return a string of binary bits representing <br> the nonnegative integer i."""<br> if i == 0:<br> return "0"<br> numeral = ""<br> while i != 0:<br> digit = i % 2<br> numeral = str(digit) + numeral # add next digit on the LEFT<br> i = i//2<br> return numeral</pre>
 <p style="margin-bottom: 0in;">For illustration, this can
 also be done
