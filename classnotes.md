@@ -443,8 +443,10 @@ particular the simplest one, and the one used in computers hardware:
 <h3><a class="mozTocH3" name="binToDec"></a>Converting
 binary to decimal numerals<br>
 </h3>
-(included in previous video) Binary (base 2) uses powers of 2 for place value and two symbols 0, 1, for the numbers less than 2. I will use a subscript to indicate the different base:  $11011_2$ means the base 2 numeral 11011:  If we expand the powers
+(included in previous video) Binary (base 2) uses powers of 2 for place value and two symbols 0, 1, for the numbers less than 2. I will use a subscript to indicate the different base:  <span class="inlinecode">$11011_2$</span> means the base 2 numeral 11011:  If we expand the powers
 explicitly from the right, in normal arithmetic, this means:<br>
+
+<div>
 1*2<sup>4</sup>
 + 1*2<sup>3</sup> + 0*2<sup>2</sup> + 1*2<sup>1</sup>
 + 1*2<sup>0</sup><br>
@@ -452,6 +454,7 @@ explicitly from the right, in normal arithmetic, this means:<br>
 16 + 8 + 2 + 1 = 27<sub>10</sub>. <br>
 The base 10 numeral 27
 refers to the same number as the base 2 numeral 11011.<br>
+</div>
 <br>
 For
 base 2, where the only coefficients are 0 and 1, a shorthand for
