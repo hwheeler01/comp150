@@ -4,14 +4,10 @@ title: Class Notes
 permalink: /classnotes/
 ---
 
-
-<!-- saved from url=(0059)http://webpages.cs.luc.edu/~cnaiman/COMP150/ClassNotes.html -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-
 ##Class Notes
-Based on class notes (with permission) of Dr. Andrew N. Harrington<br>
-</h1>
+
+Based on class notes (with permission) of Dr. Andrew N. Harrington.<br>
+
 <span style="font-style: italic;"></span> 
 <p>These notes are basically for everything except the <a href="http://anh.cs.luc.edu/python/hands-on/3.1">Hands-on
 Python Tutorial</a>. 
@@ -365,6 +361,7 @@ need to get used to your tools.<br>
 <h2><a class="mozTocH2" name="AfterPython"></a>After
 Python and Underneath It (vid)
 </h2>
+
 <p>We have seen how we can tell the computer what to do with the
 fairly
 simple syntax of Python.  The course started there because it
@@ -453,7 +450,7 @@ The base 10 numeral <span class="inlinecode">$27$</span> refers to the same numb
 
 For base 2, where the only coefficients are 0 and 1, a shorthand for converting small base 2 numerals to decimal is to think of the sequence of the possible powers of 2, and then just add in the values where there is a 1 in the base 2 numeral:
 
-<div>
+
 <table border="0" cellpadding="1" cellspacing="1">
 <tbody>
 <tr>
@@ -539,12 +536,10 @@ coefficient 1)</p>
 </tr>
 </tbody>
 </table>
-</div>
 
 Looking ahead, download <a target="_blank" href="http://hwheeler01.github.io/comp150/pipFiles.zip">pipFiles.zip</a>, and unzip it on your computer or on your flash drive.  The `pipFiles` directory also contains an Idle shortcut and a module for
 studying bases, `bases.py`.  To follow along for now, open Idle in this directory.<br>
-</p>
-<p>
+
 Binary to decimal conversion is done directly by Python. Try the following in the Python Shell, stopping without a close parenthesis, and look at the popup window in the Python shell, pointing out possible parameters:<br>
 `int('11011'`<br>
 note the second optional parameter, the base.  Finish as<br>
@@ -556,6 +551,7 @@ This web <a href="http://courses.cs.vt.edu/~cs1104/number_conversion/convtop.htm
 <h3><a class="mozTocH3" name="decToBin"></a>Converting
 decimal to binary numerals (vid)</h3>
 <h3> </h3>
+
 Now we go in the other direction:  finding the binary place values from a given integer number:<br>
 Suppose we have an unknown int, i, which can be represented as a 4 digit decimal. How could we recover the digits by doing simple arithmetic?  (On a computer, there is something to do here, since the number is actually stored in a binary form.)  A small amount of algebra can show us the general approach:  For the algebra we name the 4 digits, say p, q, r, s, then we have<br>
 i = p*10<sup>3</sup>
@@ -588,7 +584,6 @@ This can turn into a general
 algorithm in Python:</p>
 
 
-`HEATHER`
 
 ```python
 def decimal(i):
