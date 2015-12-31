@@ -447,17 +447,18 @@ binary to decimal numerals<br>
 
 <div>
 $$1*2^4+1*2^3+0*2^2+1*2^1+1*2^0$$
-$$=16+8+2+1=27_10$$
-16 + 8 + 2 + 1 = 27<sub>10</sub>. <br>
+$$=16+8+2+1=27_{10}$$
 The base 10 numeral <span class="inlinecode">$27$</span> refers to the same number as the base 2 numeral <span class="inlinecode">$11011$</span>.<br>
 </div>
 
-<br>
-For
-base 2, where the only coefficients are 0 and 1, a shorthand for
-converting small base 2 numerals to decimal is to think of the
-sequence of the possible powers of 2, and then just add in the values
-where there is a 1 in the base 2 numeral:</p>
+For base 2, where the only coefficients are 0 and 1, a shorthand for converting small base 2 numerals to decimal is to think of the sequence of the possible powers of 2, and then just add in the values where there is a 1 in the base 2 numeral:
+
+|<span class="inlinecode">$2^4$</span>|<span class="inlinecode">$2^4$</span>|<span class="inlinecode">$2^4$</span>|<span class="inlinecode">$2^4$</span>|<span class="inlinecode">$2^4$</span>|power notation|
+|---:|---:|---:|---:|---:|:---|
+|16|8|4|2|1|decimal values of powers|
+|1|1|0|1|1|a sample base 2 numeral|
+|16|+ 8||+ 2|+ 1|<span class="inlinecode">$=27_{10}$</span> sum of powers with coefficent 1
+
 <table border="0" cellpadding="2" cellspacing="2">
 <tbody>
 <tr>
