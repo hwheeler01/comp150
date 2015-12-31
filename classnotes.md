@@ -553,12 +553,15 @@ decimal to binary numerals (vid)</h3>
 <h3> </h3>
 
 Now we go in the other direction:  finding the binary place values from a given integer number:<br>
-Suppose we have an unknown int, i, which can be represented as a 4 digit decimal. How could we recover the digits by doing simple arithmetic?  (On a computer, there is something to do here, since the number is actually stored in a binary form.)  A small amount of algebra can show us the general approach:  For the algebra we name the 4 digits, say p, q, r, s, then we have<br>
-i = p*10<sup>3</sup>
-+ q*10<sup>2</sup> + r*10<sup>1</sup> + s<br>
-Note all but the last
-term are divisible by 10, so<br>
-s = i % 10<br>
+Suppose we have an unknown int, i, which can be represented as a 4 digit decimal. How could we recover the digits by doing simple arithmetic?  (On a computer, there is something to do here, since the number is actually stored in a binary form.)  A small amount of algebra can show us the general approach:  For the algebra we name the 4 digits, say p, q, r, s, then we have:
+
+<div>
+$$i=p*10^3+q*10^2+r*10^1+s$$
+</div>
+Note all but the last term are divisible by 10, so<br>
+<div>
+$$s = i % 10$$
+</div>
 We have s, so we
 can remove it from our power sequence with integer division by 10.
 Change i so<br>
@@ -580,10 +583,8 @@ illustrate the general algorithm we can go through one more step:
 i = i//10 = 0 - - getting  a 0
 result means we are done.<br>
 <br>
-This can turn into a general
-algorithm in Python:
-
-
+<p>This can turn into a general
+algorithm in Python:</p>
 
 ```python
 def decimal(i):
