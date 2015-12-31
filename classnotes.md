@@ -460,12 +460,12 @@ $$  1   1   0   1   1$$ a sample base 2 numeral
 $$ 16 + 8     + 2 + 1 = 27_{10}$$ sum of products (or sum powers with coefficient 1)
 </div>
 
-
+<div>
 <table border="0" cellpadding="2" cellspacing="2">
 <tbody>
 <tr>
 <td>
-<p><font face="monospace">2<sup>4</sup></font></p>
+<p><span class="inlinecode">$2^4$</span></p>
 </td>
 <td>
 <p><font face="monospace">2<sup>3</sup></font></p>
@@ -546,6 +546,8 @@ coefficient 1)</p>
 </tr>
 </tbody>
 </table>
+</div>
+
 <p>Looking ahead, download <a target="_blank" href="http://hwheeler01.github.io/comp150/pipFiles.zip">pipFiles.zip</a>,
 and unzip it on your computer or on your flash drive.  The
 pipFiles directory also contains an Idle shortcut and a module for
