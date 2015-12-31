@@ -581,7 +581,7 @@ i = i//10 = 0 - - getting  a 0
 result means we are done.<br>
 <br>
 This can turn into a general
-algorithm in Python:</p>
+algorithm in Python:
 
 
 
