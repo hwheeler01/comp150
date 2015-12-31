@@ -4,6 +4,21 @@ title: Course Materials
 permalink: /resources/
 ---
 
+```python
+def decimal(i):
+  """return a string of decimal digits representing 
+  the nonnegative integer i."""
+  if i == 0:
+    return "0"
+  numeral = ""
+  while i != 0:
+    digit = i % 10
+    numeral = str(digit) + numeral # add next digit on the LEFT
+    i = i//10
+  return numeral
+```
+
+
 There is no specific text for this course. Rather, we will be using
 resource materials available online:
 
