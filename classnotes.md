@@ -454,7 +454,7 @@ The base 10 numeral <span class="inlinecode">$27$</span> refers to the same numb
 For base 2, where the only coefficients are 0 and 1, a shorthand for converting small base 2 numerals to decimal is to think of the sequence of the possible powers of 2, and then just add in the values where there is a 1 in the base 2 numeral:
 
 <div>
-<table border="0" cellpadding="1" cellspacing="2">
+<table border="0" cellpadding="1" cellspacing="1">
 <tbody>
 <tr>
 <td>
@@ -541,46 +541,23 @@ coefficient 1)</p>
 </table>
 </div>
 
-<p>Looking ahead, download <a target="_blank" href="http://hwheeler01.github.io/comp150/pipFiles.zip">pipFiles.zip</a>,
-and unzip it on your computer or on your flash drive.  The
-pipFiles directory also contains an Idle shortcut and a module for
-studying bases, bases.py.  To follow along for now, open Idle
-in
-this directory.<br>
+Looking ahead, download <a target="_blank" href="http://hwheeler01.github.io/comp150/pipFiles.zip">pipFiles.zip</a>, and unzip it on your computer or on your flash drive.  The `pipFiles` directory also contains an Idle shortcut and a module for
+studying bases, `bases.py`.  To follow along for now, open Idle in this directory.<br>
 </p>
 <p>
-Binary to decimal conversion is done directly by Python.
- Try the following in the Python Shell, stopping without a
-close
-parenthesis, and look at the popup window in the Python shell,
-pointing out possible parameters:<br>
-int('11011'<br>
-note the second
-optional parameter, the base.  Finish as<br>
-int('11011', 2)<br>
-see
-the correct answer.<br>
+Binary to decimal conversion is done directly by Python. Try the following in the Python Shell, stopping without a close parenthesis, and look at the popup window in the Python shell, pointing out possible parameters:<br>
+`int('11011'`<br>
+note the second optional parameter, the base.  Finish as<br>
+`int('11011', 2)`<br>
+and see the correct answer.<br>
 <br>
-The
-applet<br>
-<a href="http://courses.cs.vt.edu/~cs1104/number_conversion/convtop.html">http://courses.cs.vt.edu/~cs1104/number_conversion/convtop.html</a><br>
-illustrates
-place values in all bases from 2 - 16.</p>
+This web <a href="http://courses.cs.vt.edu/~cs1104/number_conversion/convtop.html">applet</a> illustrates place values in all bases from 2 - 16.
+
 <h3><a class="mozTocH3" name="decToBin"></a>Converting
 decimal to binary numerals (vid)</h3>
 <h3> </h3>
-<p>Now we go in the other direction:  finding the binary
-place
-values from a given integer number:<br>
-Suppose we have an unknown
-int, i, which can be represented as a 4 digit decimal.
- How
-could we recover the digits by doing simple arithmetic?  (On a
-computer, there is something to do here, since the number is actually
-stored in a binary form.)  A small amount of algebra can show
-us
-the general approach:  For the algebra we name the 4
-digits, say p, q, r, s, then we have<br>
+Now we go in the other direction:  finding the binary place values from a given integer number:<br>
+Suppose we have an unknown int, i, which can be represented as a 4 digit decimal. How could we recover the digits by doing simple arithmetic?  (On a computer, there is something to do here, since the number is actually stored in a binary form.)  A small amount of algebra can show us the general approach:  For the algebra we name the 4 digits, say p, q, r, s, then we have<br>
 i = p*10<sup>3</sup>
 + q*10<sup>2</sup> + r*10<sup>1</sup> + s<br>
 Note all but the last
@@ -609,7 +586,22 @@ result means we are done.<br>
 <br>
 This can turn into a general
 algorithm in Python:</p>
-<pre>def decimal(i):<br> """return a string of decimal digits representing <br> the nonnegative integer i."""<br> if i == 0:<br> return "0"<br> numeral = ""<br> while i != 0:<br> digit = i % 10<br> numeral = str(digit) + numeral # add next digit on the LEFT<br> i = i//10<br> return numeral</pre>
+
+```python
+def decimal(i):
+  """return a string of decimal digits representing 
+  the nonnegative integer i."""
+  if i == 0:
+    return "0"
+  numeral = ""
+  while i != 0:
+    digit = i % 10
+    numeral = str(digit) + numeral # add next digit on the LEFT
+    i = i//10
+  return numeral
+```
+
+def decimal(i):<br> """return a string of decimal digits representing <br> the nonnegative integer i."""<br> if i == 0:<br> return "0"<br> numeral = ""<br> while i != 0:<br> digit = i % 10<br> numeral = str(digit) + numeral # add next digit on the LEFT<br> i = i//10<br> return numeral</pre>
 <p>Decimal to binary conversion:  same idea as for
 digits of
 unknown number, but generate base is 2, not 10:</p>
