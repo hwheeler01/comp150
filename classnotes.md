@@ -425,10 +425,9 @@ circuits and machine language instructions.
 <h2><a name="Binary"></a>Binary Arithmetic  (vid)</h2>
 
 Computers depend on arithmetic and numerical codes, and the simplest way to do arithmetic in an electronic computer is with base 2, the binary number system.  First review our usual decimal system, in powers of 10:
-
+<div>
 $$3072=3*10^3+0*10^2+7*10^1+2*10^0$$
-
-\\R^2\\
+<\div>
 
 This is easiest to write out from right to left, so you start counting powers from 0 (recall anything to the 0 power is 1).  
 
