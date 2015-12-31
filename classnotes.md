@@ -9,12 +9,8 @@ permalink: /classnotes/
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 
-<title>Class Notes</title></head><body>
-<h1>Introduction
-to
-Computing<br>
-Comp 150 Notes<br>
-based on class notes (with permission) of Dr. Andrew N. Harrington<br>
+##Class Notes
+Based on class notes (with permission) of Dr. Andrew N. Harrington<br>
 </h1>
 <span style="font-style: italic;"></span> 
 <p>These notes are basically for everything except the <a href="http://anh.cs.luc.edu/python/hands-on/3.1">Hands-on
@@ -22,17 +18,13 @@ Python Tutorial</a>.&nbsp;
 That is a free-standing unit that we take up after the <a href="http://hwheeler01.github.io/comp150/classnotes/#Class1">Course
 Introduction</a>.&nbsp; <br>
 </p>
-<p>Videos for most of the sections below are in the beyondPython
+<p>Videos for most of the sections below are in the `beyondPython`
 folder
-in GoogleDocs, discussed in the <a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/COMP150syllFA15.html">syllabus</a>.<br>
+in GoogleDocs, discussed in the <a href="http://hwheeler01.github.io/comp150/resources/">Resources</a>.<br>
 </p>
 <p>Sections that correspond to the start of a video have (vid)
 at the end of the title.</p>
-<p>Older versions of the videos for the notes below are at iTunes
-U
-(iTunes
-installation required)</p>
-<p><a href="http://deimos.apple.com/WebObjects/Core.woa/Browse/luc.edu.7849578084.07849578086" target="_blank" style="color: rgb(0, 0, 204);">http://deimos.apple.com/<wbr>WebObjects/Core.woa/Browse/<wbr>luc.edu.7849578084.07849578086</a></p>
+
 <p>
 </p>
 <h2>Table of Contents</h2>
@@ -135,8 +127,7 @@ Fabrication</a> (vid)</li>
 <li><a href="http://hwheeler01.github.io/comp150/classnotes/#Conclusion">Conclusion</a></li>
 </ol>
 <h2><a class="mozTocH2" name="Class1"></a>Course
-Introduction</h2>
-<h3><br>
+Introduction --REWRITE</h2>
 </h3><h3>Computer Science <a name="Areas"></a>Areas<br>
 </h3>
 <p>Computer Science centers on <i>algorithms</i>:
@@ -144,7 +135,7 @@ Introduction</h2>
 a
 particular task in a finite amount of time. <br>
 </p>
-<p><a href="http://cs.gmu.edu/cne/pjd/GP/gp_overview.html">Peter
+<p><a href="http://www.americanscientist.org/libraries/documents/20108101750328103-2010-09Denning-ComputingScience.pdf">Peter
 J.
 Denning</a> lists seven main categories in computing</p>
 <ul>
@@ -272,7 +263,7 @@ though the final project is
 open-ended, and others have done dynamic web projects, scientific data
 analysis, ....<br>
 <br>
-Right click on the following link and select Save As.<a target="_blank" href="http://webpages.cs.luc.edu/~cnaiman/COMP150/pastGames.zip"><br>
+Right click on the following link and select Save As.<a target="_blank" href="http://hwheeler01.github.io/comp150/pastGames.zip"><br>
 samples to download and unzip</a>
 <p>Further instructions (for Windows):</p>
 <ol>
