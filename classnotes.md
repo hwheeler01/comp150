@@ -453,7 +453,7 @@ decimal numerals<br>
 video) 
 Binary (base 2) uses powers of 2 for
 place value and two symbols 0, 1, for the numbers less than 2:<br>
-$$R^2$$ **TEST HERE**
+$$R^2$$ **TEST HERE** \\(R^2\\)
 I
 will use a subscript to indicate the different base:  11011<sub>2</sub>
 means the base 2 numeral 11011:  If we expand the powers
