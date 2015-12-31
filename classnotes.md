@@ -13,20 +13,20 @@ permalink: /classnotes/
 Based on class notes (with permission) of Dr. Andrew N. Harrington<br>
 </h1>
 <span style="font-style: italic;"></span> 
-<p>These notes are basically for everything except the <a href="http://anh.cs.luc.edu/python/hands-on/3.1">Hands-on
+These notes are basically for everything except the <a href="http://anh.cs.luc.edu/python/hands-on/3.1">Hands-on
 Python Tutorial</a>. 
 That is a free-standing unit that we take up after the <a href="http://hwheeler01.github.io/comp150/classnotes/#Class1">Course
 Introduction</a>.  <br>
-</p>
-<p>Videos for most of the sections below are in the `beyondPython`
+
+Videos for most of the sections below are in the `beyondPython`
 folder
 in GoogleDocs, discussed in the <a href="http://hwheeler01.github.io/comp150/resources/">Resources</a>.<br>
-</p>
-<p>Sections that correspond to the start of a video have (vid)
-at the end of the title.</p>
 
-<p>
-</p>
+Sections that correspond to the start of a video have (vid)
+at the end of the title.
+
+
+
 <h2>Table of Contents</h2>
 <ol>
 <li><a href="http://hwheeler01.github.io/comp150/classnotes/#Class1">Course
@@ -130,66 +130,66 @@ Fabrication</a> (vid)</li>
 Introduction --REWRITE</h2>
 </h3><h3>Computer Science <a name="Areas"></a>Areas<br>
 </h3>
-<p>Computer Science centers on <i>algorithms</i>:
+Computer Science centers on <i>algorithms</i>:
  unambiguous, step by step instructions for how to accomplish
 a
 particular task in a finite amount of time. <br>
-</p>
-<p><a href="http://www.americanscientist.org/libraries/documents/20108101750328103-2010-09Denning-ComputingScience.pdf">Peter
+
+<a href="http://www.americanscientist.org/libraries/documents/20108101750328103-2010-09Denning-ComputingScience.pdf">Peter
 J.
-Denning</a> lists seven main categories in computing</p>
+Denning</a> lists seven main categories in computing
 <ul>
 <li>
 <p style="margin-bottom: 0in;"><b>Computation</b>
 <span style="font-weight: normal;">(meaning and limits
-of computation)</span></p>
+of computation)</span>
 </li>
 <li>
 <p style="margin-bottom: 0in;"><b>Communication</b>
 <span style="font-weight: normal;">(reliable data
 transmission)</span><br>
-</p>
+
 </li>
 <li>
 <p style="margin-bottom: 0in;"><b>Coordination</b>
 <span style="font-weight: normal;">(cooperation among
-networked entities)</span> </p>
+networked entities)</span> 
 </li>
 <li>
 <p style="margin-bottom: 0in;"><b>Recollection</b>
 <span style="font-weight: normal;">(storage and
-retrieval of information)</span> </p>
+retrieval of information)</span> 
 </li>
 <li>
 <p style="margin-bottom: 0in;"><b>Automation</b>
 <span style="font-weight: normal;">(meaning and limits
-of automation)</span> </p>
+of automation)</span> 
 </li>
 <li>
 <p style="margin-bottom: 0in;"><b>Evaluation</b>
 <span style="font-weight: normal;">(performance
 prediction and capacity
-planning)</span> </p>
+planning)</span> 
 </li>
 <li>
-<p><b>Design</b> <span style="font-weight: normal;">(building
-reliable software systems)</span> </p>
+<b>Design</b> <span style="font-weight: normal;">(building
+reliable software systems)</span> 
 </li>
 </ul>
 <h3><a name="Introductory"></a>Introductory
 Approaches<br>
 </h3>
-<p> With all there many aspects, college
+ With all there many aspects, college
 introductions have
 handled things
-differently over time:</p>
+differently over time:
 <ol>
 <li>
 <p style="margin-bottom: 0in;">Historically students
 usually
 started with several heavy programming courses before anything else,
 giving
-little initial idea of all the other parts of computer science! </p>
+little initial idea of all the other parts of computer science! 
 </li>
 <li>
 <p style="margin-bottom: 0in;">Then there was a
@@ -201,10 +201,10 @@ in the past popular languages had a steep learning curve.
 of much programming in a real computer language, breadth-first
 courses have brought algorithms written in English to a
 central
-place. </p>
+place. 
 </li>
 <li>
-<p>That brings us to the present with this course.
+That brings us to the present with this course.
  Programming is important, and now there is an excellent
 recent
 language Python:  extremely simple to learn and
@@ -224,10 +224,10 @@ the high-level language Python, to machine language and
 assembler
 code, and to the hardware underneath.  We look beyond
 Python to
-application areas like graphics and web servers. </p>
+application areas like graphics and web servers. 
 </li>
 </ol>
-<p>In an introductory course we cannot cover a whole lot with any
+In an introductory course we cannot cover a whole lot with any
 depth, but we will deal at some level with all the areas:  We
 will
 think about what we can compute.  The last part of the section
@@ -235,13 +235,13 @@ using Python will involve communication and cooperation between web
 client and server.  We introduce a basic way to store
 information,
 in files.   We will design, write and evaluate programs to
-automate the solution of problems. </p>
-<p>For the programming in Python, we use custom tutorials written
+automate the solution of problems. 
+For the programming in Python, we use custom tutorials written
 by Dr. Harrington,  <a href="http://anh.cs.luc.edu/python/hands-on/3.1">Hands-on
 Python Tutorial</a>.  For the other areas, Dr. Harrington has written these
 online
-notes that you are reading.     </p>
-<p>We are not alone in choosing Python:  Much of the
+notes that you are reading.     
+We are not alone in choosing Python:  Much of the
 control of
 Google is by Python (about 1/3 of the code they write for their own
 applications, plus the Google App Engine providing free web sites to
@@ -252,7 +252,7 @@ Python.  Microsoft now has a Python, too, for its own
 .net
 platform.  Python is freely available for Windows, modern
 Macs,
-and Linux.</p>
+and Linux.
 <h3><a name="Past"></a>Past Final Projects
 (vid)</h3>
 Here are a couple of final Python projects from students from a past
@@ -265,7 +265,7 @@ analysis, etc.<br>
 <br>
 Right click on the following link and select Save As.<a target="_blank" href="http://hwheeler01.github.io/comp150/pastGames.zip"><br>
 samples to download and unzip</a>
-<p>Further instructions (for Windows):</p>
+Further instructions (for Windows):
 <ol>
 <li>Save the file. In a Loyola Windows
 lab use d:\Userdata</li>
@@ -283,28 +283,28 @@ new directory pops up, double click on Python program <span style="font-weight: 
 Python Tutorial<br>
 </h3>
 
-<p>Python topics are covered in the <a href="http://anh.cs.luc.edu/python/hands-on/3.1">Hands-on
+Python topics are covered in the <a href="http://anh.cs.luc.edu/python/hands-on/3.1">Hands-on
 Python Tutorial</a>.  Homework exercise links and topic
 timing are
 in the <a href="http://hwheeler01.github.io/comp150/syllabus/#schedule">Course Schedule</a>. <br>
-</p>
-<p>While the tutorial introduces all the topics, there is more to
+
+While the tutorial introduces all the topics, there is more to
 say
 about using it effectively.  There is way too much detail to
 just
 obsorb all at once,  So what are the first things to
 learn?  <br>
-</p>
-<p>More imprtant than memorizing details is having an idea of the
+
+More imprtant than memorizing details is having an idea of the
 building blocks available and how they are useful.  For
 the most direct exercises, you might  just look back over the
 most
 recent section looking for related things, but that will not work when
 you have scores of sections that might have useful parts!  The
 basic idea of the building blocks should be in your <span style="font-style: italic;">head</span>. For instance,
-after going in the Tutorial through 1.10.4, you will want to remember:</p>
-<p>
-</p>
+after going in the Tutorial through 1.10.4, you will want to remember:
+
+
 <ul>
 <li>You can use numbers and do arithmetic.</li>
 <li>You can store and retrieve data using variable names and
@@ -359,13 +359,13 @@ solutions effectively!<br>
 <br>
 The tutorial also talks about the tool, IDLE.  Of course you
 need to get used to your tools.<br>
-<p>
-</p>
+
+
 
 <h2><a class="mozTocH2" name="AfterPython"></a>After
 Python and Underneath It (vid)
 </h2>
-<p>We have seen how we can tell the computer what to do with the
+We have seen how we can tell the computer what to do with the
 fairly
 simple syntax of Python.  The course started there because it
 was
@@ -380,7 +380,7 @@ computer
 hardware and software.  We are going to take an introductory
 exploration down into the hardware and logic of computers. 
 Here
-is an outline of that path:</p>
+is an outline of that path:
 <span style="font-weight: bold;">Binary arithmetic</span>: 
 We
 will see that everything in a computer gets encoded as a
@@ -396,7 +396,7 @@ we will need to understand
 the <span style="font-style: italic;">binary</span>
 system, also
 called <span style="font-style: italic;">base 2</span>.
-<p><span style="font-weight: bold;">Machine Language
+<span style="font-weight: bold;">Machine Language
 and Assembler</span>: 
 Next we work with the instructions that are part of the computer's
 hardware.  To be feasible in hardware, the instructions need
@@ -409,8 +409,8 @@ We see how higher
 level ideas we express in languages like Python can be translated into
 and implemented with a very limited group of simple
 instructions. 
-The Python interpreter does this conversion for Python programs.</p>
-<p><span style="font-weight: bold;">Boolean Logic
+The Python interpreter does this conversion for Python programs.
+<span style="font-weight: bold;">Boolean Logic
 and Circuits</span>: 
 Once we have an idea of how simple instructions can be combined to
 implement high level programs, the final stage is to look at how
@@ -420,7 +420,7 @@ built up logical expressons with <span style="font-weight: bold;">and</span>,
 will look much more
 systematically at logical expressions, and see how they relate to
 circuits and machine language instructions. 
-</p>
+
 
 <h2><a name="Binary"></a>Binary Arithmetic  (vid)</h2>
 
@@ -453,98 +453,97 @@ The base 10 numeral <span class="inlinecode">$27$</span> refers to the same numb
 
 For base 2, where the only coefficients are 0 and 1, a shorthand for converting small base 2 numerals to decimal is to think of the sequence of the possible powers of 2, and then just add in the values where there is a 1 in the base 2 numeral:
 
-<div>
 <table border="0" cellpadding="1" cellspacing="1">
 <tbody>
 <tr>
 <td>
-<p><span class="inlinecode">$2^4$</span></p>
+<span class="inlinecode">$2^4$</span>
 </td>
 <td>
-<p><span class="inlinecode">$2^3$</span></p>
+<span class="inlinecode">$2^3$</span>
 </td>
 <td>
-<p><span class="inlinecode">$2^2$</span></p>
+<span class="inlinecode">$2^2$</span>
 </td>
 <td>
-<p><span class="inlinecode">$2^1$</span></p>
+<span class="inlinecode">$2^1$</span>
 </td>
 <td>
-<p><span class="inlinecode">$2^0$</span></p>
+<span class="inlinecode">$2^0$</span>
 </td>
 <td>
-<p>power notation</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>16</p>
-</td>
-<td>
-<p>8</p>
-</td>
-<td>
-<p>4</p>
-</td>
-<td>
-<p>2</p>
-</td>
-<td>
-<p>1</p>
-</td>
-<td>
-<p>decimal values of powers</p>
+power notation
 </td>
 </tr>
 <tr>
 <td>
-<p>1</p>
+16
 </td>
 <td>
-<p>1</p>
+8
 </td>
 <td>
-<p>0</p>
+4
 </td>
 <td>
-<p>1</p>
+2
 </td>
 <td>
-<p>1</p>
+1
 </td>
 <td>
-<p>A sample base 2 numeral</p>
+decimal values of powers
 </td>
 </tr>
 <tr>
 <td>
-<p>16</p>
+1
 </td>
 <td>
-<p>+8</p>
+1
+</td>
+<td>
+0
+</td>
+<td>
+1
+</td>
+<td>
+1
+</td>
+<td>
+A sample base 2 numeral
+</td>
+</tr>
+<tr>
+<td>
+16
+</td>
+<td>
++8
 </td>
 <td><br>
 </td>
 <td>
-<p>+2</p>
++2
 </td>
 <td>
-<p>+1</p>
++1
 </td>
 <td>
-<p>= <span class="inlinecode">$27_{10}$</span> sum of products
+= <span class="inlinecode">$27_{10}$</span> sum of products
 (or sum powers with
-coefficient 1)</p>
+coefficient 1)
 </td>
 </tr>
 </tbody>
 </table>
-</div>
+
 
 Looking ahead, download <a target="_blank" href="http://hwheeler01.github.io/comp150/pipFiles.zip">pipFiles.zip</a>, and unzip it on your computer or on your flash drive.  The `pipFiles` directory also contains an Idle shortcut and a module for
 studying bases, `bases.py`.  To follow along for now, open Idle in this directory.<br>
-</p>
-<p>
+
+
 Binary to decimal conversion is done directly by Python. Try the following in the Python Shell, stopping without a close parenthesis, and look at the popup window in the Python shell, pointing out possible parameters:<br>
 `int('11011'`<br>
 note the second optional parameter, the base.  Finish as<br>
@@ -585,12 +584,13 @@ i = i//10 = 0 - - getting  a 0
 result means we are done.<br>
 <br>
 This can turn into a general
-algorithm in Python:</p>
+algorithm in Python:
+
 
 ```python
+
 def decimal(i):
-  """return a string of decimal digits representing 
-  the nonnegative integer i."""
+  #return a string of decimal digits representing the nonnegative integer i.
   if i == 0:
     return "0"
   numeral = ""
@@ -601,10 +601,17 @@ def decimal(i):
   return numeral
 ```
 
+```python
+
+s = "Python syntax highlighting"
+print s
+```
+
 def decimal(i):<br> """return a string of decimal digits representing <br> the nonnegative integer i."""<br> if i == 0:<br> return "0"<br> numeral = ""<br> while i != 0:<br> digit = i % 10<br> numeral = str(digit) + numeral # add next digit on the LEFT<br> i = i//10<br> return numeral</pre>
-<p>Decimal to binary conversion:  same idea as for
+
+Decimal to binary conversion:  same idea as for
 digits of
-unknown number, but generate base is 2, not 10:</p>
+unknown number, but generate base is 2, not 10:
 <pre>def toBinary(i):<br> """return a string of binary bits representing <br> the nonnegative integer i."""<br> if i == 0:<br> return "0"<br> numeral = ""<br> while i != 0:<br> digit = i % 2<br> numeral = str(digit) + numeral # add next digit on the LEFT<br> i = i//2<br> return numeral</pre>
 <p style="margin-bottom: 0in;">For illustration, this can
 also be done
@@ -621,7 +628,7 @@ relationship between base 2 and base 16 = <font face="monospace">2</font><sup><f
 so
 it is used in many places to communicate binary information
 compactly.  <br>
-</p>
+
 <h3><a name="Hexadecimal"></a>Hexadecimal
 (Base 16) (vid)</h3>
 <h3>
@@ -637,250 +644,250 @@ with letters, so decimal 10 corresponds to hexadecimal A, 11-&gt;B,
 following table for
 0-15 decimal has columns for  hexadecimal and also
 binary. 
-We will find the binary useful shortly:</p>
+We will find the binary useful shortly:
 <table cellpadding="2" cellspacing="2">
 <tbody>
 <tr>
 <td>
-<p>Dec</p>
+Dec
 </td>
 <td>
-<p>Hex</p>
+Hex
 </td>
 <td>
-<p>Bin</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>0</p>
-</td>
-<td>
-<p>0</p>
-</td>
-<td>
-<p>0000</p>
+Bin
 </td>
 </tr>
 <tr>
 <td>
-<p>1</p>
+0
 </td>
 <td>
-<p>1</p>
+0
 </td>
 <td>
-<p>0001</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>2</p>
-</td>
-<td>
-<p>2</p>
-</td>
-<td>
-<p>0010</p>
+0000
 </td>
 </tr>
 <tr>
 <td>
-<p>3</p>
+1
 </td>
 <td>
-<p>3</p>
+1
 </td>
 <td>
-<p>0011</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>4</p>
-</td>
-<td>
-<p>4</p>
-</td>
-<td>
-<p>0100</p>
+0001
 </td>
 </tr>
 <tr>
 <td>
-<p>5</p>
+2
 </td>
 <td>
-<p>5</p>
+2
 </td>
 <td>
-<p>0101</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>6</p>
-</td>
-<td>
-<p>6</p>
-</td>
-<td>
-<p>0110</p>
+0010
 </td>
 </tr>
 <tr>
 <td>
-<p>7</p>
+3
 </td>
 <td>
-<p>7</p>
+3
 </td>
 <td>
-<p>0111</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>8</p>
-</td>
-<td>
-<p>8</p>
-</td>
-<td>
-<p>1000</p>
+0011
 </td>
 </tr>
 <tr>
 <td>
-<p>9</p>
+4
 </td>
 <td>
-<p>9</p>
+4
 </td>
 <td>
-<p>1001</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>10</p>
-</td>
-<td>
-<p>A</p>
-</td>
-<td>
-<p>1010</p>
+0100
 </td>
 </tr>
 <tr>
 <td>
-<p>11</p>
+5
 </td>
 <td>
-<p>B</p>
+5
 </td>
 <td>
-<p>1011</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>12</p>
-</td>
-<td>
-<p>C</p>
-</td>
-<td>
-<p>1100</p>
+0101
 </td>
 </tr>
 <tr>
 <td>
-<p>13</p>
+6
 </td>
 <td>
-<p>D</p>
+6
 </td>
 <td>
-<p>1101</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>14</p>
-</td>
-<td>
-<p>E</p>
-</td>
-<td>
-<p>1110</p>
+0110
 </td>
 </tr>
 <tr>
 <td>
-<p>15</p>
+7
 </td>
 <td>
-<p>F</p>
+7
 </td>
 <td>
-<p>1111</p>
+0111
+</td>
+</tr>
+<tr>
+<td>
+8
+</td>
+<td>
+8
+</td>
+<td>
+1000
+</td>
+</tr>
+<tr>
+<td>
+9
+</td>
+<td>
+9
+</td>
+<td>
+1001
+</td>
+</tr>
+<tr>
+<td>
+10
+</td>
+<td>
+A
+</td>
+<td>
+1010
+</td>
+</tr>
+<tr>
+<td>
+11
+</td>
+<td>
+B
+</td>
+<td>
+1011
+</td>
+</tr>
+<tr>
+<td>
+12
+</td>
+<td>
+C
+</td>
+<td>
+1100
+</td>
+</tr>
+<tr>
+<td>
+13
+</td>
+<td>
+D
+</td>
+<td>
+1101
+</td>
+</tr>
+<tr>
+<td>
+14
+</td>
+<td>
+E
+</td>
+<td>
+1110
+</td>
+</tr>
+<tr>
+<td>
+15
+</td>
+<td>
+F
+</td>
+<td>
+1111
 </td>
 </tr>
 </tbody>
 </table>
-<p>The base 16 numeral 2A8C  can be expressed as a sum
+The base 16 numeral 2A8C  can be expressed as a sum
 of terms for different powers of 16.  To express this in terms
 of normal base 10 numerals,  you have to also convert
 individual digits.  In particular hexadecimal A means
 decimal 10 and hexadecimal C means decimal 12. The full expansion,
-with powers increasing from the right, is </p>
+with powers increasing from the right, is 
 <table cellpadding="2" cellspacing="2">
 <tbody>
 <tr>
 <td>
-<p>    2</p>
+    2
 </td>
 <td>
-<p>    A</p>
+    A
 </td>
 <td>
-<p>    8</p>
+    8
 </td>
 <td>
-<p>    C</p>
+    C
 </td>
 <td>  2A8C<br>
 </td>
 </tr>
 <tr>
 <td>
-<p>2*16<sup>3</sup></p>
+2*16<sup>3</sup>
 </td>
 <td>
-<p>+ 10*16<sup>2</sup></p>
++ 10*16<sup>2</sup>
 </td>
 <td>
-<p>+ 8*16<sup>1</sup></p>
++ 8*16<sup>1</sup>
 </td>
 <td>
-<p>+ 12*16<sup>0</sup></p>
++ 12*16<sup>0</sup>
 </td>
 <td>
-<p>= 10892</p>
+= 10892
 </td>
 </tr>
 </tbody>
 </table>
-<p>so using the explicit base subscripts, 2A8C<sub>16</sub>
+so using the explicit base subscripts, 2A8C<sub>16</sub>
 =
 10892<sub>10</sub>.<br>
 <br>
 In Python the conversion of a number
 0 through 15 to a hexadecimal digit character can be expressed many
-ways.  One clear approach is:</p>
+ways.  One clear approach is:
 <pre>def digitChar(n):<br> '''return single character for digits with decimal value 0 through 15'''<br> if n &lt; 10:<br> return str(n)<br> if n == 10:<br> return 'A'<br> if n == 11:<br> return 'B'<br> if n == 12:<br> return 'C'<br> if n == 13:<br> return 'D'<br> if n == 14:<br> return 'E'<br> if n == 15:<br>   return 'F'</pre>
-<p>Notice that the <font face="monospace">digitChar</font>
+Notice that the <font face="monospace">digitChar</font>
 function
 trivially produces the right digit for any number 0, 1, 2, ...
 9.  <br>
@@ -889,9 +896,9 @@ The conversion above from decimal  to base 2
 and 10 using division and remainders are very similar, except for
 division by the right base.  We can make a more general
 function
-that will work with any base 2 through 16:</p>
+that will work with any base 2 through 16:
 <pre>def intToBase(i, base):<br> """Return a string representing the nonnegative integer i<br> in the specified base, from 2 to 16."""<br> i = int(i) # if i is a string, convert to int<br> if i == 0:<br> return '0'<br> numeral = ""<br> while i != 0:<br> digit = i % base<br> numeral = digitChar(digit) + numeral # add next digit on LEFT<br> i = i//base<br> return numeral</pre>
-<p>There is one further change in intToBase to accommodate bases
+There is one further change in intToBase to accommodate bases
 from
 11
 through 16:  Instead of creating a digit character with just
@@ -906,8 +913,8 @@ earlier.  It sits in the examples directory for the course
 (not in
 the Python tutorial
 examples).  <br>
-</p>
-<p>Understanding hexadecimal allows interpretation of colors in
+
+Understanding hexadecimal allows interpretation of colors in
 web
 pages or in Python graphics.  The Python graphics module has
 the
@@ -917,255 +924,255 @@ range can be described by a two place hexadecimal
 numeral. 
 Look at  what the color_rgb  function actually
 produces in
-the Python Shell:</p>
-<p> <span style="font-family: monospace;">&gt;&gt;&gt;
+the Python Shell:
+ <span style="font-family: monospace;">&gt;&gt;&gt;
 from graphics
 import color_rgb</span><br style="font-family: monospace;">
 <span style="font-family: monospace;">&gt;&gt;&gt;
 color_rgb(255, 35, 0)</span><br style="font-family: monospace;">
 <span style="font-family: monospace;"></span><span style="font-family: monospace;">'#ff2300'</span><br style="font-family: monospace;">
-</p>
-<p>After the marker '#' that indicates the color is not a
+
+After the marker '#' that indicates the color is not a
 predefined
 color name, you see the hexadecimal for each color component, ff, 23,
 and 00. The same system of '#' followed by six hexadecimal
 characters is used in html source attributes, so you can see and
 manipulate custom colors in html, too. <br>
-</p>
-<p>
+
+
 Now back to the
 easy conversions between binary and hexadecimal, mentioned earlier.
- </p>
+ 
 <h4><a class="mozTocH4" name="binToHex"></a>Converting
 Binary to
 Hexadecimal</h4>
-<p>The basic idea is to convert each 4 bits of a binary numeral
+The basic idea is to convert each 4 bits of a binary numeral
 to a
 single hexadecimal character. In detail:<br>
 Group the binary digits
 in 4's, starting from the <i><b>right</b></i>. 
-Example:</p>
+Example:
 <table cellpadding="2" cellspacing="2">
 <tbody>
 <tr>
 <td colspan="2">
-<p align="center">10111100</p>
+<p align="center">10111100
 </td>
 <td>
-<p>start</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>1011</p>
-</td>
-<td>
-<p>1100</p>
-</td>
-<td>
-<p>split into groups of 4 bits, starting from the <i><b>right</b></i></p>
+start
 </td>
 </tr>
 <tr>
 <td>
-<p>8+2+1</p>
+1011
 </td>
 <td>
-<p>8+4</p>
+1100
 </td>
 <td>
-<p>convert: add powers where there is a 1 bit</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>11</p>
-</td>
-<td>
-<p align="center">12</p>
-</td>
-<td>
-<p>decimal results</p>
+split into groups of 4 bits, starting from the <i><b>right</b></i>
 </td>
 </tr>
 <tr>
 <td>
-<p>B</p>
+8+2+1
 </td>
 <td>
-<p align="center">C</p>
+8+4
 </td>
 <td>
-<p>convert to hexadecimal digits</p>
+convert: add powers where there is a 1 bit
+</td>
+</tr>
+<tr>
+<td>
+11
+</td>
+<td>
+<p align="center">12
+</td>
+<td>
+decimal results
+</td>
+</tr>
+<tr>
+<td>
+B
+</td>
+<td>
+<p align="center">C
+</td>
+<td>
+convert to hexadecimal digits
 </td>
 </tr>
 <tr>
 <td colspan="2">
-<p align="center">BC</p>
+<p align="center">BC
 </td>
 <td>
-<p>final hexadecimal answer</p>
+final hexadecimal answer
 </td>
 </tr>
 </tbody>
 </table>
-<p><br>
-A bigger example:</p>
+<br>
+A bigger example:
 <table cellpadding="2" cellspacing="2">
 <tbody>
 <tr>
 <td colspan="3">
-<p align="center">1011110011</p>
+<p align="center">1011110011
 </td>
 <td>
-<p>= <i><u><b>00</b></u></i>1001110011
-but <i>NOT</i> 1001110011<i><u><b>00</b></u></i></p>
-</td>
-</tr>
-<tr>
-<td>
-<p>10</p>
-</td>
-<td>
-<p align="center">1111</p>
-</td>
-<td>
-<p>0011</p>
-</td>
-<td>
-<p>split into groups of 4 bits, starting from the <i><b>right</b></i></p>
+= <i><u><b>00</b></u></i>1001110011
+but <i>NOT</i> 1001110011<i><u><b>00</b></u></i>
 </td>
 </tr>
 <tr>
 <td>
-<p>2</p>
+10
 </td>
 <td>
-<p>8+4+2+1</p>
+<p align="center">1111
 </td>
 <td>
-<p>2+1</p>
+0011
 </td>
 <td>
-<p>convert groups of bits from binary</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>2</p>
-</td>
-<td>
-<p align="center">15</p>
-</td>
-<td>
-<p>3</p>
-</td>
-<td>
-<p>decimal results</p>
+split into groups of 4 bits, starting from the <i><b>right</b></i>
 </td>
 </tr>
 <tr>
 <td>
-<p>2</p>
+2
 </td>
 <td>
-<p align="center">F</p>
+8+4+2+1
 </td>
 <td>
-<p>3</p>
+2+1
 </td>
 <td>
-<p>convert to 2-digit results to hexadecimal digits</p>
+convert groups of bits from binary
+</td>
+</tr>
+<tr>
+<td>
+2
+</td>
+<td>
+<p align="center">15
+</td>
+<td>
+3
+</td>
+<td>
+decimal results
+</td>
+</tr>
+<tr>
+<td>
+2
+</td>
+<td>
+<p align="center">F
+</td>
+<td>
+3
+</td>
+<td>
+convert to 2-digit results to hexadecimal digits
 </td>
 </tr>
 <tr>
 <td colspan="3">
-<p align="center">2F3</p>
+<p align="center">2F3
 </td>
 <td>
-<p>final hexadecimal answer</p>
+final hexadecimal answer
 </td>
 </tr>
 </tbody>
 </table>
-<p><br>
-Now the reverse process:</p>
+<br>
+Now the reverse process:
 <h4><a class="mozTocH4" name="hexToBin"></a>Hexadecimal
 to Binary</h4>
 <table cellpadding="2" cellspacing="2">
 <tbody>
 <tr>
 <td colspan="3">
-<p>2F3</p>
+2F3
 </td>
 <td>
-<p align="left">starting hexadecimal numeral</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>2</p>
-</td>
-<td>
-<p>F</p>
-</td>
-<td>
-<p>3</p>
-</td>
-<td>
-<p align="left">hex digits </p>
+<p align="left">starting hexadecimal numeral
 </td>
 </tr>
 <tr>
 <td>
-<p>2</p>
+2
 </td>
 <td>
-<p>15</p>
+F
 </td>
 <td>
-<p>3</p>
+3
+</td>
+<td>
+<p align="left">hex digits 
+</td>
+</tr>
+<tr>
+<td>
+2
+</td>
+<td>
+15
+</td>
+<td>
+3
 </td>
 <td>
 <p align="left">decimal (skip if using table
-directly)</p>
+directly)
 </td>
 </tr>
 <tr>
 <td>
-<p>0010</p>
+0010
 </td>
 <td>
-<p>1111</p>
+1111
 </td>
 <td>
-<p>0011</p>
+0011
 </td>
 <td>
 <p align="left">binary, <i>padded</i>
-to 4 bits</p>
+to 4 bits
 </td>
 </tr>
 <tr>
 <td colspan="3">
-<p>001011110011</p>
+001011110011
 </td>
 <td>
-<p align="left">combined</p>
+<p align="left">combined
 </td>
 </tr>
 <tr>
 <td colspan="3">
-<p align="center">1011110011</p>
+<p align="center">1011110011
 </td>
 <td>
 <p align="left">final binary numeral, leading 0's
-stripped</p>
+stripped
 </td>
 </tr>
 </tbody>
 </table>
-<p><br>
+<br>
 See <a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/nt_examples/bases.py">bases.py</a>
 in the examples directory for the course.  The hexToBin and
 binToHex functions manipulate pieces of strings and use some of the
@@ -1175,24 +1182,24 @@ Hands-on Python Tutorial.<br>
 If you do not want to do any
 arithmetic in converting between binary and hexadecimal, you can use
 the decimal/hex/binary table above or run the table() function
-in bases.py to produce:</p>
+in bases.py to produce:
 <pre>Dec Hex Bin<br> 0 0 0000<br> 1 1 0001<br> 2 2 0010<br> 3 3 0011<br> 4 4 0100<br> 5 5 0101<br> 6 6 0110<br> 7 7 0111<br> 8 8 1000<br> 9 9 1001<br> 10 A 1010<br> 11 B 1011<br> 12 C 1100<br> 13 D 1101<br> 14 E 1110<br> 15 F 1111</pre>
-<p>Instant converter applets at
+Instant converter applets at
 <a href="http://www.easycalculation.com/hex-converter.php">http://www.easycalculation.com/hex-converter.php</a><br>
 <br>
 The
 same idea works for conversion between binary and base 8, octal.
  Octal is used to express some Unix/Linux 3-bit permission
-codes.   </p>
+codes.   
 <h4><a class="mozTocH4" name="formattingBases"></a>Formatting
 Binary,
 Octal, and Hexadecimal in Python (vid)</h4>
-<p>This section relates recent ideas to previous Pythonwork, but
+This section relates recent ideas to previous Pythonwork, but
 it is
 not central to the current ideas.  It <span style="font-style: italic;">is useful for testing</span>
 simple
-results you work on by hand, like those in the next section.</p>
-<p>You can generate hexadecimal, octal, and binary numerals in
+results you work on by hand, like those in the next section.
+You can generate hexadecimal, octal, and binary numerals in
 format
 strings in Python using format specifiers 'X', 'o', and
 'b' 
@@ -1219,8 +1226,8 @@ Python recognizes binary, octal, and hexadecimal numeric literals.
 (letter
 o), or
 X, and then digits appropriate for the base.  <br>
-</font></p>
-<p><font face="monospace">&gt;&gt;&gt; 0b</font><font face="monospace">11011</font><br>
+</font>
+<font face="monospace">&gt;&gt;&gt; 0b</font><font face="monospace">11011</font><br>
 <font face="monospace">27</font><br>
 <font face="monospace">&gt;&gt;&gt; 0X</font><font face="monospace">1B</font><br>
 <font face="monospace">27</font><br>
@@ -1228,19 +1235,19 @@ X, and then digits appropriate for the base.  <br>
 <font face="Times New Roman, serif">The built-in functions
 <span style="font-weight: bold;">hex</span>, <span style="font-weight: bold;">oct</span>, and <span style="font-weight: bold;">bin</span> generate strings
 with these
-notations:</font></p>
-<p><font face="monospace">&gt;&gt;&gt;
+notations:</font>
+<font face="monospace">&gt;&gt;&gt;
 bin(27)<br>
 '0b</font><font face="monospace">11011'</font><br>
 <font face="monospace">&gt;&gt;&gt; hex(27)<br>
-'</font><font face="monospace">0x</font><font face="monospace">1b'</font></p>
+'</font><font face="monospace">0x</font><font face="monospace">1b'</font>
 <h4>Sample Binary/Hexadecimal Converson Problems<br>
 </h4>
-<p>Conversions to do <span style="font-style: italic;">by
+Conversions to do <span style="font-style: italic;">by
 hand</span>
 to check understanding:   (You can confirm with
 Python.)  <br>
-</p>
+
 <ol>
 <li>10111 binary to decimal</li>
 <li>87 decimal to binary</li>
@@ -1253,14 +1260,14 @@ call to the color_rgb function with decimal number parameters?<br>
 </ol>
 <h2><a name="Pip"></a>Pip
 Assembler (vid)</h2>
-<p>As the beginning of the Hands-on Tutorial indicated, computer
+As the beginning of the Hands-on Tutorial indicated, computer
 hardward does not execute Python directly.  Python and other
 high level langages must be converted to the very simple set of
 instructions that are directly built into the computer hardware, the
 <i>machine language</i>.  This is the first place
 we look
-underneath high level languages.</p>
-<p>As we will see more in the gates unit, the state inside a
+underneath high level languages.
+As we will see more in the gates unit, the state inside a
 computer
 is usually electrical, and the most dependable system uses voltages,
 either high or 0 (grounded) .  This means <i>two</i>
@@ -1269,15 +1276,15 @@ information, the
 smallest possible amount.  We will arbitrarily refer to the
 two
 states as 0 and 1.  This is convenient for the binary number
-system!</p>
-<p>Computers have a <span style="font-style: italic;">Central
+system!
+Computers have a <span style="font-style: italic;">Central
 Processing Unit </span>(<span style="font-weight: bold;">CPU</span>)
 connected by wires
 to a memory unit.  Operations take place inside the CPU, with
 some data maybe transfered in from memory or sent back to memory (and
 also external devices, though we will skip that part in our simple
-model).</p>
-<p>Like in a Python string or list, memory is referenced by
+model).
+Like in a Python string or list, memory is referenced by
 integer
 locations,
 0, 1, 2, ....  There are several design decisions:
@@ -1292,8 +1299,8 @@ big to allow
 memory to be.  So that one byte can used to refer to any cell
 in
  the memory or our simulated machine, we will assume memory
-consists of no more than 256 cells (a very limited machine!).</p>
-<p>A concept encouraged by Von Neumann in the 1940's was to
+consists of no more than 256 cells (a very limited machine!).
+A concept encouraged by Von Neumann in the 1940's was to
 encode the
 instructions as a form of
 data in the computer.  Before
@@ -1301,12 +1308,12 @@ this approach, changing the program in a computer involved physically
 rewiring the computer!  With Von Neumann's approach, an
 instruction would be represented as a number in the computer's
 memory.  Hence an instructionmust be a sequence of 0's
-and 1's, like </p>
-<p>00010100 00000100  </p>
-<p>I introduce the space in the middle only to delineate
+and 1's, like 
+00010100 00000100  
+I introduce the space in the middle only to delineate
 individual
-bytes.    </p>
-<p>Since accessing memory is slower than internal operations in
+bytes.    
+Since accessing memory is slower than internal operations in
 the
 CPU, all CPU's have places for special data to be stored inside of
 them.  One is an Instruction Pointer (<span style="font-weight: bold;">IP</span>), saying where in
@@ -1319,11 +1326,11 @@ Engine, which has a single such location, called the <span style="font-style: it
 or <span style="font-weight: bold;">Acc</span> for
 short, that holds a
 byte of information, just like a
-memory cell.  </p>
+memory cell.  
 <h3><a class="mozTocH3" name="pipSim"></a>Pip
 Assembler Simulator (vid)<br>
 </h3>
-<p>For a simple conceptual view, look at the Pip Assembler
+For a simple conceptual view, look at the Pip Assembler
 simulator
 in the class web examples.  All files are included in
 <a href="http://hwheeler01.github.io/comp150/pipFiles.zip">pipFiles.zip</a>.
@@ -1336,8 +1343,8 @@ pipHelp.py, hexBin.py, and sample program files,
 simple.bin, simple.asm, arith.asm, sum2n.asm,
 ifElse.asm.
  
-</p>
-<p>The main program is pipGUI.py.  Run it from the
+
+The main program is pipGUI.py.  Run it from the
 operating
 system.  In Windows that generally just involves double
 clicking
@@ -1347,18 +1354,18 @@ code.)
 In the Mac, you can run it from IDLE; alternatively, open a terminal
 window and type pthon3 pipGui.py.  (Right0-clicking and running
 from the python launcher doesn't always work correctly.)<br>
-</p>
-<p>You
+
+You
 will see a graphical Window.  Click on the purple button that
 says
 BINARY, to see its 'native' state.  Look at the window as its
 various parts are described:<br>
-</p>
-<p>The state of the simulated computer is shown in the CPU (lower
+
+The state of the simulated computer is shown in the CPU (lower
 left) with its accumulator (Acc) and Instruction Pointer (IP).
  The
-middle blue and right yellow blocks display memory.  </p>
-<p>First focus on the big middle blue rectangle labeled CODE.
+middle blue and right yellow blocks display memory.  
+First focus on the big middle blue rectangle labeled CODE.
  Instruction code in Pip is placed at the
 beginning of
 memory.  Each instruction takes up two bytes, so for
@@ -1371,8 +1378,8 @@ shows the address (in decimal) of the beginning of each instruction.
  Beside the decimal address label is the same address in
 binary.
  Because each instruction is two bytes, the address labels
-advance by 2's.</p>
-<p>Now look at the right yellow rectangle labeled DATA.
+advance by 2's.
+Now look at the right yellow rectangle labeled DATA.
  For
 simplicity of display, we arbitrarily assume that the data for program
 variables is stored in the second half of memory, starting at address
@@ -1380,29 +1387,29 @@ variables is stored in the second half of memory, starting at address
 show only one per line, at the right.  For our simple programs
 we will never need more than 8 variables, so only eight locations are
 displayed.  As in the code section, address labels in decimal
-and binary are shown. </p>
-<p>The remaining parts of the display are for controlling the
+and binary are shown. 
+The remaining parts of the display are for controlling the
 simulator.  They do not correspond to parts of Pip.
  The
 left column of buttons and text boxes is labeled COMMANDS.
  You
 should have already clicked on the command button labeled
-BINARY. </p>
-<p> Let us load a machine language program into Pip.
+BINARY. 
+ Let us load a machine language program into Pip.
 Make sure
 you have downloaded simple.bin.  You can open it in the Idle
 editor, to see the file format, if you like.  It contains five
-binary instructions.  </p>
-<p>Type simple.bin into the Filename text box.  Then
+binary instructions.  
+Type simple.bin into the Filename text box.  Then
 click LOAD.
  The contents of the file appear as the first five
 instructions
-in Pip.</p>
+in Pip.
 <h3><a class="mozTocH3" name="machineLang"></a>An
 Introduction to
 Pip Machine Language (vid)<br>
 </h3>
-<p>All Pip instructions use the Accumulator.  It is
+All Pip instructions use the Accumulator.  It is
 always a
 source of data and/or the destination of a result.  There are
 two other ways Pip refers to data.  One is to have the actual
@@ -1412,12 +1419,12 @@ the second byte is interpreted as the address in memory where the
 data resides.   That explains the second byte, so now the
 first
 byte.  It can be logically split into two four bit fields, for
-example</p>
-<p><b>0001 0100</b> 00000100  </p>
-<p>In Pip we will have fewer than 16 basic operations, which are
-encoded in the second four bits.  </p>
-<p>0001 <b>0100</b> 00000100  </p>
-<p>The <b>0100</b> of this example means load a
+example
+<b>0001 0100</b> 00000100  
+In Pip we will have fewer than 16 basic operations, which are
+encoded in the second four bits.  
+0001 <b>0100</b> 00000100  
+The <b>0100</b> of this example means load a
 value into the
 accumulator.  We must distinguish where to get the value from,
 either the second byte of the instruction or a specified address in
@@ -1427,8 +1434,8 @@ address and 0001 means the actual data is in the second byte of the
 instruction.  That latter is the case above, where the second
 byte is 00000100 or 4 in decimal, so the full meaning of the
 instruction is load the value in the second byte (4) into the
-accumulator.</p>
-<p>Look at the Simulator screen.  See that the
+accumulator.
+Look at the Simulator screen.  See that the
 accumulator (ACC)
 has a value of 0.  The instruction pointer (IP) shows the next
 instruction to execute.  It is also 0.  If you look
@@ -1440,12 +1447,12 @@ in the code it highlighted in orange.  To more easily follow
 what is going on, it will always match IP.  Click STEP.
  
 IP and the corresponding highlight should advance to 2, and the value
-in the accumulator should become 00000100 (or 4 in decimal).</p>
-<p>One more machine language instruction, the one at address 2:</p>
-<p>00000101 10000000    </p>
-<p>or to look at the parts:</p>
-<p>0000 0101 10000000    </p>
-<p>The second four bits 0101 determine the type of instruction.
+in the accumulator should become 00000100 (or 4 in decimal).
+One more machine language instruction, the one at address 2:
+00000101 10000000    
+or to look at the parts:
+0000 0101 10000000    
+The second four bits 0101 determine the type of instruction.
  In
 this case it is "store the contents of the accumulator to an
 address in memory".  The second byte gives the address
@@ -1454,11 +1461,11 @@ second
 byte only makes sense as an address in memory, and the first four
 bits of the instruction, 0000, reflect this.   Hence the full
 instruction says to store the accumulator value at memory location
-128.</p>
-<p>Click STEP again.  Look at memory location 128 (or
+128.
+Click STEP again.  Look at memory location 128 (or
 10000000
-in binary).  Also note IP in the CPU.</p>
-<p>We could continue, but this gets tedious.  Reading
+in binary).  Also note IP in the CPU.
+We could continue, but this gets tedious.  Reading
 this
 binary is a pain.  One of the first programs people wrote was
 an
@@ -1467,10 +1474,10 @@ which translates
 something a bit more human readable into
 this binary code.  In the assember written for this machine,
 the
-first two instructions discussed could be written</p>
-<p>LOD #4<br>
-STO 128</p>
-<p>Still not English or as close as Python but closer!
+first two instructions discussed could be written
+LOD #4<br>
+STO 128
+Still not English or as close as Python but closer!
  In place
 of the second four bit pattern we have a three letter mnemonic.
  LOD
@@ -1483,16 +1490,16 @@ the second byte is used:  it refers to a memory location.
  Be
 mindful of the presence or absence of '#'!  It is easy to make
 a
-mistake.</p>
-<p>Click the button NONE under commands.  Now you see
+mistake.
+Click the button NONE under commands.  Now you see
 the
 instructions stated in assembler and all the address labels in
-decimal.</p>
-<p>We will come back to machine language briefly at the end of
+decimal.
+We will come back to machine language briefly at the end of
 our
 discussion of this simple CPU, but for
-the most part we will code things in assembler.</p>
-<p>The next instruction is LOD #3.  From the earlier
+the most part we will code things in assembler.
+The next instruction is LOD #3.  From the earlier
 examples
 you should be able to figure out what that does.  Click STEP
 to
@@ -1510,23 +1517,23 @@ but in Pip all results go to the accumulator, except in the STOre
 instruction where a value is copied FROM the accumulator.
  Hence
 the sum of the accumulator and memory location 128 are stored back
-into the accumulator.</p>
-<p>Click STEP to check.</p>
-<p>You <i>can</i> put the result of an addition or
+into the accumulator.
+Click STEP to check.
+You <i>can</i> put the result of an addition or
 any other
 operation into memory:  It just takes an extra step.
  Guess
-what the next instruction STO 129 does.  Click STEP and check.</p>
-<p>Next is the HLT instruction, short for HALT.  Click
+what the next instruction STO 129 does.  Click STEP and check.
+Next is the HLT instruction, short for HALT.  Click
 STEP and
 the program stops (indicated on the screen by '- -' as the instruction
 pointer.<br>
-</p>
-<p>Click INIT.  This resets IP and ACC to 0.
+
+Click INIT.  This resets IP and ACC to 0.
  You could
 step through the program again, or to see the result, just click RUN,
-and it goes (up to 100 steps) to the end.</p>
-<p>In Python and other higher level languages we also store data
+and it goes (up to 100 steps) to the end.
+In Python and other higher level languages we also store data
 in
 memory.  We refer to the data by <i>name</i>,
 not number.
@@ -1551,32 +1558,32 @@ to
 data in memory.  In the Pip Assembler Simulator, the
 relationship
 is very simple and graphic!<br>
-</p>
+
 <h3><a class="mozTocH3" name="morePipSim"></a>More
 on the Simulator
 and Pip (vid)<br>
 </h3>
-<p>Click HELP.  See the message at the bottom.
+Click HELP.  See the message at the bottom.
  This gives
 context sensitive help.  First click on HELP again for a
 summary.  This shows all the help for the simulator
 operations.
  Return to here if you have questions.  It covers the
 command buttons, the comment area at the bottom, the close button,
-and it mentions how to get an assembler summary:  </p>
-<p>Click the HELP button and then click in the blue CODE area.
+and it mentions how to get an assembler summary:  
+Click the HELP button and then click in the blue CODE area.
  Try
 that now.  For reference, the contents of this window are
 shown
-below:</p>
+below:
 <pre>Pip Assembler Summary<br> Symbols Used<br> X for a symbolic or numeric data address.<br> #N for a literal number N as data<br> Acc refers to the accumulator<br> L refers to a symbolic code label or numeric code address<br> Instructions Pseudo Python syntax for what happens<br> Data Flow<br> LOD X (or #N) Acc = X (or N)<br> STO X X = Acc (copy Acc to location X)<br> Control<br> JMP L IP = L (go to instruction L)<br> JMZ L if Acc==0: IP = L else: IP = IP+2 (normal)<br> NOP No operation; just go to next instruction<br> HLT Halt execution<br> Arithmetic-Logic<br> ADD X (or #N) Acc = Acc + X (or N)<br> SUB X (or #N) Acc = Acc - X (or N)<br> MUL X (or #N) Acc = Acc * X (or N)<br> DIV X (or #N) Acc = Acc / X (or N)<br> AND X (or #N) if Acc != 0 and X != 0: Acc=1 else: Acc=0<br> NOT if Acc == 0: Acc = 1 else: Acc = 0<br> CPZ X if X == 0: Acc = 1 else: Acc = 0<br> CPL X if X &lt; 0: Acc = 1 else: Acc = 0<br> In source files: An instruction may be preceded by a label<br> and a colon. Any line may end with a comment. A comment<br> starts with ';' and extend to the end of the line.</pre>
-<p>We will gradually introduce the 14 instructions and the
+We will gradually introduce the 14 instructions and the
 assembler
-syntax conventions.</p>
+syntax conventions.
 <h3><a class="mozTocH3" name="mozTocId204461"></a><a name="Pip1"></a>Format
 of My Pip Assembler (vid)<br>
 </h3>
-<p>See arith.asm from the pipFiles:<br>
+See arith.asm from the pipFiles:<br>
 <span style="font-family: monospace;"> </span><font face="monospace"><br>
   </font><span style="font-family: monospace;"></span><font face="monospace">LOD #7   ; acc = 7  
 initialize variables<br>
@@ -1609,17 +1616,17 @@ DIV #2   ; acc = acc/2 ( =
    ; Z = acc
  ( = (W+X)*Y/2 )</font><br>
 <font face="monospace"> 
-HLT      </font></p>
-<p>Human comments are allowed starting with a ';' (same idea as
+HLT      </font>
+Human comments are allowed starting with a ';' (same idea as
 the
 '#' in Python, but # is already used in Pip assembler.)
  In
 the example the comments are a very direct translation into pseudo
-Python.  I use symbolic data names. </p>
-<p>Load arith.asm into pipGUI by typing in the name under
+Python.  I use symbolic data names. 
+Load arith.asm into pipGUI by typing in the name under
 filename, and clicking LOAD.  You should see the code, minus
-comments.  </p>
-<p>If you switch your view to the text console (what would appear
+comments.  
+If you switch your view to the text console (what would appear
 in
 the Python Shell  in Idle) at any point, you will see
 that
@@ -1641,7 +1648,7 @@ line at a time execute.  If you merely want to see the final
 result, just press RUN, and the program runs up to 100 steps or until
 it halts.  If you look at the text window, you see the whole
 history.<br>
-</p>
+
 <h3><a name="Assignment_Translation_Applet"></a>Assignment
 Translation
 Applet Introduction (vid)</h3>
@@ -1699,36 +1706,36 @@ own problems and test yourself!<br>
 and
 Symbolic
 Address Labels</h3>
-<p>Consider two ways to sum from 1 to n in Python:</p>
-<p><font face="monospace">sum = 0<br>
+Consider two ways to sum from 1 to n in Python:
+<font face="monospace">sum = 0<br>
 i = 1<br>
 while i &lt;= n:<br>
    
 sum = sum + i<br>
-    i = i+1</font> </p>
-<p>In assembler it is easier to sum from n down to 1, so the test
+    i = i+1</font> 
+In assembler it is easier to sum from n down to 1, so the test
 is
-a comparison to 0:</p>
-<p><font face="monospace">sum = 0<br>
+a comparison to 0:
+<font face="monospace">sum = 0<br>
 while n != 0:<br>
    
 sum = sum + n<br>
-    n = n-1</font> </p>
-<p>For a loop you need to change the order of execution.
+    n = n-1</font> 
+For a loop you need to change the order of execution.
  There
 is not a WHILE in Pip assembler:  There are only the low level
 instructions JMP and JMZ.  The essence of this section is
 seeing
 how to use JMP and JMZ to accomplish the same things as Python's
 <font face="monospace">while</font> and <font face="monospace">if-else</font>
-statements. </p>
-<p>For example<br>
+statements. 
+For example<br>
     JMP 12  <br>
 means jump to the
 instruction at address 12.  in other words, set IP to
 12,
-rather than advancing IP by 2, like usual.</p>
-<p>JMZ (<b>J</b>u<b>m</b>p if <b>z</b>ero) 
+rather than advancing IP by 2, like usual.
+JMZ (<b>J</b>u<b>m</b>p if <b>z</b>ero) 
 is a <i>conditional</i>
 jump.  For example<br>
     JMZ 20<br>
@@ -1742,15 +1749,15 @@ to the next instruction normally.  In Pythonesque pseudo code:<br>
  
   else:<br>
         IP = IP + 2 # the usual
-case</p>
-<p>Both these instructions are needed to translate the Python
+case
+Both these instructions are needed to translate the Python
 while
 loops above:  This is the first time in the assembler examples
 that the exact instruction locations are important, so I show the
 addresses on the left.  My assembler allows you to enter
 optional numeric address labels followed by a colon before any
-instruction (as long as you give the memory address accurately):</p>
-<p><font face="monospace">0:   
+instruction (as long as you give the memory address accurately):
+<font face="monospace">0:   
 LOD #4    ;
 n = 4  # high level for
 comparison</font><br>
@@ -1794,8 +1801,8 @@ accumulator</font><br>
 <font face="monospace">26:
  
 HLT       <br>
-</font></p>
-<p>As with the data addresses considered earlier, we are writing
+</font>
+As with the data addresses considered earlier, we are writing
 <i>numerical</i> addresses rather than meaningful <i>names</i>.
  This
 is also particularly awkward if you insert a new instruction and
@@ -1804,8 +1811,8 @@ labels.  The
 previous code with numerical addresses for jumps above is slightly
 modified below to have symbolic code address labels.  The code
 is sum2n.asm in pipFiles:  
-</p>
-<p><font face="monospace">  
+
+<font face="monospace">  
    LOD
 #4    ;
 n = 4  # high level for
@@ -1853,8 +1860,8 @@ accumulator</font><br>
 <font face="monospace">   
  
 HLT       <br>
-</font></p>
-<p>PipGUI allows symbolic names up to 8 characters long,
+</font>
+PipGUI allows symbolic names up to 8 characters long,
 followed
 by a colon, to be
 placed before an instruction that is a jump <span style="font-style: italic;">target</span>, and then
@@ -1870,8 +1877,8 @@ version, so you do not have to worry about it in a Python program!
  Unlike with Python, the indentation I show for sum2n.asm is
 not
 significant to the assembler.  It is merely my convention for
-easy reading by humans.</p>
-<p>If you want to see numeric code addresses in the simulator,
+easy reading by humans.
+If you want to see numeric code addresses in the simulator,
 you
 can press the DATA button under LABELS to see only data labels, but
 not the code labels that I (and all real assemblers) allow.
@@ -1885,8 +1892,8 @@ assembler is smart enough to
 count statements to determine correct addresses and to use those
 numbers
 to translate symbolic address labels.  <br>
-</p>
-<p>Next step
+
+Next step
 through the program and make sure everything makes sense.  The
 new features here are the jumps.  I WILL ask you to play
 computer on paper on a test to follow such a program.  With
@@ -1894,7 +1901,7 @@ the
 simulator, you can check yourself by following as you single step or
 by looking at the history that pipGui records in the text
 window. 
-After running sum2n.asm, here is the log:</p>
+After running sum2n.asm, here is the log:
 <span style="font-family: monospace;"></span><span style="font-family: monospace;"></span><span style="font-family: monospace;">------ CPU initialized from
 sum2n.asm
 ---------</span><br style="font-family: monospace;">
@@ -2015,9 +2022,9 @@ logs like this.<br>
 <h4><a style="font-family: monospace;" class="mozTocH4" name="pipJumps"></a>More
 Practice Using
 jumps</h4>
-<p>1.  Absolute value, in Python:  x =
-abs(x)</p>
-<p>Without the function call we could use the code<br>
+1.  Absolute value, in Python:  x =
+abs(x)
+Without the function call we could use the code<br>
 <font face="monospace">if
 x &lt; 0:</font>  # if x&lt;0, do the next line;
 otherwise skip
@@ -2035,8 +2042,8 @@ it
 for yourself.  Details are in the video N4G1.  My
 result is
 in abs.asm.<br>
-</p>
-<p>
+
+
 2. 
 Another example to work out:  Redo sum2n.asm as
 sum2na.asm where you actually translate<br>
@@ -2051,40 +2058,40 @@ instruction set.
 inequalities, so you have to figure out some way to make it
 work.....  Think first.  The full solution is in the
 revised N4G1 video.  My solution is in sum2na.asm.<br>
-</p>
-<p>3.  If-else statements are more involved. 
+
+3.  If-else statements are more involved. 
 Let's start
-with a translation of</p>
-<p>if x != 0:<br>
+with a translation of
+if x != 0:<br>
     y = 2<br>
 else:<br>
    y = 3<br>
 x = 5<br>
-</p>
-<p>
+
+
 For simple testing, let us set x in memory in the simulator before
 running.  That way we do not need to start by storing a value
 for
 x.  (Each of the other examples in this section will deal with
 varuable initialization similarly.)<br>
-</p>
-<p>We have evaluated conditions.  <br>
-</p>
-<p>Testing if x != 0 just involves loading it and a JMZ to
-somewhere.</p>
+
+We have evaluated conditions.  <br>
+
+Testing if x != 0 just involves loading it and a JMZ to
+somewhere.
 <p style="font-family: monospace;"><br>
       LOD
 x      ; if
 x!=0<br>
       JMZ ____<br>
 <br>
-</p>
-<p>We have worked out the approach to assignment
+
+We have worked out the approach to assignment
 statements.  Let
 us suppose the statements in the assember code follow the textual order
 of the Python.  I'll put those sections with space between
 them
-for further editing:</p>
+for further editing:
 <p style="font-family: monospace;"><br>
       LOD
 x       ; if x !=
@@ -2106,8 +2113,8 @@ y=3  if-false clause<br>
 x=5  past if-else statement<br>
       STO x
     <br>
-</p>
-<p>The flow of control is new here.  We will need jumps
+
+The flow of control is new here.  We will need jumps
 inserted.  If the condition is true, we just fall into the
 if-true
 block, but if it is false we must get to the <span style="font-style: italic;">else</span>
@@ -2115,7 +2122,7 @@ part, which will require a label as a jump target.  An easy
 name
 would be ELSE.  It goes as the operand of JMZ and a label on
 the
-if-false part:</p>
+if-false part:
 <p style="font-family: monospace;">     
 LOD
 x       ; if x !=
@@ -2136,8 +2143,8 @@ if-false clause<br>
 x=5  past if-else statement<br>
       STO x
     <br>
-</p>
-<p>Also note that if the condition is true, Python would do the
+
+Also note that if the condition is true, Python would do the
 if-true
 block and automatically skip the <span style="font-style: italic;">else</span>
 part each time.  In assembler we have to be explicit. That
@@ -2145,7 +2152,7 @@ will
 require a jump from the end of the if-true block that happens every
 time (JMP, not JMZ), requiring another jump target past the end of the
 if-else statement.  Let's call this label PAST.<br>
-</p>
+
 <p style="font-family: monospace;">     
 LOD
 x       ; if x !=
@@ -2166,29 +2173,29 @@ PAST: LOD #5      ; x=5
 past if-else statement<br>
       STO x
     <br>
-</p>
-<p>We are finished, since the if-false part can flow right into
+
+We are finished, since the if-false part can flow right into
 the
 part past the if-else statement.  Look again at the jumps and
 confirm that the right parts of the code are visited whether the
 condition is true (not 0) or false (0).<br>
-</p>
-<p>Note:  I use a colon to end a code label in my Pip
+
+Note:  I use a colon to end a code label in my Pip
 assembler,
 even a name like ELSE.  My final code is in jumpClass.asm.<br>
-</p>
+
 <p style="font-weight: bold;"><big>In the assember
 labels must appear
 at the beginning of a line <span style="font-style: italic;">with</span>
 an instruction on it, not on a line before the instruction.<br>
-</big></p>
-<p>The usage is diferent than in Python:  In Python a
+</big>
+The usage is diferent than in Python:  In Python a
 colon is at
 the end of a heading, and further code goes ont he next line. <br>
-</p>
+
 Again, in Pip, with low level jumps if-else is harder than in Python!
  If we are translating the general form:<br>
-<p>
+
 if  condition:<br>
  
 block1<br>
@@ -2206,30 +2213,30 @@ as an arbitrarily chosen label name in the assember.  The
 whole
 idea here is that there is not a prepackaged if-else syntax in
 assembler!<br>
-</p>
+
 <table border="0" cellpadding="2" cellspacing="2">
 <tbody>
 <tr>
 <td><br>
 </td>
 <td>
-<p>Evaluate condition (so false is 0)</p>
+Evaluate condition (so false is 0)
 </td>
 </tr>
 <tr>
 <td><br>
 </td>
 <td>
-<p>JMZ ELSE  (if the condition is false, skip
+JMZ ELSE  (if the condition is false, skip
 block1 to the
-ELSE label)</p>
+ELSE label)
 </td>
 </tr>
 <tr>
 <td><br>
 </td>
 <td>
-<p>block1 translated</p>
+block1 translated
 </td>
 </tr>
 <tr>
@@ -2242,39 +2249,39 @@ ELSE label)</p>
 <td><br>
 </td>
 <td>
-<p>JMP PAST  (skipping the else part)</p>
+JMP PAST  (skipping the else part)
 </td>
 </tr>
 <tr>
 <td>
-<p>ELSE:</p>
+ELSE:
 </td>
 <td>
-<p>block2 translated</p>
+block2 translated
 </td>
 </tr>
 <tr>
 <td><br>
 </td>
 <td>
-<p>...</p>
+...
 </td>
 </tr>
 <tr>
 <td>
-<p>PAST: </p>
+PAST: 
 </td>
 <td>
-<p>linesPastIf translated (end up here after either block
+linesPastIf translated (end up here after either block
 is
-executed)</p>
+executed)
 </td>
 </tr>
 <tr>
 <td><br>
 </td>
 <td>
-<p>...</p>
+...
 </td>
 </tr>
 </tbody>
@@ -2297,10 +2304,10 @@ We will intialize x, y by hand in the simulator.  Solution
 workked out in the muddle of video N4G2.  Final code will be
 in
 jumpClass2.asm<br>
-<p>
+
 5.  Work with your
-partner in</p>
-<p> on translating into an assembler file (ending in
+partner in
+ on translating into an assembler file (ending in
 .asm):<br>
 <br>
 if z &lt; 0:<br>
@@ -2311,7 +2318,7 @@ else:<br>
 z = z * 2<br>
 <br>
 Test it by <br>
-</p>
+
 <ol>
 <li>loading the code</li>
 <li>giving a value to z</li>
@@ -2322,9 +2329,9 @@ Test it by <br>
 again.  <br>
 </li>
 </ol>
-<p>For comparison, or it you get stuck, my code is in ifElse5.asm.<br>
-</p>
-<p>6.  (Optional extra extention)   A
+For comparison, or it you get stuck, my code is in ifElse5.asm.<br>
+
+6.  (Optional extra extention)   A
 more chalenging
 condition in an example for you to work out by yourself and then
 check.  Not
@@ -2334,8 +2341,8 @@ compares to 0.  What do you do?  (Remember algebra
 with
 inequalities.)  Place different values for x
 and y in memory by hand in pipGui.py to test the code:  <br>
-</p>
-<p>if y &gt; x:
+
+if y &gt; x:
 <br>
     x = x*2
 <br>
@@ -2344,22 +2351,22 @@ else:
     y = y*2
 <br>
 z = x + y<br>
-</p>
-<p>My code is in ifElse6.asm, if you want to compare at the end. <br>
-</p>
-<p>
+
+My code is in ifElse6.asm, if you want to compare at the end. <br>
+
+
 See
 the assignment <a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/HW/PipPrograms.html">Pip
 Program</a>.  It is
-similar to the code from this section.</p>
-<p>This hopefully gives the idea that  a high level
+similar to the code from this section.
+This hopefully gives the idea that  a high level
 language can
 be translated.  We have kept the Pip simulator very simple,
 but
 with a few more instructions, we could also handle lists and function
 calls. We will not take the time to do that in this course.<br>
-</p>
-<p>
+
+
 <b>Aside</b>:  Though not
 a part of the course, the program for the Pip Simulator is a
 collection of Python modules.  They show a considerably larger
@@ -2372,11 +2379,11 @@ defined
 two of my own kind of objects; I used list comprehension, exception
 handling, and some library functions that we did not introduce.
  You
-have the source code if you are curious! </p>
+have the source code if you are curious! 
 <h3><a class="mozTocH3" name="translationMachineAssem"></a>Translation
 Between
 Machine language and Assembler</h3>
-<p>We started with machine language and quickly shifted to spend
+We started with machine language and quickly shifted to spend
 most
 of our time on assembler.  The progression  is an
 important
@@ -2384,8 +2391,8 @@ idea.  To show that you understand the idea of encoding an
 instruction as a binary number, you should be able to convert both ways
 between machine language and assembler (with a table of the op codes
 handy).  Both algorithms are fully stated next:<br>
-</p>
-<p><b>Converting to machine language from assembler:</b><br>
+
+<b>Converting to machine language from assembler:</b><br>
 if the
 assembler code contains a '#':<br>
     the first 4 bits
@@ -2470,10 +2477,10 @@ else:<br>
 mnemonic is
 followed by '#'<br>
     The assembler code ends
-with the the last eight bits converted to decimal</p>
+with the the last eight bits converted to decimal
 <h4>Sample Machine/Assembler Converson Problems<br>
 </h4>
-<p>Sample conversions to do by hand for understanding. 
+Sample conversions to do by hand for understanding. 
 (You can
 check your answers with pipGUI.py, switching from showing binary
 (Binary button) to showing asembler but no labels (None
@@ -2484,7 +2491,7 @@ use 0 through 127 as data values afer a #, though the simulator also
 allows -1 through -128.  (You can see the binary translations
 in
 the simulator if you like.)<br>
-</p>
+
 <ol>
 <li>00010011 00000111  machine language to Assembler</li>
 <li>00000010 10000001  machine language to Assembler</li>
@@ -2494,7 +2501,7 @@ the simulator if you like.)<br>
 <h2><a name="Boolean"></a>Boolean
 Algebra, Truth Tables, and Digital
 Circuits</h2>
-<p>We have illustrated a simple machine language and
+We have illustrated a simple machine language and
 seen how multiple machine language statements can be used to do
 central operations in a high level language.  This language is
 simple, but still it has been described in words!  How can a
@@ -2512,12 +2519,12 @@ convert
 between them.  In particular we can first express
 the operations we want logically, and then in
 circuits which could be expressed in hardware.<br>
-</p>
+
 <h3><a class="mozTocH4" name="algrbraOverview"></a>Boolean
 Algebra and
 Truth Tables<br>
 </h3>
-<p>We have already seen Boolean expressions in Python,
+We have already seen Boolean expressions in Python,
 with operations AND, OR, and NOT.  We will end up building
 more
 complicated expressions than we did with Python, and more concise
@@ -2525,12 +2532,12 @@ notation will be useful and is standard in such discussions.
  First
 we will use 1 and 0 for True and False, our usual symbols to
 distinguish a bit of information.  Second we will use more
-algebraic notation:</p>
+algebraic notation:
 <ol>
 <li>
 <p style="margin-bottom: 0in;">A or B is written with
 a + sign:
- A + B</p>
+ A + B
 </li>
 <li>
 <p style="margin-bottom: 0in;">A and B
@@ -2538,11 +2545,11 @@ is written just by
 putting the parts beside each other, as with mathematical
 notation
 for multiplication:  AB  (We will assume <span style="font-style: italic;">one</span> character
-variable names like in math, so this makes sense.)</p>
+variable names like in math, so this makes sense.)
 </li>
 <li>
-<p><i>not A</i> is written:  A' <br>
-</p>
+<i>not A</i> is written:  A' <br>
+
 </li>
 </ol>
 <p style="margin-bottom: 0in;">Because there are only a
@@ -2555,155 +2562,155 @@ combinations, and in one or more further columns write values of
 results:<br>
 <br>
 <b>Truth Table for OR   0 only if all inputs are
-0</b></p>
+0</b>
 <table border="1" cellpadding="2" cellspacing="2">
 <tbody>
 <tr valign="top">
 <td>
-<p align="left">A</p>
+<p align="left">A
 </td>
 <td>
-<p align="left">B</p>
+<p align="left">B
 </td>
 <td>
-<p align="left">A+B</p>
-</td>
-</tr>
-<tr valign="top">
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">0</p>
+<p align="left">A+B
 </td>
 </tr>
 <tr valign="top">
 <td>
-<p align="left">0</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">1</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">1</p>
-</td>
-</tr>
-<tr valign="top">
-<td>
-<p align="left">1</p>
-</td>
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">1</p>
+<p align="left">0
 </td>
 </tr>
 <tr valign="top">
 <td>
-<p align="left">1</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">1</p>
+<p align="left">1
 </td>
 <td>
-<p align="left">1</p>
+<p align="left">1
+</td>
+</tr>
+<tr valign="top">
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">0
+</td>
+<td>
+<p align="left">1
+</td>
+</tr>
+<tr valign="top">
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">1
 </td>
 </tr>
 </tbody>
 </table>
 <p style="margin-bottom: 0in;"><br>
 <b>Truth Table for AND   1
-only if all inputs are 1</b></p>
+only if all inputs are 1</b>
 <table border="1" cellpadding="2" cellspacing="2">
 <tbody>
 <tr valign="top">
 <td>
-<p align="left">A</p>
+<p align="left">A
 </td>
 <td>
-<p align="left">B</p>
+<p align="left">B
 </td>
 <td>
-<p align="left">AB</p>
-</td>
-</tr>
-<tr valign="top">
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">0</p>
+<p align="left">AB
 </td>
 </tr>
 <tr valign="top">
 <td>
-<p align="left">0</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">1</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">0</p>
-</td>
-</tr>
-<tr valign="top">
-<td>
-<p align="left">1</p>
-</td>
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">0</p>
+<p align="left">0
 </td>
 </tr>
 <tr valign="top">
 <td>
-<p align="left">1</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">1</p>
+<p align="left">1
 </td>
 <td>
-<p align="left">1</p>
+<p align="left">0
+</td>
+</tr>
+<tr valign="top">
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">0
+</td>
+<td>
+<p align="left">0
+</td>
+</tr>
+<tr valign="top">
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">1
 </td>
 </tr>
 </tbody>
 </table>
 <p style="margin-bottom: 0in;"><br>
 <b>Truth Table for NOT  
-reversing the input</b></p>
+reversing the input</b>
 <table border="1" cellpadding="2" cellspacing="2">
 <tbody>
 <tr valign="top">
 <td>
-<p align="left">A</p>
+<p align="left">A
 </td>
 <td>
-<p align="left">A'</p>
-</td>
-</tr>
-<tr valign="top">
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">1</p>
+<p align="left">A'
 </td>
 </tr>
 <tr valign="top">
 <td>
-<p align="left">1</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">0</p>
+<p align="left">1
+</td>
+</tr>
+<tr valign="top">
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">0
 </td>
 </tr>
 </tbody>
@@ -2728,62 +2735,62 @@ variation on the standard symbol for OR.  Rather than a plain
 <br>
 <b>Truth
 Table for a Xor    1 when the inputs are <span style="font-style: italic;">unequal</span></b>
-</p>
+
 <table border="1" cellpadding="2" cellspacing="2">
 <tbody>
 <tr valign="top">
 <td>
-<p align="left">A</p>
+<p align="left">A
 </td>
 <td>
-<p align="left">B</p>
+<p align="left">B
 </td>
 <td>
-<p align="left">A⊕B</p>
-</td>
-</tr>
-<tr valign="top">
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">0</p>
+<p align="left">A⊕B
 </td>
 </tr>
 <tr valign="top">
 <td>
-<p align="left">0</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">1</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">1</p>
-</td>
-</tr>
-<tr valign="top">
-<td>
-<p align="left">1</p>
-</td>
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">1</p>
+<p align="left">0
 </td>
 </tr>
 <tr valign="top">
 <td>
-<p align="left">1</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">1</p>
+<p align="left">1
 </td>
 <td>
-<p align="left">0</p>
+<p align="left">1
+</td>
+</tr>
+<tr valign="top">
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">0
+</td>
+<td>
+<p align="left">1
+</td>
+</tr>
+<tr valign="top">
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">0
 </td>
 </tr>
 </tbody>
@@ -2792,7 +2799,7 @@ Table for a Xor    1 when the inputs are <span style="font-style: italic;">unequ
 operation in
 a larger expression with other binary operations, I will always use
 parentheses to indicate the order of operations around the⊕. <br>
-</p>
+
 <p style="margin-bottom: 0in;">
 We can calculate
 truth tables for more complicated expressions, building up one
@@ -2800,80 +2807,80 @@ operation at a time.  Consider AB'.  Since <span style="font-weight: bold;">not<
 precedence than <span style="font-weight: bold;">and</span>,
 this is the same as A(B')
 rather than (AB)'.  We need B' calculated before we can
-calculate AB'.</p>
+calculate AB'.
 <p style="margin-bottom: 0in;">
 <b>Truth Table for AB' (involving
-intermediate result B')</b></p>
+intermediate result B')</b>
 <table border="1" cellpadding="2" cellspacing="2">
 <tbody>
 <tr valign="top">
 <td>
-<p align="left">A</p>
+<p align="left">A
 </td>
 <td>
-<p align="left">B</p>
+<p align="left">B
 </td>
 <td>
-<p align="left">B'</p>
+<p align="left">B'
 </td>
 <td>
-<p align="left">AB'</p>
-</td>
-</tr>
-<tr valign="top">
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">1</p>
-</td>
-<td>
-<p align="left">0</p>
+<p align="left">AB'
 </td>
 </tr>
 <tr valign="top">
 <td>
-<p align="left">0</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">1</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">0</p>
+<p align="left">1
 </td>
 <td>
-<p align="left">0</p>
-</td>
-</tr>
-<tr valign="top">
-<td>
-<p align="left">1</p>
-</td>
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">1</p>
-</td>
-<td>
-<p align="left">1</p>
+<p align="left">0
 </td>
 </tr>
 <tr valign="top">
 <td>
-<p align="left">1</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">1</p>
+<p align="left">1
 </td>
 <td>
-<p align="left">0</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">0</p>
+<p align="left">0
+</td>
+</tr>
+<tr valign="top">
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">0
+</td>
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">1
+</td>
+</tr>
+<tr valign="top">
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">0
+</td>
+<td>
+<p align="left">0
 </td>
 </tr>
 </tbody>
@@ -2888,351 +2895,351 @@ binary numbers for 0, 1, 2, .... Intermediate results are included in
 the table in such a way that each column after the input variables is
 the result of one operation on one or two previous column:<br>
 <br>
-<b>Truth Table for AB + AC</b></p>
+<b>Truth Table for AB + AC</b>
 <table border="1" cellpadding="2" cellspacing="2">
 <tbody>
 <tr valign="top">
 <td>
-<p align="left">A</p>
+<p align="left">A
 </td>
 <td>
-<p align="left">B</p>
+<p align="left">B
 </td>
 <td>
-<p align="left">C</p>
+<p align="left">C
 </td>
 <td>
-<p align="left">AB</p>
+<p align="left">AB
 </td>
 <td>
-<p align="left">AC</p>
+<p align="left">AC
 </td>
 <td>
-<p align="left">AB+AC</p>
-</td>
-</tr>
-<tr valign="top">
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">0</p>
+<p align="left">AB+AC
 </td>
 </tr>
 <tr valign="top">
 <td>
-<p align="left">0</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">0</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">1</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">0</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">0</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">0</p>
-</td>
-</tr>
-<tr valign="top">
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">1</p>
-</td>
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">0</p>
+<p align="left">0
 </td>
 </tr>
 <tr valign="top">
 <td>
-<p align="left">0</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">1</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">1</p>
+<p align="left">1
 </td>
 <td>
-<p align="left">0</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">0</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">0</p>
-</td>
-</tr>
-<tr valign="top">
-<td>
-<p align="left">1</p>
-</td>
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">0</p>
+<p align="left">0
 </td>
 </tr>
 <tr valign="top">
 <td>
-<p align="left">1</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">0</p>
+<p align="left">1
 </td>
 <td>
-<p align="left">1</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">0</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">1</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">1</p>
-</td>
-</tr>
-<tr valign="top">
-<td>
-<p align="left">1</p>
-</td>
-<td>
-<p align="left">1</p>
-</td>
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">1</p>
-</td>
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">1</p>
+<p align="left">0
 </td>
 </tr>
 <tr valign="top">
 <td>
-<p align="left">1</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">1</p>
+<p align="left">1
 </td>
 <td>
-<p align="left">1</p>
+<p align="left">1
 </td>
 <td>
-<p align="left">1</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">1</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">1</p>
+<p align="left">0
+</td>
+</tr>
+<tr valign="top">
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">0
+</td>
+<td>
+<p align="left">0
+</td>
+<td>
+<p align="left">0
+</td>
+<td>
+<p align="left">0
+</td>
+<td>
+<p align="left">0
+</td>
+</tr>
+<tr valign="top">
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">0
+</td>
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">0
+</td>
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">1
+</td>
+</tr>
+<tr valign="top">
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">0
+</td>
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">0
+</td>
+<td>
+<p align="left">1
+</td>
+</tr>
+<tr valign="top">
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">1
 </td>
 </tr>
 </tbody>
 </table>
 <p style="margin-bottom: 0in;"><br>
-<b>Truth Table for A(B + C)</b></p>
+<b>Truth Table for A(B + C)</b>
 <table border="1" cellpadding="2" cellspacing="2">
 <tbody>
 <tr valign="top">
 <td>
-<p align="left">A</p>
+<p align="left">A
 </td>
 <td>
-<p align="left">B</p>
+<p align="left">B
 </td>
 <td>
-<p align="left">C</p>
+<p align="left">C
 </td>
 <td>
-<p align="left">B+C</p>
+<p align="left">B+C
 </td>
 <td>
-<p align="left">A(B+C)</p>
-</td>
-</tr>
-<tr valign="top">
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">0</p>
+<p align="left">A(B+C)
 </td>
 </tr>
 <tr valign="top">
 <td>
-<p align="left">0</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">0</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">1</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">1</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">0</p>
-</td>
-</tr>
-<tr valign="top">
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">1</p>
-</td>
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">1</p>
-</td>
-<td>
-<p align="left">0</p>
+<p align="left">0
 </td>
 </tr>
 <tr valign="top">
 <td>
-<p align="left">0</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">1</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">1</p>
+<p align="left">1
 </td>
 <td>
-<p align="left">1</p>
+<p align="left">1
 </td>
 <td>
-<p align="left">0</p>
-</td>
-</tr>
-<tr valign="top">
-<td>
-<p align="left">1</p>
-</td>
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">0</p>
+<p align="left">0
 </td>
 </tr>
 <tr valign="top">
 <td>
-<p align="left">1</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">0</p>
+<p align="left">1
 </td>
 <td>
-<p align="left">1</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">1</p>
+<p align="left">1
 </td>
 <td>
-<p align="left">1</p>
-</td>
-</tr>
-<tr valign="top">
-<td>
-<p align="left">1</p>
-</td>
-<td>
-<p align="left">1</p>
-</td>
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">1</p>
-</td>
-<td>
-<p align="left">1</p>
+<p align="left">0
 </td>
 </tr>
 <tr valign="top">
 <td>
-<p align="left">1</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">1</p>
+<p align="left">1
 </td>
 <td>
-<p align="left">1</p>
+<p align="left">1
 </td>
 <td>
-<p align="left">1</p>
+<p align="left">1
 </td>
 <td>
-<p align="left">1</p>
+<p align="left">0
+</td>
+</tr>
+<tr valign="top">
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">0
+</td>
+<td>
+<p align="left">0
+</td>
+<td>
+<p align="left">0
+</td>
+<td>
+<p align="left">0
+</td>
+</tr>
+<tr valign="top">
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">0
+</td>
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">1
+</td>
+</tr>
+<tr valign="top">
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">0
+</td>
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">1
+</td>
+</tr>
+<tr valign="top">
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">1
 </td>
 </tr>
 </tbody>
 </table>
-<p><br>
+<br>
 You can see from the exhaustive listing of the options in the
 last two truth tables that AB+AC  = A(B+C) <i>always</i>.
  This
@@ -3241,7 +3248,7 @@ formalism as the
 <i>distributive</i> property in normal real number algebra,
 though
 the operations involved are actually completely different!<br>
-</p>
+
 <h3><a class="mozTocH4" name="BooleanAlgRules"></a>Rules
 of Boolean Algebra</h3>
 George
@@ -3258,79 +3265,79 @@ ALL!
 <tbody>
 <tr valign="top">
 <td>
-<p align="left">Property name</p>
+<p align="left">Property name
 </td>
 <td>
-<p align="left">AND version</p>
+<p align="left">AND version
 </td>
 <td>
-<p align="left">OR version</p>
+<p align="left">OR version
 </td>
 </tr>
 <tr valign="top">
 <td>
-<p align="left">Commutative</p>
+<p align="left">Commutative
 </td>
 <td>
-<p align="left">AB = BA</p>
+<p align="left">AB = BA
 </td>
 <td>
-<p align="left">A+B = B + A</p>
+<p align="left">A+B = B + A
 </td>
 </tr>
 <tr valign="top">
 <td>
-<p align="left">Associative</p>
+<p align="left">Associative
 </td>
 <td>
-<p align="left">(AB)C = A(BC)</p>
+<p align="left">(AB)C = A(BC)
 </td>
 <td>
-<p align="left">(A+B)+C = A+(B+C)</p>
+<p align="left">(A+B)+C = A+(B+C)
 </td>
 </tr>
 <tr valign="top">
 <td>
-<p align="left">Distributive</p>
+<p align="left">Distributive
 </td>
 <td>
-<p align="left">AB+AC  = A(B+C)</p>
+<p align="left">AB+AC  = A(B+C)
 </td>
 <td bgcolor="#ffccff">
-<p align="left"><b>A+BC  = (A+B)(A+C)</b></p>
+<p align="left"><b>A+BC  = (A+B)(A+C)</b>
 </td>
 </tr>
 <tr valign="top">
 <td>
-<p align="left">Identity</p>
+<p align="left">Identity
 </td>
 <td>
-<p align="left">1A = A</p>
+<p align="left">1A = A
 </td>
 <td>
-<p align="left">0 + A = A</p>
+<p align="left">0 + A = A
 </td>
 </tr>
 <tr valign="top">
 <td bgcolor="#ffccff">
-<p align="left">Complement</p>
+<p align="left">Complement
 </td>
 <td bgcolor="#ffccff">
-<p align="left">(A')' = A</p>
+<p align="left">(A')' = A
 </td>
 <td bgcolor="#ffccff">
-<p align="left">A + A' = 1</p>
+<p align="left">A + A' = 1
 </td>
 </tr>
 <tr valign="top">
 <td bgcolor="#ffccff">
-<p align="left">DeMorgan's Law</p>
+<p align="left">DeMorgan's Law
 </td>
 <td bgcolor="#ffccff">
-<p align="left">(AB)' = A' + B'</p>
+<p align="left">(AB)' = A' + B'
 </td>
 <td bgcolor="#ffccff">
-<p align="left">(A+B)' = A' B'</p>
+<p align="left">(A+B)' = A' B'
 </td>
 </tr>
 </tbody>
@@ -3393,7 +3400,7 @@ circuits are set up (with electrical resistances - we will skip
 elaborate physics) so if a wire is connected to ground, it is
 grounded, whether is is also connected to a voltage source or
 not.  <br>
-</p>
+
 <p style="margin-bottom: 0in;">V<sub>in</sub>
 is always connected to a
 source that might have
@@ -3422,31 +3429,31 @@ between the output and ground is broken, and the output is just
 connected to the regular voltage source, resulting in a voltage on
 the output wire.<br>
 <br>
-Possibilities in the Figure</p>
+Possibilities in the Figure
 <table border="1" cellpadding="2" cellspacing="2">
 <tbody>
 <tr valign="top">
 <td>
-<p align="left">Base</p>
+<p align="left">Base
 </td>
 <td>
-<p align="left">Output</p>
-</td>
-</tr>
-<tr valign="top">
-<td>
-<p align="left">voltage</p>
-</td>
-<td>
-<p align="left">grounded</p>
+<p align="left">Output
 </td>
 </tr>
 <tr valign="top">
 <td>
-<p align="left">grounded</p>
+<p align="left">voltage
 </td>
 <td>
-<p align="left">voltage</p>
+<p align="left">grounded
+</td>
+</tr>
+<tr valign="top">
+<td>
+<p align="left">grounded
+</td>
+<td>
+<p align="left">voltage
 </td>
 </tr>
 </tbody>
@@ -3459,31 +3466,31 @@ with
 operation takes only a single transistor.  <br>
 <br>
 Possibilities
-in the Figure</p>
+in the Figure
 <table border="1" cellpadding="2" cellspacing="2">
 <tbody>
 <tr valign="top">
 <td>
-<p align="left">B</p>
+<p align="left">B
 </td>
 <td>
-<p align="left">Output = B' </p>
-</td>
-</tr>
-<tr valign="top">
-<td>
-<p align="left">1</p>
-</td>
-<td>
-<p align="left">0</p>
+<p align="left">Output = B' 
 </td>
 </tr>
 <tr valign="top">
 <td>
-<p align="left">0</p>
+<p align="left">1
 </td>
 <td>
-<p align="left">1</p>
+<p align="left">0
+</td>
+</tr>
+<tr valign="top">
+<td>
+<p align="left">0
+</td>
+<td>
+<p align="left">1
 </td>
 </tr>
 </tbody>
@@ -3500,62 +3507,62 @@ would hold voltage rather than being drawn to the ground state.
  Hence if we call the inputs A and B and the output X, we
 get what is called a NAND gate.<br>
 <br>
-Truth Table for a Nand gate:</p>
+Truth Table for a Nand gate:
 <table border="1" cellpadding="2" cellspacing="2">
 <tbody>
 <tr valign="top">
 <td>
-<p align="left">A</p>
+<p align="left">A
 </td>
 <td>
-<p align="left">B</p>
+<p align="left">B
 </td>
 <td>
-<p align="left">X = (AB)'</p>
-</td>
-</tr>
-<tr valign="top">
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">1</p>
+<p align="left">X = (AB)'
 </td>
 </tr>
 <tr valign="top">
 <td>
-<p align="left">0</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">1</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">1</p>
-</td>
-</tr>
-<tr valign="top">
-<td>
-<p align="left">1</p>
-</td>
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">1</p>
+<p align="left">1
 </td>
 </tr>
 <tr valign="top">
 <td>
-<p align="left">1</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">1</p>
+<p align="left">1
 </td>
 <td>
-<p align="left">0</p>
+<p align="left">1
+</td>
+</tr>
+<tr valign="top">
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">0
+</td>
+<td>
+<p align="left">1
+</td>
+</tr>
+<tr valign="top">
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">0
 </td>
 </tr>
 </tbody>
@@ -3577,67 +3584,67 @@ output becomes connected to ground.  Hence if we call the
 inputs
 A and B and the output X, we get what is called a NOR gate:<br>
 <br>
-Truth Table for a Nor gate:</p>
+Truth Table for a Nor gate:
 <table border="1" cellpadding="2" cellspacing="2">
 <tbody>
 <tr valign="top">
 <td>
-<p align="left">A</p>
+<p align="left">A
 </td>
 <td>
-<p align="left">B</p>
+<p align="left">B
 </td>
 <td>
-<p align="left">X = (A+B)'</p>
-</td>
-</tr>
-<tr valign="top">
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">1</p>
+<p align="left">X = (A+B)'
 </td>
 </tr>
 <tr valign="top">
 <td>
-<p align="left">0</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">1</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">0</p>
-</td>
-</tr>
-<tr valign="top">
-<td>
-<p align="left">1</p>
-</td>
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">0</p>
+<p align="left">1
 </td>
 </tr>
 <tr valign="top">
 <td>
-<p align="left">1</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">1</p>
+<p align="left">1
 </td>
 <td>
-<p align="left">0</p>
+<p align="left">0
+</td>
+</tr>
+<tr valign="top">
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">0
+</td>
+<td>
+<p align="left">0
+</td>
+</tr>
+<tr valign="top">
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">0
 </td>
 </tr>
 </tbody>
 </table>
-<p><br>
+<br>
 This is the truth table for NOT (A  OR B), commonly
 abbreviated as NOR.  <br>
 <br>
@@ -3676,20 +3683,20 @@ expression.  Following the wires, putting the symbolic result
 as a label on each one in turn, eventually leads us to an
 output. 
 <br>
-</p>
-<p>There is a direct correspondence between the intermediate
+
+There is a direct correspondence between the intermediate
 wires
 (like the one labeled B+C above),  their logical labels, and
 intermediate columns you should put in a truth table when looking to
 figure out the table for a boolean expression involving multiple
-operations.</p>
-<p>These
+operations.
+These
 are <i>sequential</i> circuits.  Circuits with
 loops in them are
 also important, but more complicated.  They are call
 <i>combinatorial</i> circuits and will be briefly discussed
-later. </p>
-<p>
+later. 
+
 We will mostly work in terms of AND, OR, and NOT, because of
 their familiarity, though NAND and NOR are used more in actual
 engineering practice, since they require fewer transistors in a
@@ -3702,16 +3709,16 @@ multi-input AND and OR
 gates can be constructed.  The same AND and OR gate symbols
 are
 used in these cases, except more input wires are allowed.  <br>
-</p>
+
 <h3><a name="GatesApplet"></a>Gates Applet<br>
 </h3><br>
-<p>Nice gates simulator, but doesn’t use the correct shapes:  <a href="http://www.neuroproductions.be/logic-lab/" target="_blank">http://www.neuroproductions.be/logic-lab/</a><br>
-<br>-<span style="font-weight: bold;">-&gt;We will probably use this one in class: </span>Here's another one:  adorable, but a little more cumbersome to use:  <a href="http://www.edumedia.rmit.edu.au/emg/gallery/Project/LogicGates/logic_builder.htm" target="_blank">http://www.edumedia.rmit.edu.au/emg/gallery/Project/LogicGates/logic_builder.htm</a></p>
-<p>Addison-Wesley, comes with lab assignment from another text<a href="http://wps.aw.com/aw_brookshear_compsci_8/18/4742/1214158.cw/content/index.html" target="_blank"><br>
+Nice gates simulator, but doesn’t use the correct shapes:  <a href="http://www.neuroproductions.be/logic-lab/" target="_blank">http://www.neuroproductions.be/logic-lab/</a><br>
+<br>-<span style="font-weight: bold;">-&gt;We will probably use this one in class: </span>Here's another one:  adorable, but a little more cumbersome to use:  <a href="http://www.edumedia.rmit.edu.au/emg/gallery/Project/LogicGates/logic_builder.htm" target="_blank">http://www.edumedia.rmit.edu.au/emg/gallery/Project/LogicGates/logic_builder.htm</a>
+Addison-Wesley, comes with lab assignment from another text<a href="http://wps.aw.com/aw_brookshear_compsci_8/18/4742/1214158.cw/content/index.html" target="_blank"><br>
 http://wps.aw.com/aw_brookshear_compsci_8/18/4742/1214158.cw/content/index.html<br>
 <br>
-</a></p>
-<p>Watch the gatesApplet, as I select and move components, connect them
+</a>
+Watch the gatesApplet, as I select and move components, connect them
 with
 wires, run the circuit and change input values  Instructions
 are
@@ -3720,9 +3727,9 @@ given on the applet web page, beneath the applet. The video ends with a
 demonstration discussed inthe next paragraph.  <span style="font-style: italic;">Work through the Gates Lab
 beneath the
 applet.</span><br>
-</p>
 
-<p>The
+
+The
 following circuit tests the distributive property, AB+AC = A(B+C),
 assuming the inputs are labeled down from the top A, B, C. 
 The
@@ -3739,8 +3746,8 @@ that wires only connect at the small round contact points.  In
 other places wires pass one over another ut are not
 connected. 
 This is the system in the applet, too.<br>
-<img style="width: 283px; height: 183px;" alt="AB + AC=A(B+C) in circuits, input 1, 0, 0" src="./Class Notes_files/distrib100.png"></p>
-<p><img style="width: 285px; height: 177px;" alt="AB + AC=A(B+C) in circuits, input 1, 0, 1" src="./Class Notes_files/distrib101.png"></p>
+<img style="width: 283px; height: 183px;" alt="AB + AC=A(B+C) in circuits, input 1, 0, 0" src="./Class Notes_files/distrib100.png">
+<img style="width: 285px; height: 177px;" alt="AB + AC=A(B+C) in circuits, input 1, 0, 1" src="./Class Notes_files/distrib101.png">
 <br>
 Further Class exercise:  Construct a tester for a <a href="http://hwheeler01.github.io/comp150/classnotes/#BooleanAlgRules">Boolean
 Algebra identity</a> for
@@ -3756,7 +3763,7 @@ a TA.<br>
 <h3><a class="mozTocH3" name="boolExprForTruthT"></a>Finding
 a Boolean
 Expression for a truth table</h3>
-<p>In the introduction, I mentioned that we want to be able to
+In the introduction, I mentioned that we want to be able to
 convert between all the representations: circuit, boolean expression,
 and truth table.  We have discussed the
 direct translation between Boolean expressions and circuits, and we
@@ -3853,10 +3860,10 @@ inputs, combine with
 the OR operation:  <br>
 <font face="monospace">X
 = A'B'C + AB'C + ABC</font>  <br>
-</p>
+
 <h4>Simplifying Boolean Algebra<br>
 </h4>
-<p>
+
 A circuit could certainly
 be made for X, but it would be easier with a simplification.
  One
@@ -3926,12 +3933,12 @@ is
 the <span style="font-style: italic;">one</span>
 non matching factor
 then <font face="monospace">XY + XY' = X</font>.
-</p>
+
 <h4><a class="mozTocH4" name="truthTableExample"></a>A
 Further Example:
 English to Truth Table to Boolean Expression<br>
 </h4>
-<p>Find a truth table for the Boolean expression that is true
+Find a truth table for the Boolean expression that is true
 when
 all three inputs (A, B, C) are the same  (call this X
 initially).  Then find the Boolean expression in terms of A,
@@ -3949,10 +3956,10 @@ and C.  <br>
 1 0 1  ?<br>
 1 1 0  ?<br>
 1 1 1  ? <br>
-</font></p>
-<p>Coming up with a completed truth table involves an inital
-translation from English:</p>
-<p>
+</font>
+Coming up with a completed truth table involves an inital
+translation from English:
+
 <font face="monospace">A
 B C  X</font><br>
 <font face="monospace">0 0 0  1<br>
@@ -4018,12 +4025,12 @@ what?<br>
 Combine with OR:<br>
 <br>
 <font face="monospace">
-X = A'B'C' + ABC</font></p>
-<p>A common student error is to skip the last step, and not
+X = A'B'C' + ABC</font>
+A common student error is to skip the last step, and not
 combine,
 but you are looking for a description of a single output, so your
 result must be a single expression!<br>
-</p>
+
 <h3><a class="mozTocH3" name="computerCircuits"></a>Addition
 in
 Computer Circuits</h3>
@@ -4052,82 +4059,82 @@ complete table:<font face="monospace"><br>
 <br>
 </font>Table for sum and carry in
 binary addition, A+ B<br>
-</p>
+
 <table border="1" cellpadding="2" cellspacing="2">
 <tbody>
 <tr valign="top">
 <td>
-<p align="left">A</p>
+<p align="left">A
 </td>
 <td>
-<p align="left">B</p>
+<p align="left">B
 </td>
 <td>
-<p align="left">carry</p>
+<p align="left">carry
 </td>
 <td>
-<p align="left">sum</p>
-</td>
-</tr>
-<tr valign="top">
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">0</p>
+<p align="left">sum
 </td>
 </tr>
 <tr valign="top">
 <td>
-<p align="left">0</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">1</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">0</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">1</p>
-</td>
-</tr>
-<tr valign="top">
-<td>
-<p align="left">1</p>
-</td>
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">0</p>
-</td>
-<td>
-<p align="left">1</p>
+<p align="left">0
 </td>
 </tr>
 <tr valign="top">
 <td>
-<p align="left">1</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">1</p>
+<p align="left">1
 </td>
 <td>
-<p align="left">1</p>
+<p align="left">0
 </td>
 <td>
-<p align="left">0</p>
+<p align="left">1
+</td>
+</tr>
+<tr valign="top">
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">0
+</td>
+<td>
+<p align="left">0
+</td>
+<td>
+<p align="left">1
+</td>
+</tr>
+<tr valign="top">
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">1
+</td>
+<td>
+<p align="left">0
 </td>
 </tr>
 </tbody>
 </table>
-<p>We are thinking of arithmetic, but see the format of the table
+We are thinking of arithmetic, but see the format of the table
 - it
 is in the format of a truth table!<br>
 You may recognize both the outputs:  carry
@@ -4144,12 +4151,12 @@ This is a <span style="font-style: italic;">half adder</span>
 circuit.<br>
 <br>
 <img src="http://hwheeler01.github.io/comp150/Class Notes_files/halfAdder.png" name="graphics8" alt="half adder" align="bottom" border="0" height="100" width="166"><br>
-</p>
-<p>The video animates this circuit.  If you like you can
+
+The video animates this circuit.  If you like you can
 construct
 and test the circuit for yourself in the gates applet, <br>
-</p>
-<p>
+
+
 To
 understand more complicated circuits it is useful to give a simpler
 symbol for repeatedly used circuits.  We will use the half
@@ -4213,8 +4220,8 @@ it in
 the gates applet, but the circuits are getting more complicated to
 reproduce by hand!<br>
 .<img style="width: 357px; height: 187px;" alt="full adder 1+1+1" src="./Class Notes_files/full111.png"> 
-1+1+1 =11</p>
-<p><span style="font-style: italic;"><img style="width: 355px; height: 182px;" alt="Full adder adding 1, 0, 1" src="./Class Notes_files/full101.png"> 
+1+1+1 =11
+<span style="font-style: italic;"><img style="width: 355px; height: 182px;" alt="Full adder adding 1, 0, 1" src="./Class Notes_files/full101.png"> 
 </span>1+0+1=10 <span style="font-style: italic;"> </span><br>
 The full adder,
 too, can be used in more complicated circuits, so we will give it its
@@ -4253,26 +4260,26 @@ example, consider these two calculations: <br>
 ____  ____   </span><br style="font-family: monospace;">
 <span style="font-family: monospace;">1000  
 111 </span></font><font style="font-family: monospace;"><br>
-</font></p>
-<p>The pictures below show these two calculations in a circuit,
+</font>
+The pictures below show these two calculations in a circuit,
 with
 the more significant bits in both the input and output are lower down
 in the diagram.  The top summands in the manual calculations
 above
 correspond tothe leftmost column of switches, and the bottom summmands
 reappear slightly to the right.  <br>
-</p>
-<p><img style="width: 387px; height: 289px;" alt="3 bit adder 011+101" src="./Class Notes_files/3bit011_101.png"> 
+
+<img style="width: 387px; height: 289px;" alt="3 bit adder 011+101" src="./Class Notes_files/3bit011_101.png"> 
 011+101=1000<br>
-</p>
-<p><img style="width: 385px; height: 291px;" alt="3 bit adder 010+101" src="./Class Notes_files/3bit010_101.png"> 
+
+<img style="width: 385px; height: 291px;" alt="3 bit adder 010+101" src="./Class Notes_files/3bit010_101.png"> 
 010+101 = 111
 <br>
 <font face="monospace"><br>
 </font>
-</p>
+
 <h3><a class="mozTocH3" name="computerCircuits2"></a><a name="Multiplexers"></a>Multiplexers</h3>
-<p><span style="font-weight: bold;"></span>A
+<span style="font-weight: bold;"></span>A
 multiplexer chooses one of several data
 lines.  In an n-bit multiplexer input consists of 2<sup>n</sup>
 data lines and
@@ -4306,8 +4313,8 @@ d1=0,
 control choosing d1 = 0<br>
 <img style="width: 316px; height: 221px;" alt="d0=0, d1=0, control choosing d1" src="./Class Notes_files/mp00-1.png"> d0=0,
 d1=0,
-control choosing d1 </p>
-<p>The pictures below, and also the Multipler video show a 2-bit
+control choosing d1 
+The pictures below, and also the Multipler video show a 2-bit
 mutiplexer, with 4 data lines and 2 control lines.  (Do you
 see
 that it is
@@ -4318,17 +4325,17 @@ lines.  The data lines in the picture are numbered 00 through
 11
 from top to
 bottom.  The top control line has the less significant bit.<br>
-</p>
-<p><img style="width: 437px; height: 257px;" alt="d00=0, d01=0, d10=0, d11=1, control 01" src="./Class Notes_files/mp1000-01.png">
+
+<img style="width: 437px; height: 257px;" alt="d00=0, d01=0, d10=0, d11=1, control 01" src="./Class Notes_files/mp1000-01.png">
 d00=0,
 d01=0, d10=0, d11=1, control choosing d01 = 0<br>
-</p>
-<p><img style="width: 440px; height: 260px;" alt="d00=0,d01=1,d10=0,d11=0, control 11" src="./Class Notes_files/mp0010-01.png"> d00=0,
+
+<img style="width: 440px; height: 260px;" alt="d00=0,d01=1,d10=0,d11=0, control 11" src="./Class Notes_files/mp0010-01.png"> d00=0,
 d01=1, d10=0, d11=0, control choosing d01 = 1<br>
-</p>
+
 <img style="width: 441px; height: 261px;" alt="d00=0,d01=1,d10=0,dii=0, control 01" src="./Class Notes_files/mp0010-11.png"> d00=0,
 d01=1, d10=0, d11=0, control choosing d11 = 0<br>
-<p>A
+A
 demultiplexer does the reverse:  n control lines and one data
 input line deliver the input value to one of 2<sup>n</sup>
 output
@@ -4349,12 +4356,12 @@ operations at the same time, feeding data lines into a
 multiplexer;  the op code feeds the control lines of this
 multiplexer to pick the result
 associated with the right op code.<br>
-</p>
+
 <h3>
 <a name="Latch_Circuit"></a>Latch Circuit</h3>
-<p>
-</p>
-<p>We have only
+
+
+We have only
 considered sequential circuits - signals flow through and nothing is
 kept.  We need a combinatorial circuit, one with a loop in it,
 to have memory.  Loops in circuits can get tricky.<br>
@@ -4428,9 +4435,9 @@ if you change d to 1 and then change g to 0, then depending on your
 Java implementation for the applet, you could see the
 circuit flash continuously, back and forth between the two pictures
 below:<br>
-</p>
-<p><img style="width: 311px; height: 148px;" alt="flash loop 1" src="./Class Notes_files/latchBad10-1.png"></p>
-<p><img style="width: 314px; height: 151px;" alt="flash loop 0" src="./Class Notes_files/latchBad10-0.png"><br>
+
+<img style="width: 311px; height: 148px;" alt="flash loop 1" src="./Class Notes_files/latchBad10-1.png">
+<img style="width: 314px; height: 151px;" alt="flash loop 0" src="./Class Notes_files/latchBad10-0.png"><br>
 That <i>transition</i>
 of g from 1
 to 0 is a problem.  This is a <span style="font-style: italic;">timing</span>
@@ -4444,21 +4451,21 @@ runing a simulation works, if you start from a stable state, with any
 sequence of input data, and it should
 work (hopefully in whatever version of Java your browser is
 using).  <br>
-</p>
-<p><img style="width: 313px; height: 228px;" alt="With g=1, data 1 passes though" src="./Class Notes_files/latch11.png"> With g=1,
+
+<img style="width: 313px; height: 228px;" alt="With g=1, data 1 passes though" src="./Class Notes_files/latch11.png"> With g=1,
 data
 1 passes though.  If data were switched to 0, output would go
-to 0.</p>
-<p><img style="width: 309px; height: 226px;" alt="g to 0, keep output 1" src="./Class Notes_files/latch10-1.png"> 
-g to 0, keep output 1</p>
-<p><img style="width: 317px; height: 225px;" alt="g at 0, data to 0, but output still 1" src="./Class Notes_files/latch00-1.png"> 
+to 0.
+<img style="width: 309px; height: 226px;" alt="g to 0, keep output 1" src="./Class Notes_files/latch10-1.png"> 
+g to 0, keep output 1
+<img style="width: 317px; height: 225px;" alt="g at 0, data to 0, but output still 1" src="./Class Notes_files/latch00-1.png"> 
 g at 0, data switched to 0, but output still 1<br>
-</p>
-<p><img style="width: 314px; height: 231px;" alt="g to 1, output matched data, 0" src="./Class Notes_files/latch01.png"> 
+
+<img style="width: 314px; height: 231px;" alt="g to 1, output matched data, 0" src="./Class Notes_files/latch01.png"> 
 g to 1,
 output matched data, 0<br>
-</p>
-<p><br>
+
+<br>
  When the lower input (g) is 1, the output changes with
 the upper input (d).  When g is changed to 0, the last output
 is
@@ -4475,7 +4482,7 @@ circuits would include a clock.<br>
 See
 the <a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/HW/Gates.html">gates
 homework</a>.<br>
-</p>
+
 <h3><a name="VLSI"></a>Very Large Scale
 Integration in Circuits (VLSI)<br>
 </h3>
@@ -4505,15 +4512,15 @@ millions of gates and
 connections <span style="font-style: italic;">simultaneously</span>. 
 A schematic, omitting all the
 chemistry needed for the transformations, is below:<br>
-<p>
-<img style="width: 406px; height: 479px;" alt="Photolithographic Chip Fabrication Cycle" src="./Class Notes_files/chipPhotoLithography.png"></p>
-<p>For much more detail (going far beyond this course!),
+
+<img style="width: 406px; height: 479px;" alt="Photolithographic Chip Fabrication Cycle" src="./Class Notes_files/chipPhotoLithography.png">
+For much more detail (going far beyond this course!),
 see  <a href="http://www.lithoguru.com/scientist/lithobasics.html">VLSI</a>
 or
 this extensive and technical <a href="http://www.cse.nd.edu/courses/cse462/www/lectures/L05_Fabrication.pdf">pdf</a>. 
-</p>
+
 <h2><a class="mozTocH2" name="Conclusion"></a>Conclusion</h2>
-<p>So we have gotten as far down to basics as we are going to in
+So we have gotten as far down to basics as we are going to in
 this
 class.  (Below
 this is chemistry and physics!)  We have described some of the
@@ -4524,76 +4531,76 @@ its machine language, and some of the major points in the translation
 between machine language and a high level language.  <br>
 <br>
 There is much more to study.  Here are a few examples:<br>
-</p>
+
 <ul>
 <li>
 <p style="margin-bottom: 0in;">Comp 264, Computer
 Systems, covers
 what lies under high level languages in much greater depth.<br>
-</p>
+
 </li>
 <li>
 <p style="margin-bottom: 0in;">A sequence of
 programming courses,
 starting with Comp 170, show ideas needed for more sophisticated
-programs to solve much larger problems. </p>
+programs to solve much larger problems. 
 </li>
 <li>
 <p style="margin-bottom: 0in;">There are a great many
 topics in
 computer science beyond programming, addressed in upper level courses:
- </p>
+ 
 <ul>
 <li>
 <p style="margin-bottom: 0in;">networking and
-security,</p>
+security,
 </li>
 <li>
 <p style="margin-bottom: 0in;">devising algorithms
 for handling
 all kinds of enormous collections of data,<br>
 <br>
-</p>
+
 </li>
 <li>organizing and accessing enormous databases<br>
 </li>
 <li>
 <p style="margin-bottom: 0in;">getting many
 processors and many
-computers to work together effectively on enormous problems, </p>
+computers to work together effectively on enormous problems, 
 </li>
 <li>
 <p style="margin-bottom: 0in;">dealing with the
 many legal and
-ethical issues around computing, </p>
+ethical issues around computing, 
 </li>
 <li>
 <p style="margin-bottom: 0in;">approximating human
 intelligence
-(so far only in specialized ways), </p>
+(so far only in specialized ways), 
 </li>
 <li>
-<p>and finally finding the limits of computing - it
+and finally finding the limits of computing - it
 cannot
-solve all problems.  </p>
+solve all problems.  
 </li>
 </ul>
 </li>
 </ul>
-<p>There is much more to learn and apply to the pressing problems
+There is much more to learn and apply to the pressing problems
 of
 today and tomorrow!   We live in the information age!
  
-Will you be a leader in it?</p>
-<p>We have been dealing with the current practical model, with
+Will you be a leader in it?
+We have been dealing with the current practical model, with
 Boolean
 electical components on a chip.  Completely different
 approaches
 are being researched and may have practical  application in
 the
 future: optical computers, quantum computers, DNA computers,
-.... </p>
-<p>
+.... 
+
  
-</p>
+
 </body></html>
