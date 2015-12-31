@@ -428,6 +428,8 @@ Computers depend on arithmetic and numerical codes, and the simplest way to do a
 
 $$3072=3*10^3+0*10^2+7*10^1+2*10^0$$
 
+\\R^2\\
+
 This is easiest to write out from right to left, so you start counting powers from 0 (recall anything to the 0 power is 1).  
 
 Note that we also need symbols for the numbers less than ten (0-9).
