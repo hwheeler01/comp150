@@ -361,9 +361,9 @@ The tutorial also talks about the tool, IDLE.  Of course you
 need to get used to your tools.<br>
 <p>
 </p>
+
 <h2><a class="mozTocH2" name="AfterPython"></a>After
-Python and
-Underneath It (vid)
+Python and Underneath It (vid)
 </h2>
 <p>We have seen how we can tell the computer what to do with the
 fairly
@@ -421,43 +421,27 @@ will look much more
 systematically at logical expressions, and see how they relate to
 circuits and machine language instructions. 
 </p>
+
 <h2><a name="Binary"></a>Binary Arithmetic  (vid)</h2>
 
-<p>Computers depend on arithmetic and numerical codes, and the
-simplest way to do arithmetic in an electronic computer is with base
-2, the binary number system.  First review our usual decimal
-system, in powers of 10:<br>
-<br>
-3072 = 3*10<sup>3</sup> + 0*10<sup>2</sup> + 7*10<sup>1</sup>
-+ 2*10<sup>0</sup> <br>
+Computers depend on arithmetic and numerical codes, and the simplest way to do arithmetic in an electronic computer is with base 2, the binary number system.  First review our usual decimal system, in powers of 10:
+
 $$3072=3*10^3+0*10^2+7*10^1+2*10^0$$
-<br>
-This is easiest to write out from right to left, so you start counting
-powers from 0 (recall anything to the 0 power is 1).  
-<br>
-Note that we also need symbols for the numbers less than ten (0-9).<br>
-<br>
-We think of 3072 as a <i>number</i>.  In
-this discussion that is too sloppy:  The symbolism is a <i>numeral</i>
-representing a number. Another representation could be a pile of
-3072 counters, or a Roman numeral MMMLXXII.  <br>
-<br>
-Also we can
-make different numerals by using a different base, in
-particular
-the simplest one, and the one used in computers hardware:</p>
+
+This is easiest to write out from right to left, so you start counting powers from 0 (recall anything to the 0 power is 1).  
+
+Note that we also need symbols for the numbers less than ten (0-9).
+
+We think of 3072 as a *number*.  In this discussion that is too sloppy:  The symbolism is a *numeral* representing a number. Another representation could be a pile of
+3072 counters, or a Roman numeral MMMLXXII.  
+
+Also we can make different numerals by using a different base, in
+particular the simplest one, and the one used in computers hardware:
+
 <h3><a class="mozTocH3" name="binToDec"></a>Converting
-binary to
-decimal numerals<br>
+binary to decimal numerals<br>
 </h3>
-<p style="margin-bottom: 0in;">(included in previous
-video) 
-Binary (base 2) uses powers of 2 for
-place value and two symbols 0, 1, for the numbers less than 2:<br>
-$$R^2$$ **TEST HERE** \\(R^2\\)
-I
-will use a subscript to indicate the different base:  11011<sub>2</sub>
-means the base 2 numeral 11011:  If we expand the powers
+(included in previous video) Binary (base 2) uses powers of 2 for place value and two symbols 0, 1, for the numbers less than 2. I will use a subscript to indicate the different base:  $11011_2$ means the base 2 numeral 11011:  If we expand the powers
 explicitly from the right, in normal arithmetic, this means:<br>
 1*2<sup>4</sup>
 + 1*2<sup>3</sup> + 0*2<sup>2</sup> + 1*2<sup>1</sup>
