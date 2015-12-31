@@ -93,4 +93,3 @@ most, tutors for COMP 150 are only available during some of those times, due
 to the personal schedule of the tutors. In general, COMP
 students have done better with the department's tutoring service.<br>
 
-
