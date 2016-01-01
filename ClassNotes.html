@@ -3772,56 +3772,58 @@ gates can be constructed. &nbsp;The same AND and OR gate symbols
 are
 used in these cases, except more input wires are allowed.&nbsp; <br>
 </p>
+
 <h3><a name="GatesApplet"></a>Gates Applet<br>
-</h3><br>
-<p>Nice gates simulator, but doesn’t use the correct shapes:&nbsp; <a href="http://www.neuroproductions.be/logic-lab/" target="_blank">http://www.neuroproductions.be/logic-lab/</a><br>
-<br>-<span style="font-weight: bold;">-&gt;We will probably use this one in class: </span>Here's another one:&nbsp; adorable, but a little more cumbersome to use:&nbsp; <a href="http://www.edumedia.rmit.edu.au/emg/gallery/Project/LogicGates/logic_builder.htm" target="_blank">http://www.edumedia.rmit.edu.au/emg/gallery/Project/LogicGates/logic_builder.htm</a></p>
-<p>Addison-Wesley, comes with lab assignment from another text<a href="http://wps.aw.com/aw_brookshear_compsci_8/18/4742/1214158.cw/content/index.html" target="_blank"><br>
-http://wps.aw.com/aw_brookshear_compsci_8/18/4742/1214158.cw/content/index.html<br>
-<br>
-</a></p>
-<p>Watch the gatesApplet, as I select and move components, connect them
+</h3>
+<p>This section was originally developed with an old circuit simulator that is no longer useful.&nbsp; The idea is the same as <a href="http://logic.ly/download/">http://logic.ly/download/</a>.&nbsp;
+You can get a free 30-day download or just run the demo version in your browser.&nbsp; It uses about the same symbols, dragging them into position, dragging
+between terminals to create wires.&nbsp; In the new version there is no
+button to delete a wire:&nbsp; just click in the middle of the
+wire and press the delete key.&nbsp; In this version simulation is automatically running.&nbsp; In the newer version
+there are no intermediate terminals:&nbsp; all wires go from and output
+terminal to an input terminal.&nbsp;&nbsp; Several wires can start
+from the same output terminal. Clicking on Help pretty well describes
+the use of the application.&nbsp; I wish I had this one when I first
+made the diagrams and videos!</p>
+
+<p>
+Watch the gatesApplet video, as I select and move components, connect them
 with
-wires, run the circuit and change input values&nbsp; Instructions
-are
-also
-given on the applet web page, beneath the applet. The video ends with a
-demonstration discussed inthe next paragraph.&nbsp; <span style="font-style: italic;">Work through the Gates Lab
-beneath the
-applet.</span><br>
+wires, run the circuit and change input values&nbsp; Try similar things with the Logicly simulator. The video ends with a
+demonstration discussed in the next paragraph (though using the old simlator images).&nbsp; <span style="font-style: italic;"></span><br>
 </p>
+
 
 <p>The
 following circuit tests the distributive property, AB+AC = A(B+C),
-assuming the inputs are labeled down from the top A, B, C.&nbsp;
-The
+assuming the inputs are labeled down from the top A, B, C.&nbsp; The
 circuit has outputs for both sides of the identity originating from the
-same inputs, that fork two ways.&nbsp; (This is fine, an input can
-feed
+same inputs, that fork two ways.&nbsp; (This is fine, an input can feed
 several
 gates.)&nbsp; No matter
 how you manipulate the three switches to give all the possible inputs,
 the two outputs always match.&nbsp; This is
-illustrated for inputs 1, 0, 0 and for 1, 0, 1.&nbsp; The
-convention is
-that wires only connect at the small round contact points.&nbsp; In
-other places wires pass one over another ut are not
-connected.&nbsp;
-This is the system in the applet, too.<br>
-<img style="width: 283px; height: 183px;" alt="AB + AC=A(B+C) in circuits, input 1, 0, 0" src="http://hwheeler01.github.io/comp150/ClassNotes_files/distrib100.png"></p>
-<p><img style="width: 285px; height: 177px;" alt="AB + AC=A(B+C) in circuits, input 1, 0, 1" src="http://hwheeler01.github.io/comp150/ClassNotes_files/distrib101.png"></p>
+illustrated for inputs 1, 0, 0 and for 1, 0, 1, where we use 1 to
+denote a switch with voltage, denoted in the simulator with a blue
+rectangle around the switch.&nbsp; The convention is
+that wires only go from the output of a component to the input of
+another, with only one wire going to any input terminal.<br>
+<img style="width: 539px; height: 302px;" alt="AB + AC=A(B+C) in circuits, input 1, 0, 0" src="http://hwheeler01.github.io/comp150/ClassNotes_files/logsimdistrib100.png"></p>
+
+<p><img style="width: 543px; height: 302px;" alt="AB + AC=A(B+C) in circuits, input 1, 0, 1" src="http://hwheeler01.github.io/comp150/ClassNotes_files/logsimdistrib101.png"></p>
+
 <br>
-Further Class exercise:&nbsp; Construct a tester for a <a href="http://hwheeler01.github.io/comp150/ClassNotes.html#BooleanAlgRules">Boolean
-Algebra identity</a> for
+
+Further Class exercise:&nbsp; Using Logicly<a href="http://www.cs.kent.edu/%7Evolkert/F10-10051/notes/logsim.html"></a>, construct a tester for a <a href="#BooleanAlgRules">Boolean Algebra identity</a> for
 the other distributive property, A+BC = (A+B)(A+C), or
-for one of&nbsp;DeMorgan's laws on the bottom line.
-&nbsp;Follow the
+for one of&nbsp;DeMorgan's laws on the bottom line. &nbsp;Follow the
 pattern used before to test A(B+C) = AB + AC:
 &nbsp;Have just one set of inputs, but connect them to gates and
-outputs for each side of the equation.&nbsp; Show your result to
-your
+outputs for each side of the equation.&nbsp; Show your result to your
 instructor or
 a TA.<br>
+
+
 <h3><a class="mozTocH3" name="boolExprForTruthT"></a>Finding
 a Boolean
 Expression for a truth table</h3>
