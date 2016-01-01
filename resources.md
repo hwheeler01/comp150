@@ -4,21 +4,6 @@ title: Course Materials
 permalink: /resources/
 ---
 
-```python
-def decimal(i):
-  """return a string of decimal digits representing 
-  the nonnegative integer i."""
-  if i == 0:
-    return "0"
-  numeral = ""
-  while i != 0:
-    digit = i % 10
-    numeral = str(digit) + numeral # add next digit on the LEFT
-    i = i//10
-  return numeral
-```
-
-
 There is no specific text for this course. Rather, we will be using
 resource materials available online:
 
@@ -30,7 +15,7 @@ format and in <a href="http://anh.cs.luc.edu/python/hands-on/3.1/Hands-onPythonT
 download links on <a href="https://luc.box.com/comp150video">box.com</a>
 as well as <a href="https://drive.google.com/a/cs.luc.edu/#folders/0B5WvvnDHeaIYMGE2MzU4OWEtYzQ4Zi00YzhiLTliMTItNjRjYzMyYzgyMTk2" target="_blank">google</a>. These were also prepared by
 Professor Harrington. You can find links and instructions <a href="http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/context.html#using-the-tutorial-text-and-video" target="_blank">here</a>.
-- <a href="http://hwheeler01.github.io/comp150/ClassNotes.html">Class Notes</a> for
+- <a href="http://hwheeler01.github.io/comp150/ClassNotes">Class Notes</a> for
 other course components are linked to from the <a href="http://hwheeler01.github.io/comp150/syllabus/#schedule">Course Schedule</a>.
 - Other Python resources are at the home site for Python: <a href="http://python.org">http://python.org.</a>
 
