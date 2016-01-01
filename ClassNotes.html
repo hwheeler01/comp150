@@ -1,26 +1,21 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<!-- saved from url=(0059)http://webpages.cs.luc.edu/~cnaiman/COMP150/ClassNotes.html -->
+<!-- saved from url=(0059)http://hwheeler01.github.io/comp150/ClassNotes.html -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 
 
 
 <title>Class Notes</title></head><body>
-<h1>Introduction
-to
-Computing<br>
-Comp 150 Notes<br>
-based on class notes (with permission) of Dr. Andrew N. Harrington<br>
-</h1>
-<span style="font-style: italic;"></span> 
+<h1>COMP 150 Class Notes<br></h1>
+
+Based on the class notes (with permission) of Dr. Andrew N. Harrington.
 <p>These notes are basically for everything except the <a href="http://anh.cs.luc.edu/python/hands-on/3.1">Hands-on
 Python Tutorial</a>.&nbsp;
-That is a free-standing unit that we take up after the <a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/ClassNotes.html#Class1">Course
+That is a free-standing unit that we take up after the <a href="http://hwheeler01.github.io/comp150/ClassNotes.html#Class1">Course
 Introduction</a>.&nbsp; <br>
 </p>
-<p>Videos for most of the sections below are in the beyondPython
-folder
-in GoogleDocs, discussed in the <a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/COMP150syllFA15.html">syllabus</a>.<br>
+<p>Videos for most of the sections below are in the `beyondPython`
+folder in GoogleDocs, discussed in the <a href="http://hwheeler01.github.io/comp150/resources/">Resources.<br>
 </p>
 <p>Sections that correspond to the start of a video have (vid)
 at the end of the title.</p>
@@ -33,102 +28,102 @@ installation required)</p>
 </p>
 <h2>Table of Contents</h2>
 <ol>
-<li><a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/ClassNotes.html#Class1">Course
+<li><a href="http://hwheeler01.github.io/comp150/ClassNotes.html#Class1">Course
 Introduction</a></li>
-<ol style="list-style-type: upper-alpha;"><li><a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/ClassNotes.html#Areas">Computer
+<ol style="list-style-type: upper-alpha;"><li><a href="http://hwheeler01.github.io/comp150/ClassNotes.html#Areas">Computer
 Science Areas</a></li>
-<li><a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/ClassNotes.html#Introductory">Introductory
+<li><a href="http://hwheeler01.github.io/comp150/ClassNotes.html#Introductory">Introductory
 Approaches</a></li>
-<li><a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/ClassNotes.html#Past">Past
+<li><a href="http://hwheeler01.github.io/comp150/ClassNotes.html#Past">Past
 Final Projects</a> (vid)</li>
-<li><a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/ClassNotes.html#Hands">Using
+<li><a href="http://hwheeler01.github.io/comp150/ClassNotes.html#Hands">Using
 the Hands-on Python Tutorial</a><br>
 </li>
 </ol>
-<li><a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/ClassNotes.html#AfterPython">After
+<li><a href="http://hwheeler01.github.io/comp150/ClassNotes.html#AfterPython">After
 Python and Underneath
 Python</a> (vid)</li>
-<li><a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/ClassNotes.html#Binary">Binary
+<li><a href="http://hwheeler01.github.io/comp150/ClassNotes.html#Binary">Binary
 Arithmetic&nbsp;</a> (vid)
 <ol style="list-style-type: upper-alpha;">
-<li><a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/ClassNotes.html#binToDec">Converting
+<li><a href="http://hwheeler01.github.io/comp150/ClassNotes.html#binToDec">Converting
 binary to
 decimal numerals</a></li>
-<li><a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/ClassNotes.html#decToBin">Converting
+<li><a href="http://hwheeler01.github.io/comp150/ClassNotes.html#decToBin">Converting
 decimal&nbsp;to&nbsp;binary numerals</a> (vid)</li>
-<li><a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/ClassNotes.html#Hexadecimal">Hexadecimal
+<li><a href="http://hwheeler01.github.io/comp150/ClassNotes.html#Hexadecimal">Hexadecimal
 (Base 16)</a> (vid)<br>
 </li>
-<li><a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/ClassNotes.html#binToHex">Converting
+<li><a href="http://hwheeler01.github.io/comp150/ClassNotes.html#binToHex">Converting
 Binary to
 Hexadecimal</a></li>
-<li><a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/ClassNotes.html#hexToBin">Hexadecimal
+<li><a href="http://hwheeler01.github.io/comp150/ClassNotes.html#hexToBin">Hexadecimal
 to Binary</a></li>
-<li><a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/ClassNotes.html#formattingBases">Formatting
+<li><a href="http://hwheeler01.github.io/comp150/ClassNotes.html#formattingBases">Formatting
 Binary,
 Octal,
 and Hexadecimal in Python</a> (vid)</li>
 </ol>
 </li>
-<li><a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/ClassNotes.html#Pip">Pip
+<li><a href="http://hwheeler01.github.io/comp150/ClassNotes.html#Pip">Pip
 Assembler</a> (vid)
 <ol style="list-style-type: upper-alpha;">
-<li><a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/ClassNotes.html#pipSim">Pip
+<li><a href="http://hwheeler01.github.io/comp150/ClassNotes.html#pipSim">Pip
 Assembler Simulator</a> (vid)<br>
 </li>
-<li> <a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/ClassNotes.html#machineLang">An
+<li> <a href="http://hwheeler01.github.io/comp150/ClassNotes.html#machineLang">An
 Introduction to Pip
 Machine Language</a> (vid)<br>
 </li>
-<li> <a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/ClassNotes.html#morePipSim">More
+<li> <a href="http://hwheeler01.github.io/comp150/ClassNotes.html#morePipSim">More
 on the Simulator
 and Pip</a> (vid)</li>
-<li> <a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/ClassNotes.html#Pip1">Format
+<li> <a href="http://hwheeler01.github.io/comp150/ClassNotes.html#Pip1">Format
 of my Pip
 assembler</a></li>
-<li><a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/ClassNotes.html#Assignment_Translation_Applet">Assignment
+<li><a href="http://hwheeler01.github.io/comp150/ClassNotes.html#Assignment_Translation_Applet">Assignment
 Translation Applet Introduction</a> (vid)<br>
 </li>
-<li> <a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/ClassNotes.html#Loops_AddressLabels">Loops
+<li> <a href="http://hwheeler01.github.io/comp150/ClassNotes.html#Loops_AddressLabels">Loops
 and Symbolic
 Address Labels</a> (vid)</li>
-<li><a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/ClassNotes.html#pipJumps">Practice
+<li><a href="http://hwheeler01.github.io/comp150/ClassNotes.html#pipJumps">Practice
 Using jumps</a> (vid)<br>
 </li>
-<li><a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/ClassNotes.html#translationMachineAssem">Translation
+<li><a href="http://hwheeler01.github.io/comp150/ClassNotes.html#translationMachineAssem">Translation
 Between Machine Language and Assembler</a> (vid)</li>
 </ol>
 </li>
-<li><a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/ClassNotes.html#Boolean">Boolean
+<li><a href="http://hwheeler01.github.io/comp150/ClassNotes.html#Boolean">Boolean
 Algebra, Truth
 Tables, and Digital Circuits</a> (vid)
 <ol style="list-style-type: upper-alpha;">
-<li><a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/ClassNotes.html#algrbraOverview">Boolean
+<li><a href="http://hwheeler01.github.io/comp150/ClassNotes.html#algrbraOverview">Boolean
 Algebra and
 Truth Tables</a> (vid)</li>
-<li><a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/ClassNotes.html#BooleanAlgRules">Rules
+<li><a href="http://hwheeler01.github.io/comp150/ClassNotes.html#BooleanAlgRules">Rules
 of Boolean Algebra</a>
 (vid) </li>
-<li><a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/ClassNotes.html#GatesCircuits">Transistors,
+<li><a href="http://hwheeler01.github.io/comp150/ClassNotes.html#GatesCircuits">Transistors,
 Gates, and
 Circuits</a> (vid)</li>
-<li><a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/ClassNotes.html#GatesApplet">Gates
+<li><a href="http://hwheeler01.github.io/comp150/ClassNotes.html#GatesApplet">Gates
 Applet</a> (vid)<br>
 </li>
-<li><a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/ClassNotes.html#boolExprForTruthT">Finding
+<li><a href="http://hwheeler01.github.io/comp150/ClassNotes.html#boolExprForTruthT">Finding
 a Boolean
 Expression for a truth table</a> (vid)</li>
-<li><a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/ClassNotes.html#computerCircuits">Computer
+<li><a href="http://hwheeler01.github.io/comp150/ClassNotes.html#computerCircuits">Computer
 Addition</a> (vid)</li>
-<li><a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/ClassNotes.html#Multiplexers">Mutiplexers</a>
+<li><a href="http://hwheeler01.github.io/comp150/ClassNotes.html#Multiplexers">Mutiplexers</a>
 (vid)</li>
-<li><a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/ClassNotes.html#Latch_Circuit">Latch
+<li><a href="http://hwheeler01.github.io/comp150/ClassNotes.html#Latch_Circuit">Latch
 Circuit</a> (vid)</li>
-<li><a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/ClassNotes.html#VLSI">Chip
+<li><a href="http://hwheeler01.github.io/comp150/ClassNotes.html#VLSI">Chip
 Fabrication</a> (vid)</li>
 </ol>
 </li>
-<li><a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/ClassNotes.html#Conclusion">Conclusion</a></li>
+<li><a href="http://hwheeler01.github.io/comp150/ClassNotes.html#Conclusion">Conclusion</a></li>
 </ol>
 <h2><a class="mozTocH2" name="Class1"></a>Course
 Introduction</h2>
@@ -268,7 +263,7 @@ though the final project is
 open-ended, and others have done dynamic web projects, scientific data
 analysis, ....<br>
 <br>
-Right click on the following link and select Save As.<a target="_blank" href="http://webpages.cs.luc.edu/~cnaiman/COMP150/pastGames.zip"><br>
+Right click on the following link and select Save As.<a target="_blank" href="http://hwheeler01.github.io/comp150/pastGames.zip"><br>
 samples to download and unzip</a>
 <p>Further instructions (for Windows):</p>
 <ol>
@@ -566,7 +561,7 @@ coefficient 1)</p>
 </tr>
 </tbody>
 </table>
-<p>Looking ahead, download <a target="_blank" href="http://webpages.cs.luc.edu/~cnaiman/COMP150/nt_examples/pipFiles.zip">pipFiles.zip</a>,
+<p>Looking ahead, download <a target="_blank" href="http://hwheeler01.github.io/comp150/nt_examples/pipFiles.zip">pipFiles.zip</a>,
 and unzip it on your computer or on your flash drive. &nbsp;The
 pipFiles directory also contains an Idle shortcut and a module for
 studying bases, bases.py.&nbsp; To follow along for now, open Idle
@@ -932,8 +927,8 @@ through 16: &nbsp;Instead of creating a digit character with just
 needed, as defined above. &nbsp;<br>
 <br>
 The intToBase function and
-several others are include in <a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/nt_examples/bases.py">bases.py</a>
-in <a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/nt_examples/pipFiles.zip">pipFiles.zip</a>
+several others are include in <a href="http://hwheeler01.github.io/comp150/nt_examples/bases.py">bases.py</a>
+in <a href="http://hwheeler01.github.io/comp150/nt_examples/pipFiles.zip">pipFiles.zip</a>
 file referenced
 earlier.&nbsp; It sits in the examples directory for the course
 (not in
@@ -1199,7 +1194,7 @@ stripped</p>
 </tbody>
 </table>
 <p><br>
-See <a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/nt_examples/bases.py">bases.py</a>
+See <a href="http://hwheeler01.github.io/comp150/nt_examples/bases.py">bases.py</a>
 in the examples directory for the course. &nbsp;The hexToBin and
 binToHex functions manipulate pieces of strings and use some of the
 string methods and string indexing syntax from Chapter 2 of the
@@ -1359,7 +1354,7 @@ Assembler Simulator (vid)<br>
 <p>For a simple conceptual view, look at the Pip Assembler
 simulator
 in the class web examples. &nbsp;All files are included in
-<a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/nt_examples/pipFiles.zip">pipFiles.zip</a>.
+<a href="http://hwheeler01.github.io/comp150/nt_examples/pipFiles.zip">pipFiles.zip</a>.
 &nbsp;Use a
 flash drive if you are on a lab computer!&nbsp; <br>
 <br>
@@ -2382,7 +2377,7 @@ z = x + y<br>
 </p>
 <p>
 See
-the assignment <a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/HW/PipPrograms.html">Pip
+the assignment <a href="http://hwheeler01.github.io/comp150/HW/PipPrograms.html">Pip
 Program</a>. &nbsp;It is
 similar to the code from this section.</p>
 <p>This hopefully gives the idea that&nbsp; a high level
@@ -3374,7 +3369,7 @@ expression<span style="font-weight: bold;"></span>.&nbsp;
 Python treats 1 and 0 as True and False in Boolean expressions, and can
 convert Boolean values to ints.&nbsp; For example the table for
 Boolean
-expression AB+AC could be generated by this code in <a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/Examples/truth.py">truth.py</a>:<br>
+expression AB+AC could be generated by this code in <a href="http://hwheeler01.github.io/comp150/Examples/truth.py">truth.py</a>:<br>
 <br>
 <span style="font-family: monospace;">print('A B C AB+BC')</span><br style="font-family: monospace;">
 <span style="font-family: monospace;">for A in [0, 1]:</span><br style="font-family: monospace;">
@@ -3775,7 +3770,7 @@ This is the system in the applet, too.<br>
 <img style="width: 283px; height: 183px;" alt="AB + AC=A(B+C) in circuits, input 1, 0, 0" src="http://hwheeler01.github.io/comp150/ClassNotes_files/distrib100.png"></p>
 <p><img style="width: 285px; height: 177px;" alt="AB + AC=A(B+C) in circuits, input 1, 0, 1" src="http://hwheeler01.github.io/comp150/ClassNotes_files/distrib101.png"></p>
 <br>
-Further Class exercise:&nbsp; Construct a tester for a <a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/ClassNotes.html#BooleanAlgRules">Boolean
+Further Class exercise:&nbsp; Construct a tester for a <a href="http://hwheeler01.github.io/comp150/ClassNotes.html#BooleanAlgRules">Boolean
 Algebra identity</a> for
 the other distributive property, A+BC = (A+B)(A+C), or
 for one of&nbsp;DeMorgan's laws on the bottom line.
@@ -3894,7 +3889,7 @@ A circuit could certainly
 be made for X, but it would be easier with a simplification.
 &nbsp;One
 advantage of Boolean algebra is that it is easy to manipulate
-algebraically, for instance using the rules of <a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/ClassNotes.html#BooleanAlgRules">Boolean
+algebraically, for instance using the rules of <a href="http://hwheeler01.github.io/comp150/ClassNotes.html#BooleanAlgRules">Boolean
 Algebra</a> discussed earlier. &nbsp;I
 will not hold you responsible
 for this, but it will shorten some answers, and hence prove to be
@@ -4506,7 +4501,7 @@ circuits would include a clock.<br>
 <br>
 <br>
 See
-the <a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/HW/Gates.html">gates
+the <a href="http://hwheeler01.github.io/comp150/HW/Gates.html">gates
 homework</a>.<br>
 </p>
 <h3><a name="VLSI"></a>Very Large Scale
