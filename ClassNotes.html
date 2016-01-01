@@ -1661,59 +1661,109 @@ result, just press RUN, and the program runs up to 100 steps or until
 it halts. &nbsp;If you look at the text window, you see the whole
 history.<br>
 </p>
-<h3><a name="Assignment_Translation_Applet"></a>Assignment
-Translation
-Applet Introduction (vid)</h3>
-So you can come back to these instructions easily,&nbsp;in a <span style="font-style: italic; font-weight: bold;">separate tab</span>
-open the <a href="http://www.course.com/downloads/computerscience/aeonline/6/3/index.html">assignment
-statement translation applet</a>.&nbsp;
-You are likely to get several pop-up windows depending on your security
-settings.&nbsp; Approve running the applet even though the browse
-cannot confirm its security certificate.&nbsp; This applet was
-unfortunately compiled under an old version of Java, and the current
-Java interpreters restrict what you can do with it.&nbsp; In
-particular
-you should not be able to save data to a file from inside the applet.<br>
+
+<h3><a name="Assignment_Translation_Applet"></a>Assignment Translation
+(with parsing applet in vid)</h3>
+The video illustrates an old applet that does not run with the current Java
+implementations.&nbsp; It illustrates <i>parsing</i>: analyzing an expression
+in a way that allows it to be later translated into assembler.&nbsp;
+The applet demonstates a <i>parse tree</i> for the expression
+evaluation.&nbsp; The parse tree shows what operations must be done
+first, due to precedence or parentheses.&nbsp; As a basic indication of
+your ability to write assmber code, you should be able to translate
+arithmetic assignment statements into assembler.&nbsp; An easy example
+would be<br>
 <br>
-This is a nice applet from the Analytical Engine for analyzing
-expressions like Z = (W+X) * Y
-/ 2, the then translating them into Pip assembler. &nbsp;For
-simplicity, the applet only allows
-variables W, X, Y, and Z (ignoring case).&nbsp; <br>
+X = 2Y - Z&nbsp; translates quite directly to<br>
 <br>
-Start on the instructions on the web page that come after the
-applet:&nbsp; Do Step 1, and 2. An initial algorithm before
-translation
-to assembler, is to analyse the order of operations using the
-precedence of the operations, by <span style="font-style: italic;">parsing</span>.
-&nbsp;The applet should generate a graphical representaton showing
-a
-tree of operations after parsing leading down to the final assignment
-at the bottom. <br>
+LOD #2&nbsp;&nbsp; ; 2<br>
+MUL Y&nbsp;&nbsp; ; 2*Y<br>
+SUB Z&nbsp;&nbsp;&nbsp; ; 2*Y - Z<br>
+STO X&nbsp;&nbsp;&nbsp; ; X = 2*Y-Z<br>
+
+
 <br>
-Now continue from Step 3 in the instructions for using the applet,
-going
-through the steps explained there, and doing the exercises at the
-bottom. &nbsp;Note that not all examples are as straightforward as
-the
-first one, which just does binary operations with the accumulator.<span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: &#39;Times New Roman&#39;; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; font-size: medium;"><span class="Apple-style-span" style="color: rgb(204, 51, 204); font-family: monospace;">&nbsp;
-</span></span>Some
-expressions, like
-the one in Step 5, require several intermediate parts to be remembered.
-&nbsp;The convention in this applet is to use variables T1 - T4 as
-<span style="font-style: italic;">temporary</span>
-variables hold such
-results. &nbsp;An even shorter expression
-needing a temporary variable T1 is&nbsp; <br>
-Z=W/(X+Y)<br>
-...<br>
+In this one we keep acting on an intermediate calculated value in the
+accumulator.&nbsp; For simple examples you can see yourself what
+operations have the highest precedence and must be done first.&nbsp; <br>
 <br>
+Unlike the example above, the situation could be more complex, where
+there needs to be more than one intermediate result remembered at the
+same time.&nbsp; The Pip memory location names T1, T2, T3, T4, use T as
+the first letter of <span style="font-style: italic;">temporary</span>: places to store intermediate results.&nbsp; For example<br>
+<br>
+X = 2*Y - Z/W<br><br>
+needs two separate intermediate results, for 2*Y and for Z/W.&nbsp;
+Both cannot be in the accumulator at once, so we need an extra storage
+locate, and we use T1 below:<br>
+<br>
+LOD Z&nbsp;&nbsp; ; Z<br>
+
+DIV W&nbsp;&nbsp; ; Z/W<br>
+
+STO T1&nbsp; ; T1 = Z/W&nbsp; ; remember intermediate result<br>
+LOD #2&nbsp; ; 2<br>
+
+
+MUL Y&nbsp; ; 2*Y<br>
+SUB T1 ; 2*Y - Z/W ; bring back and use stored intermediate result<br>
+
+STO X&nbsp;&nbsp; ; X = 2*Y - Z/W<br>
+
+
+
+<br>
+We calculated the intermediate Z/W first to save steps since the&nbsp; SUB insruction subtracts <span style="font-style: italic;">from</span> the accumulator.&nbsp;&nbsp; A smart compiler would use code like this.<br>
+<br>
+Equally valid, but more mechanical, with less thinking ahead and longer
+code, you could save both intermediate results and worry later about
+the order to use them: <br>
+<br>
+
+LOD #2&nbsp; ; 2<br>
+
+
+
+
+MUL Y&nbsp; ; 2*Y<br>
+STO T1 ; T1=2*Y&nbsp; ; first intermediate<br>
+
+LOD Z&nbsp; ; Z<br>
+
+
+DIV W&nbsp; ; Z/W<br>
+
+
+STO T2 ; T2=Z/W&nbsp; ; second intermediate<br>
+LOD T1&nbsp; 2*Y<br>
+SUB T2 ; 2*Y-Z/W ; bring back and use stored intermediate result<br>
+
+
+STO X&nbsp; ; X = 2*Y-Z/W <br>
+
+
+
+
+<br>
+For both of these examples, you could put the code into a file, read it
+into the simulator, and assign values for Y, Z, and W, and see that the
+right value is calculated for X.&nbsp; Try some others yourself, and
+check yourself using the simulator:<br>
+<br>
+Y = Z * 3 - X<br>
+X = (Y + 5) / 2<br>
+Z = (W * W) + (X * X)<br>
+Y = Z/((W * W) + (X * X)) <br>
+
+
+<br>
+
 Translating
 expressions yourself, by hand, from a Python-like assignment statement
 to assembler, is a basic way to learn to use Pip (and
-is likely to be <span style="font-style: italic;">tested</span>).
-&nbsp;Ths applet allows you to make up your
-own problems and test yourself!<br>
+is likely to be <span style="font-style: italic;">tested</span>).&nbsp;
+<br>
+
 <h3><a class="mozTocH3" name="Loops_AddressLabels"></a>Loops
 and
 Symbolic
