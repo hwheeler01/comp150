@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Class Notes
+title: ClassNotes
 permalink: /classnotes/
 ---
 
-##Class Notes
+##ClassNotes
 
-Based on class notes (with permission) of Dr. Andrew N. Harrington.<br>
+Based on ClassNotes (with permission) of Dr. Andrew N. Harrington.<br>
 
 <span style="font-style: italic;"></span> 
 <p>These notes are basically for everything except the <a href="http://anh.cs.luc.edu/python/hands-on/3.1">Hands-on
@@ -91,7 +91,7 @@ Using jumps</a> (vid)<br>
 Between Machine Language and Assembler</a> (vid)</li>
 </ol>
 </li>
-<li><a href="./Class Notes_files/Class Notes.html">Boolean
+<li><a href="./ClassNotes_files/ClassNotes.html">Boolean
 Algebra, Truth
 Tables, and Digital Circuits</a> (vid)
 <ol style="list-style-type: upper-alpha;">
@@ -607,7 +607,7 @@ by hand.  To convert
 14 (at the bottom of
 the picture) and repeatedly divide by 2 until you get a 0
 quotient:<br>
-<img src="http://hwheeler01.github.io/comp150/Class Notes_files/decToBinManual.png" name="graphics1" alt="Decimal to binary by hand" align="bottom" border="0" height="167" width="182"> <br>
+<img src="http://hwheeler01.github.io/comp150/ClassNotes_files/decToBinManual.png" name="graphics1" alt="Decimal to binary by hand" align="bottom" border="0" height="167" width="182"> <br>
 Binary
 is verbose!  We will see that there is a very simple
 relationship between base 2 and base 16 = <font face="monospace">2</font><sup><font face="monospace">4</font></sup>.
@@ -3363,7 +3363,7 @@ more
 reliable than the others.  I will just refer to the
 modern
 version, transistors.   <br>
-<img src="http://hwheeler01.github.io/comp150/Class Notes_files/transistor.png" name="graphics2" alt="Transistor" align="bottom" border="0" height="232" width="494"><br>
+<img src="http://hwheeler01.github.io/comp150/ClassNotes_files/transistor.png" name="graphics2" alt="Transistor" align="bottom" border="0" height="232" width="494"><br>
 I will diagram a transistor as a gray circle.  A
 transistor has three connections, a base, B, an emitter, V<sub>in</sub>,
 and a collector, V<sub>out</sub>.
@@ -3397,7 +3397,7 @@ voltage attached).  The standard ground symbol is shown at the
 bottom of each diagram below.  A capital V is used to mean a
 consistent voltage source.  A connection of the output to
 voltage or ground is shown by a gray path.<br>
-<img src="http://hwheeler01.github.io/comp150/Class Notes_files/notGate.png" name="graphics3" alt="not gate" align="bottom" border="0" height="239" width="661"><br>
+<img src="http://hwheeler01.github.io/comp150/ClassNotes_files/notGate.png" name="graphics3" alt="not gate" align="bottom" border="0" height="239" width="661"><br>
 In
 the simplest situation, V<sub>in</sub>
 is definitely connected
@@ -3485,7 +3485,7 @@ in the Figure</p>
 <p style="margin-bottom: 0in;"><br>
 We can connect two transistors in
 series as shown and use both bases as inputs.  <br>
-<img src="http://hwheeler01.github.io/comp150/Class Notes_files/nandGate.png" name="graphics4" alt="Nand gate" align="bottom" border="0" height="385" width="312"><br>
+<img src="http://hwheeler01.github.io/comp150/ClassNotes_files/nandGate.png" name="graphics4" alt="Nand gate" align="bottom" border="0" height="385" width="312"><br>
 Only
 when both inputs have voltage, as shown, is there a connection
 between ground and the output.  If either input were grounded,
@@ -3561,7 +3561,7 @@ combination is commonly abbreviated, NAND.  <br>
 We can also
 connect two transistors in parallel as shown, still using both bases
 as inputs feeding one output.  <br>
-<img src="http://hwheeler01.github.io/comp150/Class Notes_files/norGate.png" name="graphics5" alt="Nor gate" align="bottom" border="0" height="239" width="573"><br>
+<img src="http://hwheeler01.github.io/comp150/ClassNotes_files/norGate.png" name="graphics5" alt="Nor gate" align="bottom" border="0" height="239" width="573"><br>
 The
 only way to avoid a connection between the output and ground
 is
@@ -3647,7 +3647,7 @@ transistors, voltages and grounds needed for the different Boolean
 operations discussed above is hidden, or abstracted away.  The
 operations are given special, more simple symbols:<br>
 <br>
-<img src="http://hwheeler01.github.io/comp150/Class Notes_files/gates.png" name="graphics6" alt="Gate symbols" align="bottom" border="0" height="158" width="232"><br>
+<img src="http://hwheeler01.github.io/comp150/ClassNotes_files/gates.png" name="graphics6" alt="Gate symbols" align="bottom" border="0" height="158" width="232"><br>
 The
 inputs are assumed to come into the wires on the left and the output
 go out from the wire on the right.  All the gates that involve
@@ -3657,7 +3657,7 @@ take place.<br>
 For example the Boolean expression A(B+C)
 corresponds to the circuit diagram<br>
 <br>
-<img src="http://hwheeler01.github.io/comp150/Class Notes_files/A-B+C.png" name="graphics7" alt="circuit diagram for A(B+C}" align="bottom" border="0" height="88" width="179"><br>
+<img src="http://hwheeler01.github.io/comp150/ClassNotes_files/A-B+C.png" name="graphics7" alt="circuit diagram for A(B+C}" align="bottom" border="0" height="88" width="179"><br>
 <br>
 Each
 input is assumed to correspond to a voltage on a labeled wire,
@@ -3733,8 +3733,8 @@ that wires only connect at the small round contact points.  In
 other places wires pass one over another ut are not
 connected. 
 This is the system in the applet, too.<br>
-<img style="width: 283px; height: 183px;" alt="AB + AC=A(B+C) in circuits, input 1, 0, 0" src="./Class Notes_files/distrib100.png"></p>
-<p><img style="width: 285px; height: 177px;" alt="AB + AC=A(B+C) in circuits, input 1, 0, 1" src="./Class Notes_files/distrib101.png"></p>
+<img style="width: 283px; height: 183px;" alt="AB + AC=A(B+C) in circuits, input 1, 0, 0" src="./ClassNotes_files/distrib100.png"></p>
+<p><img style="width: 285px; height: 177px;" alt="AB + AC=A(B+C) in circuits, input 1, 0, 1" src="./ClassNotes_files/distrib101.png"></p>
 <br>
 Further Class exercise:  Construct a tester for a <a href="http://hwheeler01.github.io/comp150/classnotes/#BooleanAlgRules">Boolean
 Algebra identity</a> for
@@ -4137,7 +4137,7 @@ A XOR B = AB' + A'B<br>
 This is a <span style="font-style: italic;">half adder</span>
 circuit.<br>
 <br>
-<img src="http://hwheeler01.github.io/comp150/Class Notes_files/halfAdder.png" name="graphics8" alt="half adder" align="bottom" border="0" height="100" width="166"><br>
+<img src="http://hwheeler01.github.io/comp150/ClassNotes_files/halfAdder.png" name="graphics8" alt="half adder" align="bottom" border="0" height="100" width="166"><br>
 </p>
 <p>The video animates this circuit.  If you like you can
 construct
@@ -4151,7 +4151,7 @@ adder
 several times in more complicated situations, and will give the half
 adder its own symbol<br>
 <br>
-<img src="http://hwheeler01.github.io/comp150/Class Notes_files/halfAdderAbs.png" name="graphics9" alt="Symbol for half adder" align="bottom" border="0" height="100" width="166"><br>
+<img src="http://hwheeler01.github.io/comp150/ClassNotes_files/halfAdderAbs.png" name="graphics9" alt="Symbol for half adder" align="bottom" border="0" height="100" width="166"><br>
 <br>
 When
 you do addition using place value with two multi-digit numbers,
@@ -4197,7 +4197,7 @@ produce the final sum bit.  Both half adders have a carry bit.
 final answer, so the carry bits need to go through an OR gate to
 procuce the final carry.<br>
 <br>
-<img src="http://hwheeler01.github.io/comp150/Class Notes_files/fullAdderAbs1.png" name="graphics10" alt="full adder from two half adders" align="bottom" border="0" height="169" width="307"><br>
+<img src="http://hwheeler01.github.io/comp150/ClassNotes_files/fullAdderAbs1.png" name="graphics10" alt="full adder from two half adders" align="bottom" border="0" height="169" width="307"><br>
 <br>
 Recreating this in the gates applet is shown in the video, and also
 below in pictures.  The most significant output bit
@@ -4206,15 +4206,15 @@ test
 it in
 the gates applet, but the circuits are getting more complicated to
 reproduce by hand!<br>
-.<img style="width: 357px; height: 187px;" alt="full adder 1+1+1" src="./Class Notes_files/full111.png"> 
+.<img style="width: 357px; height: 187px;" alt="full adder 1+1+1" src="./ClassNotes_files/full111.png"> 
 1+1+1 =11</p>
-<p><span style="font-style: italic;"><img style="width: 355px; height: 182px;" alt="Full adder adding 1, 0, 1" src="./Class Notes_files/full101.png"> 
+<p><span style="font-style: italic;"><img style="width: 355px; height: 182px;" alt="Full adder adding 1, 0, 1" src="./ClassNotes_files/full101.png"> 
 </span>1+0+1=10 <span style="font-style: italic;"> </span><br>
 The full adder,
 too, can be used in more complicated circuits, so we will give it its
 own symbol:<br>
 <br>
-<img src="http://hwheeler01.github.io/comp150/Class Notes_files/fullAdderAbs.png" name="graphics11" alt="full adder symbol" align="bottom" border="0" height="110" width="156"> <br>
+<img src="http://hwheeler01.github.io/comp150/ClassNotes_files/fullAdderAbs.png" name="graphics11" alt="full adder symbol" align="bottom" border="0" height="110" width="156"> <br>
 <br>
 Once
 you have full adders you can chain them together to create a
@@ -4232,7 +4232,7 @@ has <span style="font-style: italic;">no</span>
 carry in, so only a
 half adder is needed:<br>
 <br>
-<img src="http://hwheeler01.github.io/comp150/Class Notes_files/3BitAdderAbs.png" name="graphics12" alt="3 bit adder" align="bottom" border="0" height="259" width="160"><br>
+<img src="http://hwheeler01.github.io/comp150/ClassNotes_files/3BitAdderAbs.png" name="graphics12" alt="3 bit adder" align="bottom" border="0" height="259" width="160"><br>
 <br>
 Recreating this in the gates applet is shown below in pictures, and is
 simulated in action in the video.  For
@@ -4256,10 +4256,10 @@ above
 correspond tothe leftmost column of switches, and the bottom summmands
 reappear slightly to the right.  <br>
 </p>
-<p><img style="width: 387px; height: 289px;" alt="3 bit adder 011+101" src="./Class Notes_files/3bit011_101.png"> 
+<p><img style="width: 387px; height: 289px;" alt="3 bit adder 011+101" src="./ClassNotes_files/3bit011_101.png"> 
 011+101=1000<br>
 </p>
-<p><img style="width: 385px; height: 291px;" alt="3 bit adder 010+101" src="./Class Notes_files/3bit010_101.png"> 
+<p><img style="width: 385px; height: 291px;" alt="3 bit adder 010+101" src="./ClassNotes_files/3bit010_101.png"> 
 010+101 = 111
 <br>
 <font face="monospace"><br>
@@ -4292,13 +4292,13 @@ the first picture the control
 line is off (0), so the input with index 0 (the upper one) has its
 state (on, 1) transmitted through to the output wire, lighting the
 light.<br>
-<img style="width: 317px; height: 223px;" alt="multiplexer with 2 data lines" src="./Class Notes_files/mp01-0.png"> d0=1,
+<img style="width: 317px; height: 223px;" alt="multiplexer with 2 data lines" src="./ClassNotes_files/mp01-0.png"> d0=1,
 d1=0,
 control choosing d0 = 1<br>
-<img style="width: 317px; height: 222px;" alt="d0=1, d1=0, control choosing d1" src="./Class Notes_files/mp01-1.png"> d0=1,
+<img style="width: 317px; height: 222px;" alt="d0=1, d1=0, control choosing d1" src="./ClassNotes_files/mp01-1.png"> d0=1,
 d1=0,
 control choosing d1 = 0<br>
-<img style="width: 316px; height: 221px;" alt="d0=0, d1=0, control choosing d1" src="./Class Notes_files/mp00-1.png"> d0=0,
+<img style="width: 316px; height: 221px;" alt="d0=0, d1=0, control choosing d1" src="./ClassNotes_files/mp00-1.png"> d0=0,
 d1=0,
 control choosing d1 </p>
 <p>The pictures below, and also the Multipler video show a 2-bit
@@ -4313,14 +4313,14 @@ lines.  The data lines in the picture are numbered 00 through
 from top to
 bottom.  The top control line has the less significant bit.<br>
 </p>
-<p><img style="width: 437px; height: 257px;" alt="d00=0, d01=0, d10=0, d11=1, control 01" src="./Class Notes_files/mp1000-01.png">
+<p><img style="width: 437px; height: 257px;" alt="d00=0, d01=0, d10=0, d11=1, control 01" src="./ClassNotes_files/mp1000-01.png">
 d00=0,
 d01=0, d10=0, d11=1, control choosing d01 = 0<br>
 </p>
-<p><img style="width: 440px; height: 260px;" alt="d00=0,d01=1,d10=0,d11=0, control 11" src="./Class Notes_files/mp0010-01.png"> d00=0,
+<p><img style="width: 440px; height: 260px;" alt="d00=0,d01=1,d10=0,d11=0, control 11" src="./ClassNotes_files/mp0010-01.png"> d00=0,
 d01=1, d10=0, d11=0, control choosing d01 = 1<br>
 </p>
-<img style="width: 441px; height: 261px;" alt="d00=0,d01=1,d10=0,dii=0, control 01" src="./Class Notes_files/mp0010-11.png"> d00=0,
+<img style="width: 441px; height: 261px;" alt="d00=0,d01=1,d10=0,dii=0, control 01" src="./ClassNotes_files/mp0010-11.png"> d00=0,
 d01=1, d10=0, d11=0, control choosing d11 = 0<br>
 <p>A
 demultiplexer does the reverse:  n control lines and one data
@@ -4356,7 +4356,7 @@ to have memory.  Loops in circuits can get tricky.<br>
 A latch can
 remember a value.  We examine it in steps.<br>
 <font face="monospace"><br>
-<img src="http://hwheeler01.github.io/comp150/Class Notes_files/latch.png" name="graphics13" alt="latch" align="bottom" border="0" height="145" width="235"><br>
+<img src="http://hwheeler01.github.io/comp150/ClassNotes_files/latch.png" name="graphics13" alt="latch" align="bottom" border="0" height="145" width="235"><br>
 <br>
 </font>It
 has two main direct inputs <font face="monospace">d</font>,
@@ -4385,7 +4385,7 @@ and <font face="monospace">q
 is transmitted to the output, whatever <font face="monospace">d</font>
 is, and however it changes over time.<font face="monospace"><br>
 <br>
-<img src="http://hwheeler01.github.io/comp150/Class Notes_files/latch-g1.png" name="graphics15" alt="latch with g 1" align="bottom" border="0" height="150" width="230"><br>
+<img src="http://hwheeler01.github.io/comp150/ClassNotes_files/latch-g1.png" name="graphics15" alt="latch with g 1" align="bottom" border="0" height="150" width="230"><br>
 <br>
 </font>On the other hand, if
 <font face="monospace">g</font> is 0, then <font face="monospace">g'</font>
@@ -4409,7 +4409,7 @@ independent of how <font face="monospace">d</font>
 is changed!
  <font face="monospace"><br>
 <br>
-<img src="http://hwheeler01.github.io/comp150/Class Notes_files/latch-g0.png" name="graphics17" alt="latch with g 0" align="bottom" border="0" height="144" width="229"><br>
+<img src="http://hwheeler01.github.io/comp150/ClassNotes_files/latch-g0.png" name="graphics17" alt="latch with g 0" align="bottom" border="0" height="144" width="229"><br>
 <br>
 </font>It
 is not quite that simple if you view the latch video.  If you
@@ -4423,8 +4423,8 @@ Java implementation for the applet, you could see the
 circuit flash continuously, back and forth between the two pictures
 below:<br>
 </p>
-<p><img style="width: 311px; height: 148px;" alt="flash loop 1" src="./Class Notes_files/latchBad10-1.png"></p>
-<p><img style="width: 314px; height: 151px;" alt="flash loop 0" src="./Class Notes_files/latchBad10-0.png"><br>
+<p><img style="width: 311px; height: 148px;" alt="flash loop 1" src="./ClassNotes_files/latchBad10-1.png"></p>
+<p><img style="width: 314px; height: 151px;" alt="flash loop 0" src="./ClassNotes_files/latchBad10-0.png"><br>
 That <i>transition</i>
 of g from 1
 to 0 is a problem.  This is a <span style="font-style: italic;">timing</span>
@@ -4439,16 +4439,16 @@ sequence of input data, and it should
 work (hopefully in whatever version of Java your browser is
 using).  <br>
 </p>
-<p><img style="width: 313px; height: 228px;" alt="With g=1, data 1 passes though" src="./Class Notes_files/latch11.png"> With g=1,
+<p><img style="width: 313px; height: 228px;" alt="With g=1, data 1 passes though" src="./ClassNotes_files/latch11.png"> With g=1,
 data
 1 passes though.  If data were switched to 0, output would go
 to 0.</p>
-<p><img style="width: 309px; height: 226px;" alt="g to 0, keep output 1" src="./Class Notes_files/latch10-1.png"> 
+<p><img style="width: 309px; height: 226px;" alt="g to 0, keep output 1" src="./ClassNotes_files/latch10-1.png"> 
 g to 0, keep output 1</p>
-<p><img style="width: 317px; height: 225px;" alt="g at 0, data to 0, but output still 1" src="./Class Notes_files/latch00-1.png"> 
+<p><img style="width: 317px; height: 225px;" alt="g at 0, data to 0, but output still 1" src="./ClassNotes_files/latch00-1.png"> 
 g at 0, data switched to 0, but output still 1<br>
 </p>
-<p><img style="width: 314px; height: 231px;" alt="g to 1, output matched data, 0" src="./Class Notes_files/latch01.png"> 
+<p><img style="width: 314px; height: 231px;" alt="g to 1, output matched data, 0" src="./ClassNotes_files/latch01.png"> 
 g to 1,
 output matched data, 0<br>
 </p>
@@ -4500,7 +4500,7 @@ connections <span style="font-style: italic;">simultaneously</span>.
 A schematic, omitting all the
 chemistry needed for the transformations, is below:<br>
 <p>
-<img style="width: 406px; height: 479px;" alt="Photolithographic Chip Fabrication Cycle" src="./Class Notes_files/chipPhotoLithography.png"></p>
+<img style="width: 406px; height: 479px;" alt="Photolithographic Chip Fabrication Cycle" src="./ClassNotes_files/chipPhotoLithography.png"></p>
 <p>For much more detail (going far beyond this course!),
 see  <a href="http://www.lithoguru.com/scientist/lithobasics.html">VLSI</a>
 or
