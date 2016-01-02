@@ -52,7 +52,7 @@ Python Tutorial</a>, but with rather limited
 examples.&nbsp; </p>
   </li>
   <li>
-    <p style="margin-bottom: 0in;">Official Python Tutorial for <a href="http://docs.python.org/3.2/tutorial/index.html">version 3.2 </a>covers
+    <p style="margin-bottom: 0in;">Official Python Tutorial for <a href="https://docs.python.org/3.5/tutorial/index.html">version 3.5 </a>covers
 a lot. It moves fast for someone with no programming background.
 Idle links to this. </p>
   </li>
