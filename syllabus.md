@@ -131,7 +131,7 @@ Class time is valuable and in short supply, so there are some tradeoffs in this 
 
 *Pair Programming:*&nbsp;Pair Programming is when two people collaborate on one problem with one person coding while the other looks on. For novices and professionals alike, pair programming often leads to better, faster, and more enjoyable project completion. We will have the option to do pair programming in this course for in-class work and programming assignments. **However, your exams will NOT be in pairs!** &nbsp;Read the page on how to make pair programming work and requirements for using it in this class <a href="{{ site.baseurl }}/pairprogram">here</a>.
 
-*Python Project:*&nbsp;You will form teams of two or three, to complete a project, which is a major programming assignment in Python. Some suggestions for the project can be found <a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/HW/Project.html">here.</a> This will be discussed further in class.<br>
+*Python Project:*&nbsp;You will form teams of two or three, to complete a project, which is a major programming assignment in Python. Some suggestions for the project can be found <a href="http://hwheeler01.github.io/comp150/HW/Project.html">here.</a> This will be discussed further in class.<br>
 
 
 ***Important note about pair/team submissions:***&nbsp;</span> For pair/team assignments, each team member must submit the assignment on Sakai with their own unique `log.txt` file with the requested information for that assignment. 
@@ -271,30 +271,30 @@ In the Activities column **"Prep:"** means preparation done *before* class with 
 |Jan 27|Catch up and questions: Python Tutorial 1.1 - 1.10 |
 |Feb 1|**Prep:** Python Tutorial Functions 1.11, Dictionaries 1.12, Loops 1.13 |
 |Feb 3|**Prep:** Python Tutorial 1.14 - 1.15, homework questions ready! |
-|Feb 8|**Prep:** Python Tutorial 2.1 - 2.3 | <a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/HW/CheckOnTutorial-1.html">Chapter 1 exercises</a>|
+|Feb 8|**Prep:** Python Tutorial 2.1 - 2.3 | <a href="http://hwheeler01.github.io/comp150/HW/CheckOnTutorial-1.html">Chapter 1 exercises</a>|
 |Feb 10|**Prep:** Python Tutorial 2.4 , 2.4.1, 2.4.2, 2.4.5 (2.4.5 only in text) |
 |Feb 15|**Prep:** Python Tutorial 2.4.6-8, 2.4.10 (read/demo) |
 |Feb 17|**Prep:** Python Tutorial 2.5 |
-|Feb 22|Review for Exam 1 | <a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/HW/CheckOnTutorial-2.html">Chapter 2 exercises</a>|
+|Feb 22|Review for Exam 1 | <a href="http://hwheeler01.github.io/comp150/HW/CheckOnTutorial-2.html">Chapter 2 exercises</a>|
 |Feb 24|**EXAM 1** |
 |Feb 29|**Prep:** Python Tutorial  Chapter 3 through 3.1.6 |
-|Mar 2|**Prep:** Python Tutorial 3.1.6 - 3.1.7 | <a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/HW/CheckOnTutorial-3.html">Chapter 3.1 exercises</a> |
+|Mar 2|**Prep:** Python Tutorial 3.1.6 - 3.1.7 | <a href="http://hwheeler01.github.io/comp150/HW/CheckOnTutorial-3.html">Chapter 3.1 exercises</a> |
 |Mar 7| *No class: SPRING BREAK*|
 |Mar 9| *No class: SPRING BREAK* |
 |Mar 14|Discuss Python Project  (finalize teams) **Prep:** Python Tutorial 3.1.7 - 3.3.1 |
 |Mar 16|**Prep:** Python Tutorial 3.3.2 - 3.3.4 through bounceWhile.py
-|Mar 21|Review for Exam 2 |<a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/HW/CheckOnTutorial-3.html">Chapter 3.2 - 3.3.4 exercises</a>|
+|Mar 21|Review for Exam 2 |<a href="http://hwheeler01.github.io/comp150/HW/CheckOnTutorial-3.html">Chapter 3.2 - 3.3.4 exercises</a>|
 |Mar 23|**EXAM 2** |
 |Mar 28| *No class: EASTER BREAK* |
-|Mar 30|**Prep:** Python Tutorial 4.1 - 4.3| Submit any independent plan for the <a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/HW/Project.html">Python Project</a> |
+|Mar 30|**Prep:** Python Tutorial 4.1 - 4.3| Submit any independent plan for the <a href="http://hwheeler01.github.io/comp150/HW/Project.html">Python Project</a> |
 |Apr 4|**Prep:** Python Tutorial 4.4.4 | |
-|Apr 6|**Prep:** Bases and Binary Arithmetic in binary web notes (videos N2, N3A, N3B, N3C-E) |<a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/HW/CheckOnTutorial-4.html">Chapter 4 exercises</a>|
+|Apr 6|**Prep:** Bases and Binary Arithmetic in binary web notes (videos N2, N3A, N3B, N3C-E) |<a href="http://hwheeler01.github.io/comp150/HW/CheckOnTutorial-4.html">Chapter 4 exercises</a>|
 |Apr 11|**Prep:** Pip assembler through 4E in web notes (videos N4, N4A, N4B, N4C, N4D, N4E)|
-|Apr 13|**Prep:** Pip If-else in assembler (Videos N4F, N4G, N4H) | <a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/HW/PipPrograms.html">Pip Program</a> |
+|Apr 13|**Prep:** Pip If-else in assembler (Videos N4F, N4G, N4H) | <a href="http://hwheeler01.github.io/comp150/HW/PipPrograms.html">Pip Program</a> |
 |Apr 18|**Prep:** Gates and Boolean algebra (N5A-D) through Gates Applet |
-|Apr 20|**Prep:**  Gates and Boolean Algebra (N5E-I) **In class:** show project steps completed | <a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/HW/Gates.html">Gates Homework</a> |
+|Apr 20|**Prep:**  Gates and Boolean Algebra (N5E-I) **In class:** show project steps completed | <a href="http://hwheeler01.github.io/comp150/HW/Gates.html">Gates Homework</a> |
 |Apr 25| **Project Presentations** |
-|Apr 27| **Project Presentations** | <a href="http://webpages.cs.luc.edu/~cnaiman/COMP150/HW/Project.html">Python Project</a> |
+|Apr 27| **Project Presentations** | <a href="http://hwheeler01.github.io/comp150/HW/Project.html">Python Project</a> |
 |May 6| **FINAL EXAM: Friday May 6, 9:00-11:00 AM** |
 
 <span style="font-weight: bold;"><a name="dates"></a>Important Dates:<br>See the <a href="http://www.luc.edu/academics/schedules/spring/academic_calendar.shtml">Loyola academic calendar</a> for registration and withdrawal dates. 
