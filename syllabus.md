@@ -267,7 +267,7 @@ In the Activities column **"Prep:"** means preparation done *before* class with 
 | **Date**      | **Activities**    | **DUE by 11:59PM via Sakai** |
 | ------------- |:-------------:| :-----|
 |Jan 20|Syllabus, <a href="{{ site.baseurl }}/pairprogram">pair programming</a>, introductory notes, form pairs, intro to <a target="_blank" href="http://anh.cs.luc.edu/python/hands-on/3.1/index.html">Hands-on Python Tutorial</a>, <a href="http://anh.cs.luc.edu/python/hands-on/3.1/examples.zip">example files</a> **Follow up:** make sure you have completely read the syllabus.|
-|Jan 25|**Prep:** Hands-on Python Tutorial Context 1.1 through Input/Output 1.10 (most video for one class, with all the introductory material)|
+|Jan 25|**Prep:** Hands-on Python Tutorial <a href="http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/index.html">Context 1.1 through Input/Output 1.10</a> (most video for one class, with all the introductory material)|
 |Jan 27|Catch up and questions: Python Tutorial 1.1 - 1.10 |
 |Feb 1|**Prep:** Python Tutorial Functions 1.11, Dictionaries 1.12, Loops 1.13 |
 |Feb 3|**Prep:** Python Tutorial 1.14 - 1.15, homework questions ready! |
