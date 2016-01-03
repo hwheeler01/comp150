@@ -21,7 +21,7 @@ triangle whose legs have lengths a and b.'''
 
 def hypSq(x, y):
     hs = int(x)**2 + int(y)**2
-    print(str(hs))
+    print("Hypotenuse squared = " + str(hs))
 
 def main():
     a = input("Enter a positive integer: ")
