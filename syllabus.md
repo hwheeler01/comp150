@@ -297,4 +297,8 @@ In the Activities column **"Prep:"** means preparation done *before* class with 
 |Apr 27| **Project Presentations** | <a href="http://hwheeler01.github.io/comp150/HW/Project.html">Python Project</a> |
 |May 6| **FINAL EXAM: Friday May 6, 9:00-11:00 AM** |
 
-<span style="font-weight: bold;"><a name="dates"></a>Important Dates:<br>See the <a href="http://www.luc.edu/academics/schedules/spring/academic_calendar.shtml">Loyola academic calendar</a> for registration and withdrawal dates. 
+<span style="font-weight: bold;"><a name="dates"></a>Important Dates:<br>
+
+See the <a href="http://www.luc.edu/academics/schedules/spring/academic_calendar.shtml">Loyola academic calendar</a> for registration and withdrawal dates. 
+<br>
+*This syllabus is subject to change during the course at the discretion of the instructor.*
