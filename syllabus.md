@@ -301,4 +301,5 @@ In the Activities column **"Prep:"** means preparation done *before* class with 
 
 See the <a href="http://www.luc.edu/academics/schedules/spring/academic_calendar.shtml">Loyola academic calendar</a> for registration and withdrawal dates. 
 <br>
+<br>
 *This syllabus is subject to change during the course at the discretion of the instructor.*
