@@ -12,8 +12,6 @@ This course serves as a terminal course for students who want a one-course intro
 ####Example script:
 
 ```python
-#!/usr/bin/python3
-
 '''Given: Two positive integers a and b.
 Return: The integer corresponding to 
 the square of the hypotenuse of the right 
