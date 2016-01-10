@@ -4,6 +4,8 @@ title: Course Materials
 permalink: /resources/
 ---
 
+##Primary Course Materials
+
 There is no specific text for this course. Rather, we will be using
 resource materials available online:
 
@@ -17,9 +19,6 @@ as well as <a href="https://drive.google.com/a/cs.luc.edu/#folders/0B5WvvnDHeaIY
 Professor Harrington. You can find links and instructions <a href="http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/context.html#using-the-tutorial-text-and-video" target="_blank">here</a>.
 - <a href="http://hwheeler01.github.io/comp150/ClassNotes">Class Notes</a> for
 other course components are linked to from the <a href="http://hwheeler01.github.io/comp150/syllabus/#schedule">Course Schedule</a>.
-- Other Python resources are at the home site for Python: <a href="http://python.org">http://python.org.</a>
-
-<br>
 
 ##Other Free Online Resources for Python
 All except the official
@@ -69,9 +68,9 @@ for <a target="_blank" href="http://www.pythontutor.com/">http://www.pythontutor
 You run code in your browser step by step
 and save and email a URL reference to any step.</p>
   </li>
+  <li>Other Python resources are at the home site for Python: <a href="https://www.python.org/">https://www.python.org</a>.
+  </li>
 </ul>
-
-<br>
 
 ##Free Tutoring Assistance
 
@@ -93,3 +92,5 @@ most, tutors for COMP 150 are only available during some of those times, due
 to the personal schedule of the tutors. In general, COMP
 students have done better with the department's tutoring service.<br>
 
+##Office Hours
+Instructor office hours will be held Tuesdays from 2:30 - 4:30PM in my office LSB 324. To meet at a time other than this, you must email me at <hwheeler1@luc.edu> to schedule a day and time in advance; I cannot meet with students that just “drop by”. I encourage use of departmental tutors. Another route to get assistance is to ask questions via email. I will do my best to respond to emails within 24 hours. When you encounter a problem, error message, etc., you can always try and Google it!  
