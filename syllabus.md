@@ -9,7 +9,7 @@ permalink: /syllabus/
 - Instructor:	 Dr. Heather Wheeler
 - email:	<hwheeler1@luc.edu>
 - web page:	<http://hwheeler01.github.io/comp150>
-- office hours: Tuesdays 2:30 - 4:30 in LSB 324
+- office hours: Tuesdays 2:30 - 4:30 in <a href="http://www.luc.edu/campus_reservations/lsb.shtml">LSB</a> 324
 - TA:
 
 <table style="width: 459px; height: 182px;" class="docutils" border="1">

@@ -1,10 +1,8 @@
 ---
 layout: page
-title: Course Materials
+title: Primary Course Materials
 permalink: /resources/
 ---
-
-##Primary Course Materials
 
 There is no specific text for this course. Rather, we will be using
 resource materials available online:
