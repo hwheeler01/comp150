@@ -10,7 +10,7 @@ I Really Need to Know about Pair Programming I Learned in Kindergarten</a>", by 
 You are welcome to read the full paper. &nbsp;It starts with lots
 of data supporting the use of pair programming, some of it with computer jargon you do not need to worry about as
 beginning programmers. It elaborates on many of the points
-more than I do in the summary.<br>
+more than this summary:<br>
 
 **Share everything.**&nbsp;All contributions, whether leading to great results or errors, are *ours*, not *yours* or *mine*.
 

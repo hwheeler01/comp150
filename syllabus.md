@@ -75,7 +75,7 @@ Class time is valuable and in short supply, so there are some tradeoffs in this 
 
 *Programming Assignments:* For each tutorial, you must submit to Sakai a `.zip` file of the required exercises for that chapter. The exercises are mentioned as you encounter them in the tutorials. In addition, each due date and a link to a list of the required exercises are on the <a class="reference external" href="#schedule">Course Schedule</a>.<br>
 
-*Homework Assignments:* There are also several non-Python homework assignments. The links to these homeworks and their due dates are on the <a class="reference external" href="#schedule">Course Schedule</a>. Pip Program (assembly-language programming) and Logic Gates are listed.
+*Homework Assignments:* There are also several non-Python homework assignments, including Pip Program (assembly-language programming) and Gates Homework. The links to these homeworks and their due dates are on the <a class="reference external" href="#schedule">Course Schedule</a>.
 
 *Pair Programming:* Pair Programming is when two people collaborate on one problem with one person coding while the other looks on. For novices and professionals alike, pair programming often leads to better, faster, and more enjoyable project completion. We will have the option to do pair programming in this course for in-class work and programming assignments. **However, your exams will NOT be in pairs!** Read the page on how to make pair programming work and requirements for using it in this class <a href="{{ site.baseurl }}/pairprogram">here</a>.
 
@@ -204,7 +204,7 @@ In the Activities column **"Prep:"** means preparation done *before* class with 
 |Feb 1|**Prep:** Python Tutorial Functions 1.11, Dictionaries 1.12, Loops 1.13 |
 |Feb 3|**Prep:** Python Tutorial 1.14 - 1.15, homework questions ready! |<a href="http://hwheeler01.github.io/comp150/HW/CheckOnTutorial-1.html">Chapter 1 exercises</a>|
 |Feb 8|**Prep:** Python Tutorial 2.1 - 2.3 | |
-|Feb 10|**Prep:** Python Tutorial 2.4 , 2.4.1, 2.4.2, 2.4.5 (2.4.5 only in text) |
+|Feb 10|**Prep:** Python Tutorial 2.4 , 2.4.1, 2.4.2, 2.4.5  |
 |Feb 15|**Prep:** Python Tutorial 2.4.6-8, 2.4.10 (read/demo) |
 |Feb 17|**Prep:** Python Tutorial 2.5 |<a href="http://hwheeler01.github.io/comp150/HW/CheckOnTutorial-2.html">Chapter 2 exercises</a>|
 |Feb 22|Review for Exam 1 | |
@@ -226,7 +226,7 @@ In the Activities column **"Prep:"** means preparation done *before* class with 
 |Apr 18|**Prep:** Boolean Algebra, Truth Tables, and Digital Circuits in <a href="http://hwheeler01.github.io/comp150/ClassNotes.html">Class Notes</a> Sections 5A-D (videos N5A-D)|
 |Apr 20|**Prep:**  Boolean Algebra, Truth Tables, and Digital Circuits in <a href="http://hwheeler01.github.io/comp150/ClassNotes.html">Class Notes</a> Sections 5E-I (videos N5E-I) **In class:** show project steps completed | <a href="http://hwheeler01.github.io/comp150/HW/Gates.html">Gates Homework</a> |
 |Apr 25| **Project Presentations** |
-|Apr 27| **Project Presentations** | <a href="http://hwheeler01.github.io/comp150/HW/Project.html">Python Project</a> |
+|Apr 27| **Project Presentations**, Review for Final Exam| <a href="http://hwheeler01.github.io/comp150/HW/Project.html">Python Project</a> |
 |May 6| **FINAL EXAM: Friday May 6, 9:00-11:00 AM** |
 
 <span style="font-weight: bold;"><a name="dates"></a>Important Dates:<br>
