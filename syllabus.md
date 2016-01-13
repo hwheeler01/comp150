@@ -196,7 +196,7 @@ The dates below give the sequence and a general idea of the time spent, though w
 
 In the Activities column **"Prep:"** means preparation done *before* class with your questions ready for discussion in class! See <a href="http://hwheeler01.github.io/comp150/resources/">Resources</a> for how to obtain the videos for the listed sections. 
 
-| **Date**      | **Activities**    | **DUE by 11:59PM via Sakai** |
+| **Date**      | **Activities**    | **DUE by 11:00PM via Sakai** |
 | ------------- |:-------------:| :-----|
 |Jan 20|Introductory notes, syllabus, <a href="{{ site.baseurl }}/pairprogram">pair programming</a>, form pairs, introduction to <a target="_blank" href="http://anh.cs.luc.edu/python/hands-on/3.1/index.html">Hands-on Python Tutorial</a>, <a href="http://anh.cs.luc.edu/python/hands-on/3.1/examples.zip">example files</a> **Follow up:** make sure you have completely read the syllabus.|
 |Jan 25|**Prep:** Hands-on Python Tutorial <a href="http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/index.html">Context 1.1 through Input/Output 1.10</a> (most video for one class, with all the introductory material)|
@@ -218,7 +218,7 @@ In the Activities column **"Prep:"** means preparation done *before* class with 
 |Mar 21|Review for Exam 2 ||
 |Mar 23|**EXAM 2** |
 |Mar 28| *No class: EASTER BREAK* |
-|Mar 30|**Prep:** Python Tutorial 4.1 - 4.3| Submit any independent plan for the <a href="http://hwheeler01.github.io/comp150/HW/Project.html">Python Project</a> |
+|Mar 30|**Prep:** Python Tutorial 4.1 - 4.3| Submit plan for the <a href="http://hwheeler01.github.io/comp150/HW/Project.html">Python Project</a> |
 |Apr 4|**Prep:** Python Tutorial 4.4.4 | <a href="http://hwheeler01.github.io/comp150/HW/CheckOnTutorial-4.html">Chapter 4 exercises</a>|
 |Apr 6|**Prep:** Binary Arithmetic in <a href="http://hwheeler01.github.io/comp150/ClassNotes.html">Class Notes</a> Sections 2-3F (videos N2, N3A, N3B, N3C-E) ||
 |Apr 11|**Prep:** Pip Assembler in <a href="http://hwheeler01.github.io/comp150/ClassNotes.html">Class Notes</a> Sections 4A-E (videos N4, N4A, N4B, N4C, N4D, N4E)|

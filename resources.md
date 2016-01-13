@@ -91,4 +91,4 @@ to the personal schedule of the tutors. In general, COMP
 students have done better with the department's tutoring service.<br>
 
 ##Office Hours
-Instructor office hours will be held Tuesdays from 2:30 - 4:30PM in my office LSB 324. To meet at a time other than this, you must email me at <hwheeler1@luc.edu> to schedule a day and time in advance; I cannot meet with students that just “drop by”. I encourage use of departmental tutors. Another route to get assistance is to ask questions via email. I will do my best to respond to emails within 24 hours. When you encounter a problem, error message, etc., you can always try and Google it!  
+Instructor office hours will be held Tuesdays from 2:30 - 4:30PM in my office LSB 324. To meet at a time other than this, you must email me at <hwheeler1@luc.edu> to schedule a day and time in advance; I cannot meet with students that just “drop by”. I encourage use of departmental tutors. Another route to get assistance is to ask questions via email. I will do my best to respond to emails within 24 hours. When you encounter a problem, error message, etc., you can always try and <a href="https://www.google.com/">Google</a> it!  
