@@ -73,12 +73,11 @@ and save and email a URL reference to any step.</p>
 ##Free Tutoring Assistance
 
 - Computer Science Department:
-  - Department Drop-in Tutoring Schedule: <a href="http://www.luc.edu/cs/people/tutors/">http://cs.luc.edu/academics/services/tutoring</a>.  
+  - Department Drop-in Tutoring Schedule: <a href="http://www.luc.edu/cs/schedules/tutoringhours/">http://www.luc.edu/cs/schedules/tutoringhours/</a>.  
   - Tutoring hours by Computer Science TAs (generally
 first-come-first-serve) should start by the second or third week of the semester. 
-  - Your best choices for help are the professor and TA for the course, but all TAs
-should be familiar with most of the course topics. If any tutors you
-visit are NOT familiar with Python, let me know right away!</p>
+  - All tutors should be familiar with most of the course topics. If any tutors you
+visit are NOT familiar with Python, let me know right away.</p>
 
 - The university supports an official Tutoring Center in the Sullivan
 Center.  
@@ -91,4 +90,4 @@ to the personal schedule of the tutors. In general, COMP
 students have done better with the department's tutoring service.<br>
 
 ##Office Hours
-Instructor office hours will be held Tuesdays from 2:30 - 4:30PM in my office LSB 324. To meet at a time other than this, you must email me at <hwheeler1@luc.edu> to schedule a day and time in advance; I cannot meet with students that just “drop by”. I encourage use of departmental tutors. Another route to get assistance is to ask questions via email. I will do my best to respond to emails within 24 hours. When you encounter a problem, error message, etc., you can always try and <a href="https://www.google.com/">Google</a> it!  
+Instructor office hours will be held Tuesdays from 2:30 - 4:30PM in my office LSB 324. To meet at a time other than this, you must email me at <hwheeler1@luc.edu> to schedule a day and time in advance; I cannot meet with students that just “drop by”. I will do my best to respond to emails within 24 hours. For homework help, I encourage use of Computer Science Department tutors, they are excellent. You may also email the TA Jon Brenner (<jbrenluc@gmail.com>) with questions. When you encounter a problem, error message, etc., you can always try and <a href="https://www.google.com/">Google</a> it!  
