@@ -33,7 +33,7 @@ Python Tutorial</a>,
 but in online book form, to greater depth in a somewhat different order
 with a different
 simple graphics library.&nbsp; The latest version is for Python
-3.X.&nbsp; Extra neat in that you can run programs online and edit code
+3.X.&nbsp; You can run programs online and edit code
 in the text.<br>
     </p>
   </li>

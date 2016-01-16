@@ -57,7 +57,7 @@ There is no specific text for this course. Rather, we will be using free online 
 
 <p><a name="sakai"></a><span style="font-weight: bold;">Sakai:</span></p>
 
-<p>As of this writing, Sakai will be used for course announcements, homework submissions, and grade postings. While the raw scores posted on Sakai should be correct, please do not rely upon Sakai's Course Total calculations. <span style="font-style: italic;">Grades are calculated as specified in this syllabus.</span>&nbsp; <br>
+<p>Sakai will be used for course announcements, homework submissions, and grade postings. While the raw scores posted on Sakai should be correct, please do not rely upon Sakai's Course Total calculations. <span style="font-style: italic;">Grades are calculated as specified in this syllabus.</span>&nbsp; <br>
 
 </p>
 
@@ -79,16 +79,16 @@ Class time is valuable and in short supply, so there are some tradeoffs in this 
 
 *Pair Programming:* Pair Programming is when two people collaborate on one problem with one person coding while the other looks on. For novices and professionals alike, pair programming often leads to better, faster, and more enjoyable project completion. We will have the option to do pair programming in this course for in-class work and programming assignments. **However, your exams will NOT be in pairs!** Read the page on how to make pair programming work and requirements for using it in this class <a href="{{ site.baseurl }}/pairprogram">here</a>.
 
-*Python Project:*&nbsp;You will form teams of two or three, to complete a project, which is a major programming assignment in Python. Some suggestions for the project can be found <a href="http://hwheeler01.github.io/comp150/HW/Project.html">here.</a> This will be discussed further in class.<br>
+*Python Project:* You will form teams of two or three, to complete a project, which is a major programming assignment in Python. Some suggestions for the project can be found <a href="http://hwheeler01.github.io/comp150/HW/Project.html">here.</a> This will be discussed further in class.<br>
 
 
-***Important note about pair/team submissions:***</span> For pair/team assignments, only one person needs to submit the archive of programs (everyone should have their own copy for reference), but each team member must submit their own independently written `log.txt` file with the requested information for that assignment. 
+***Important note about pair/team submissions:*** For pair/team assignments, only one person needs to submit the archive of programs (everyone should have their own copy for reference), but each team member must submit their own independently written `log.txt` file with the requested information for that assignment. 
 
-***Important note about the group project:***&nbsp;You are expected to fully participate in the group project. Your individual grade may be modified depending upon your contribution to the project and your cooperative and substantive participation. This will be assessed by instructor walk-throughs during class and by the *Team Pariticpation* form completed by each team member.<br>
+***Important note about the group project:*** You are expected to fully participate in the group project. Your individual grade may be modified depending upon your contribution to the project and your cooperative and substantive participation. This will be assessed by instructor walk-throughs during class and by the *Team Participation* form completed by each team member.<br>
 
 <span style="font-weight: bold;"><a name="env"></a>Programming Environment: </span><br>
 
-We will be programming in Python, available in the University Windows labs, and as a download to your own computer. There are several choices based on program version and operating system. You should get Python version 3.3.2 or greater for your operating system from the central site <a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a>. Python comes with the graphical interface, Idle, which we will use. The latest version for Windows and Mac is 3.5.1.<br>
+We will be programming in Python, available in the University Windows labs, and as a download to your own computer. There are several choices based on program version and operating system. You should get Python the latest version 3.5.1 for your operating system from the central site <a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a>. Python comes with the graphical interface, Idle, which we will use. 
 
 - Recommended storage options for course work:
 	- Cloud-based storage like Box or Google Drive
@@ -110,8 +110,8 @@ Cheating consists of, but is not limited to:
 - Allowing your own work to be copied or used by an outside person.
 - Submitting as your own work something that has been written by an outside person (or web site).
 - Using any unauthorized reference on an exam or assignment.
-- Not acknowledging and describing in writing on an assignment any help you received or gave.
-- If you are working on a pair or group project, an "outside person" only refers to people other than your assigned partner or team.
+- Not acknowledging and describing in writing any help you received on an assignment.
+- If you are working on a pair or group project, an "outside person" only refers to people other than your partner or team.
 - Note that cheating goes both ways: giving and receiving.
 - Consultation is allowed with the TA, tutors and me. If you consult with the tutors and/or with me, still make a comment at the top of your work about the substance and depth of the help.
 
@@ -164,7 +164,7 @@ If you require a certain grade in order to satisfy a sponsor or a scholarship re
 - Note that there are 1050 total possible points. Your grade will be calculated as the number of points you receive out of 1000. Fifty extra points are built-in, to cover "down days" or to be used for extra credit.
 - No further accommodations will be provided. If your personal circumstances are such that you have to miss more than 50 points worth of material, please consider taking the course another semester.
 - There are a few extra credit homework problems in some of the assignments. No further extra credit opportunities will be provided. It is neither practical nor fair to the other students.
-- ALL ASSIGNMENTS ARE DUE VIA SAKAI BY 11:59PM ON THE DUE DATE. **LATE ASSIGNMENTS WILL NOT BE ACCEPTED.** That's what the extra fifty points are for. 
+- ALL ASSIGNMENTS ARE DUE VIA SAKAI BY 11:00 PM ON THE DUE DATE. **LATE ASSIGNMENTS WILL NOT BE ACCEPTED.** That's what the extra fifty points are for. 
 
 
 Course grades are assigned according to the following percentage scale:<br>
@@ -196,7 +196,7 @@ The dates below give the sequence and a general idea of the time spent, though w
 
 In the Activities column **"Prep:"** means preparation done *before* class with your questions ready for discussion in class! See <a href="http://hwheeler01.github.io/comp150/resources/">Resources</a> for how to obtain the videos for the listed sections. 
 
-| **Date**      | **Activities**    | **DUE by 11:00PM via Sakai** |
+| **Date**      | **Activities**    | **DUE by 11:00 PM via Sakai** |
 | ------------- |:-------------:| :-----|
 |Jan 20|Introductory notes, syllabus, <a href="{{ site.baseurl }}/pairprogram">pair programming</a>, form pairs, introduction to <a target="_blank" href="http://anh.cs.luc.edu/python/hands-on/3.1/index.html">Hands-on Python Tutorial</a>, <a href="http://anh.cs.luc.edu/python/hands-on/3.1/examples.zip">example files</a> **Follow up:** make sure you have completely read the syllabus.|
 |Jan 25|**Prep:** Hands-on Python Tutorial <a href="http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/index.html">Context 1.1 through Input/Output 1.10</a> (most video for one class, with all the introductory material)|
