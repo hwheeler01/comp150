@@ -200,7 +200,7 @@ In the Activities column **"Prep:"** means preparation done *before* class with 
 |Jan 20|Introductory <a href="{{ site.baseurl }}/intro-lecture.pdf">slides</a>, syllabus, <a href="{{ site.baseurl }}/pairprogram">pair programming</a>, form pairs, introduction to <a target="_blank" href="http://anh.cs.luc.edu/python/hands-on/3.1/index.html">Hands-on Python Tutorial</a>, <a href="http://anh.cs.luc.edu/python/hands-on/3.1/examples.zip">example files</a> **Follow up:** make sure you have completely read the syllabus.|
 |Jan 25|**Prep:** Hands-on Python Tutorial <a href="http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/index.html">Context 1.1 through Input/Output 1.10</a> (most video for one class, with all the introductory material)|
 |Jan 27|Catch up and questions: Python Tutorial 1.1 - 1.10 |
-|Feb 1|**Prep:** Python Tutorial Functions 1.11, Dictionaries 1.12, Loops 1.13 |
+|Feb 1|**Prep:** Python Tutorial Functions 1.11, Dictionaries 1.12, Loops 1.13 <a href="{{ site.baseurl }}/playComputer_loopy.rtf">in-class exercise</a> |
 |Feb 3|**Prep:** Python Tutorial 1.14 - 1.15, homework questions ready! |<a href="http://hwheeler01.github.io/comp150/HW/CheckOnTutorial-1.html">Chapter 1 exercises</a>|
 |Feb 8|**Prep:** Python Tutorial 2.1 - 2.3 | |
 |Feb 10|**Prep:** Python Tutorial 2.4 , 2.4.1, 2.4.2, 2.4.5  |
