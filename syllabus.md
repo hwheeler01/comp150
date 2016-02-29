@@ -3,6 +3,7 @@ layout: page
 title: Syllabus
 permalink: /syllabus/
 ---
+
 - Day/Time:	MW 12:10 - 1:25
 - Classroom:	Crown Center 105
 - Prerequisites:	none
@@ -11,35 +12,35 @@ permalink: /syllabus/
 - Office Hours: Tuesdays 2:30 - 4:30 in <a href="http://www.luc.edu/campus_reservations/lsb.shtml">LSB</a> 324
 - TA: Jon Brenner <jbrenluc@gmail.com>
 
-<table style="width: 459px; height: 182px;" class="docutils" border="1">
-  <caption><b>Syllabus Index</b></caption> <colgroup><col width="50%"><col width="50%"></colgroup> <tbody valign="top">
+<table style="width: px; height: 12px;" class="docutils" border="1">
+  <caption><b>Index</b></caption> <colgroup><col width="50%"><col width="50%"></colgroup> <tbody valign="top">
     <tr>
       <td><a class="reference internal" href="#objectives">Objectives</a></td>
+      <td><a class="reference external" href="#texts">Course Materials</a></td>
+    </tr>
+    <tr>
+      <td><a class="reference external" href="#honesty">Academic Honesty</a></td>
       <td><a class="reference internal" href="#exams">Exams</a></td>
     </tr>
     <tr>
-      <td><a class="reference external" href="#texts">Course Materials</a></td>
+	<td><a class="reference external" href="#assignments">Homework/Assignments</a></td>
       <td><a class="reference external" href="#grades">Grades</a></td>
     </tr>
-    <tr>
+        <tr>
       <td><a class="reference external" href="#env">Programming Environment</a></td>
-      <td><a class="reference external" href="#sakai">Sakai<br>
+      <td><a class="reference external" href="#sakai">Sakai</a></td>
     </tr>
     <tr>
-      </a></td>
-      <td><a class="reference external" href="#honesty">Academic Honesty</a></td>
-      <td><a class="reference external" href="#format">Class Format, Attendance<br>
-    </tr>
-    <tr>
-      <td><a class="reference external" href="#assignments">Homework/Assignments</a></td>
       <td><a class="reference internal" href="#disabilities">Students with Disabilities</a></td>
+      <td><a class="reference external" href="#format">Class Format/Attendance</a></td>
     </tr>
-    <tr>
+      <tr>
       <td style="vertical-align: top;"><a class="reference external" href="#schedule">Course Schedule</a></td>
       <td style="vertical-align: top;"><a class="reference external" href="#dates">Important Dates</a> </td>
     </tr>
   </tbody>
 </table>
+
 
 <span style="font-weight: bold;"><a name="objectives"></a>Course Objectives: </span>
 
@@ -56,13 +57,13 @@ There is no specific text for this course. Rather, we will be using free online 
 
 <p><a name="sakai"></a><span style="font-weight: bold;">Sakai:</span></p>
 
-<p>Sakai will be used for course announcements, homework submissions, and grade postings. While the raw scores posted on Sakai should be correct, please do not rely upon Sakai's Course Total calculations. <span style="font-style: italic;">Grades are calculated as specified in this syllabus.</span>&nbsp; <br>
+<p>Sakai will be used for course announcements, homework submissions, and grade postings. While the raw scores posted on Sakai should be correct, please do not rely upon Sakai's Course Total calculations. <span style="font-style: italic;">Grades are calculated as specified in this syllabus.</span> <br>
 
 </p>
 
 <p style="font-weight: bold;"><a name="format"></a>Course Format:</p>
 
-Much of this course will be *flipped* from the traditional course format. That is, the presentations are mostly at your convenience, at your speed, as videos/text on your computer outside of class. In class, we will discuss questions you have on the presentations and do much of the harder creative work of synthesizing and using this information, when you have the most direct support from me, the TA, and classmates. </span></p>
+Much of this course will be *flipped* from the traditional course format. That is, the presentations are mostly at your convenience, at your speed, as videos/text on your computer outside of class. In class, we will discuss questions you have on the presentations and do much of the harder creative work of synthesizing and using this information, when you have the most direct support from me, the TA, and classmates. 
 
 As you work through the <a href="http://anh.cs.luc.edu/python/hands-on/3.1/index.html">Hand's-on Python Tutorial</a> at the beginning of the semester, come to class prepared with questions on the <a href="http://hwheeler01.github.io/comp150/syllabus/#schedule">day's topics</a>. In general, if you feel that you can benefit from more explanation on a topic, sit on the same side as the instructor's desk. If you would prefer to continue working on your own, sit on the opposite side of the room. In this way, those students who want additional lecture support can have it with minimal intrusion to those students who would prefer to work on their own.
 
@@ -96,11 +97,7 @@ We will be programming in Python, available in the University Windows labs, and 
 
 <span style="font-weight: bold;"><a name="honesty"></a>Academic Honesty: </span><br>
 
-Plagiarism and cheating will not be tolerated (see <a href="http://www.luc.edu/academics/catalog/undergrad/reg_academicintegrity.shtml">University Policy</a>) and will be
-reported to the college. STUDENTS FOUND TO PRESENT SOMEONE ELSE’S WORK AS
-THEIR OWN WILL **RECEIVE ZERO POINTS FOR THE HOMEWORK/EXAM**. ANY
-STUDENT WHO REPEATS SUCH AN ACTION WILL RECEIVE A FAILING GRADE (F) FOR THE
-COURSE.
+Plagiarism and cheating will not be tolerated (see <a href="http://www.luc.edu/academics/catalog/undergrad/reg_academicintegrity.shtml">University Policy</a>) and will be reported to the college. STUDENTS FOUND TO PRESENT SOMEONE ELSE’S WORK AS THEIR OWN WILL **RECEIVE ZERO POINTS FOR THE HOMEWORK/EXAM**. ANY STUDENT WHO REPEATS SUCH AN ACTION WILL RECEIVE A FAILING GRADE (F) FOR THE COURSE.
 
 Cheating consists of, but is not limited to:
 
@@ -135,11 +132,11 @@ There will be a review for each exam posted on the <a class="reference external"
 
 **MISSING EXAMS** WILL ONLY BE PERMITTED UNDER SPECIAL CIRCUMSTANCES (e.g., medical emergencies, educational events, court dates, religious holidays, etc.). **ARRANGEMENTS MUST BE MADE IN ADVANCE** WHEN APPLICABLE AND A NEW EXAM WILL BE ADMINISTERED. DOCUMENTATION OF THE ABSENCE IS REQUIRED.
 
-<span style="font-weight: bold;"><a name="disabilities"></a>Students with Disabilities:</span>&nbsp; 
+<span style="font-weight: bold;"><a name="disabilities"></a>Students with Disabilities:</span> 
 
 Any student with special needs or difficulties in learning and completing course assignments is strongly encouraged to contact the instructor as soon as possible. Please refer to the Student Handbook for student rights and <a href="http://www.luc.edu/sswd/">available resources</a> pertaining to assistance with special needs or disabilities.
 
-<span style="font-weight: bold;">Students with Sponsorships and Scholarships:&nbsp;</span>
+<span style="font-weight: bold;">Students with Sponsorships and Scholarships:</span>
 
 If you require a certain grade in order to satisfy a sponsor or a scholarship requirement, please be sure to monitor your grade on Sakai. I will consider only your performance in this course in calculating grades, using the grading rubric posted in this syllabus. If you cannot achieve a minimum grade that is required by a sponsor or a scholarship, I will not change your grade to help you meet that requirement. This would be unfair to other students, and not reflecive of your performance in this course. You are reponsible to monitor your grade and to keep apprised of the <a href="http://www.luc.edu/academics/schedules/fall/academic_calendar.shtml">withdrawal dates</a> posted by the registrar.<br>
 
@@ -231,6 +228,5 @@ In the Activities column **"Prep:"** means preparation done *before* class with 
 <span style="font-weight: bold;"><a name="dates"></a>Important Dates:<br>
 
 See the <a href="http://www.luc.edu/academics/schedules/spring/academic_calendar.shtml">Loyola academic calendar</a> for registration and withdrawal dates. 
-<br>
 <br>
 *This syllabus is subject to change during the course at the discretion of the instructor.*
