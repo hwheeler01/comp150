@@ -209,7 +209,7 @@ In the Activities column **"Prep:"** means preparation done *before* class with 
 |Mar 2|**Prep:** Python Tutorial 3.1.6 - 3.1.7 | <a href="http://hwheeler01.github.io/comp150/HW/CheckOnTutorial-3.html">Chapter 3.1 exercises</a> |
 |Mar 7| *No class: SPRING BREAK*|
 |Mar 9| *No class: SPRING BREAK* |
-|Mar 14|Discuss <a href="http://hwheeler01.github.io/comp150/HW/Project.html">Python Project</a>  (finalize teams) **Prep:** Python Tutorial 3.1.7 - 3.3.1 |
+|Mar 14|Discuss <a href="http://hwheeler01.github.io/comp150/HW/Project.html">Python Project</a>  (finalize teams), <a href="http://hwheeler01.github.io/comp150/ClassNotes.html#Past">Past Examples</a> **Prep:** Python Tutorial 3.1.7 - 3.3.1 |
 |Mar 16|**Prep:** Python Tutorial 3.3.2 - 3.3.4 through bounceWhile.py|<a href="http://hwheeler01.github.io/comp150/HW/CheckOnTutorial-3.html">Chapter 3.2 - 3.3.4 exercises</a>|
 |Mar 21|Review for Exam 2 ||
 |Mar 23|**EXAM 2** |
