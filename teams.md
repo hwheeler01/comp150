@@ -12,5 +12,5 @@ permalink: /teams/
 - Rogelio Rodriguez, Nicolas Echeverria, and Paul Di Trapani 
 - Ze Shan Chuan (Alex) Chen, Elisabeth Hagemann, and Eduardo Soto
 - Daniel Marturano, Shadee Rafati, and Abdullah Jado
-- Lilliana Medina, Erin Kessler, and Elyse Wightman
+- Lilliana Medina and Erin Kessler
 - Katy Kerby, Olivia Kappers, and Jocelyn Olea
