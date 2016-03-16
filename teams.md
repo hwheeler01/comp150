@@ -1,9 +1,8 @@
 ---
 layout: page
-title: teams
+title: Python Project Teams
 permalink: /teams/
 ---
-### Python Project Teams
 
 - Robert (Ian) Millman and April Skillings
 - Griffin Warren and Ashley Wells
