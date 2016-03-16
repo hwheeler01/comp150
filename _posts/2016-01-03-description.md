@@ -9,7 +9,7 @@ This course provides a broad survey introducing the many layers of the computer 
 This course serves as a terminal course for students who want a one-course introduction to the field, as well as a preliminary course to upper-level computer science offerings.
 
 
-####Example script:
+#### Example script:
 
 ```python
 '''Given: Two positive integers a and b.
