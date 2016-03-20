@@ -9,8 +9,8 @@ permalink: /teams/
 - Brian Burke and Brooke Zubal
 - Kamalesh Srikanth, Patrick Miramontes, and Christian Ezeocha
 - Noah Croddy, John Voss, and Samuel Huddock
-- Rogelio Rodriguez, Nicolas Echeverria, and Paul Di Trapani 
+- Rogelio Rodriguez and Nicolas Echeverria
 - Ze Shan Chuan (Alex) Chen, Elisabeth Hagemann, and Eduardo Soto
 - Daniel Marturano, Shadee Rafati, and Abdullah Jado
 - Lilliana Medina and Erin Kessler
-- Katy Kerby, Olivia Kappers, and Jocelyn Olea
+- Katy Kerby and Jocelyn Olea
