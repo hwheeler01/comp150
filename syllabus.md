@@ -215,7 +215,7 @@ In the Activities column **"Prep:"** means preparation done *before* class with 
 |Mar 23|**EXAM 2** |
 |Mar 28| *No class: EASTER BREAK* |
 |Mar 30|**Prep:** Python Tutorial 4.1 - 4.3| Submit plan for the <a href="http://hwheeler01.github.io/comp150/HW/Project.html">Python Project</a> |
-|Apr 4|**Prep:** Python Tutorial 4.4.4 | <a href="http://hwheeler01.github.io/comp150/HW/CheckOnTutorial-4.html">Chapter 4 exercises</a>|
+|Apr 4|**Prep:** Python Tutorial 4.4 | <a href="http://hwheeler01.github.io/comp150/HW/CheckOnTutorial-4.html">Chapter 4 exercises</a>|
 |Apr 6|**Prep:** Binary Arithmetic in <a href="http://hwheeler01.github.io/comp150/ClassNotes.html">Class Notes</a> Sections 2-3F (videos N2, N3A, N3B, N3C-E) ||
 |Apr 11|**Prep:** Pip Assembler in <a href="http://hwheeler01.github.io/comp150/ClassNotes.html">Class Notes</a> Sections 4A-E (videos N4, N4A, N4B, N4C, N4D, N4E)|
 |Apr 13|**Prep:** Pip Assembler in <a href="http://hwheeler01.github.io/comp150/ClassNotes.html">Class Notes</a> Sections 4F-H (videos N4F, N4G, N4H) | <a href="http://hwheeler01.github.io/comp150/HW/PipPrograms.html">Pip Program</a> |
