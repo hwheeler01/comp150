@@ -4,13 +4,21 @@ title: Python Project Teams
 permalink: /teams/
 ---
 
-- Robert (Ian) Millman and April Skillings
+- Robert (Ian) Millman and April Skillings 
+	- Hangman
 - Griffin Warren and Ashley Wells
-- Brian Burke and Brooke Zubal
-- Kamalesh Srikanth, Patrick Miramontes, and Christian Ezeocha
+	- Tic Tac Toe
+- Brian Burke and Brooke Zubal 
+	- Hangman
+- Kamalesh Srikanth, Patrick Miramontes, Christian Ezeocha, and Nicolas Echeverria
+	- "Virus"
 - Noah Croddy, John Voss, and Samuel Huddock
-- Rogelio Rodriguez and Nicolas Echeverria
+	- Universal Converter
 - Ze Shan Chuan (Alex) Chen, Elisabeth Hagemann, and Eduardo Soto
+	- Breakout
 - Daniel Marturano, Shadee Rafati, and Abdullah Jado
+	- Soccer Shootout
 - Lilliana Medina and Erin Kessler
-- Katy Kerby and Jocelyn Olea
+	- Hangman
+- Katy Kerby and Jocelyn Olea	
+	- Hangman
