@@ -12,13 +12,14 @@ permalink: /teams/
 	- Hangman
 - Kamalesh Srikanth, Patrick Miramontes, Christian Ezeocha, and Nicolas Echeverria
 	- "Virus"
+- Katy Kerby and Jocelyn Olea	
+	- Hangman
 - Noah Croddy, John Voss, and Samuel Huddock
 	- Universal Converter
+- Lilliana Medina and Erin Kessler
+	- Hangman
 - Ze Shan Chuan (Alex) Chen, Elisabeth Hagemann, and Eduardo Soto
 	- Breakout
 - Daniel Marturano, Shadee Rafati, and Abdullah Jado
 	- Soccer Shootout
-- Lilliana Medina and Erin Kessler
-	- Hangman
-- Katy Kerby and Jocelyn Olea	
-	- Hangman
+
