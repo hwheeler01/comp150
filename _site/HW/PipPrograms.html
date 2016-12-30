@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!-- saved from url=(0063)http://webpages.cs.luc.edu/~cnaiman/COMP150/HW/PipPrograms.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+
+
+<title>PipPrograms</title></head><body>
+<h1>Two Pip programs<br>
+</h1>
+
+<p class="MsoNormal">This is a pair assignment worth 60<b style=""> points</b>.</p>
+<p class="MsoNormal"><o:p></o:p>The objective
+of this assignment is to
+write Pip programs that use jumps to approximate a Python if-else
+statement and a while statement.</p>
+<p class="MsoNormal">The program
+should begin with&nbsp;comments (starting with ';') including your
+names,
+a brief description of what the program does and information on any
+help you received on
+the project.<span style="">&nbsp; </span>If it
+is entirely your own
+work, say so.<span style="">&nbsp; </span>If
+anyone helped either of you,
+identify them by name and describe how they helped.<span style="">&nbsp;</span></p>
+<p class="MsoNormal">Remember to turn in your work on Sakai. &nbsp;Have one member turn in the files for the
+work
+and each turn in log.txt files, as for the last assignment.&nbsp; <br>
+</p>
+<span style="text-decoration: underline;"></span>
+You are to write two separate chunks of Pip code. &nbsp;Call the
+files
+pipa.asm and pipb.asm, and test each separately in
+pipGUI.py. &nbsp;Include the initial required comments at the top
+of the
+first file. &nbsp;Remember, in assember comment lines start with a
+semicolon. &nbsp;<br>
+<br>
+Do not have initial statements to set values for the variables.
+<span style="font-style: italic;">&nbsp;Instead set
+memory values in the simulator before each test of
+your chunk of code.</span> &nbsp;(This saves time.)
+<h3>Part A &nbsp;An if-else construction (pipa.asm) (25 points)<br>
+</h3>
+Write Pip assembler code equivalent to the Python below. The easiest
+way and most encouraged way is using <span style="font-style: italic;">symbolic</span> code
+labels as needed (followed by a colon) and symbolic data names, as
+understood by pipGUI.py. &nbsp;You may do it with <span style="font-style: italic;">numeric</span>
+data addresses and/or numeric jump addresses as in the book or the
+book's applet, but in that case, do make a comment as to what memory
+locations represent the x, y, and z of the Python version!<br>
+<br>
+<span style="font-family: monospace;">if x &lt; 0:</span><br style="font-family: monospace;">
+<span style="font-family: monospace;">&nbsp;
+&nbsp; y = y + 2</span><br style="font-family: monospace;">
+<span style="font-family: monospace;">else:</span><br style="font-family: monospace;">
+<span style="font-family: monospace;">&nbsp;
+&nbsp; y = x</span><br style="font-family: monospace;">
+<span style="font-family: monospace;">z&nbsp;= y + z</span><br style="font-family: monospace;">
+<br>
+You are encouraged to <br>
+<ul>
+<li>write&nbsp;to a file pipa.asm, </li>
+<li>load it into pipGUI.py, </li>
+<li>give values manually to x, y, and z, </li>
+<li>run to test the results. &nbsp;</li>
+<li>Press INIT &nbsp;and go back to set new x, y, z values
+and test some more...</li>
+</ul>
+<h3>Part B: &nbsp;Remainder by subtraction (pipb.asm) (35 points)<br>
+</h3>
+Pip does not have a remainder operation as in Python. &nbsp;One way
+to simulate y = y % x with positive x and y is<br>
+<br>
+<span style="font-family: monospace;">while y &gt;= 0:</span>
+&nbsp;<br style="font-family: monospace;">
+<span style="font-family: monospace;">&nbsp;&nbsp;&nbsp;
+y&nbsp;= y - x</span><br style="font-family: monospace;">
+<span style="font-family: monospace;">y&nbsp;= y +
+x&nbsp;&nbsp; </span><br style="font-family: monospace;">
+<br>
+After the loop, y &lt; 0 for the first time. &nbsp;After the
+last line
+it is back to the proper range for the remainder:&nbsp;0 &lt;=
+y &lt; x. &nbsp; Play computer to see that this works!<br>
+Convert that code to Pip assembler file pipb.asm and test as in part
+A.&nbsp; The while loop condition translation is trickier here than
+in
+the earliest while translation example.<br>
+<br>
+
+<span style="font-style: italic;">Same instructions as
+before for log.txt:</span>&nbsp; Every individual should
+separately submit a personal
+file log.txt.&nbsp; This should be a<span style="font-style: italic;"> plain text </span>file
+with <span style="font-style: italic;">exactly this name</span>.&nbsp;
+(You can create it in Idle if you like.) <b>Your homework grade
+will not be recorded
+without this file!</b>&nbsp; Include in the file <br>
+<ol>
+<li>Roughly how long you worked on the Pip Programs beyond
+class time. </li>
+<li>Briefly, how it went for you, for instance what was the
+hardest part to get ...</li>
+<li>Who your partner was if you had one, or "No partner"
+&nbsp;If you
+changed partners, indicate which files were produced with which
+partner, if possible.</li>
+<li>If
+you had a partner, give an indication of how things went with your
+partner. &nbsp;Was working together a good thing?&nbsp; Did you
+work together
+remotely online?&nbsp; How did it go?</li>
+</ol>
+<p>If you worked with a consistent partner through the whole
+chapter,
+only one of you needs to submit the archive, but make sure each partner
+has their own copy! Each student should separately submit an <span style="font-style: italic;">independently</span>
+written log.txt file. </p>
+
+
+</body></html>

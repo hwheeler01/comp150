@@ -1,0 +1,525 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!-- saved from url=(0059)http://webpages.cs.luc.edu/~cnaiman/COMP150/HW/Project.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<title>Project</title></head><body>
+<div>
+<div>
+<h1>Python Project<br>
+</h1>
+
+<p class="MsoNormal">This is a 2-3 person assignment worth <span style="font-weight: bold;">150</span><b style="">
+points</b>. Team assignments are <a href="http://hwheeler01.github.io/comp150/teams">here</a>. <br>
+</p>
+<p class="MsoNormal">100 points for the project.&nbsp; 50 points for the presentation.<br>
+</p>
+
+<h3>Your Python Project Plan is due March 30 by 11:00PM via Sakai.</h3> It should include:<br>
+<ol style="list-style-type: upper-roman;">
+<li>Team member names (2-3 individuals)
+<li><span style="font-style: italic;">Plan</span>
+for a
+project:&nbsp; If you are going to do a canned topic from below,
+this
+can be one line.&nbsp;
+If you are making up your own thing, please give me enough detail to understand how feasible it is.</li>
+<li><span style="font-style: italic;">Outline</span>
+of steps to be
+completed and target dates:
+<ol>
+<li>descriptions of steps&nbsp;that can be
+completed and <span style="font-style: italic;">checked
+individually<br>
+</span></li>
+<li>dates for the steps to be completed: I will be checking your progess in class. The final project is not an assignment to start the evening it is due! </li>
+</ol>
+</li>
+</ol>
+
+<h2>Project Presentation </h2> 
+<h3>All groups will present in class on Wednesday, April 27</h3>
+
+<h3><a href="http://hwheeler01.github.io/comp150/HW/presentation_rubric.html">Grading Rubric</a>
+
+<h3>Key items that should be included:</h3>
+<ol style="list-style-type: upper-roman;">
+<li>Total Length: 4 minutes plus 1-2 minutes for questions</li>
+
+<li>Show your Python code and describe what your functions do</li>
+<ol>
+<li>You won't have time to go through your code line by line</li>
+<li>Focus on the sections of code that perform the key functions of your program</li>
+<li>What data structures (i.e. lists, dictionaries, etc.) did you use?
+<li>How were these data structures used? (i.e. loops, functions, etc.) </li>
+</ol>
+    
+<li> Demonstrate how your program works</li>
+<ol>
+<li>Play the game or show some examples</li>
+<li>Make sure the program runs on the computer you'll be using (I recommend you use one of your own computers for the presentation)</li>
+<li>Mention if there is anything else your program does that you didn't have time to demonstrate</li>
+</ol>
+</ol>
+
+<h3>Project code and additional files due April 27 by 11:00PM via Sakai</h3>
+
+<p class="MsoNormal"><o:p></o:p>The program
+should begin with a comment including your names,
+a brief description of what the program does and information on any
+help you received on
+the project.<span style="">&nbsp; </span>If it
+is entirely your own
+work, say so.<span style="">&nbsp; </span>If
+anyone helped either of you,
+identify them by name and describe how they helped.<span style="">&nbsp;
+Also identify how you helped others.&nbsp;</span></p>
+<p>One partner should submit the file or files for your
+project.&nbsp;
+If you have multiple project files, combine them into a .zip file.</p>
+<span style="font-style: italic; font-weight: bold;">Note
+special
+requirements</span>
+due to this being a possibly large and open-ended project:&nbsp;
+Include a README.txt file that explains how to run your program in
+detail, with all the steps to get going, in order.&nbsp; In
+particular
+with multiple files, what IS the main program?&nbsp; You do not
+need to
+repeat explicit prompts in your program.&nbsp; In general make sure
+you
+turn in <span style="font-style: italic;">every</span>
+file you need
+to run your program.&nbsp; For instance you have a graphics program
+and
+use graphics.py, turn in graphics.py.&nbsp; If you have a web
+project,
+make sure you turn in the localCGIServer.py program and all your
+templates.... An exception is if you need special packages installed.&nbsp; In such a case be
+sure to mention it in the instructions, including download URLs. <p><span style="font-style: italic;">In addition</span>,
+everyone should <span style="font-style: italic;">separately</span>
+submit a personal file log.txt.&nbsp;Include in the file <br>
+</p>
+<ol>
+<li>Roughly how long you worked for the project (including
+class time)</li>
+<li>Briefly, how it went for you, for instance what was the
+hardest part to get working.</li>
+<li>Who your partner(s) was/were.
+&nbsp;</li>
+<li>Give an indication of how things went
+with each partner. &nbsp;Was working together a good
+thing?&nbsp;<span style="font-weight: bold;">Approximate the percentage of work done by each team member.</span> <br>
+</li>
+</ol>
+This is an open ended assignment. &nbsp;You can do a graphics
+program,
+a dynamic web program,&nbsp;or some other Python program.
+&nbsp;Some
+very different (and <span style="font-style: italic;">increasingly
+more difficult</span>) possibilities are mentioned below.<br>
+&nbsp; <br>
+If you
+would
+like to do something else, read the section on Alternatives at the end<span style="font-style: italic;"></span>.&nbsp;
+Some things are feasible and others are not. &nbsp;You
+may not have enough experience to know the difference. &nbsp;Also
+it is important to find a way to break the project into a sequence of
+steps where you can check yourself before adding too much.
+&nbsp;Particularly if you suggest a unique project, discuss this
+all with me before you make your written submission of a plan!<br>
+<br>
+
+<h2>Project Ideas</h2>
+For the following three project ideas, a grade of 80/100 project points will be given for a program that correctly
+satisfies the minimum requirements.&nbsp; Better grades will be
+given
+to projects that implement one or more enhancements and a nice user
+interface. &nbsp;I suggest you write a little bit of the program at
+a time, and test it after each small feature is added.
+<h3>Hangman</h3>
+Code the classic hangman game, where the computer
+selects a word randomly from a list, and the player guesses letters,
+with a limit for the number of wrong letter guesses, displayed
+somehow.&nbsp; Correct guesses need to be indicated
+positionally.&nbsp;
+For instance for the secret word "program", if the player has correctly
+guessed nothing, display underscores for all 7 letters:<br>
+_ _ _ _ _ _ _<br>
+Later if the user has correctly selected <span style="font-weight: bold;">r</span><span style="font-weight: bold;"></span>,
+you should display something like<br>
+_ r _ _ r _ _<br>
+and then if <span style="font-weight: bold;">g</span>
+is selected,<br>
+_ r _ g r _ _<br>
+.... This display is the trickiest part of a basic version.<br>
+<br>
+The basic version needs neither the web nor graphics, so you can do it
+on any kind of computer.<br>
+<br>
+Enhancements <span style="font-style: italic;">after</span>
+you get a
+basic text version working:&nbsp; <br>
+<ul>
+<li>display bad past choices or remaining choices<br>
+</li>
+<li>multiple games with score kept, </li>
+<li>choice of easier and harder versions with words of
+different
+difficuly levels, </li>
+<li>text graphics or regular graphics just for a hangman image,
+or </li>
+<li>(lots of extra credit) a totally graphics based version,
+where
+the alphabet is shown in
+little boxes on the graphics screen and the user just clicks on the
+next letter chosen.....&nbsp; </li>
+<li>(also lots of extra credit) fancier version on the web,
+possibly
+with Hangman images. The web
+verson could involve typing a letter choice or clicking a radio button
+for the right letter....<br>
+</li>
+</ul>
+<h3>A Graphics Game: Find the Hole</h3>
+The program should use Zelle's graphics. &nbsp;Use a random number
+generator&nbsp; to select a
+point and a perhaps radius around that point. These determine the
+target 'hole' and
+are not revealed to the player.&nbsp;&nbsp; The user is then
+permitted
+to click around on the screen to “find the
+hole”.&nbsp; You
+should show each point the user&nbsp;tries immediately after the
+click.&nbsp; Once the user
+selects
+a point that is within the chosen radius of the mystery point, the
+circle should
+appear.&nbsp;
+There should be a message announcing how many steps it took.
+&nbsp;Clicking to find the hole should stop after the hole is
+found.
+The easiest way to do this is with <span style="font-style: italic;">while&nbsp;loop</span>
+to drive the
+repeated search for the hidden circle. &nbsp;The loop should stop
+when
+the hidden circle is located.<br>
+<br>
+<span style="font-weight: bold;">Hint: &nbsp;</span>
+If the distance
+between
+the hidden center and the latest mouse click is less than the radius of
+your mystery circle, then the circle is "found". &nbsp;The
+bounce2.py
+example &nbsp;program&nbsp;has a function getShift&nbsp;to
+calculate the difference (dx, dy) in the coordinates of
+two&nbsp;points. &nbsp;You can either directly use or modify
+getShift
+to
+calculate the distance from the Pythagorean Theorem: &nbsp; (dx*dx
++
+dy*dy)**.5<br>
+<br>
+Here are some enhancements to the hole finding game:<br>
+<ul>
+<li>You can make it more interesting by putting a limit on the
+number
+of tries the user can have.&nbsp; You could think about what would
+be
+reasonable – does it depend on the radius? On the number of
+possible point? &nbsp;You <span style="font-style: italic;">still</span>
+need a while loop, but the condition is more complicated, with two
+different reasons to be break out of the loop. &nbsp; </li>
+<li>Add extra graphical items like a display of the count of
+the current number of tries.</li>
+<li>You might offer different levels of difficulty for playing
+the game – fewer tries, a smaller circle, etc.&nbsp; Do NOT copy
+sections of code to make the different levels!&nbsp; Use functions
+and
+parameters.<br>
+</li>
+<li>You can always make it more visually appealing.</li>
+<li>You can permit the user to decide the number of games to
+play and then display the best score.</li>
+<li>Program reading enhancement: &nbsp;encapsulate logical
+unified
+ideas in functions with parameter passing, particularly where the same
+idea is used in different places with different data.</li>
+</ul>
+<span style="font-weight: bold;"></span>
+<h3>Web Mad Lib</h3>
+Have several files with mad lib format strings in them. &nbsp;Chose
+one at random. (See bullet 3 below.) &nbsp; <span style="font-style: italic;">Dynamically</span>
+generate and
+display a web form with all cues and with input fields for the user to
+fill in.&nbsp;Process
+the form and show the resulting mad lib. &nbsp;Go on to a further
+random madlib....<br>
+<br>
+Here are the mininum requirements: 
+
+Have a single predetermined madlib file and
+explicitly
+embed the key questions for that madlib in a form. &nbsp;This means
+the user can start from the web form page. &nbsp;Important detail
+for
+later generalization: &nbsp;For each cue in the form, make the
+visible
+label include&nbsp;the cue in a standard pattern, and make the
+field
+name attribute be the cue. &nbsp;In the CGI script, put the cues
+and
+their responses into a dictionary, for use with the madlib format
+string. There
+are two levels of embedding data into strings here: &nbsp;1)
+embedding
+the madlib choices in the mad lib. &nbsp;2) Embedding the mad lib
+inside a web page. &nbsp;Make sure you see the difference and get
+both
+parts.
+<br>
+<br>
+Here are enhancements to add for increasingly more credit:
+
+<ol>
+
+<li>Generalize to allow any mad lib format string, as
+in&nbsp;madlib2.py. &nbsp;Initially you can choose a specific
+mad lib
+file, but as in madlib2.py, the idea is to not have any of the Python
+code or web page templates have the cues hard coded into them.
+&nbsp;Instead, as in madlib2.py, use my getKey function to extract
+the
+list of cues from the madlib, and process all the cues in for-loops.
+&nbsp;There are two places you need to do this. &nbsp;Both
+require a
+serious understanding of madlib2.py, the CGI process, and for-loops:<br>
+<div style="margin-left: 40px;">
+<ol style="list-style-type: lower-alpha;">
+<li>&nbsp;<span style="font-style: italic;">Extracting
+data from the form</span>:
+&nbsp;This is actually the second place in the order of execution
+of
+the full program, but if you made the field names match the cues in the
+first part, you can write and test this part next. &nbsp;To know
+what
+data to extract from the form,&nbsp;extract
+the list of keys from the
+madlib format file, and then read the values for <span style="font-style: italic;">those</span>
+keys&nbsp;from the
+form
+input. In madlib2.py, the user was queried and then dictionary entries
+were made. &nbsp;In this case you still want to make the same sort
+of
+dictionary entries, but the data comes from the form, rather than
+keyboard input. &nbsp;(Actually this step is not needed <span style="font-style: italic;">if </span>the
+user gives values for all keys, because the form object created by the
+cgi module actually behaves like a dictionary already, but the format
+operation fails if values are not given in the dictionary explicitly
+for
+each key. &nbsp;It is important to create a dictionary that has
+some
+entry for each key used in the madlib.) &nbsp; </li>
+<li><span style="font-style: italic;">Getting
+the cues into&nbsp;the inital form:</span>
+&nbsp;For the more general version, the form cannot be a fixed
+page; it
+must be generated dynamically to include all the proper cues for the
+particular madlib file chosen. &nbsp;You must generate the page
+from a
+CGI script. &nbsp;Look at the source&nbsp;code of the html for
+the
+form in step 1(if you followed my suggestions), and see the pattern in
+the sections that present a
+single text field per key. &nbsp;Each such part can be created by
+embedding a cue into a format string based on the html source code for
+one entry. &nbsp;You can copy one entry out of the source
+for&nbsp;the
+form for part 1. &nbsp;You can loop
+through all the cues and create a list of all the entries with the
+proper cues. &nbsp;You can combine a
+list of strings as you did in the joinAll.py exercise, or you can look
+at the optional section on the string method <span style="font-weight: bold;">join</span>.<br>
+<br>
+For both
+part a and part b you need to have many of the same utility functions.
+&nbsp;You can have two scripts with much duplicated code,
+&nbsp;or both
+parts can be in one CGI script if you
+provide information to distinguish the two situations. &nbsp;An
+obvious choice is to have a hidden variable put in the form that states
+the madlib file name. &nbsp;If the cgi program starts without a key
+associated with such a file name, then the initial form still needs to
+be created (code of part b), and it needs to include a hidden variable
+like madlibFile with the value of the madlib file name. &nbsp; If
+the
+script runs when the hidden variable is there, then you have
+data from a form and can display the madlib with substitutions (code
+from part a).&nbsp;</li>
+</ol>
+</div>
+</li>
+<li>&nbsp;Select the mad lib format
+file at random in the
+inital cgi program (part b above). &nbsp;If you have a list
+aList&nbsp;of madlib filenames, then you can
+import the random module and use random.shuffle(aList) to mutate the
+list into a random order. &nbsp;Then aList.pop() returns the last
+element,
+which will be random, because of the shuffle. &nbsp;</li>
+<li><span style="font-style: italic;">&nbsp;</span>After
+the user sees a
+completed madlib let the&nbsp;user click to go on to a mad lib form
+for
+a <span style="font-style: italic;">different random</span>
+madlib. &nbsp;When
+the user has done all the madlibs,&nbsp;you could tell the user
+that there are no more madlibs available. &nbsp;A good way to
+accomplish this is to make another hidden variable be the remaining
+list of madlib file names, saved after they were shuffled and the
+latest
+file was popped out. &nbsp;Since the variables
+must be strings, you need some of the string methods that we skipped in
+Chapter 2, like split and join, or find with slicing.&nbsp; You
+could
+also set
+things up to only have one hidden variable if it includes all the
+remaining madlib file names <span style="font-style: italic;">and</span>
+the one you are working on at the moment. &nbsp;&nbsp;</li>
+</ol>
+
+<h2>Alternatives ....</h2>
+Are these too lame or canned or not your style? &nbsp;Suggest
+something
+different to
+me!
+&nbsp;You can start by discussing it orally with me, but before
+final
+approval, make a written specification for yourself and me, about as
+specific as what is given for the problems above. &nbsp;The
+specification is due as stated in the schedule. &nbsp;I am more
+likely to accept a proposal if it includes a new use of a while-loop or
+for-loop. &nbsp;Just a a long fixed sequence of steps, even with if
+statements, is <span style="font-style: italic;">not</span>
+likely
+to
+be accepted.<br>
+<br>
+Here are some comments about particular situations that might be of use:<br>
+<h4>Further file reading operations</h4>
+Thus
+far you were only given the method to read a whole file at a time.
+&nbsp;You
+may also read a single line at a time with the file method readline().
+&nbsp;A line <span style="font-style: italic;">includes</span>
+its final
+newline, but you can use the string method strip() to strip off all the
+white space from both ends, including the newline. &nbsp;Example:<br>
+<br>
+<span style="font-family: monospace;">infile =
+open('datafile.txt')</span><br style="font-family: monospace;">
+<span style="font-family: monospace;">line =
+infile.readline()</span><br style="font-family: monospace;">
+<span style="font-family: monospace;">print('line 1 is
+with whitespace removed from the ends:
+', line.strip())&nbsp; &nbsp;</span><br style="font-family: monospace;">
+<span style="font-family: monospace;">line =
+infile.readline()</span><br style="font-family: monospace;">
+<span style="font-family: monospace;">print('line 2 is
+with whitespace removed from the ends:
+', line.strip()) &nbsp;</span><br style="font-family: monospace;">
+<span style="font-family: monospace;"></span><br>
+(You can also remove the final newline using the slice notation from
+the optional sections of Chapter 2: &nbsp;line[:-1].)<br>
+<br>
+If you are converting a line with the text of a single number
+to a float
+with the float constructor, the newline does not matter, since white
+space is automatically stripped in the conversion. &nbsp;If
+datafile has a
+first line like 5.25, then the following code would read it and convert
+it to a float:<br>
+<br>
+<span style="font-family: monospace;">infile =
+open('datafile.txt')</span><br style="font-family: monospace;">
+<span style="font-family: monospace;">line =
+infile.readline()</span><br style="font-family: monospace;">
+<span style="font-family: monospace;">val = float(line)</span>
+<br>
+<br>
+<h4>Fancy cgi programs with multiple calls to cgi scripts:</h4>
+In a console Python application you might have something like:<br>
+<br>
+<div style="margin-left: 40px;"><span style="font-family: monospace;">s
+= input("Enter ....")</span><br style="font-family: monospace;">
+<span style="font-family: monospace;"># process s</span><br style="font-family: monospace;">
+<span style="font-family: monospace;">print(....)&nbsp;
+# something
+using s</span><br style="font-family: monospace;">
+<br style="font-family: monospace;">
+<span style="font-family: monospace;">t = input("Enter
+....")</span><br style="font-family: monospace;">
+<span style="font-family: monospace;"># process with BOTH
+s ans t</span><br style="font-family: monospace;">
+<span style="font-family: monospace;">print
+(....)&nbsp; # something
+based on both s and t...</span><br>
+</div>
+<br>
+In a web based situation it is more complicated, because the server
+does not automatically remember the data from an earlier server
+call.&nbsp; Yo would need something more like this:<br>
+<br>
+<div style="margin-left: 40px;"><span style="font-family: monospace;">#Start
+with cgi script that works at multiple stages of the input/output
+sequence:</span><br style="font-family: monospace;">
+<span style="font-family: monospace;">#....</span><br style="font-family: monospace;">
+<span style="font-family: monospace;">s =
+form.getFirst('s', '')</span><br style="font-family: monospace;">
+<span style="font-family: monospace;">t =
+form.getFirst('t', '')</span><br style="font-family: monospace;">
+<span style="font-family: monospace;"># know where you are
+by how many
+of your variables have been defined</span><br>
+<span style="font-family: monospace;">if s ==
+'':&nbsp; </span><br style="font-family: monospace;">
+<span style="font-family: monospace;">&nbsp;&nbsp;&nbsp;
+# ... print
+initial form looking for s value<br>
+&nbsp;&nbsp;&nbsp; # for use in the next case....<br style="font-family: monospace;">
+</span><span style="font-family: monospace;">elif t
+== '':</span><br style="font-family: monospace;">
+<span style="font-family: monospace;">&nbsp;&nbsp;&nbsp;
+# ... produce
+page USING the value of s <br>
+&nbsp;&nbsp;&nbsp; # and also including a form REQUESTING
+t, </span><br style="font-family: monospace;">
+<span style="font-family: monospace;">&nbsp;&nbsp;&nbsp;
+# AND include
+in the form a hidden variable 's' <br>
+&nbsp;&nbsp;&nbsp; #&nbsp;&nbsp;&nbsp; set to
+the current value of
+Python variable s <br>
+&nbsp;&nbsp;&nbsp; #&nbsp;&nbsp;&nbsp; (using
+template substitution),<br>
+&nbsp; &nbsp; #&nbsp;&nbsp;&nbsp; for use in the
+next case, with the
+new t....</span><br style="font-family: monospace;">
+<span style="font-family: monospace;">else:</span><br style="font-family: monospace;">
+<span style="font-family: monospace;">&nbsp;&nbsp;&nbsp;
+#&nbsp; ...
+generate page using s and t</span><br>
+</div>
+<br>
+This shows how to use a couple of pages in sequence.&nbsp; More
+elif's
+and more hidden variables needed for you to go further.....
+&nbsp;&nbsp;&nbsp; <br>
+&nbsp; <br>
+<span style="text-decoration: underline;">
+</span>
+<hr style="width: 100%; height: 2px;"><span style="text-decoration: underline;"></span>
+
+</div>
+</div>
+</body></html>
