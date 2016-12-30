@@ -9,10 +9,10 @@
 <h1>Python Project<br>
 </h1>
 
-<p class="MsoNormal">This is a 2-3 person assignment worth <span style="font-weight: bold;">150</span><b style="">
+<p class="MsoNormal">This is a 2-3 person assignment worth <span style="font-weight: bold;">120</span><b style="">
 points</b>. Team assignments are <a href="http://hwheeler01.github.io/comp150/teams">here</a>. <br>
 </p>
-<p class="MsoNormal">100 points for the project.&nbsp; 50 points for the presentation.<br>
+<p class="MsoNormal">60 points for the project.&nbsp; 60 points for the presentation.<br>
 </p>
 
 <h3>Your Python Project Plan is due March 30 by 11:00PM via Sakai.</h3> It should include:<br>
@@ -44,7 +44,7 @@ individually<br>
 
 <h3>Key items that should be included:</h3>
 <ol style="list-style-type: upper-roman;">
-<li>Total Length: 4 minutes plus 1-2 minutes for questions</li>
+<li>Total Length: 5 minutes plus 3-4 minutes for questions</li>
 
 <li>Show your Python code and describe what your functions do</li>
 <ol>
@@ -57,7 +57,7 @@ individually<br>
 <li> Demonstrate how your program works</li>
 <ol>
 <li>Play the game or show some examples</li>
-<li>Make sure the program runs on the computer you'll be using (I recommend you use one of your own computers for the presentation)</li>
+<li>Make sure the program runs on the computer you'll be using (I recommend you use one of your own computers for the presentation, bring a VGA adapter if needed)</li>
 <li>Mention if there is anything else your program does that you didn't have time to demonstrate</li>
 </ol>
 </ol>
@@ -131,7 +131,7 @@ all with me before you make your written submission of a plan!<br>
 <br>
 
 <h2>Project Ideas</h2>
-For the following three project ideas, a grade of 80/100 project points will be given for a program that correctly
+For the following three project ideas, a grade of 50/60 project points will be given for a program that correctly
 satisfies the minimum requirements.&nbsp; Better grades will be
 given
 to projects that implement one or more enhancements and a nice user
@@ -247,146 +247,8 @@ ideas in functions with parameter passing, particularly where the same
 idea is used in different places with different data.</li>
 </ul>
 <span style="font-weight: bold;"></span>
-<h3>Web Mad Lib</h3>
-Have several files with mad lib format strings in them. &nbsp;Chose
-one at random. (See bullet 3 below.) &nbsp; <span style="font-style: italic;">Dynamically</span>
-generate and
-display a web form with all cues and with input fields for the user to
-fill in.&nbsp;Process
-the form and show the resulting mad lib. &nbsp;Go on to a further
-random madlib....<br>
-<br>
-Here are the mininum requirements: 
 
-Have a single predetermined madlib file and
-explicitly
-embed the key questions for that madlib in a form. &nbsp;This means
-the user can start from the web form page. &nbsp;Important detail
-for
-later generalization: &nbsp;For each cue in the form, make the
-visible
-label include&nbsp;the cue in a standard pattern, and make the
-field
-name attribute be the cue. &nbsp;In the CGI script, put the cues
-and
-their responses into a dictionary, for use with the madlib format
-string. There
-are two levels of embedding data into strings here: &nbsp;1)
-embedding
-the madlib choices in the mad lib. &nbsp;2) Embedding the mad lib
-inside a web page. &nbsp;Make sure you see the difference and get
-both
-parts.
-<br>
-<br>
-Here are enhancements to add for increasingly more credit:
-
-<ol>
-
-<li>Generalize to allow any mad lib format string, as
-in&nbsp;madlib2.py. &nbsp;Initially you can choose a specific
-mad lib
-file, but as in madlib2.py, the idea is to not have any of the Python
-code or web page templates have the cues hard coded into them.
-&nbsp;Instead, as in madlib2.py, use my getKey function to extract
-the
-list of cues from the madlib, and process all the cues in for-loops.
-&nbsp;There are two places you need to do this. &nbsp;Both
-require a
-serious understanding of madlib2.py, the CGI process, and for-loops:<br>
-<div style="margin-left: 40px;">
-<ol style="list-style-type: lower-alpha;">
-<li>&nbsp;<span style="font-style: italic;">Extracting
-data from the form</span>:
-&nbsp;This is actually the second place in the order of execution
-of
-the full program, but if you made the field names match the cues in the
-first part, you can write and test this part next. &nbsp;To know
-what
-data to extract from the form,&nbsp;extract
-the list of keys from the
-madlib format file, and then read the values for <span style="font-style: italic;">those</span>
-keys&nbsp;from the
-form
-input. In madlib2.py, the user was queried and then dictionary entries
-were made. &nbsp;In this case you still want to make the same sort
-of
-dictionary entries, but the data comes from the form, rather than
-keyboard input. &nbsp;(Actually this step is not needed <span style="font-style: italic;">if </span>the
-user gives values for all keys, because the form object created by the
-cgi module actually behaves like a dictionary already, but the format
-operation fails if values are not given in the dictionary explicitly
-for
-each key. &nbsp;It is important to create a dictionary that has
-some
-entry for each key used in the madlib.) &nbsp; </li>
-<li><span style="font-style: italic;">Getting
-the cues into&nbsp;the inital form:</span>
-&nbsp;For the more general version, the form cannot be a fixed
-page; it
-must be generated dynamically to include all the proper cues for the
-particular madlib file chosen. &nbsp;You must generate the page
-from a
-CGI script. &nbsp;Look at the source&nbsp;code of the html for
-the
-form in step 1(if you followed my suggestions), and see the pattern in
-the sections that present a
-single text field per key. &nbsp;Each such part can be created by
-embedding a cue into a format string based on the html source code for
-one entry. &nbsp;You can copy one entry out of the source
-for&nbsp;the
-form for part 1. &nbsp;You can loop
-through all the cues and create a list of all the entries with the
-proper cues. &nbsp;You can combine a
-list of strings as you did in the joinAll.py exercise, or you can look
-at the optional section on the string method <span style="font-weight: bold;">join</span>.<br>
-<br>
-For both
-part a and part b you need to have many of the same utility functions.
-&nbsp;You can have two scripts with much duplicated code,
-&nbsp;or both
-parts can be in one CGI script if you
-provide information to distinguish the two situations. &nbsp;An
-obvious choice is to have a hidden variable put in the form that states
-the madlib file name. &nbsp;If the cgi program starts without a key
-associated with such a file name, then the initial form still needs to
-be created (code of part b), and it needs to include a hidden variable
-like madlibFile with the value of the madlib file name. &nbsp; If
-the
-script runs when the hidden variable is there, then you have
-data from a form and can display the madlib with substitutions (code
-from part a).&nbsp;</li>
-</ol>
-</div>
-</li>
-<li>&nbsp;Select the mad lib format
-file at random in the
-inital cgi program (part b above). &nbsp;If you have a list
-aList&nbsp;of madlib filenames, then you can
-import the random module and use random.shuffle(aList) to mutate the
-list into a random order. &nbsp;Then aList.pop() returns the last
-element,
-which will be random, because of the shuffle. &nbsp;</li>
-<li><span style="font-style: italic;">&nbsp;</span>After
-the user sees a
-completed madlib let the&nbsp;user click to go on to a mad lib form
-for
-a <span style="font-style: italic;">different random</span>
-madlib. &nbsp;When
-the user has done all the madlibs,&nbsp;you could tell the user
-that there are no more madlibs available. &nbsp;A good way to
-accomplish this is to make another hidden variable be the remaining
-list of madlib file names, saved after they were shuffled and the
-latest
-file was popped out. &nbsp;Since the variables
-must be strings, you need some of the string methods that we skipped in
-Chapter 2, like split and join, or find with slicing.&nbsp; You
-could
-also set
-things up to only have one hidden variable if it includes all the
-remaining madlib file names <span style="font-style: italic;">and</span>
-the one you are working on at the moment. &nbsp;&nbsp;</li>
-</ol>
+<h3> [Add some ggplot ideas] </h3>
 
 <h2>Alternatives ....</h2>
 Are these too lame or canned or not your style? &nbsp;Suggest

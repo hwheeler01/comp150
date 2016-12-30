@@ -5,11 +5,11 @@ permalink: /syllabus/
 ---
 
 - Day/Time:	MW 12:10 - 1:25
-- Classroom:	Crown Center 105
+- Classroom:	Crown Center 103
 - Prerequisites:	none
 - Instructor:	 Dr. Heather Wheeler <hwheeler1@luc.edu>
 - Website:	<http://hwheeler01.github.io/comp150>
-- Office Hours: Tuesdays 2:30 - 4:30 in <a href="http://www.luc.edu/campus_reservations/lsb.shtml">LSB</a> 324
+- Office Hours: Tuesdays 2:00 - 4:00 in <a href="http://www.luc.edu/campus_reservations/lsb.shtml">LSB</a> 324
 - TA: Jon Brenner <jbrenluc@gmail.com>
 
 <table style="width: px; height: 12px;" class="docutils" border="1">
@@ -44,11 +44,11 @@ permalink: /syllabus/
 
 <span style="font-weight: bold;"><a name="objectives"></a>Course Objectives: </span>
 
-- To introduce the concepts of algorithms and their analysis and design in the context of a simple yet powerful computer language, Python
+- To introduce the concepts of algorithms and their analysis and design in the context of the simple, yet powerful, computer language Python
 - To implement Python programs with appropriate use of selection repetition functions and data structures
-- To learn how to add graphical effects to programs
+- To learn how to add graphical effects to programs and generate data visualizations
 - To study some of the basic ideas behind computing -- how data are represented in a computer; how a computer processor is built up from simple circuits; how the processor is controlled through low level languages; and the transition from low level languages to high level languages like Python
-- To use HTML to construct a web page containing forms and write a Python CGI script to dynamically process information placed in a web form
+
 
 
 <span style="font-weight: bold;"><a name="texts"></a>Course Materials: </span>
@@ -65,9 +65,9 @@ There is no specific text for this course. Rather, we will be using free online 
 
 Much of this course will be *flipped* from the traditional course format. That is, the presentations are mostly at your convenience, at your speed, as videos/text on your computer outside of class. In class, we will discuss questions you have on the presentations and do much of the harder creative work of synthesizing and using this information, when you have the most direct support from me, the TA, and classmates. 
 
-As you work through the <a href="http://anh.cs.luc.edu/python/hands-on/3.1/index.html">Hand's-on Python Tutorial</a> at the beginning of the semester, come to class prepared with questions on the <a href="http://hwheeler01.github.io/comp150/syllabus/#schedule">day's topics</a>. In general, if you feel that you can benefit from more explanation on a topic, sit on the same side as the instructor's desk. If you would prefer to continue working on your own, sit on the opposite side of the room. In this way, those students who want additional lecture support can have it with minimal intrusion to those students who would prefer to work on their own.
+As you work through the <a href="http://anh.cs.luc.edu/python/hands-on/3.1/index.html">Hand's-on Python Tutorial</a> at the beginning of the semester, come to class prepared with questions on the <a href="http://hwheeler01.github.io/comp150/syllabus/#schedule">day's topics</a>. 
 
-You are responsible for what goes on in class; some of the activity may not be covered in the class notes. For the non-Python topics later in the semester, there will be short demonstrations/labs in class, in which you are expected to participate. I expect you to look at assigned presentations before class, but *if you want to check on something in a video during class, remember to bring headphones.*
+I expect you to look at assigned presentations before class, but *if you want to check on something in a video during class, remember to bring headphones.*
 
 Class time is valuable and in short supply, so there are some tradeoffs in this approach. You cannot immediately get a question answered by me in the middle of a video presentation. I suggest keeping a list of questions as you watch the videos. You may find that some of your questions will be answered as you continue to watch the videos, and some you will want to bring to class.
 
@@ -88,7 +88,7 @@ Class time is valuable and in short supply, so there are some tradeoffs in this 
 
 <span style="font-weight: bold;"><a name="env"></a>Programming Environment: </span><br>
 
-We will be programming in Python, available in the University Windows labs, and as a download to your own computer. There are several choices based on program version and operating system. You should get Python the latest version 3.5.1 for your operating system from the central site <a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a>. Python comes with the graphical interface, Idle, which we will use. 
+We will be programming in Python, available in the University Windows labs, and as a download to your own computer. There are several choices based on program version and operating system. You should get Python the latest version 3.6.0 for your operating system from the central site <a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a>. Python comes with the graphical interface, Idle, which we will use. 
 
 - Recommended storage options for course work:
 	- Cloud-based storage like Box or Google Drive
@@ -101,7 +101,7 @@ Plagiarism and cheating will not be tolerated (see <a href="http://www.luc.edu/a
 
 Cheating consists of, but is not limited to:
 
-- Using or copying an outside person's work on an exam or assignment in any fashion. "Outside person" includes a person who put something on a web page. Don't copy others' work from the web!
+- Using or copying an outside person's work on an exam or assignment in any fashion. "Outside person" includes a person who put something on a web page. **Don't copy others' work from the web!**
 - Others' work includes outlines, pseudocode, code, and documentation.
 - Allowing your own work to be copied or used by an outside person.
 - Submitting as your own work something that has been written by an outside person (or web site).
@@ -122,9 +122,9 @@ Help from any source is fine concerning:
 
 There are three exams. Dates are:
 
-- Exam #1: Feb 24
-- Exam #2: Mar 23
-- Final Exam: *Friday* May 6, 9:00 - 11:00 a.m.<br>
+- Exam #1: Feb 22
+- Exam #2: Mar 22
+- Final Exam: *Friday* May 5, 9:00 - 11:00 a.m.<br>
 
 Exams will cover material discussed in class, reading material on the web, and assignments. *Exams will always be cumulative.* You are allowed one 8.5 x 11 inch piece of paper (both sides) with notes for each exam, but no computer or calculator. I emphasize having you process and use information, not regurgitate facts -- put the facts you most forget and still need in your notes. This is very different than many of the requirements some students had in high school, where fact recall may have been key. What you want most to remember is general patterns about the process of breaking problems into pieces and identifying the right process for each piece. The pieces may come in all sorts of combinations, so remembering whole rote sequences is not likely to be helpful. Do not depend on it.
 
@@ -148,12 +148,12 @@ If you require a certain grade in order to satisfy a sponsor or a scholarship re
 | Tutorial, Chapter 2 Exercises | 45 |
 | Tutorial, Chapter 3.1 Exercises | 30|
 | Tutorial, Chapter 3.2-3.3.4 Exercises | 30|
-| Tutorial, Chapter 4 Exercises | 30|
+| Plotting Homework| 60|
 | Pip Program | 60 |
 | Gates Homework | 60 |
 | EXAM 1 | 150 |
 | EXAM 2 | 200 |
-| Python Project | 150 |
+| Python Project | 120 |
 | FINAL EXAM | 250 |
 | **TOTAL** | **1050**|
 
@@ -194,39 +194,40 @@ In the Activities column **"Prep:"** means preparation done *before* class with 
 
 | **Date**      | **Activities**    | **DUE by 11:00 PM via Sakai** |
 | ------------- |:-------------:| :-----|
-|Jan 20|Introductory <a href="{{ site.baseurl }}/intro-lecture.pdf">slides</a>, syllabus, <a href="{{ site.baseurl }}/pairprogram">pair programming</a>, form pairs, introduction to <a target="_blank" href="http://anh.cs.luc.edu/python/hands-on/3.1/index.html">Hands-on Python Tutorial</a>, <a href="http://anh.cs.luc.edu/python/hands-on/3.1/examples.zip">example files</a> **Follow up:** make sure you have completely read the syllabus.|
-|Jan 25|**Prep:** Hands-on Python Tutorial <a href="http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/index.html">Context 1.1 through Input/Output 1.10</a> (most video for one class, with all the introductory material)|
-|Jan 27|Catch up and questions: Python Tutorial 1.1 - 1.10 |
-|Feb 1|**Prep:** Python Tutorial Functions 1.11, Dictionaries 1.12, Loops 1.13 <a href="{{ site.baseurl }}/playComputer_loopy.rtf">in-class exercise</a> |
-|Feb 3|**Prep:** Python Tutorial 1.14 - 1.15, homework questions ready! |<a href="http://hwheeler01.github.io/comp150/HW/CheckOnTutorial-1.html">Chapter 1 exercises</a>|
-|Feb 8|**Prep:** Python Tutorial 2.1 - 2.3 | |
-|Feb 10|**Prep:** Python Tutorial 2.4 , 2.4.1, 2.4.2, 2.4.5  |
-|Feb 15|**Prep:** Python Tutorial 2.4.6-8, 2.4.10-12 |
-|Feb 17|**Prep:** Python Tutorial 2.5 |<a href="http://hwheeler01.github.io/comp150/HW/CheckOnTutorial-2.html">Chapter 2 exercises</a>|
-|Feb 22|<a href="{{ site.baseurl }}/exam1_review.pdf">Review</a> for Exam 1 | |
-|Feb 24|**EXAM 1** |
-|Feb 29|**Prep:** Python Tutorial  Chapter 3 through 3.1.6 |
-|Mar 2|**Prep:** Python Tutorial 3.1.6 - 3.1.7 | <a href="http://hwheeler01.github.io/comp150/HW/CheckOnTutorial-3.html">Chapter 3.1 exercises</a> |
-|Mar 7| *No class: SPRING BREAK*|
-|Mar 9| *No class: SPRING BREAK* |
-|Mar 14|Discuss <a href="http://hwheeler01.github.io/comp150/HW/Project.html">Python Project</a>  (finalize <a href="http://hwheeler01.github.io/comp150/teams">teams</a>), <a href="http://hwheeler01.github.io/comp150/ClassNotes.html#Past">Past Examples</a> **Prep:** Python Tutorial 3.1.7 - 3.3.1 |
-|Mar 16|**Prep:** Python Tutorial 3.3.2 - 3.3.4 through bounceWhile.py|<a href="http://hwheeler01.github.io/comp150/HW/CheckOnTutorial-3.html">Chapter 3.2 - 3.3.4 exercises</a>|
-|Mar 21|<a href="http://hwheeler01.github.io/comp150/exam2_review.pdf">Review</a> for Exam 2 ||
-|Mar 23|**EXAM 2** |
-|Mar 28| *No class: EASTER BREAK* |
-|Mar 30|**Prep:** Python Tutorial 4.1 - 4.3| Submit plan for the <a href="http://hwheeler01.github.io/comp150/HW/Project.html">Python Project</a> |
-|Apr 4|**Prep:** Python Tutorial 4.4 <a href="http://anh.cs.luc.edu/python/hands-on/3.1/pythonOnMac.html">Special Mac instructions</a>| <a href="http://hwheeler01.github.io/comp150/HW/Plotting_Homework.html">Plotting Homework</a>|
-|Apr 6|**Prep:** Binary Arithmetic in <a href="http://hwheeler01.github.io/comp150/ClassNotes.html">Class Notes</a> Sections 2-3F (videos N2, N3A, N3B, N3C-E) <a href="http://hwheeler01.github.io/comp150/binDecHex_practice.pdf">Example Problems</a> ||
-|Apr 11|**Prep:** Pip Assembler in <a href="http://hwheeler01.github.io/comp150/ClassNotes.html">Class Notes</a> Sections 4A-E (videos N4, N4A, N4B, N4C, N4D, N4E)|
-|Apr 13|**Prep:** Pip Assembler in <a href="http://hwheeler01.github.io/comp150/ClassNotes.html">Class Notes</a> Sections 4F-H (videos N4F, N4G, N4H) | <a href="http://hwheeler01.github.io/comp150/HW/PipPrograms.html">Pip Program</a> |
-|Apr 18|**Prep:** Boolean Algebra, Truth Tables, and Digital Circuits in <a href="http://hwheeler01.github.io/comp150/ClassNotes.html">Class Notes</a> Sections 5A-D (videos N5A-D)|
-|Apr 20|**Prep:**  Boolean Algebra, Truth Tables, and Digital Circuits in <a href="http://hwheeler01.github.io/comp150/ClassNotes.html">Class Notes</a> Sections 5E-I (videos N5E-I) **In class:** show project steps completed | <a href="http://hwheeler01.github.io/comp150/HW/Gates.html">Gates Homework</a> |
-|Apr 25| Finalize Project Presentations and Python Code (<a href="http://hwheeler01.github.io/comp150/HW/Project.html">requirements</a>), <a href="http://hwheeler01.github.io/comp150/COMP150-Final-Review.pdf">Review</a> for Final Exam |
-|Apr 27| **Project Presentations**| <a href="http://hwheeler01.github.io/comp150/HW/Project.html">Python Project</a> |
-|May 6| **FINAL EXAM: Friday May 6, 9:00-11:00 AM** |
+|Jan 18|Introductory <a href="{{ site.baseurl }}/intro-lecture.pdf">slides</a>, syllabus, <a href="{{ site.baseurl }}/pairprogram">pair programming</a>, form pairs, introduction to <a target="_blank" href="http://anh.cs.luc.edu/python/hands-on/3.1/index.html">Hands-on Python Tutorial</a>, <a href="http://anh.cs.luc.edu/python/hands-on/3.1/examples.zip">example files</a> **Follow up:** make sure you have completely read the syllabus.|
+|Jan 23|**Prep:** Hands-on Python Tutorial <a href="http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/index.html">Context 1.1 through Input/Output 1.10</a> (most video for one class, with all the introductory material)|
+|Jan 25|Catch up and questions: Python Tutorial 1.1 - 1.10 |
+|Jan 30|**Prep:** Python Tutorial Functions 1.11, Dictionaries 1.12, Loops 1.13 <a href="{{ site.baseurl }}/playComputer_loopy.rtf">in-class exercise</a> |
+|Feb 1|**Prep:** Python Tutorial 1.14 - 1.15, homework questions ready! |<a href="http://hwheeler01.github.io/comp150/HW/CheckOnTutorial-1.html">Chapter 1 exercises</a>|
+|Feb 6|**Prep:** Python Tutorial 2.1 - 2.3 | |
+|Feb 8|**Prep:** Python Tutorial 2.4 , 2.4.1, 2.4.2, 2.4.5  |
+|Feb 13|**Prep:** Python Tutorial 2.4.6-8, 2.4.10-12 |
+|Feb 15|**Prep:** Python Tutorial 2.5 |<a href="http://hwheeler01.github.io/comp150/HW/CheckOnTutorial-2.html">Chapter 2 exercises</a>|
+|Feb 20|<a href="{{ site.baseurl }}/exam1_review.pdf">Review</a> for Exam 1 | |
+|Feb 22|**EXAM 1** |
+|Feb 27|**Prep:** Python Tutorial  Chapter 3 through 3.1.6 |
+|Mar 1|**Prep:** Python Tutorial 3.1.6 - 3.1.7 | <a href="http://hwheeler01.github.io/comp150/HW/CheckOnTutorial-3.html">Chapter 3.1 exercises</a> |
+|Mar 6| *No class: SPRING BREAK*|
+|Mar 8| *No class: SPRING BREAK* |
+|Mar 13|Discuss <a href="http://hwheeler01.github.io/comp150/HW/Project.html">Python Project</a>  (finalize <a href="http://hwheeler01.github.io/comp150/teams">teams</a>), <a href="http://hwheeler01.github.io/comp150/ClassNotes.html#Past">Past Examples</a> **Prep:** Python Tutorial 3.1.7 - 3.3.1 |
+|Mar 15|**Prep:** Python Tutorial 3.3.2 - 3.3.4 through bounceWhile.py|<a href="http://hwheeler01.github.io/comp150/HW/CheckOnTutorial-3.html">Chapter 3.2 - 3.3.4 exercises</a>|
+|Mar 20|<a href="http://hwheeler01.github.io/comp150/exam2_review.pdf">Review</a> for Exam 2 ||
+|Mar 22|**EXAM 2** |
+|Mar 27|**Prep:** Install <a href="http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/index.html">Jupyter notebook</a> **In class:** ggplot Tutorial| Submit plan for the <a href="http://hwheeler01.github.io/comp150/HW/Project.html">Python Project</a> |
+|Mar 29|**In class:** plotting questions| <a href="http://hwheeler01.github.io/comp150/HW/Plotting_Homework.html">Plotting Homework</a>|
+|Apr 3|**Prep:** Binary Arithmetic in <a href="http://hwheeler01.github.io/comp150/ClassNotes.html">Class Notes</a> Sections 2-3F (videos N2, N3A, N3B, N3C-E) <a href="http://hwheeler01.github.io/comp150/binDecHex_practice.pdf">Example Problems</a> ||
+|Apr 5|**Prep:** Pip Assembler in <a href="http://hwheeler01.github.io/comp150/ClassNotes.html">Class Notes</a> Sections 4A-E (videos N4, N4A, N4B, N4C, N4D, N4E)|
+|Apr 10|**Prep:** Pip Assembler in <a href="http://hwheeler01.github.io/comp150/ClassNotes.html">Class Notes</a> Sections 4F-H (videos N4F, N4G, N4H) | <a href="http://hwheeler01.github.io/comp150/HW/PipPrograms.html">Pip Program</a> |
+|Apr 12|**Prep:** Boolean Algebra, Truth Tables, and Digital Circuits in <a href="http://hwheeler01.github.io/comp150/ClassNotes.html">Class Notes</a> Sections 5A-D (videos N5A-D)|
+|Apr 17| *No class: EASTER BREAK* |
+|Apr 19|**Prep:**  Boolean Algebra, Truth Tables, and Digital Circuits in <a href="http://hwheeler01.github.io/comp150/ClassNotes.html">Class Notes</a> Sections 5E-I (videos N5E-I) **In class:** Finalize Project Presentations and Python Code (<a href="http://hwheeler01.github.io/comp150/HW/Project.html">requirements</a>) | <a href="http://hwheeler01.github.io/comp150/HW/Gates.html">Gates Homework</a> |
+|Apr 24|  **Project Presentations**, <a href="http://hwheeler01.github.io/comp150/COMP150-Final-Review.pdf">Review</a> for Final Exam |
+|Apr 26| **Project Presentations**| <a href="http://hwheeler01.github.io/comp150/HW/Project.html">Python Project</a> |
+|May 5| **FINAL EXAM: Friday May 5, 9:00-11:00 AM** |
 
 <span style="font-weight: bold;"><a name="dates"></a>Important Dates:<br>
 
 See the <a href="http://www.luc.edu/academics/schedules/spring/academic_calendar.shtml">Loyola academic calendar</a> for registration and withdrawal dates. 
 <br>
+
 *This syllabus is subject to change during the course at the discretion of the instructor.*
