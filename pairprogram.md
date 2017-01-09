@@ -3,6 +3,14 @@ layout: page
 title: Pair Programming
 permalink: /pairprogram/
 ---
+## Rules and Procedures for COMP 150
+Remember, you are being allowed to complete your programming assignments with a partner ONLY as long as you follow the principles of “pair programming” as described below.  
+
+Each partner should “drive” roughly 50% of the time the pair is working together, and at most 25% of an individual’s effort for an assignment should be spent working alone. Any work done by a solitary programmer must be reviewed by the pair together. The object is to work together, learning from each other, not to divide the work into two pieces with each partner working on a different piece.
+
+You are free to select any other student from your class to be your partner. Make sure that both names appear on all work submitted by the pair. 
+
+If your partner doesn't show up to a scheduled programming session, you may complete the assignment yourself. You should clearly document what happened in the `log.txt` file you submit in your assignment archive.
 
 ## How to Pair Program
 This summary is derived from "<a target="_blank" href="http://webpages.cs.luc.edu/~cnaiman/COMP150/Kindergarten.pdf">All
@@ -42,11 +50,3 @@ the fine balance takes adjustment.
 <br><br>
 
 
-## Rules and Procedures for COMP 150
-Remember, you are being allowed to complete your programming assignments and labs with a partner ONLY as long as you do it following the principles of “pair programming” as described above.  
-
-Each partner should “drive” roughly 50% of the time the pair is working together, and at most 25% of an individual’s effort for an assignment should be spent working alone. Any work done by a solitary programmer must be reviewed by the pair together. The object is to work together, learning from each other, not to divide the work into two pieces with each partner working on a different piece.
-
-You are free to select any other student from your class to be your partner. Make sure that both names appear on all work submitted by the pair. 
-
-If your partner doesn't show up to a scheduled programming session, you may complete the assignment yourself. You should clearly document what happened both in the program comments and in the comment field of the `log.txt` file you submit.

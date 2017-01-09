@@ -73,22 +73,19 @@ Class time is valuable and in short supply, so there are some tradeoffs in this 
 
 <span style="font-weight: bold;"><a name="assignments"></a>Homeworks/Assignments:</span>
 
-*Programming Assignments:* For each tutorial, you must submit to Sakai a `.zip` file of the required exercises for that chapter. The exercises are mentioned as you encounter them in the tutorials. In addition, each due date and a link to a list of the required exercises are on the <a class="reference external" href="#schedule">Course Schedule</a>.<br>
+*Homework Assignments:* For each homework, you must submit to Sakai a `.zip` file of the required files for that assignment. For the tutorial assignments, the exercises are mentioned as you encounter them in each chapter. Each due date and a link to a list of the required exercises are on the <a class="reference external" href="#schedule">Course Schedule</a>.<br>
 
-*Homework Assignments:* There are also several non-Python homework assignments, including Pip Program (assembly-language programming) and Gates Homework. The links to these homeworks and their due dates are on the <a class="reference external" href="#schedule">Course Schedule</a>.
+[Pair Programming](http://hwheeler01.github.io/comp150/pairprogram/) is when two people collaborate on one problem with one person coding while the other looks on. For novices and professionals alike, pair programming often leads to better, faster, and more enjoyable project completion. You have the option to do pair programming in this course for most of the homework assignments. **However, your exams will NOT be in pairs!** 
 
-*Pair Programming:* Pair Programming is when two people collaborate on one problem with one person coding while the other looks on. For novices and professionals alike, pair programming often leads to better, faster, and more enjoyable project completion. We will have the option to do pair programming in this course for in-class work and programming assignments. **However, your exams will NOT be in pairs!** Read the page on how to make pair programming work and requirements for using it in this class <a href="{{ site.baseurl }}/pairprogram">here</a>.
-
-*Python Project:* You will form teams of two or three, to complete a project, which is a major programming assignment in Python. Some suggestions for the project can be found <a href="http://hwheeler01.github.io/comp150/HW/Project.html">here.</a> This will be discussed further in class.<br>
-
+*Python Project:* You will form teams of two or three to complete a project, which is a major programming assignment in Python. Some suggestions for the project can be found <a href="http://hwheeler01.github.io/comp150/HW/Project.html">here.</a> This will be discussed further in class.<br>
 
 ***Important note about pair/team submissions:*** For pair/team assignments, only one person needs to submit the archive of programs (everyone should have their own copy for reference), but each team member must submit their own independently written `log.txt` file with the requested information for that assignment. 
 
-***Important note about the group project:*** You are expected to fully participate in the group project. Your individual grade may be modified depending upon your contribution to the project and your cooperative and substantive participation. This will be assessed by instructor walk-throughs during class and by the *Team Participation* form completed by each team member.<br>
+***Important note about the group project:*** You are expected to fully participate in the group project. Your individual grade may be modified depending upon your contribution to the project and your cooperative and substantive participation. This will be assessed by instructor walk-throughs during class and the `log.txt` form completed by each team member.<br>
 
 <span style="font-weight: bold;"><a name="env"></a>Programming Environment: </span><br>
 
-We will be programming in Python, available in the University Windows labs, and as a download to your own computer. There are several choices based on program version and operating system. You should get Python the latest version 3.6.0 for your operating system from the central site <a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a>. Python comes with the graphical interface, Idle, which we will use. 
+We will be programming in Python, available in the University Windows labs, and as a download to your own computer. There are several choices based on program version and operating system. You should get Python the latest version 3.6.0 for your operating system from the central site <a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a>. Python comes with the graphical interface called Idle, which we will use. 
 
 - Recommended storage options for course work:
 	- Cloud-based storage like Box or Google Drive
@@ -101,8 +98,7 @@ Plagiarism and cheating will not be tolerated (see <a href="http://www.luc.edu/a
 
 Cheating consists of, but is not limited to:
 
-- Using or copying an outside person's work on an exam or assignment in any fashion. "Outside person" includes a person who put something on a web page. **Don't copy others' work from the web!**
-- Others' work includes outlines, pseudocode, code, and documentation.
+- Using or copying an outside person's work on an exam or assignment in any fashion. "Outside person" includes a person who put something on a web page. **Don't copy others' work from the web!** Others' work includes outlines, pseudocode, code, and documentation.
 - Allowing your own work to be copied or used by an outside person.
 - Submitting as your own work something that has been written by an outside person (or web site).
 - Using any unauthorized reference on an exam or assignment.
@@ -126,7 +122,7 @@ There are three exams. Dates are:
 - Exam #2: Mar 22
 - Final Exam: *Friday* May 5, 9:00 - 11:00 a.m.<br>
 
-Exams will cover material discussed in class, reading material on the web, and assignments. *Exams will always be cumulative.* You are allowed one 8.5 x 11 inch piece of paper (both sides) with notes for each exam, but no computer or calculator. I emphasize having you process and use information, not regurgitate facts -- put the facts you most forget and still need in your notes. This is very different than many of the requirements some students had in high school, where fact recall may have been key. What you want most to remember is general patterns about the process of breaking problems into pieces and identifying the right process for each piece. The pieces may come in all sorts of combinations, so remembering whole rote sequences is not likely to be helpful. Do not depend on it.
+Exams will cover material discussed in class, reading material on the web, and assignments. *Exams will always be cumulative.* You are allowed one 8.5 x 11 inch piece of paper (both sides) with notes for each exam, but no computer or calculator. I emphasize having you process and use information, not regurgitate facts -- put the facts you most forget and still need in your notes. 
 
 There will be a review for each exam posted on the <a class="reference external" href="#schedule">Course Schedule</a> a week before the exam.<br>
 
@@ -203,17 +199,17 @@ In the Activities column **"Prep:"** means preparation done *before* class with 
 |Feb 8|**Prep:** Python Tutorial 2.4 , 2.4.1, 2.4.2, 2.4.5  |
 |Feb 13|**Prep:** Python Tutorial 2.4.6-8, 2.4.10-12 |
 |Feb 15|**Prep:** Python Tutorial 2.5 |<a href="http://hwheeler01.github.io/comp150/HW/CheckOnTutorial-2.html">Chapter 2 exercises</a>|
-|Feb 20|<a href="{{ site.baseurl }}/exam1_review.pdf">Review</a> for Exam 1 | |
+|Feb 20|Review for Exam 1 | |
 |Feb 22|**EXAM 1** |
 |Feb 27|**Prep:** Python Tutorial  Chapter 3 through 3.1.6 |
 |Mar 1|**Prep:** Python Tutorial 3.1.6 - 3.1.7 | <a href="http://hwheeler01.github.io/comp150/HW/CheckOnTutorial-3.html">Chapter 3.1 exercises</a> |
 |Mar 6| *No class: SPRING BREAK*|
 |Mar 8| *No class: SPRING BREAK* |
-|Mar 13|Discuss <a href="http://hwheeler01.github.io/comp150/HW/Project.html">Python Project</a>  (finalize <a href="http://hwheeler01.github.io/comp150/teams">teams</a>), <a href="http://hwheeler01.github.io/comp150/ClassNotes.html#Past">Past Examples</a> **Prep:** Python Tutorial 3.1.7 - 3.3.1 |
+|Mar 13|Discuss <a href="http://hwheeler01.github.io/comp150/HW/Project.html">Python Project</a>  (finalize teams), <a href="http://hwheeler01.github.io/comp150/ClassNotes.html#Past">Past Examples</a> **Prep:** Python Tutorial 3.1.7 - 3.3.1 |
 |Mar 15|**Prep:** Python Tutorial 3.3.2 - 3.3.4 through bounceWhile.py|<a href="http://hwheeler01.github.io/comp150/HW/CheckOnTutorial-3.html">Chapter 3.2 - 3.3.4 exercises</a>|
-|Mar 20|<a href="http://hwheeler01.github.io/comp150/exam2_review.pdf">Review</a> for Exam 2 ||
+|Mar 20|Review for Exam 2 |Submit plan for the <a href="http://hwheeler01.github.io/comp150/HW/Project.html">Python Project</a> |
 |Mar 22|**EXAM 2** |
-|Mar 27|**Prep:** Install <a href="http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/index.html">Jupyter notebook</a> **In class:** ggplot Tutorial| Submit plan for the <a href="http://hwheeler01.github.io/comp150/HW/Project.html">Python Project</a> |
+|Mar 27|**Prep:** Install <a href="http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/index.html">Jupyter notebook</a> **In class:** ggplot Tutorial| |
 |Mar 29|**In class:** plotting questions| <a href="http://hwheeler01.github.io/comp150/HW/Plotting_Homework.html">Plotting Homework</a>|
 |Apr 3|**Prep:** Binary Arithmetic in <a href="http://hwheeler01.github.io/comp150/ClassNotes.html">Class Notes</a> Sections 2-3F (videos N2, N3A, N3B, N3C-E) <a href="http://hwheeler01.github.io/comp150/binDecHex_practice.pdf">Example Problems</a> ||
 |Apr 5|**Prep:** Pip Assembler in <a href="http://hwheeler01.github.io/comp150/ClassNotes.html">Class Notes</a> Sections 4A-E (videos N4, N4A, N4B, N4C, N4D, N4E)|
