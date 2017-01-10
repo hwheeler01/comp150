@@ -190,13 +190,13 @@ In the Activities column **"Prep:"** means preparation done *before* class with 
 
 | **Date**      | **Activities**    | **DUE by 11:00 PM via Sakai** |
 | ------------- |:-------------:| :-----|
-|Jan 18|Introductory <a href="{{ site.baseurl }}/intro-lecture.pdf">slides</a>, syllabus, <a href="{{ site.baseurl }}/pairprogram">pair programming</a>, form pairs, introduction to <a target="_blank" href="http://anh.cs.luc.edu/python/hands-on/3.1/index.html">Hands-on Python Tutorial</a>, <a href="http://anh.cs.luc.edu/python/hands-on/3.1/examples.zip">example files</a> **Follow up:** make sure you have completely read the syllabus.|
+|Jan 18|Introductory slides, syllabus, <a href="{{ site.baseurl }}/pairprogram">pair programming</a>, form pairs, introduction to <a target="_blank" href="http://anh.cs.luc.edu/python/hands-on/3.1/index.html">Hands-on Python Tutorial</a>, <a href="http://anh.cs.luc.edu/python/hands-on/3.1/examples.zip">example files</a> **Follow up:** make sure you have completely read the syllabus.|
 |Jan 23|**Prep:** Hands-on Python Tutorial <a href="http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/index.html">Context 1.1 through Input/Output 1.10</a> (most video for one class, with all the introductory material)|
-|Jan 25|Catch up and questions: Python Tutorial 1.1 - 1.10 |
-|Jan 30|**Prep:** Python Tutorial Functions 1.11, Dictionaries 1.12, Loops 1.13 <a href="{{ site.baseurl }}/playComputer_loopy.rtf">in-class exercise</a> |
-|Feb 1|**Prep:** Python Tutorial 1.14 - 1.15, homework questions ready! |<a href="http://hwheeler01.github.io/comp150/HW/CheckOnTutorial-1.html">Chapter 1 exercises</a>|
+|Jan 25|**Prep:** Python Tutorial Functions 1.11, Dictionaries 1.12 |
+|Jan 30|**Prep:** Python Tutorial Loops 1.13, Floats 1.14, <a href="{{ site.baseurl }}/playComputer_loopy.rtf">in-class exercise</a> |
+|Feb 1|**Prep:** Python Tutorial 1.15, homework questions ready! |<a href="http://hwheeler01.github.io/comp150/HW/CheckOnTutorial-1.html">Chapter 1 exercises</a>|
 |Feb 6|**Prep:** Python Tutorial 2.1 - 2.3 | |
-|Feb 8|**Prep:** Python Tutorial 2.4 , 2.4.1, 2.4.2, 2.4.5  |
+|Feb 8|**Prep:** Python Tutorial 2.4.1, 2.4.2, 2.4.5  |
 |Feb 13|**Prep:** Python Tutorial 2.4.6-8, 2.4.10-12 |
 |Feb 15|**Prep:** Python Tutorial 2.5 |<a href="http://hwheeler01.github.io/comp150/HW/CheckOnTutorial-2.html">Chapter 2 exercises</a>|
 |Feb 20|Review for Exam 1 | |
@@ -217,7 +217,7 @@ In the Activities column **"Prep:"** means preparation done *before* class with 
 |Apr 12|**Prep:** Boolean Algebra, Truth Tables, and Digital Circuits in <a href="http://hwheeler01.github.io/comp150/ClassNotes.html">Class Notes</a> Sections 5A-D (videos N5A-D)|
 |Apr 17| *No class: EASTER BREAK* |
 |Apr 19|**Prep:**  Boolean Algebra, Truth Tables, and Digital Circuits in <a href="http://hwheeler01.github.io/comp150/ClassNotes.html">Class Notes</a> Sections 5E-I (videos N5E-I) **In class:** Finalize Project Presentations and Python Code (<a href="http://hwheeler01.github.io/comp150/HW/Project.html">requirements</a>) | <a href="http://hwheeler01.github.io/comp150/HW/Gates.html">Gates Homework</a> |
-|Apr 24|  **Project Presentations**, <a href="http://hwheeler01.github.io/comp150/COMP150-Final-Review.pdf">Review</a> for Final Exam |
+|Apr 24|  **Project Presentations**, Review for Final Exam |
 |Apr 26| **Project Presentations**| <a href="http://hwheeler01.github.io/comp150/HW/Project.html">Python Project</a> |
 |May 5| **FINAL EXAM: Friday May 5, 9:00-11:00 AM** |
 
