@@ -8,7 +8,7 @@ permalink: /syllabus/
 - Classroom:	Crown Center 103
 - Prerequisites:	none
 - Instructor:	 Dr. Heather Wheeler <hwheeler1@luc.edu>
-- Website:	<http://hwheeler01.github.io/comp150>
+- Website:	[hwheeler01.github.io/comp150](http://hwheeler01.github.io/comp150)
 - Office Hours: Tuesdays 2:00 - 4:00 in <a href="http://www.luc.edu/campus_reservations/lsb.shtml">LSB</a> 324
 - TA: Jon Brenner <jbrenluc@gmail.com>
 
