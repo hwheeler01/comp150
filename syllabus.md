@@ -12,7 +12,8 @@ permalink: /syllabus/
 - Office Hours: Tuesdays 2:00 - 4:00 in <a href="http://www.luc.edu/campus_reservations/lsb.shtml">LSB</a> 324
 - TA: Jon Brenner <jbrenluc@gmail.com>
 
-<table style="width: px; height: 12px;" class="docutils" border="1">
+<div align="center">
+<table style="width: px; height: 12px;" class="docutils" border="0">
   <caption><b>Index</b></caption> <colgroup><col width="50%"><col width="50%"></colgroup> <tbody valign="top">
     <tr>
       <td><a class="reference internal" href="#objectives">Objectives</a></td>
@@ -40,7 +41,7 @@ permalink: /syllabus/
     </tr>
   </tbody>
 </table>
-
+</div>
 
 <span style="font-weight: bold;"><a name="objectives"></a>Course Objectives: </span>
 
@@ -57,19 +58,19 @@ There is no specific text for this course. Rather, we will be using free online 
 
 <p><a name="sakai"></a><span style="font-weight: bold;">Sakai:</span></p>
 
-<p>Sakai will be used for course announcements, homework submissions, and grade postings. While the raw scores posted on Sakai should be correct, please do not rely upon Sakai's Course Total calculations. <span style="font-style: italic;">Grades are calculated as specified in this syllabus.</span> <br>
+<p><a href="https://sakai.luc.edu/">Sakai</a> will be used for course announcements, homework submissions, and grade postings. While the raw points posted on Sakai should be correct, please do not rely upon Sakai's Course Grade calculations. <span style="font-style: italic;">Grades are calculated as specified in this syllabus.</span> <br>
 
 </p>
 
 <p style="font-weight: bold;"><a name="format"></a>Course Format:</p>
 
-Much of this course will be *flipped* from the traditional course format. That is, the presentations are mostly at your convenience, at your speed, as videos/text on your computer outside of class. In class, we will discuss questions you have on the presentations and do much of the harder creative work of synthesizing and using this information, when you have the most direct support from me, the TA, and classmates. 
+Much of this course will be *flipped* from the traditional course format. That is, the presentations are mostly at your convenience, at your speed, as videos/text on your computer outside of class. In class, we will discuss questions you have on the presentations and do much of the harder creative work of synthesizing and using this information, when you have the most direct support from the instructor, the TA, and classmates. 
 
 As you work through the <a href="http://anh.cs.luc.edu/python/hands-on/3.1/index.html">Hand's-on Python Tutorial</a> at the beginning of the semester, come to class prepared with questions on the <a href="http://hwheeler01.github.io/comp150/syllabus/#schedule">day's topics</a>. 
 
-I expect you to look at assigned presentations before class, but *if you want to check on something in a video during class, remember to bring headphones.*
+You are expected to look at assigned presentations before class, but *if you want to check on something in a video during class, remember to bring headphones.*
 
-Class time is valuable and in short supply, so there are some tradeoffs in this approach. You cannot immediately get a question answered by me in the middle of a video presentation. I suggest keeping a list of questions as you watch the videos. You may find that some of your questions will be answered as you continue to watch the videos, and some you will want to bring to class.
+Class time is valuable and in short supply, so there are some tradeoffs in this approach. You cannot immediately get a question answered by me in the middle of a video presentation. You may want to keep a list of questions as you watch the videos to bring to class.
 
 <span style="font-weight: bold;"><a name="assignments"></a>Homeworks/Assignments:</span>
 
@@ -98,20 +99,18 @@ Plagiarism and cheating will not be tolerated (see <a href="http://www.luc.edu/a
 
 Cheating consists of, but is not limited to:
 
-- Using or copying an outside person's work on an exam or assignment in any fashion. "Outside person" includes a person who put something on a web page. **Don't copy others' work from the web!** Others' work includes outlines, pseudocode, code, and documentation.
-- Allowing your own work to be copied or used by an outside person.
-- Submitting as your own work something that has been written by an outside person (or web site).
+- Using or copying an outside person's work on an exam or assignment in any fashion. "Outside person" includes a person who put something on a web page. **Don't copy others' work from the web!** 
+	- Others' work includes outlines, pseudocode, code, and documentation. If you are working on a pair or group project, an "outside person" only refers to people other than your partner or team.
+- Allowing your own work to be copied or used by an outside person. Cheating goes both ways: giving and receiving.
 - Using any unauthorized reference on an exam or assignment.
-- Not acknowledging and describing in writing any help you received on an assignment.
-- If you are working on a pair or group project, an "outside person" only refers to people other than your partner or team.
-- Note that cheating goes both ways: giving and receiving.
-- Consultation is allowed with the TA, tutors and me. If you consult with the tutors and/or with me, still make a comment at the top of your work about the substance and depth of the help.
+- Not acknowledging and describing in writing any help you received on an assignment. Consultation is allowed with the TA, tutors and instructor. Be sure to comment in your `log.txt` file about the substance and depth of the help received.
+
+
 
 Help from any source is fine concerning:
 
 - The meaning of program specifications (not the plan for the solution or the actual solution).
 - The tools used to write programs. Feel free to ask questions on the programming environment you use and the use of the debugger.
-- The restrictions of the current programming language syntax.
 
 
 <span style="font-weight: bold;"><a name="exams"></a>Exams:</span><span style="font-style: italic;"></span>  
@@ -134,45 +133,62 @@ Any student with special needs or difficulties in learning and completing course
 
 <span style="font-weight: bold;">Students with Sponsorships and Scholarships:</span>
 
-If you require a certain grade in order to satisfy a sponsor or a scholarship requirement, please be sure to monitor your grade on Sakai. I will consider only your performance in this course in calculating grades, using the grading rubric posted in this syllabus. If you cannot achieve a minimum grade that is required by a sponsor or a scholarship, I will not change your grade to help you meet that requirement. This would be unfair to other students, and not reflecive of your performance in this course. You are reponsible to monitor your grade and to keep apprised of the <a href="http://www.luc.edu/academics/schedules/fall/academic_calendar.shtml">withdrawal dates</a> posted by the registrar.<br>
+If you require a certain grade in order to satisfy a sponsor or a scholarship requirement, be sure to monitor your grade on <a href="https://sakai.luc.edu/">Sakai</a>. If you cannot achieve a minimum grade that is required by a sponsor or a scholarship, your grade will not be changed to help you meet that requirement. This would be unfair to other students, and not reflecive of your performance in this course. You are reponsible to monitor your grade and to keep track of the <a href="http://www.luc.edu/academics/schedules/spring/academic_calendar.shtml">withdrawal dates</a> posted by the registrar.<br>
 
 <span style="font-weight: bold;"><a name="grades"></a>Grading:</span><br>
 
-| **Assignment** | **Points**|
-| :------------- | ---------:|
-| Tutorial, Chapter 1 Exercises | 45 |
-| Tutorial, Chapter 2 Exercises | 45 |
-| Tutorial, Chapter 3.1 Exercises | 30|
-| Tutorial, Chapter 3.2-3.3.4 Exercises | 30|
-| Plotting Homework| 60|
-| Pip Program | 60 |
-| Gates Homework | 60 |
-| EXAM 1 | 150 |
-| EXAM 2 | 200 |
-| Python Project | 120 |
-| FINAL EXAM | 250 |
-| **TOTAL** | **1050**|
+<div align="center">
+<TABLE WIDTH="600">
+<TD WIDTH="400">
+<TABLE WIDTH="400">
+<TR>
+    <tr>
+      <td align="middle" WIDTH="250"><b>Assignment</b></td>
+      <td align="middle" WIDTH="50"><b>Points</b></td>
+    </tr>
+    <tr><td>Tutorial, Chapter 1 Exercises</td><td align="right">45</td></tr>
+    <tr><td>Tutorial, Chapter 2 Exercises</td><td align="right">45</td></tr>
+    <tr><td>Tutorial, Chapter 3.1 Exercises</td><td align="right">30</td></tr>
+    <tr><td>Tutorial, Chapter 3.2-3.3.4 Exercises</td><td align="right">30</td></tr>
+    <tr><td>Plotting Homework</td><td align="right">60</td></tr>
+    <tr><td>Pip Program</td><td align="right">60</td></tr>
+    <tr><td>Gates Homework</td><td align="right">60</td></tr>
+    <tr><td>EXAM 1</td><td align="right">150</td></tr>
+    <tr><td>EXAM 2</td><td align="right">200</td></tr>
+    <tr><td>Python Project</td><td align="right">120</td></tr>
+    <tr><td>FINAL EXAM</td><td align="right">250</td></tr>
+    <tr><td><b>TOTAL</b></td><td align="right"><b>1050</b></td></tr>
+</TR>
+</TABLE>
+</TD>
+<TD WIDTH="200">
+<TABLE WIDTH="200">
+<TR>
+    <tr>
+      <td align="middle" WIDTH="150"><b>Grade</b></td>
+      <td align="middle" WIDTH="150"><b>Minimum Percent</b></td>
+    </tr>
+    <tr><td align="middle">A</td><td align="middle">93</td></tr>
+    <tr><td align="middle">A-</td><td align="middle">90</td></tr>
+    <tr><td align="middle">B+</td><td align="middle">87</td></tr>
+    <tr><td align="middle">B</td><td align="middle">83</td></tr>
+    <tr><td align="middle">B-</td><td align="middle">80</td></tr>
+    <tr><td align="middle">C+</td><td align="middle">77</td></tr>
+    <tr><td align="middle">C</td><td align="middle">73</td></tr>
+    <tr><td align="middle">C-</td><td align="middle">70</td></tr>
+    <tr><td align="middle">D+</td><td align="middle">67</td></tr>
+    <tr><td align="middle">D</td><td align="middle">63</td></tr>
+</TR>
+</TABLE>
+</TD>
+</TD>
+</TABLE>
+</div>
 
 - Note that there are 1050 total possible points. Your grade will be calculated as the number of points you receive out of 1000. Fifty extra points are built-in, to cover "down days" or to be used for extra credit.
 - No further accommodations will be provided. If your personal circumstances are such that you have to miss more than 50 points worth of material, please consider taking the course another semester.
 - There are a few extra credit homework problems in some of the assignments. No further extra credit opportunities will be provided. It is neither practical nor fair to the other students.
-- ALL ASSIGNMENTS ARE DUE VIA SAKAI BY 11:00 PM ON THE DUE DATE. **LATE ASSIGNMENTS WILL NOT BE ACCEPTED.** That's what the extra fifty points are for. 
-
-
-Course grades are assigned according to the following percentage scale:<br>
-
-| **Grade** | **Minimum Percent** |
-| :--- |:---:|
-|A | 93|
-|A-| 90|
-|B+| 87|
-|B | 83|
-|B-| 80|
-|C+| 77|
-|C | 73|
-|C-| 70|
-|D+| 67|
-|D | 63|
+- ALL ASSIGNMENTS ARE DUE VIA SAKAI BY 11:00 PM ON THE DUE DATE. **LATE ASSIGNMENTS WILL NOT BE ACCEPTED.** That's what the extra 50 points are for. 
 
 
 <br>

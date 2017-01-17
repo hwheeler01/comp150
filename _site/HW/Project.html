@@ -15,7 +15,7 @@ points</b>. Team assignments are <a href="http://hwheeler01.github.io/comp150/te
 <p class="MsoNormal">60 points for the project.&nbsp; 60 points for the presentation.<br>
 </p>
 
-<h3>Your Python Project Plan is due March 30 by 11:00PM via Sakai.</h3> It should include:<br>
+<h3>Your Python Project Plan is due March 27 by 11:00PM via Sakai.</h3> It should include:<br>
 <ol style="list-style-type: upper-roman;">
 <li>Team member names (2-3 individuals)
 <li><span style="font-style: italic;">Plan</span>
@@ -38,7 +38,7 @@ individually<br>
 </ol>
 
 <h2>Project Presentation </h2> 
-<h3>All groups will present in class on Wednesday, April 27</h3>
+<h3>Groups will present in class on April 24 or 26</h3>
 
 <h3><a href="http://hwheeler01.github.io/comp150/HW/presentation_rubric.html">Grading Rubric</a>
 
@@ -62,7 +62,7 @@ individually<br>
 </ol>
 </ol>
 
-<h3>Project code and additional files due April 27 by 11:00PM via Sakai</h3>
+<h3>Project code and additional files due April 26 by 11:00PM via Sakai</h3>
 
 <p class="MsoNormal"><o:p></o:p>The program
 should begin with a comment including your names,
@@ -92,11 +92,8 @@ turn in <span style="font-style: italic;">every</span>
 file you need
 to run your program.&nbsp; For instance you have a graphics program
 and
-use graphics.py, turn in graphics.py.&nbsp; If you have a web
-project,
-make sure you turn in the localCGIServer.py program and all your
-templates.... An exception is if you need special packages installed.&nbsp; In such a case be
-sure to mention it in the instructions, including download URLs. <p><span style="font-style: italic;">In addition</span>,
+use graphics.py, turn in graphics.py.&nbsp; An exception is if you need special packages installed.&nbsp; In such a case be
+sure to mention it in the instructions, including how to download and install. <p><span style="font-style: italic;">In addition</span>,
 everyone should <span style="font-style: italic;">separately</span>
 submit a personal file log.txt.&nbsp;Include in the file <br>
 </p>
@@ -248,136 +245,26 @@ idea is used in different places with different data.</li>
 </ul>
 <span style="font-weight: bold;"></span>
 
-<h3> [Add some ggplot ideas] </h3>
+<h3> Automate an analytical pipeline </h3>
+Using Python modules like pandas, ggplot, and matplotlib, automate a data analysis pipeline that takes data in a particular format, applies several functions written by you to process, summarize, and plot the data. Output tables and figures of interest. If you are doing research with a professor, this is a great opportunity to apply what you have learned to data of interest to you and your mentor.
+
+Also, feel free to scour the internet for data of interest. Here are some examples:
+
+<ul>
+<li>
+Polygraph's Film Dialogue <a href="https://github.com/matthewfdaniels/scripts/">dataset</a>, includes <a href="https://github.com/matthewfdaniels/scripts/raw/graphs/character_list5.csv">character list</a> and <a href="https://github.com/matthewfdaniels/scripts/raw/graphs/meta_data7.csv">meta data</a></li>
+<li><a href="http://www.exploredata.net/Downloads/Baseball-Data-Set">Offense statistics</a> from the 2008 Major League Baseball season</li>
+<li>Social, economic, health, and political indicators <a href="http://www.exploredata.net/Downloads/WHO-Data-Set">data</a> from the World Health Organization</li>
+</ul>
+
+Be sure to discuss your analysis plan with me before turning in your Project Plan. I am more likely to accept a proposal if it includes a new use of a while-loop or for-loop. Just a a long fixed sequence of steps, even with if statements, is <span style="font-style: italic;">not</span>
+likely to be accepted.<br>
 
 <h2>Alternatives ....</h2>
-Are these too lame or canned or not your style? &nbsp;Suggest
-something
-different to
-me!
-&nbsp;You can start by discussing it orally with me, but before
-final
-approval, make a written specification for yourself and me, about as
-specific as what is given for the problems above. &nbsp;The
-specification is due as stated in the schedule. &nbsp;I am more
-likely to accept a proposal if it includes a new use of a while-loop or
-for-loop. &nbsp;Just a a long fixed sequence of steps, even with if
-statements, is <span style="font-style: italic;">not</span>
-likely
-to
-be accepted.<br>
+Are these too lame or canned or not your style? Suggest
+something different to me! You can start by discussing it orally with me, but before final approval, make a written specification for yourself and me, about as specific as what is given for the problems above. The Project Plan is due as stated in the schedule. I am more likely to accept a proposal if it includes a new use of a while-loop or for-loop. Just a a long fixed sequence of steps, even with if statements, is <span style="font-style: italic;">not</span>
+likely to be accepted.<br>
 <br>
-Here are some comments about particular situations that might be of use:<br>
-<h4>Further file reading operations</h4>
-Thus
-far you were only given the method to read a whole file at a time.
-&nbsp;You
-may also read a single line at a time with the file method readline().
-&nbsp;A line <span style="font-style: italic;">includes</span>
-its final
-newline, but you can use the string method strip() to strip off all the
-white space from both ends, including the newline. &nbsp;Example:<br>
-<br>
-<span style="font-family: monospace;">infile =
-open('datafile.txt')</span><br style="font-family: monospace;">
-<span style="font-family: monospace;">line =
-infile.readline()</span><br style="font-family: monospace;">
-<span style="font-family: monospace;">print('line 1 is
-with whitespace removed from the ends:
-', line.strip())&nbsp; &nbsp;</span><br style="font-family: monospace;">
-<span style="font-family: monospace;">line =
-infile.readline()</span><br style="font-family: monospace;">
-<span style="font-family: monospace;">print('line 2 is
-with whitespace removed from the ends:
-', line.strip()) &nbsp;</span><br style="font-family: monospace;">
-<span style="font-family: monospace;"></span><br>
-(You can also remove the final newline using the slice notation from
-the optional sections of Chapter 2: &nbsp;line[:-1].)<br>
-<br>
-If you are converting a line with the text of a single number
-to a float
-with the float constructor, the newline does not matter, since white
-space is automatically stripped in the conversion. &nbsp;If
-datafile has a
-first line like 5.25, then the following code would read it and convert
-it to a float:<br>
-<br>
-<span style="font-family: monospace;">infile =
-open('datafile.txt')</span><br style="font-family: monospace;">
-<span style="font-family: monospace;">line =
-infile.readline()</span><br style="font-family: monospace;">
-<span style="font-family: monospace;">val = float(line)</span>
-<br>
-<br>
-<h4>Fancy cgi programs with multiple calls to cgi scripts:</h4>
-In a console Python application you might have something like:<br>
-<br>
-<div style="margin-left: 40px;"><span style="font-family: monospace;">s
-= input("Enter ....")</span><br style="font-family: monospace;">
-<span style="font-family: monospace;"># process s</span><br style="font-family: monospace;">
-<span style="font-family: monospace;">print(....)&nbsp;
-# something
-using s</span><br style="font-family: monospace;">
-<br style="font-family: monospace;">
-<span style="font-family: monospace;">t = input("Enter
-....")</span><br style="font-family: monospace;">
-<span style="font-family: monospace;"># process with BOTH
-s ans t</span><br style="font-family: monospace;">
-<span style="font-family: monospace;">print
-(....)&nbsp; # something
-based on both s and t...</span><br>
-</div>
-<br>
-In a web based situation it is more complicated, because the server
-does not automatically remember the data from an earlier server
-call.&nbsp; Yo would need something more like this:<br>
-<br>
-<div style="margin-left: 40px;"><span style="font-family: monospace;">#Start
-with cgi script that works at multiple stages of the input/output
-sequence:</span><br style="font-family: monospace;">
-<span style="font-family: monospace;">#....</span><br style="font-family: monospace;">
-<span style="font-family: monospace;">s =
-form.getFirst('s', '')</span><br style="font-family: monospace;">
-<span style="font-family: monospace;">t =
-form.getFirst('t', '')</span><br style="font-family: monospace;">
-<span style="font-family: monospace;"># know where you are
-by how many
-of your variables have been defined</span><br>
-<span style="font-family: monospace;">if s ==
-'':&nbsp; </span><br style="font-family: monospace;">
-<span style="font-family: monospace;">&nbsp;&nbsp;&nbsp;
-# ... print
-initial form looking for s value<br>
-&nbsp;&nbsp;&nbsp; # for use in the next case....<br style="font-family: monospace;">
-</span><span style="font-family: monospace;">elif t
-== '':</span><br style="font-family: monospace;">
-<span style="font-family: monospace;">&nbsp;&nbsp;&nbsp;
-# ... produce
-page USING the value of s <br>
-&nbsp;&nbsp;&nbsp; # and also including a form REQUESTING
-t, </span><br style="font-family: monospace;">
-<span style="font-family: monospace;">&nbsp;&nbsp;&nbsp;
-# AND include
-in the form a hidden variable 's' <br>
-&nbsp;&nbsp;&nbsp; #&nbsp;&nbsp;&nbsp; set to
-the current value of
-Python variable s <br>
-&nbsp;&nbsp;&nbsp; #&nbsp;&nbsp;&nbsp; (using
-template substitution),<br>
-&nbsp; &nbsp; #&nbsp;&nbsp;&nbsp; for use in the
-next case, with the
-new t....</span><br style="font-family: monospace;">
-<span style="font-family: monospace;">else:</span><br style="font-family: monospace;">
-<span style="font-family: monospace;">&nbsp;&nbsp;&nbsp;
-#&nbsp; ...
-generate page using s and t</span><br>
-</div>
-<br>
-This shows how to use a couple of pages in sequence.&nbsp; More
-elif's
-and more hidden variables needed for you to go further.....
-&nbsp;&nbsp;&nbsp; <br>
-&nbsp; <br>
 <span style="text-decoration: underline;">
 </span>
 <hr style="width: 100%; height: 2px;"><span style="text-decoration: underline;"></span>
