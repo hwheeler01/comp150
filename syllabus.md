@@ -181,7 +181,6 @@ If you require a certain grade in order to satisfy a sponsor or a scholarship re
 </TR>
 </TABLE>
 </TD>
-</TD>
 </TABLE>
 </div>
 
@@ -206,7 +205,7 @@ In the Activities column **"Prep:"** means preparation done *before* class with 
 
 | **Date**      | **Activities**    | **DUE by 11:00 PM via Sakai** |
 | ------------- |:-------------:| :-----|
-|Jan 18|Introductory slides, syllabus, <a href="{{ site.baseurl }}/pairprogram">pair programming</a>, form pairs, introduction to <a target="_blank" href="http://anh.cs.luc.edu/python/hands-on/3.1/index.html">Hands-on Python Tutorial</a>, <a href="http://anh.cs.luc.edu/python/hands-on/3.1/examples.zip">example files</a> **Follow up:** make sure you have completely read the syllabus.|
+|Jan 18|Introductory <a href="{{ site.baseurl }}/intro-lecture.pdf">slides</a>, syllabus, <a href="{{ site.baseurl }}/pairprogram">pair programming</a>, form pairs, introduction to <a target="_blank" href="http://anh.cs.luc.edu/python/hands-on/3.1/index.html">Hands-on Python Tutorial</a>, <a href="http://anh.cs.luc.edu/python/hands-on/3.1/examples.zip">example files</a> **Follow up:** make sure you have completely read the syllabus.|
 |Jan 23|**Prep:** Hands-on Python Tutorial <a href="http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/index.html">Context 1.1 through Input/Output 1.10</a> (most video for one class, with all the introductory material)|
 |Jan 25|**Prep:** Python Tutorial Functions 1.11, Dictionaries 1.12 |
 |Jan 30|**Prep:** Python Tutorial Loops 1.13, Floats 1.14, <a href="{{ site.baseurl }}/playComputer_loopy.rtf">in-class exercise</a> |
