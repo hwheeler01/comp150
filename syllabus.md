@@ -86,7 +86,7 @@ Class time is valuable and in short supply, so there are some tradeoffs in this 
 
 <span style="font-weight: bold;"><a name="env"></a>Programming Environment: </span><br>
 
-We will be programming in Python, available in the University Windows labs, and as a download to your own computer. There are several choices based on program version and operating system. You should get Python the latest version 3.6.0 for your operating system from the central site <a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a>. Python comes with the graphical interface called Idle, which we will use. 
+We will be programming in Python, available on the classroom computers, and as a download to your own computer. There are several choices based on program version and operating system. You should get the latest version of Python (3.6.0) for your operating system from the central site <a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a>. Python comes with the graphical interface called Idle, which we will use. 
 
 - Recommended storage options for course work:
 	- Cloud-based storage like Box or Google Drive
@@ -198,7 +198,7 @@ If you require a certain grade in order to satisfy a sponsor or a scholarship re
 
 
 
-The dates below give the sequence and a general idea of the time spent, though we may get ahead or behind this time schedule at different points, depending on the needs of the class. Links for assignments and exam reviews may be inaccurate (not updated) or missing until their introduction in class.
+The dates below give the sequence and a general idea of the time spent, though we may get ahead or behind this time schedule at different points, depending on the needs of the class. Links for activities, assignments and exam reviews may be missing until their introduction in class.
 
 
 In the Activities column **"Prep:"** means preparation done *before* class with your questions ready for discussion in class! See <a href="http://hwheeler01.github.io/comp150/resources/">Resources</a> for how to obtain the videos for the listed sections. 
@@ -206,7 +206,7 @@ In the Activities column **"Prep:"** means preparation done *before* class with 
 | **Date**      | **Activities**    | **DUE by 11:00 PM via Sakai** |
 | ------------- |:-------------:| :-----|
 |Jan 18|Introductory <a href="{{ site.baseurl }}/intro-lecture.pdf">slides</a>, syllabus, <a href="{{ site.baseurl }}/pairprogram">pair programming</a>, form pairs, introduction to <a target="_blank" href="http://anh.cs.luc.edu/python/hands-on/3.1/index.html">Hands-on Python Tutorial</a>, <a href="http://anh.cs.luc.edu/python/hands-on/3.1/examples.zip">example files</a> **Follow up:** make sure you have completely read the syllabus.|
-|Jan 23|**Prep:** Hands-on Python Tutorial <a href="http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/index.html">Context 1.1 through Input/Output 1.10</a> (most video for one class, with all the introductory material)|
+|Jan 23|**Prep:** Hands-on Python Tutorial <a href="http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/index.html">Context 1.1 through Input/Output 1.10</a> (See section [1.1.5](http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/context.html#using-the-tutorial-text-and-video) to obtain videos)|
 |Jan 25|**Prep:** Python Tutorial Functions 1.11, Dictionaries 1.12 |
 |Jan 30|**Prep:** Python Tutorial Loops 1.13, Floats 1.14, <a href="{{ site.baseurl }}/playComputer_loopy.rtf">in-class exercise</a> |
 |Feb 1|**Prep:** Python Tutorial 1.15, homework questions ready! |<a href="http://hwheeler01.github.io/comp150/HW/CheckOnTutorial-1.html">Chapter 1 exercises</a>|
