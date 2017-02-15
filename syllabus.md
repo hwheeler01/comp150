@@ -214,7 +214,7 @@ In the Activities column **"Prep:"** means preparation done *before* class with 
 |Feb 8|**Prep:** Python Tutorial 2.4.1, 2.4.2, 2.4.5  |
 |Feb 13|**Prep:** Python Tutorial 2.4.6-8, 2.4.10-12 |
 |Feb 15|**Prep:** Python Tutorial 2.5 |<a href="http://hwheeler01.github.io/comp150/HW/CheckOnTutorial-2.html">Chapter 2 exercises</a>|
-|Feb 20|Review for Exam 1 | |
+|Feb 20|[Review](http://hwheeler01.github.io/comp150/exam1_reivew.pdf) for Exam 1 | |
 |Feb 22|**EXAM 1** |
 |Feb 27|**Prep:** Python Tutorial  Chapter 3 through 3.1.6 |
 |Mar 1|**Prep:** Python Tutorial 3.1.6 - 3.1.7 | <a href="http://hwheeler01.github.io/comp150/HW/CheckOnTutorial-3.html">Chapter 3.1 exercises</a> |
