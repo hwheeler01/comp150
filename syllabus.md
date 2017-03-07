@@ -224,7 +224,7 @@ In the Activities column **"Prep:"** means preparation done *before* class with 
 |Mar 15|**Prep:** Python Tutorial 3.3.2 - 3.3.4 through bounceWhile.py|<a href="http://hwheeler01.github.io/comp150/HW/CheckOnTutorial-3.html">Chapter 3.2 - 3.3.4 exercises</a>|
 |Mar 20|Review for Exam 2 |Submit plan for the <a href="http://hwheeler01.github.io/comp150/HW/Project.html">Python Project</a> |
 |Mar 22|**EXAM 2** |
-|Mar 27|**Prep:** Install <a href="http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/index.html">Jupyter notebook</a> **In class:** ggplot Tutorial| |
+|Mar 27|**Prep:** Install <a href="http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/index.html">Jupyter notebook</a> **In class:** [ggplot Tutorial](http://hwheeler01.github.io/comp150/ggplot/ggplot_tutorial.html)| |
 |Mar 29|**In class:** plotting questions| <a href="http://hwheeler01.github.io/comp150/HW/Plotting_Homework.html">Plotting Homework</a>|
 |Apr 3|**Prep:** Binary Arithmetic in <a href="http://hwheeler01.github.io/comp150/ClassNotes.html">Class Notes</a> Sections 2-3F (videos N2, N3A, N3B, N3C-E) <a href="http://hwheeler01.github.io/comp150/binDecHex_practice.pdf">Example Problems</a> ||
 |Apr 5|**Prep:** Pip Assembler in <a href="http://hwheeler01.github.io/comp150/ClassNotes.html">Class Notes</a> Sections 4A-E (videos N4, N4A, N4B, N4C, N4D, N4E)|
