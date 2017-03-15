@@ -5,15 +5,18 @@ permalink: /teams/
 ---
 
 1. Caleigh Smith, Alec Pillman, & Jill Berndtson
-- Elizabeth Gibbons & Alec Hiller
-- Jennie Nguyen & Rachel Kullen
-- Octavius Glover & Monica Rasmusen
-- Jonathan Caldero & Stephanie Meza
-- Kayla Bussert & Alec Miroballi
-- Loren Riedy & Rachel Knapp
-- Emily Rogers & Iwona Kowalczyk
-- Meghan Olson & John Riehl
-- Yesenia Del Real & Meredith Starnes
-- Natasja Cabrea & Rachel Muss
-- Natalie Piechowska & Thomas Ujas
-- Benjamin Kolschowsky & Jeffrey Melo
+2. Elizabeth Gibbons & Alec Hiller
+3. Jennie Nguyen & Rachel Kullen
+4. Octavius Glover & Monica Rasmusen
+5. Jonathan Caldero & Stephanie Meza
+6. Kayla Bussert & Alec Miroballi
+7. Loren Riedy & Rachel Knapp
+8. Emily Rogers & Iwona Kowalczyk
+9. Meghan Olson & John Riehl
+10. Yesenia Del Real & Meredith Starnes
+11. Natasja Cabrea & Rachel Muss
+12. Natalie Piechowska & Thomas Ujas
+13. Benjamin Kolschowsky & Jeffrey Melo
+
+
+[Python Project](http://hwheeler01.github.io/comp150/HW/Project.html)

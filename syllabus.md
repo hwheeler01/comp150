@@ -220,7 +220,7 @@ In the Activities column **"Prep:"** means preparation done *before* class with 
 |Mar 1|**Prep:** Python Tutorial 3.1.6 - 3.1.7 | <a href="http://hwheeler01.github.io/comp150/HW/CheckOnTutorial-3.html">Chapter 3.1 exercises</a> |
 |Mar 6| *No class: SPRING BREAK*|
 |Mar 8| *No class: SPRING BREAK* |
-|Mar 13|Discuss <a href="http://hwheeler01.github.io/comp150/HW/Project.html">Python Project</a>  (finalize teams), <a href="http://hwheeler01.github.io/comp150/ClassNotes.html#Past">Past Examples</a> **Prep:** Python Tutorial 3.1.7 - 3.3.1 |
+|Mar 13|Discuss <a href="http://hwheeler01.github.io/comp150/HW/Project.html">Python Project</a>  (finalize [teams](http://hwheeler01.github.io/comp150/teams), <a href="http://hwheeler01.github.io/comp150/ClassNotes.html#Past">Past Examples</a> **Prep:** Python Tutorial 3.1.7 - 3.3.1 |
 |Mar 15|**Prep:** Python Tutorial 3.3.2 - 3.3.4 through bounceWhile.py|<a href="http://hwheeler01.github.io/comp150/HW/CheckOnTutorial-3.html">Chapter 3.2 - 3.3.4 exercises</a>|
 |Mar 20|[Review](http://hwheeler01.github.io/comp150/exam2_review_no_answers.pdf) for Exam 2 |Submit plan for the <a href="http://hwheeler01.github.io/comp150/HW/Project.html">Python Project</a> |
 |Mar 22|**EXAM 2** |
