@@ -222,7 +222,7 @@ In the Activities column **"Prep:"** means preparation done *before* class with 
 |Mar 8| *No class: SPRING BREAK* |
 |Mar 13|Discuss <a href="http://hwheeler01.github.io/comp150/HW/Project.html">Python Project</a>  (finalize teams), <a href="http://hwheeler01.github.io/comp150/ClassNotes.html#Past">Past Examples</a> **Prep:** Python Tutorial 3.1.7 - 3.3.1 |
 |Mar 15|**Prep:** Python Tutorial 3.3.2 - 3.3.4 through bounceWhile.py|<a href="http://hwheeler01.github.io/comp150/HW/CheckOnTutorial-3.html">Chapter 3.2 - 3.3.4 exercises</a>|
-|Mar 20|Review for Exam 2 |Submit plan for the <a href="http://hwheeler01.github.io/comp150/HW/Project.html">Python Project</a> |
+|Mar 20|[Review](http://hwheeler01.github.io/comp150/exam2_review_no_answers.pdf) for Exam 2 |Submit plan for the <a href="http://hwheeler01.github.io/comp150/HW/Project.html">Python Project</a> |
 |Mar 22|**EXAM 2** |
 |Mar 27|**Prep:** Install <a href="http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/index.html">Jupyter notebook</a> **In class:** [ggplot Tutorial](http://hwheeler01.github.io/comp150/ggplot/ggplot_tutorial.html)| |
 |Mar 29|**In class:** plotting questions| <a href="http://hwheeler01.github.io/comp150/HW/Plotting_Homework.html">Plotting Homework</a>|
