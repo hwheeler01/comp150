@@ -1273,8 +1273,8 @@ call to the color_rgb function with decimal number parameters?<br>
 <h2><a name="Pip"></a>Pip
 Assembler (<a href="https://drive.google.com/drive/folders/0B5WvvnDHeaIYMzQ1MzI0OTItNzQ5Ni00MGRhLThmMWItYTk4OGIyYTBiOTMx">vid N4</a>)</h2>
 <p>As the beginning of the Hands-on Tutorial indicated, computer
-hardward does not execute Python directly. &nbsp;Python and other
-high level langages must be converted to the very simple set of
+hardware does not execute Python directly. &nbsp;Python and other
+high level languages must be converted to the very simple set of
 instructions that are directly built into the computer hardware, the
 <i>machine language</i>. &nbsp;This is the first place
 we look
@@ -1293,7 +1293,7 @@ system!</p>
 Processing Unit </span>(<span style="font-weight: bold;">CPU</span>)
 connected by wires
 to a memory unit. &nbsp;Operations take place inside the CPU, with
-some data maybe transfered in from memory or sent back to memory (and
+some data maybe transferred in from memory or sent back to memory (and
 also external devices, though we will skip that part in our simple
 model).</p>
 <p>Like in a Python string or list, memory is referenced by
@@ -1319,7 +1319,7 @@ data in the computer.&nbsp; Before
 this approach, changing the program in a computer involved physically
 rewiring the computer!&nbsp; With Von Neumann's approach, an
 instruction would be represented as a number in the computer's
-memory.&nbsp; Hence an instructionmust be a sequence of 0's
+memory.&nbsp; Hence an instruction must be a sequence of 0's
 and 1's, like </p>
 <p>00010100 00000100 &nbsp;</p>
 <p>I introduce the space in the middle only to delineate
@@ -1346,26 +1346,17 @@ Assembler Simulator (<a href="https://drive.google.com/drive/folders/0B5WvvnDHea
 simulator
 in the class web examples. &nbsp;All files are included in
 <a href="http://hwheeler01.github.io/comp150/pipFiles.zip">pipFiles.zip</a>.
-&nbsp;Use a
-flash drive if you are on a lab computer!&nbsp; <br>
+&nbsp;<br>
 <br>
 The zip archive contains the files needed for the
 Pip Assembler Simulator:&nbsp; pipGUI.py, pipText.py, pip.py,
 pipHelp.py, hexBin.py, and sample program files,&nbsp;
-simple.bin,&nbsp;simple.asm, arith.asm,&nbsp;sum2n.asm,
-ifElse.asm.
+simple.bin, simple.asm, arith.asm, sum2n.asm,
+ifElse.asm, etc.
 &nbsp;
 </p>
-<p>The main program is pipGUI.py.&nbsp; Run it from the
-operating
-system.&nbsp; In Windows that generally just involves double
-clicking
-on it the file window. &nbsp;(<span style="font-weight: bold;">No
-need to be in Idle -</span> you will not be messing with the
-code.)&nbsp;
-In the Mac, you can run it from IDLE; alternatively, open a terminal
-window and type pthon3 pipGui.py.&nbsp; (Right0-clicking and running
-from the python launcher doesn't always work correctly.)<br>
+<p>The main program is pipGUI.py.&nbsp; Depending on how Python was installed on your particular computer, you might be able to run it from the operating system by just double clicking on it in the file window. If that doesn't work, you can also open the file and run it in IDLE. 
+<br>
 </p>
 <p>You
 will see a graphical Window. &nbsp;Click on the purple button that
@@ -1484,7 +1475,7 @@ an
 <span style="font-style: italic;">assembler</span>,
 which translates
 something a bit more human readable into
-this binary code. &nbsp;In the assember written for this machine,
+this binary code. &nbsp;In the assembler written for this machine,
 the
 first two instructions discussed could be written</p>
 <p>LOD #4<br>
@@ -2150,7 +2141,7 @@ x!=0<br>
 </p>
 <p>We have worked out the approach to assignment
 statements.&nbsp; Let
-us suppose the statements in the assember code follow the textual order
+us suppose the statements in the assembler code follow the textual order
 of the Python.&nbsp; I'll put those sections with space between
 them
 for further editing:</p>
@@ -2246,7 +2237,7 @@ condition is true (not 0) or false (0).<br>
 assembler,
 even a name like ELSE.&nbsp; My final code is in ifElse1.asm.<br>
 </p>
-<p style="font-weight: bold;"><big>In the assember
+<p style="font-weight: bold;"><big>In the assembler
 labels must appear
 at the beginning of a line <span style="font-style: italic;">with</span>
 an instruction on it, not on a line before the instruction.<br>
@@ -2271,7 +2262,7 @@ all-caps parts are assembler code to copy into that exact location.
 each if-else construction inthe same program, you would need different
 label names.)&nbsp; Note that while <span style="font-family: monospace; font-weight: bold;">else</span>
 is a reserved word with a special meaning in Python, I used ELSE merely
-as an arbitrarily chosen label name in the assember.&nbsp; The
+as an arbitrarily chosen label name in the assembler.&nbsp; The
 whole
 idea here is that there is not a prepackaged if-else syntax in
 assembler!<br>
