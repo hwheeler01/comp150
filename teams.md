@@ -4,18 +4,29 @@ title: Python Project Teams
 permalink: /teams/
 ---
 
-1. Caleigh Smith & Jill Berndtson
-2. Elizabeth Gibbons & Alec Hiller
-3. Jennie Nguyen & Rachel Kullen
-4. Octavius Glover & Monica Rasmusen
-5. Jonathan Caldero & Stephanie Meza
-6. Kayla Bussert & Alec Miroballi
-7. Loren Riedy & Rachel Knapp
-8. Emily Rogers, Iwona Kowalczyk, & Rachel Muss
-9. Meghan Olson & John Riehl
-10. Yesenia Del Real & Meredith Starnes
-11. Natalie Piechowska & Thomas Ujas
-12. Benjamin Kolschowsky & Jeffrey Melo
+### Presenting on Monday, April 24
+#### Hangman Groups
+- Elizabeth Gibbons & Alec Hiller
+- Jennie Nguyen & Rachel Kullen
+- Loren Riedy & Rachel Knapp
+- Emily Rogers, Iwona Kowalczyk, & Rachel Muss
+- Meghan Olson & John Riehl
+- Yesenia Del Real & Meredith Starnes
 
+
+### Presenting on Wednesday, April 26
+#### Other Groups
+- Caleigh Smith & Jill Berndtson
+	+ Movie Data Analysis
+- Octavius Glover & Monica Rasmusen
+	+ Find the Hole
+- Jonathan Caldero & Stephanie Meza
+	+ Ping Pong
+- Kayla Bussert & Alec Miroballi
+	+ Tic Tac Toe
+- Natalie Piechowska & Thomas Ujas
+	+ Color Game
+- Benjamin Kolschowsky & Jeffrey Melo
+	+ ?
 
 [Python Project](http://hwheeler01.github.io/comp150/HW/Project.html)
