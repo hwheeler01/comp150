@@ -27,6 +27,6 @@ permalink: /teams/
 - Natalie Piechowska & Thomas Ujas
 	+ Color Game
 - Benjamin Kolschowsky & Jeffrey Melo
-	+ ?
+	+ Galaxy Game
 
 [Python Project](http://hwheeler01.github.io/comp150/HW/Project.html)
