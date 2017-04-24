@@ -232,7 +232,7 @@ In the Activities column **"Prep:"** means preparation done *before* class with 
 |Apr 12|**Prep:** Boolean Algebra, Truth Tables, and Digital Circuits in <a href="http://hwheeler01.github.io/comp150/ClassNotes.html">Class Notes</a> Sections 5A-D (videos N5A-D) **In class:** [Logicly Demo](https://logic.ly/download/)|
 |Apr 17| *No class: EASTER BREAK* |
 |Apr 19|**Prep:**  Boolean Algebra, Truth Tables, and Digital Circuits in <a href="http://hwheeler01.github.io/comp150/ClassNotes.html">Class Notes</a> Sections 5E-I (videos N5E-I) **In class:** Finalize Project Presentations and Python Code (<a href="http://hwheeler01.github.io/comp150/HW/Project.html">requirements</a>) | <a href="http://hwheeler01.github.io/comp150/HW/Gates.html">Gates Homework</a> |
-|Apr 24|  **Project Presentations**, Review for Final Exam |
+|Apr 24|  **Project Presentations**, [Review](http://hwheeler01.github.io/comp150/COMP150-Final-Review.pdf) for Final Exam |
 |Apr 26| **Project Presentations**| <a href="http://hwheeler01.github.io/comp150/HW/Project.html">Python Project</a> |
 |May 5| **FINAL EXAM: Friday May 5, 9:00-11:00 AM** |
 
