@@ -64,7 +64,7 @@ There is no specific text for this course. Rather, we will be using free online 
 
 <p style="font-weight: bold;"><a name="format"></a>Course Format:</p>
 
-Much of this course will be ***flipped*** from the traditional course format. That is, the lectures should be viewed as videos/text on your computer outside of class. In class, we will spend a few minutes summarizing the lectures and provide ample time for working on the assigned exercises, when you have the most direct support from the instructor, the TA, and classmates. 
+Most of this course will be ***flipped*** from the traditional course format. That is, the lectures should be viewed as videos/text on your computer outside of class. In class, we will spend a few minutes summarizing the lectures and provide ample time for working on the assigned exercises, when you have the most direct support from the instructor, the TA, and classmates. 
 
 As you work through the <a href="http://anh.cs.luc.edu/python/hands-on/3.1/index.html">Hand's-on Python Tutorial</a> at the beginning of the semester, come to class prepared with questions on the <a href="http://hwheeler01.github.io/comp150/syllabus/#schedule">day's topics</a>. **You must watch the assigned videos before class in order to keep up with the material and make best use of class time.**
 
@@ -218,7 +218,7 @@ In the Activities column **"Prep:"** means preparation done ***before*** class!
 |Feb 20|**EXAM 1** |
 |Feb 22|**Prep:** Read [Python Tutorial](http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/index.html)  Chapter 3 through 3.1.5, Watch [Videos](https://drive.google.com/drive/folders/0B5WvvnDHeaIYWkUxRWYxMExDeW8) 3.1.1 - 3.1.5 |
 |Feb 27| **Prep:** Read [Python Tutorial](http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/index.html) 3.1.6 - 3.1.7, Watch [Videos](https://drive.google.com/drive/folders/0B5WvvnDHeaIYWkUxRWYxMExDeW8)  3.1.6 - 3.1.7 | <a href="http://hwheeler01.github.io/comp150/HW/CheckOnTutorial-3.html">Chapter 3.1 exercises</a> |
-|Mar 1|Discuss <a href="http://hwheeler01.github.io/comp150/HW/Project.html">Python Project</a>  (finalize [teams](http://hwheeler01.github.io/comp150/teams), <a href="http://hwheeler01.github.io/comp150/ClassNotes.html#Past">Past Examples</a> **Prep:** Read [Python Tutorial](http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/index.html) 3.1.8 - 3.3.1, Watch [Videos](https://drive.google.com/drive/folders/0B5WvvnDHeaIYWkUxRWYxMExDeW8) 3.2 - 3.3.1|
+|Mar 1|Discuss <a href="http://hwheeler01.github.io/comp150/HW/Project.html">Python Project</a>  (finalize teams), <a href="http://hwheeler01.github.io/comp150/ClassNotes.html#Past">Past Examples</a> **Prep:** Read [Python Tutorial](http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/index.html) 3.1.8 - 3.3.1, Watch [Videos](https://drive.google.com/drive/folders/0B5WvvnDHeaIYWkUxRWYxMExDeW8) 3.2 - 3.3.1|
 |Mar 6| *No class: SPRING BREAK*|
 |Mar 8| *No class: SPRING BREAK* |
 |Mar 13|**Prep:** Read [Python Tutorial](http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/index.html) 3.3.2 - 3.3.4 through bounceWhile.py, Watch [Videos](https://drive.google.com/drive/folders/0B5WvvnDHeaIYWkUxRWYxMExDeW8) 3.3.2 - 3.3.4|<a href="http://hwheeler01.github.io/comp150/HW/CheckOnTutorial-3.html">Chapter 3.2 - 3.3.4 exercises</a>|
@@ -226,14 +226,14 @@ In the Activities column **"Prep:"** means preparation done ***before*** class!
 |Mar 20|**EXAM 2** |
 |Mar 22|**Prep:** Install <a href="http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/index.html">Jupyter notebook</a> **In class:** [ggplot Tutorial](http://hwheeler01.github.io/comp150/ggplot/ggplot_tutorial.html)| |
 |Mar 27|**In class:** [ggplot Tutorial](http://hwheeler01.github.io/comp150/ggplot/ggplot_tutorial.html)|
-|Mar 29|**In class:** [Project teams](http://hwheeler01.github.io/comp150/teams), [Exam 2 logic examples](http://hwheeler01.github.io/comp150/exam2_playComputer.docx), plotting questions| <a href="http://hwheeler01.github.io/comp150/HW/Plotting_Homework.html">Plotting Homework</a>|
+|Mar 29|**In class:**  Project and plotting questions| <a href="http://hwheeler01.github.io/comp150/HW/Plotting_Homework.html">Plotting Homework</a>|
 |Apr 3|**Prep:** Binary Arithmetic in <a href="http://hwheeler01.github.io/comp150/ClassNotes.html">Class Notes</a> Sections 2-3F (videos [N2](https://drive.google.com/open?id=0B5WvvnDHeaIYYzYyZjRiYTMtMzgwMi00ZWZlLWE1MTMtNGM3MzgyMTk2MDk3), [N3A-N3C](https://drive.google.com/drive/folders/0B5WvvnDHeaIYYzVlNDYxMzYtNjAzMy00MDY1LWExNzUtYmFjZmFiNmFhNzhh))  **In class:** <a href="http://hwheeler01.github.io/comp150/binDecHex_practice.pdf">Example Problems</a> ||
 |Apr 5|**Prep:** Pip Assembler in <a href="http://hwheeler01.github.io/comp150/ClassNotes.html">Class Notes</a> Sections 4A-B ([videos](https://drive.google.com/drive/folders/0B5WvvnDHeaIYMzQ1MzI0OTItNzQ5Ni00MGRhLThmMWItYTk4OGIyYTBiOTMx) N4, N4A, N4B) **In class:** Project Progress Check| Python Project Progress Check
 |Apr 10|**Prep:** Pip Assembler in <a href="http://hwheeler01.github.io/comp150/ClassNotes.html">Class Notes</a> Sections 4C-E ([videos](https://drive.google.com/drive/folders/0B5WvvnDHeaIYMzQ1MzI0OTItNzQ5Ni00MGRhLThmMWItYTk4OGIyYTBiOTMx) N4C, N4D, N4E)|
 |Apr 12|**Prep:** Pip Assembler in <a href="http://hwheeler01.github.io/comp150/ClassNotes.html">Class Notes</a> Sections 4F-H ([videos](https://drive.google.com/drive/folders/0B5WvvnDHeaIYMzQ1MzI0OTItNzQ5Ni00MGRhLThmMWItYTk4OGIyYTBiOTMx) N4F, N4G, N4H) | <a href="http://hwheeler01.github.io/comp150/HW/PipPrograms.html">Pip Program</a> |
 |Apr 17|**Prep:** Boolean Algebra, Truth Tables, and Digital Circuits in <a href="http://hwheeler01.github.io/comp150/ClassNotes.html">Class Notes</a> Sections 5A-D ([videos](https://drive.google.com/drive/folders/0B5WvvnDHeaIYNmQ5MTA4NDMtNmU1Zi00MDBkLTlkNzYtMGNmOWNjZmI1MjZj) N5A-D) **In class:** [Logicly Demo](https://logic.ly/download/)|
 |Apr 19|**Prep:**  Boolean Algebra, Truth Tables, and Digital Circuits in <a href="http://hwheeler01.github.io/comp150/ClassNotes.html">Class Notes</a> Sections 5E-I ([videos](https://drive.google.com/drive/folders/0B5WvvnDHeaIYNmQ5MTA4NDMtNmU1Zi00MDBkLTlkNzYtMGNmOWNjZmI1MjZj) N5E-I) **In class:** Finalize Project Presentations and Python Code (<a href="http://hwheeler01.github.io/comp150/HW/Project.html">requirements</a>) | <a href="http://hwheeler01.github.io/comp150/HW/Gates.html">Gates Homework</a> |
-|Apr 24|  **Project Presentations**, [Review](http://hwheeler01.github.io/comp150/COMP150-Final-Review.pdf) for Final Exam |
+|Apr 24|  **Project Presentations**, Review for Final Exam |
 |Apr 26| **Project Presentations**| <a href="http://hwheeler01.github.io/comp150/HW/Project.html">Python Project</a> |
 |May 1| **FINAL EXAM: 9:00-11:00 AM** |
 
