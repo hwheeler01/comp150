@@ -119,7 +119,7 @@ There are three exams. Dates are:
 
 - Exam #1: Feb 20
 - Exam #2: Mar 20
-- Final Exam: Tuesday, May 5, 9:00 - 11:00 a.m.<br>
+- Final Exam: Tuesday, May 1, 9:00 - 11:00 a.m.<br>
 
 Exams will cover material discussed in class, reading material on the web, and assignments. *Exams will always be cumulative.* You are allowed one 8.5 x 11 inch piece of paper (both sides) with notes for each exam, but no computer or calculator. I emphasize having you process and use information, not regurgitate facts -- put the facts you most forget and still need in your notes. 
 
@@ -206,7 +206,7 @@ In the Activities column **"Prep:"** means preparation done ***before*** class!
 | **Date**      | **Activities**    | **DUE by 11:00 PM via Sakai** |
 | ------------- |:-------------:| :-----|
 |Jan 16|Introductory <a href="{{ site.baseurl }}/intro-lecture.pdf">slides</a>, syllabus, <a href="{{ site.baseurl }}/pairprogram">pair programming</a>, form pairs, introduction to <a target="_blank" href="http://anh.cs.luc.edu/python/hands-on/3.1/index.html">Hands-on Python Tutorial</a>, <a href="http://anh.cs.luc.edu/python/hands-on/3.1/examples.zip">example files</a> **Follow up:** make sure you have completely read the syllabus.|
-|Jan 28|**Prep:** Read [Hands-on Python Tutorial](http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/index.html) Context 1.1 - Input/Output 1.10, Watch [Videos](https://drive.google.com/drive/folders/0B5WvvnDHeaIYWkUxRWYxMExDeW8) 1.01 - 1.10.4 (See section [1.1.5](http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/context.html#using-the-tutorial-text-and-video) to download videos)|
+|Jan 18|**Prep:** Read [Hands-on Python Tutorial](http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/index.html) Context 1.1 - Input/Output 1.10, Watch [Videos](https://drive.google.com/drive/folders/0B5WvvnDHeaIYWkUxRWYxMExDeW8) 1.01 - 1.10.4 (See section [1.1.5](http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/context.html#using-the-tutorial-text-and-video) to download videos)|
 |Jan 23|**Prep:** Read [Python Tutorial](http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/index.html) Functions 1.11 and Dictionaries 1.12, Watch [Videos](https://drive.google.com/drive/folders/0B5WvvnDHeaIYWkUxRWYxMExDeW8) 1.11.1 - 1.12.3|
 |Jan 25|**Prep:** Read [Python Tutorial](http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/index.html) Loops 1.13, Floats 1.14, Watch [Videos](https://drive.google.com/drive/folders/0B5WvvnDHeaIYWkUxRWYxMExDeW8) 1.13.1 - 1.14, **In class:** <a href="{{ site.baseurl }}/playComputer_loopy.rtf">exercise</a> |
 |Jan 30|**Prep:** Read [Python Tutorial](http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/index.html) 1.15, **In class:** Ch. 1 Questions |<a href="http://hwheeler01.github.io/comp150/HW/CheckOnTutorial-1.html">Chapter 1 exercises</a>|
