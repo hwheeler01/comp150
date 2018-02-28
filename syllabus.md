@@ -118,7 +118,7 @@ Help from any source is fine concerning:
 There are three exams. Dates are:
 
 - Exam #1: Feb 20
-- Exam #2: Mar 20
+- **UPDATE-->** Exam #2: Mar 22 
 - Final Exam: Tuesday, May 1, 9:00 - 11:00 a.m.<br>
 
 Exams will cover material discussed in class, reading material on the web, and assignments. *Exams will always be cumulative.* You are allowed one 8.5 x 11 inch piece of paper (both sides) with notes for each exam, but no computer or calculator. I emphasize having you process and use information, not regurgitate facts -- put the facts you most forget and still need in your notes. 
@@ -218,14 +218,14 @@ In the Activities column **"Prep:"** means preparation done ***before*** class!
 |Feb 20|**EXAM 1** |
 |Feb 22|**Prep:** Read [Python Tutorial](http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/index.html)  Chapter 3 through 3.1.5, Watch [Videos](https://drive.google.com/drive/folders/0B5WvvnDHeaIYWkUxRWYxMExDeW8) 3.1.1 - 3.1.5 (24 minutes) |
 |Feb 27| **Prep:** Read [Python Tutorial](http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/index.html) 3.1.6 - 3.1.7, Watch [Videos](https://drive.google.com/drive/folders/0B5WvvnDHeaIYWkUxRWYxMExDeW8)  3.1.6 - 3.1.7 (25 minutes) | <a href="http://hwheeler01.github.io/comp150/HW/CheckOnTutorial-3.html">Chapter 3.1 exercises</a> |
-|Mar 1|Discuss <a href="http://hwheeler01.github.io/comp150/HW/Project.html">Python Project</a>  (finalize teams), <a href="http://hwheeler01.github.io/comp150/ClassNotes.html#Past">Past Examples</a> **Prep:** Read [Python Tutorial](http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/index.html) 3.1.8 - 3.3.1, Watch [Videos](https://drive.google.com/drive/folders/0B5WvvnDHeaIYWkUxRWYxMExDeW8) 3.2 - 3.3.1 (26 minutes)|
+|Mar 1|**Prep:** Read [Python Tutorial](http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/index.html) 3.1.8 - 3.3.1, Watch [Videos](https://drive.google.com/drive/folders/0B5WvvnDHeaIYWkUxRWYxMExDeW8) 3.2 - 3.3.1 (26 minutes) **In class:** Discuss <a href="http://hwheeler01.github.io/comp150/HW/Project.html">Python Project</a>, <a href="http://hwheeler01.github.io/comp150/ClassNotes.html#Past">Past Examples</a> |
 |Mar 6| *No class: SPRING BREAK*|
 |Mar 8| *No class: SPRING BREAK* |
-|Mar 13|**Prep:** Read [Python Tutorial](http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/index.html) 3.3.2 - 3.3.4 through bounceWhile.py, Watch [Videos](https://drive.google.com/drive/folders/0B5WvvnDHeaIYWkUxRWYxMExDeW8) 3.3.2 - 3.3.4 (35 minutes) |<a href="http://hwheeler01.github.io/comp150/HW/CheckOnTutorial-3.html">Chapter 3.2 - 3.3.4 exercises</a>|
-|Mar 15|Review for Exam 2 |Submit plan for the <a href="http://hwheeler01.github.io/comp150/HW/Project.html">Python Project</a> |
-|Mar 20|**EXAM 2** |
-|Mar 22|**Prep:** Install <a href="http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/index.html">Jupyter Notebook</a> **In class:** Jupyter Notebook installation help and [ggplot Tutorial](http://hwheeler01.github.io/comp150/ggplot/ggplot_tutorial.html)| |
-|Mar 27|**In class:** [ggplot Tutorial](http://hwheeler01.github.io/comp150/ggplot/ggplot_tutorial.html)|
+|Mar 13|**Prep:** Read [Python Tutorial](http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/index.html) 3.3.2 - 3.3.4 through bounceWhile.py, Watch [Videos](https://drive.google.com/drive/folders/0B5WvvnDHeaIYWkUxRWYxMExDeW8) 3.3.2 - 3.3.4 (35 minutes) **In class:** Finalize Python Project Teams|<a href="http://hwheeler01.github.io/comp150/HW/CheckOnTutorial-3.html">Chapter 3.2 - 3.3.4 exercises</a>|
+|Mar 15| Work on <a href="http://hwheeler01.github.io/comp150/HW/Project.html">Python Project Plan</a>|Submit plan for the <a href="http://hwheeler01.github.io/comp150/HW/Project.html">Python Project</a> |
+|Mar 20| Review for Exam 2|
+|Mar 22|**EXAM 2**| |
+|Mar 27|**Prep:** Install <a href="http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/index.html">Jupyter Notebook</a> **In class:** Jupyter Notebook installation help and [ggplot Tutorial](http://hwheeler01.github.io/comp150/ggplot/ggplot_tutorial.html)|
 |Mar 29|**In class:**  Project and plotting questions| <a href="http://hwheeler01.github.io/comp150/HW/Plotting_Homework.html">Plotting Homework</a>|
 |Apr 3|**Prep:** Binary Arithmetic in <a href="http://hwheeler01.github.io/comp150/ClassNotes.html">Class Notes</a> Sections 2-3F (videos [N2](https://drive.google.com/open?id=0B5WvvnDHeaIYYzYyZjRiYTMtMzgwMi00ZWZlLWE1MTMtNGM3MzgyMTk2MDk3), [N3A-N3C](https://drive.google.com/drive/folders/0B5WvvnDHeaIYYzVlNDYxMzYtNjAzMy00MDY1LWExNzUtYmFjZmFiNmFhNzhh), 20 minutes)  **In class:** <a href="http://hwheeler01.github.io/comp150/binDecHex_practice.pdf">Example Problems</a> ||
 |Apr 5|**Prep:** Pip Assembler in <a href="http://hwheeler01.github.io/comp150/ClassNotes.html">Class Notes</a> Sections 4A-B ([videos](https://drive.google.com/drive/folders/0B5WvvnDHeaIYMzQ1MzI0OTItNzQ5Ni00MGRhLThmMWItYTk4OGIyYTBiOTMx) N4, N4A, N4B, 19 minutes) **In class:** Project Progress Check| Python Project Progress Check
