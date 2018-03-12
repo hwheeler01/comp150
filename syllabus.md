@@ -221,7 +221,7 @@ In the Activities column **"Prep:"** means preparation done ***before*** class!
 |Mar 1|**Prep:** Read [Python Tutorial](http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/index.html) 3.1.8 - 3.3.1, Watch [Videos](https://drive.google.com/drive/folders/0B5WvvnDHeaIYWkUxRWYxMExDeW8) 3.2 - 3.3.1 (26 minutes) **In class:** Discuss <a href="http://hwheeler01.github.io/comp150/HW/Project.html">Python Project</a>, <a href="http://hwheeler01.github.io/comp150/ClassNotes.html#Past">Past Examples</a> |
 |Mar 6| *No class: SPRING BREAK*|
 |Mar 8| *No class: SPRING BREAK* |
-|Mar 13|**Prep:** Read [Python Tutorial](http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/index.html) 3.3.2 - 3.3.4 through bounceWhile.py, Watch [Videos](https://drive.google.com/drive/folders/0B5WvvnDHeaIYWkUxRWYxMExDeW8) 3.3.2 - 3.3.4 (35 minutes) **In class:** Finalize Python Project Teams|<a href="http://hwheeler01.github.io/comp150/HW/CheckOnTutorial-3.html">Chapter 3.2 - 3.3.4 exercises</a>|
+|Mar 13|**Prep:** Read [Python Tutorial](http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/index.html) 3.3.2 - 3.3.4 through bounceWhile.py, Watch [Videos](https://drive.google.com/drive/folders/0B5WvvnDHeaIYWkUxRWYxMExDeW8) 3.3.2 - 3.3.4 (35 minutes) **In class:** Finalize [Python Project Teams](http://hwheeler01.github.io/comp150/teams/)|<a href="http://hwheeler01.github.io/comp150/HW/CheckOnTutorial-3.html">Chapter 3.2 - 3.3.4 exercises</a>|
 |Mar 15| Work on <a href="http://hwheeler01.github.io/comp150/HW/Project.html">Python Project Plan</a>|Submit plan for the <a href="http://hwheeler01.github.io/comp150/HW/Project.html">Python Project</a> |
 |Mar 20| Review for Exam 2|
 |Mar 22|**EXAM 2**| |
