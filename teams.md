@@ -12,7 +12,7 @@ permalink: /teams/
 - Gabriela Calderon & Madeleine Chaudron
 - Jeremy Burton & Gerardo Ruiz
 - Raul Hinojosa, Brian Powers, & Jakub Slomkowski
-- Briana Kennedy, David Lescano & Kiarra Pittman
+- David Lescano & Kiarra Pittman
 - Noah Johnsen, Kyler Kotsakis, & Kristin Naling
 
 [Python Project](http://hwheeler01.github.io/comp150/HW/Project.html)
