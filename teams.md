@@ -3,7 +3,7 @@ layout: page
 title: Python Project Teams
 permalink: /teams/
 ---
-###Hangman
+### Hangman
 - Jazmine Banales & Labeja Martin (Flower Petals)
 - Jeremy Burton & Gerardo Ruiz
 - David Lescano, Gabriela Calderon & Madeleine Chaudron
@@ -11,13 +11,13 @@ permalink: /teams/
 - Faris Hussain & Tommy Oswood
 - Raul Hinojosa, Brian Powers, & Jakub Slomkowski (Snowman)
 
-###Adventure Game
+### Adventure Game
 - Thomas Smyth & Denisse Morales
 
-###Jeopardy
+### Jeopardy
 - Noah Johnsen, Kyler Kotsakis, & Kristin Naling
 
-###Find the Hole
+### Find the Hole
 - Alex Quintanilla & Rohan Grover
 
 
