@@ -8,7 +8,7 @@ permalink: /teams/
 - David Lescano, Gabriela Calderon & Madeleine Chaudron
 - Clarice Fisher & Devon Howell
 - Gerardo Ruiz, Faris Hussain & Tommy Oswood
-- Raul Hinojosa, Brian Powers & Jakub Slomkowski (Snowman)
+- Brian Powers & Jakub Slomkowski (Snowman)
 
 ### Adventure Game
 - Thomas Smyth & Denisse Morales
