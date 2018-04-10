@@ -1,21 +1,21 @@
 ---
 layout: page
-title: Python Project Teams
+title: Python to Assembler Exercises
 permalink: /pip_example/
 ---
 
-### Python to Assembler Exercises
-
-#### Example 1
+### Example 1
 The `abs()` function in Python takes the absolute value of a number
 
 ```python
-abs(3)
-x = -3
-abs(x)
+>>> abs(3)
+3
+>>> x = -3
+>>> abs(x)
+3
 ```
 
-We want to translate this function to assembler language. First think how we would do it in Python if we didn’t have the built in function:
+We want to translate the `abs()` function to assembler language. First think how we would do it in Python if we didn’t have the built in function:
 
 ```python
 if x < 0:
@@ -25,7 +25,7 @@ if x < 0:
 Now how would we write this in assembler language?
 
 
-#### Example 2
+### Example 2
 How would we write the following Python code in assembler?
 
 ```python
@@ -36,7 +36,7 @@ while n >= 0:
     n = n - 1
 ```
 
-#### Example 3
+### Example 3
 How would we write the following Python code in assembler?
 
 ```python
