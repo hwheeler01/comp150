@@ -233,7 +233,7 @@ In the Activities column **"Prep:"** means preparation done ***before*** class!
 |Apr 12|**Prep:** Review Pip Assembler in <a href="http://hwheeler01.github.io/comp150/ClassNotes.html">Class Notes</a> and [videos](https://drive.google.com/drive/folders/0B5WvvnDHeaIYMzQ1MzI0OTItNzQ5Ni00MGRhLThmMWItYTk4OGIyYTBiOTMx) from Apr 10 | <a href="http://hwheeler01.github.io/comp150/HW/PipPrograms.html">Pip Program</a> |
 |Apr 17|**Prep:** Boolean Algebra, Truth Tables, and Digital Circuits in <a href="http://hwheeler01.github.io/comp150/ClassNotes.html">Class Notes</a> Sections 5A-D ([videos](https://drive.google.com/drive/folders/0B5WvvnDHeaIYNmQ5MTA4NDMtNmU1Zi00MDBkLTlkNzYtMGNmOWNjZmI1MjZj) N5A-D, 35 minutes) **In class:** [Logicly Demo](https://logic.ly/download/)|
 |Apr 19|**Prep:**  Boolean Algebra, Truth Tables, and Digital Circuits in <a href="http://hwheeler01.github.io/comp150/ClassNotes.html">Class Notes</a> Sections 5E-I ([videos](https://drive.google.com/drive/folders/0B5WvvnDHeaIYNmQ5MTA4NDMtNmU1Zi00MDBkLTlkNzYtMGNmOWNjZmI1MjZj) N5E-I, 41 minutes) **In class:** Finalize Project Presentations and Python Code (<a href="http://hwheeler01.github.io/comp150/HW/Project.html">requirements</a>) | <a href="http://hwheeler01.github.io/comp150/HW/Gates.html">Gates Homework</a> |
-|Apr 24|  **Project Presentations**, Review for Final Exam |
+|Apr 24|  **Project Presentations**, [Review](http://hwheeler01.github.io/comp150/COMP150-Final-Review.pdf) for Final Exam |
 |Apr 26| **Project Presentations**| <a href="http://hwheeler01.github.io/comp150/HW/Project.html">Python Project</a> |
 |May 1| **FINAL EXAM: 9:00-11:00 AM** |
 
