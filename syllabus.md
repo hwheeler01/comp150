@@ -235,7 +235,7 @@ In the Activities column **"Prep:"** means preparation done ***before*** class!
 |Apr 19|**Prep:**  Boolean Algebra, Truth Tables, and Digital Circuits in <a href="http://hwheeler01.github.io/comp150/ClassNotes.html">Class Notes</a> Sections 5E-I ([videos](https://drive.google.com/drive/folders/0B5WvvnDHeaIYNmQ5MTA4NDMtNmU1Zi00MDBkLTlkNzYtMGNmOWNjZmI1MjZj) N5E-I, 41 minutes) **In class:** Finalize Project Presentations and Python Code (<a href="http://hwheeler01.github.io/comp150/HW/Project.html">requirements</a>) | <a href="http://hwheeler01.github.io/comp150/HW/Gates.html">Gates Homework</a> |
 |Apr 24|  **Project Presentations**, [Review](http://hwheeler01.github.io/comp150/COMP150-Final-Review.pdf) for Final Exam |
 |Apr 26| **Project Presentations**| <a href="http://hwheeler01.github.io/comp150/HW/Project.html">Python Project</a> |
-|May 1| **FINAL EXAM: 9:00-11:00 AM** |
+|May 1| **FINAL EXAM: 9:00-11:00 AM**|
 
 <span style="font-weight: bold;"><a name="dates"></a>Important Dates:<br>
 
